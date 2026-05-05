@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+.coverage
+htmlcov/
+data/sources/
+data/ai_drafts/
+data/exports/
+data/web_pipeline/
+data/gitee_imports/

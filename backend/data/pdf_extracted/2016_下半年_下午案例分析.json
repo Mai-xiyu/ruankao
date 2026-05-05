@@ -1,0 +1,294 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2016,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2016年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1_1",
+      "question_type": "fill_blank",
+      "stem": "在图 1-1 的防火墙设备中，配置双出口链路有提高总带宽、 （1）、链路负载均衡作用。通过配置链路聚合来提高总带宽，通过配置（2）来实现链路负载均衡。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络架构与设备",
+      "tags": [
+        "防火墙",
+        "链路聚合",
+        "负载均衡"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1_2",
+      "question_type": "fill_blank",
+      "stem": "防火墙工作模式有路由模式、透明模式、混合模式，若该防火墙接口均配有 IP 地址，则防火墙工作在（3）模式，该模式下，ERP 服务器部署在防火墙的（4）区域。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "防火墙",
+        "工作模式",
+        "DMZ"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1_3",
+      "question_type": "fill_blank",
+      "stem": "若地址规划如图 1-1 所示，从 IP 规划方案看该地址的配置可能有哪些方面的考虑？",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址规划",
+      "tags": [
+        "子网划分",
+        "地址分配"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1_4",
+      "question_type": "fill_blank",
+      "stem": "该网络拓扑中，上网行为管理设备的位置是否合适？请说明理由。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "上网行为管理",
+        "网络拓扑"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1_5",
+      "question_type": "fill_blank",
+      "stem": "该网络中有无线节点的接入，在安全管理方面应采取哪些措施？",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线安全",
+      "tags": [
+        "无线网络",
+        "安全措施"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1_6",
+      "question_type": "fill_blank",
+      "stem": "该网络中视频监控系统与数据业务共用网络带宽，存在哪些弊端？",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "带宽管理",
+        "视频监控"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2_1",
+      "question_type": "fill_blank",
+      "stem": "SAN 常见方式有 FC-SAN 和 IP SAN，在图 2-1 中，数据库服务器和存储设备连接方式为（1），邮件服务器和存储设备连接方式为（2）。虚拟化存储常用文件系统格式有 CIFS、NFS，为邮件服务器分配存储空间时应采用的文件系统格式是（3），为 Web 服务器分配存储空间应采用的文件系统格式是（4）。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "SAN",
+        "文件系统",
+        "CIFS",
+        "NFS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2_2",
+      "question_type": "fill_blank",
+      "stem": "该企业采用 RAID5 方式进行数据冗余备份。请从存储效率和存储速率两个方面比较 RAID1 和 RAID5 两种存储方式，并简要说明采用 RAID5 存储方式的原因。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "RAID1",
+        "RAID5"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2_3",
+      "question_type": "single_choice",
+      "stem": "网络管理员接到用户反映，邮件登录非常缓慢，按以下步骤进行故障诊断：1．通过网管机，利用（5）登录到邮件服务器，发现邮件服务正常，但是连接时断时续。2．使用（6）命令诊断邮件服务器的网络连接情况，发现网络丢包严重，登录服务器区汇聚交换机 S1，发现连接邮件服务器的端口数据流量异常，收发包量很大。3．根据以上情况，邮件服务器的可能故障为（7），应采用（8）的办法处理上述故障。",
+      "options": {
+        "A": "ping",
+        "B": "ssh",
+        "C": "tracert",
+        "D": "mstsc"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "故障诊断",
+        "远程登录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2_4",
+      "question_type": "multiple_choice",
+      "stem": "上述企业网络拓扑存在的网络安全隐患有：（9）、（10）、（11）。",
+      "options": {
+        "A": "缺少针对来自局域网内部的安全防护措施",
+        "B": "缺少应用负载均衡",
+        "C": "缺少流量控制措施",
+        "D": "缺少防病毒措施",
+        "E": "缺少 Web 安全防护措施",
+        "F": "核心交换机到服务器区汇聚交换缺少链路冗余措施",
+        "G": "VLAN 划分太多"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "安全隐患",
+        "网络拓扑"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3_1",
+      "question_type": "single_choice",
+      "stem": "为安装 Web 服务和 DNS 服务，Server1 必须安装的组件有（1）和（2）。",
+      "options": {
+        "A": "网络服务",
+        "B": "应用程序服务器",
+        "C": "索引服务",
+        "D": "证书服务",
+        "E": "远程终端"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "IIS",
+        "DNS",
+        "组件"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3_2",
+      "question_type": "fill_blank",
+      "stem": "在 IIS 中创建这三个网站时，在图 3-2 中勾选读取、（3）和执行，并在图 3-3 所示的文档选项卡中添加（4）为默认文档。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "IIS",
+        "权限",
+        "默认文档"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3_3",
+      "question_type": "fill_blank",
+      "stem": "1、为了节省成本，公司决定在一台计算机上为多类用户提供服务。使用不同端口号来区分不同网站，company1 使用默认端口（5），company2 和 company3 的端口应在 1025 至（6）范围内任意选择，在访问 company2 或者 company3 时需在域名后添加对应端口号，使用（7）符号连接。设置完成后，管理员对网站进行了测试，测试结果如图 3-4 所示，原因是（8）。2、为便于用户访问，管理员决定采用不同主机头值的方法为用户提供服务，需在 DNS 服务中正向查找区域为三个网站域名分别添加（9）记录。网站 company2 的主机头值应设置为（10）。",
+      "options": {
+        "A": "IP 地址对应错误",
+        "B": "未指明 company1 的端口号",
+        "C": "未指明 company2 的端口号",
+        "D": "主机头设置错误"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务器",
+      "tags": [
+        "IIS",
+        "端口",
+        "主机头",
+        "DNS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3_4",
+      "question_type": "fill_blank",
+      "stem": "从图 3-5 可以看出，域名 www.company1.com 对应了多个 IP 地址，说明在图 3-6 所示的 DNS 属性中启用了（11）功能。在图 3-6 中勾选了“启用网络掩码排序”后，当存在多个匹配记录时，系统会自动检查这些记录与客户端 IP 的网络掩码匹配度，按照（12）原则来应答客户端的解析请求。如果勾选了“禁用递归”，这时 DNS 服务器仅采用（13）查询模式。当同时启用了网络掩码排序和循环功能时，（14）优先级较高。",
+      "options": {
+        "A": "循环",
+        "B": "网络掩码排序"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS",
+        "循环",
+        "网络掩码排序"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4_1",
+      "question_type": "fill_blank",
+      "stem": "下面是 R1 的配置代码，请将下面配置代码补充完整。R1#config t\nR1 (config)# interface FastEthernet0/0\nR1 (config-if)#ip address（1） （2）\nR1 (config-if)#no shutdown\nR1 (config-if)#exit\nR1 (config)#ip dhcp（3） depart1\nR1 (dhcp-config)#network 192.168.10.0 255.255.255.0\nR1 (dhcp-config)#default-router 192.168.10.254 255.255.255.0\nR1 (dhcp-config)#dns-server（4）\nR1 (dhcp-config)#lease 0 （5） 0\nR1 (dhcp-config)#exit\nR1 (config)#ip dhcp pool depart2\nR1 (dhcp-config)# network（6） （7）\nR1 (dhcp-config)#default-router 192.168.20.254 255.255.255.0\nR1 (dhcp-config)# dns-server 192.168.2.253\nR1 (dhcp-config)# lease 0 12 0\nR1 (dhcp-config)#exit\nR1 (config)# ip dhcp excluded-address （8） （9）\nR1 (config)# ip dhcp excluded-address（10） //排除掉不能分配的 IP 地址\nR1 (config)# ip dhcp excluded-address 192.168.20.254",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "路由器",
+        "DHCP",
+        "Cisco IOS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4_2",
+      "question_type": "fill_blank",
+      "stem": "下面是 S1 的配置代码，请将下面配置代码或解释补充完整。\nS1#config terminal\nS1(config)#interface vlan 5\nS1(config-if)#ip address 192.168.2.254 255.255.255.0\nS1(config)#interface vlan 10\nS1(config-if)#ip helper-address（11） ∥指定 DHCP 服务器的地址\nS1(config-if)#exit\nS1(config)#interface vlan 20\n......\nS1(config)#interface f0/24\nS1(config-if)#switchport mode （12）\nS1(config-if)# switchport trunk （13）vlan all ∥允许所有 VLAN 数据通过\nS1(config-if)#exit\nS1(config)#interface f0/21\nS1(config-if)#switchport mode access\nS1(config-if)#switchport access vlan 5\nS1(config-if)#exit\nS1(config)#interface f0/22\nS1(config-if)#switchport mode access\nS1(config-if)#switchport access（14）\nS1(config)#interface f0/23\nS1(config-if)#switchport mode access\nS1(config-if)#switchport access（15）",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "VLAN",
+        "DHCP中继",
+        "Trunk"
+      ],
+      "is_verified": false
+    }
+  ]
+}

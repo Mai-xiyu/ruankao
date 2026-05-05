@@ -1,0 +1,1546 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2015,
+    "season": "下半年",
+    "paper_type": "上午综合知识",
+    "source_name": "PDF 提取 - 2015年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "CPU 是在（1）结束时响应 DMA 请求的。",
+      "options": {
+        "A": "一条指令执行",
+        "B": "一段程序",
+        "C": "一个时钟周期",
+        "D": "一个总线周期"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "DMA",
+        "CPU"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "虚拟存储体系是由（2）两级存储器构成。",
+      "options": {
+        "A": "主存-辅存",
+        "B": "寄存器-Cache",
+        "C": "寄存器-主存",
+        "D": "Cache-主存"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "虚拟存储",
+        "存储器层次"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "在机器指令的地址字段中，直接指出操作数本身的寻址方式称为（3）。",
+      "options": {
+        "A": "隐含寻址",
+        "B": "寄存器寻址",
+        "C": "立即寻址",
+        "D": "直接寻址"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "寻址方式",
+        "指令系统"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem": "内存按字节编址从 B3000H 到 DABFFH 的区域，其存储容量为（4）。",
+      "options": {
+        "A": "123KB",
+        "B": "159KB",
+        "C": "163KB",
+        "D": "194KB"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "存储容量",
+        "地址计算"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem": "在软件项目管理中，以下关于人员管理的叙述，正确的是（5）。",
+      "options": {
+        "A": "项目组成员的工作风格也应该作为组织团队时要考虑的一个要素",
+        "B": "鼓励团队的每个成员充分地参与开发过程的所有阶段",
+        "C": "仅根据开发人员的能力来组织开发团队",
+        "D": "若项目进度滞后于计划，则增加开发人员一定可以加快开发进度"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "项目管理",
+      "tags": [
+        "人员管理",
+        "团队组织"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem": "某软件项目的活动图如下图所示，其中顶点表示项目里程碑，连接顶点的边表示包含的活动，边上的数字表示该活动所需的天数，则完成该项目的最少时间为（6）天。",
+      "options": {
+        "A": "9",
+        "B": "15",
+        "C": "22",
+        "D": "24"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "项目管理",
+      "tags": [
+        "关键路径",
+        "活动图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "某软件项目的活动图如下图所示，其中顶点表示项目里程碑，连接顶点的边表示包含的活动，边上的数字表示该活动所需的天数，则活动 BD 最多可以晚（7）天开始而不会影响整个项目的进度。",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "9"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "项目管理",
+      "tags": [
+        "关键路径",
+        "活动图",
+        "浮动时间"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem": "在 Windows 系统中，设 E 盘的根目录下存在 document1 文件夹 ，用户在该文件夹下已创建了 document2 文件夹，而当前文件夹为 docunment1。若用户将 test.docx 文件存放 document2 文件夹中，则该文件的绝对路径为（8）。",
+      "options": {
+        "A": "\\document1\\",
+        "B": "E:\\document1\\ document2",
+        "C": "document2\\",
+        "D": "E:\\document2\\ document1"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "文件路径",
+        "Windows"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem": "在 Windows 系统中，设 E 盘的根目录下存在 document1 文件夹 ，用户在该文件夹下已创建了 document2 文件夹，而当前文件夹为 docunment1。若用户将 test.docx 文件存放 document2 文件夹中，在程序中能正确访问该文件且效率较高的方式为（9）。",
+      "options": {
+        "A": "\\document1\\test.docx",
+        "B": "document1\\ document2\\test.docx",
+        "C": "document2\\test.docx",
+        "D": "E:\\document1\\ document2\\test.docx"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "文件路径",
+        "相对路径"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem": "软件设计师王某在其公司的某一综合信息管理系统软件开发工作中承担了大部分程序设计工作。该系统交付用户，投入试运行后，王某辞职离开公司，并带走了该综合信息管理系统的源程序，拒不交还公司。王某认为，综合信息管理系统源程序是他独立完成的，他是综合信息管理系统源程序的软件著作权人。王某的行为（10）。",
+      "options": {
+        "A": "侵犯了公司的软件著作权",
+        "B": "未侵犯公司的软件著作权",
+        "C": "侵犯了公司的商业秘密权",
+        "D": "不涉及侵犯公司的软件著作权"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "法律法规",
+      "tags": [
+        "软件著作权",
+        "职务作品"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem": "集线器与网桥的区别是（11）。",
+      "options": {
+        "A": "集线器不能检测发送冲突，而网桥可以检测冲突",
+        "B": "集线器是物理层设备，而网桥是数据链路层设备",
+        "C": "网桥只有两介端口，而集线器是一种多端口网桥",
+        "D": "网桥是物理层设备，而集线器是数据链路层设备"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "集线器",
+        "网桥",
+        "OSI模型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem": "根据 STP 协议，网桥 ID 最小的交换机被选举为根网桥，网桥 ID 由（12）字节的优先级和 6 字节的（13）组成。",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "STP",
+        "网桥ID"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "single_choice",
+      "stem": "根据 STP 协议，网桥 ID 最小的交换机被选举为根网桥，网桥 ID 由（12）字节的优先级和 6 字节的（13）组成。",
+      "options": {
+        "A": "用户标识",
+        "B": "MAC 地址",
+        "C": "IP 地址",
+        "D": "端口号"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "STP",
+        "网桥ID"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "single_choice",
+      "stem": "关于 ICMP 协议，下面的论述中正确的是（14）。",
+      "options": {
+        "A": "通过 ICMP 可以找到与 MAC 地址对应的 IP 地址",
+        "B": "通过 ICMP 可以把全局 IP 地址转换为本地 IP 地址",
+        "C": "ICMP 用于动态分配 IP 地址",
+        "D": "ICMP 可传送 IP 通信过程中出现的错误信息"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "ICMP",
+        "IP协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "single_choice",
+      "stem": "设信号的波特率为 500Baud，采用幅度-相位复合调制技术，由 4 种幅度和 8 种相位组成 16 种码元，则信道的数据速率为（15）。",
+      "options": {
+        "A": "500 b/s",
+        "B": "1000 b/s",
+        "C": "2000 b/s",
+        "D": "4800 b/s"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "波特率",
+        "数据速率",
+        "调制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "single_choice",
+      "stem": "E1 载波的数据速率是（16）。",
+      "options": {
+        "A": "64kb/s",
+        "B": "2.048Mb/s",
+        "C": "34.368Mb/s",
+        "D": "139.26Mb/s"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "E1",
+        "载波",
+        "数据速率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "single_choice",
+      "stem": "E3 载波的数据速率是（17）。",
+      "options": {
+        "A": "64kb/s",
+        "B": "2.048Mb/s",
+        "C": "34.368Mb/s",
+        "D": "139.26Mb/s"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "E3",
+        "载波",
+        "数据速率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "single_choice",
+      "stem": "ADSL 采用（18）技术把 PSTN 线路划分为话音、上行和下行三个独立的信道，同时提供电话和上网服务。",
+      "options": {
+        "A": "对分复用",
+        "B": "频分复用",
+        "C": "空分复用",
+        "D": "码分多址"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "接入网",
+      "tags": [
+        "ADSL",
+        "频分复用",
+        "PSTN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "single_choice",
+      "stem": "采用 ADSL 联网，计算机需要通过（19）和分离器连接到电话入户接线盒。",
+      "options": {
+        "A": "ADSL 交换机",
+        "B": "Cable Modem",
+        "C": "ADSL Modem",
+        "D": "无线路由器"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "接入网",
+      "tags": [
+        "ADSL",
+        "Modem"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "single_choice",
+      "stem": "下图中主机 A 和主机 B 通过三次握手建立 TCP 连接，图中（1）处的状态是（20），图（2）处的数字是（21）。",
+      "options": {
+        "A": "SYN received",
+        "B": "Established",
+        "C": "Listen",
+        "D": "FIN wait"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "TCP",
+        "三次握手",
+        "状态"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "single_choice",
+      "stem": "下图中主机 A 和主机 B 通过三次握手建立 TCP 连接，图中（1）处的状态是（20），图（2）处的数字是（21）。",
+      "options": {
+        "A": "100",
+        "B": "101",
+        "C": "300",
+        "D": "301"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "TCP",
+        "三次握手",
+        "序号"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "single_choice",
+      "stem": "TCP 使用的流量控制协议是（22）。",
+      "options": {
+        "A": "固定大小的滑动窗口协议",
+        "B": "可变大小的滑动窗口协议",
+        "C": "后退 N 帧 ARQ 协议",
+        "D": "停等协议"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "TCP",
+        "流量控制",
+        "滑动窗口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "single_choice",
+      "stem": "下面 4 种路由中，哪一种路由的子网掩码是 255.255.255.255？（23）。",
+      "options": {
+        "A": "远程网络路由",
+        "B": "主机路由",
+        "C": "默认路由",
+        "D": "静态路由"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "路由",
+        "子网掩码",
+        "主机路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "single_choice",
+      "stem": "边界网关协议 BGP4 是一种动态路由发现协议，它的主要功能是（24）。",
+      "options": {
+        "A": "发现新的路由",
+        "B": "计算最短通路",
+        "C": "控制路由策略",
+        "D": "维护网络拓扑数据库"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "BGP",
+        "路由协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "single_choice",
+      "stem": "边界网关协议 BGP4 是一种动态路由发现协议，它的主要功能是（24）。BGP 路由器之间传送的是 AS 路径信息，这样就解决了（25）问题。",
+      "options": {
+        "A": "路由环路",
+        "B": "最短通路",
+        "C": "路由计算",
+        "D": "路由更新"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "BGP",
+        "路由环路"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "single_choice",
+      "stem": "边界网关协议 BGP4 是一种动态路由发现协议，它的主要功能是（24）。BGP 路由器之间传送的是 AS 路径信息，这样就解决了（25）问题。BGP4 报文封装在（26）。",
+      "options": {
+        "A": "IP 数据报",
+        "B": "以太帧",
+        "C": "TCP 报文",
+        "D": "UDP 报文"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "BGP",
+        "封装",
+        "TCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "single_choice",
+      "stem": "在广播网络中，OSPF 协议要选定一个指定路由器（DR），指定路由器的功能是（27）。",
+      "options": {
+        "A": "发送链路状态公告",
+        "B": "检查网络故障",
+        "C": "向其他路由器发送最新路由表",
+        "D": "发现新增加的路由器"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "OSPF",
+        "DR",
+        "链路状态公告"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "single_choice",
+      "stem": "POP3 协议采用（28）模式，客户端代理与 POP3 服务器通过建立（29）连接来传送数据。",
+      "options": {
+        "A": "Browser/Server",
+        "B": "Client/Server",
+        "C": "Peer to Peer",
+        "D": "Peer to Server"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "POP3",
+        "模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "single_choice",
+      "stem": "POP3 协议采用（28）模式，客户端代理与 POP3 服务器通过建立（29）连接来传送数据。",
+      "options": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "P2P",
+        "D": "IP"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "POP3",
+        "TCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "single_choice",
+      "stem": "如果要将目标网络为 202.117.112.0/24 的分组经 102.217.115.1 接口发出，需增加一条静态路由，正确的命令是（30）。",
+      "options": {
+        "A": "Route add 202.117.112.0 255.255.255.0 102.217.115.1",
+        "B": "Route add 202.117.112.0 0.0.0.255 102.217.115.1",
+        "C": "add route 202.117.112.0 255.255.255.0 102.217.115.1",
+        "D": "add route 202.117.112.0 0.0.0.255 102.217.115.1"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "静态路由",
+        "路由命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "single_choice",
+      "stem": "在 Linux 系统中，使用 ifconfig 设置接口的 IP 地址并启动该接口的命令是（31）。",
+      "options": {
+        "A": "ifconfig eth0 192.168.1.1 mask 255.255.255.0",
+        "B": "ifconfig 192.168.1.1 mask 255.255.255.0 up",
+        "C": "ifconfig eth0 192.168.1.1 mask 255.255.255.0 up",
+        "D": "ifconfig 192.168.1.1 255.255.255.0"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "Linux",
+        "ifconfig"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "single_choice",
+      "stem": "在 Linux 系统中，在（32）文件中查看一台主机的名称和完整域名。",
+      "options": {
+        "A": "etc/dev",
+        "B": "etc/conf",
+        "C": "etc/hostname",
+        "D": "etc/network"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "Linux",
+        "主机名",
+        "文件"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "33",
+      "question_type": "single_choice",
+      "stem": "在 Windows 客户端运行 nslookup 命令，结果如下图所示。为 www.softwaretest.com 提供解析的是（33）。在 DNS 服务器中，ftp.softwaretest.com 记录通过（34）方式建立。",
+      "options": {
+        "A": "192.168.1.254",
+        "B": "10.10.1.3",
+        "C": "10.10.1.1",
+        "D": "192.168.1.1"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "nslookup"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "34",
+      "question_type": "single_choice",
+      "stem": "在 Windows 客户端运行 nslookup 命令，结果如下图所示。为 www.softwaretest.com 提供解析的是（33）。在 DNS 服务器中，ftp.softwaretest.com 记录通过（34）方式建立。",
+      "options": {
+        "A": "主机",
+        "B": "别名",
+        "C": "邮件交换器",
+        "D": "PTR 记录"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "记录类型",
+        "别名"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "35",
+      "question_type": "single_choice",
+      "stem": "下图是 DNS 转发器工作的过程。采用迭代查询算法的是（35）。",
+      "options": {
+        "A": "转发器和本地 DNS 服务器",
+        "B": "根域名服务器和本地 DNS 服务器",
+        "C": "本地 DNS 服务器和.com 域名服务器",
+        "D": "根域名服务器和.com 域名服务器"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "迭代查询"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "36",
+      "question_type": "single_choice",
+      "stem": "下列域名中，格式正确的是（36）。",
+      "options": {
+        "A": "-123456.com",
+        "B": "123-456.com",
+        "C": "123*456.com",
+        "D": "123456-.com"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "域名",
+        "格式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "37",
+      "question_type": "single_choice",
+      "stem": "以下关于域名查询的叙述中，正确的是（37）。",
+      "options": {
+        "A": "正向查询是检查 A 记录，将 IP 地址解析为主机名",
+        "B": "正向查询是检查 PTR 记录，将主机名解析为 IP 地址",
+        "C": "反向查询是检查 A 记录，将主机名解析为 IP 地址",
+        "D": "反向查询是检查 PTR 记录，将 IP 地址解析为主机名"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "查询",
+        "A记录",
+        "PTR记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "38",
+      "question_type": "single_choice",
+      "stem": "下列地址中，（38）不是 DHCP 服务器分配的 IP 地址。",
+      "options": {
+        "A": "196.254.109.100",
+        "B": "169.254.109.100",
+        "C": "96.254.109.100",
+        "D": "69.254.109.100"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "APIPA",
+        "169.254"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "39",
+      "question_type": "single_choice",
+      "stem": "下图是配置某邮件客户端的界面，图中 a 处应填写（39）。b 处应填写（40）。",
+      "options": {
+        "A": "abc.com",
+        "B": "POP3.abc.com",
+        "C": "POP.com",
+        "D": "POP3.com"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "邮件客户端",
+        "POP3"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "40",
+      "question_type": "single_choice",
+      "stem": "下图是配置某邮件客户端的界面，图中 a 处应填写（39）。b 处应填写（40）。",
+      "options": {
+        "A": "25",
+        "B": "52",
+        "C": "100",
+        "D": "110"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "邮件客户端",
+        "POP3端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "41",
+      "question_type": "single_choice",
+      "stem": "（41）不属于主动攻击。",
+      "options": {
+        "A": "流量分析",
+        "B": "重放",
+        "C": "IP 地址欺骗",
+        "D": "拒绝服务"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "主动攻击",
+        "被动攻击",
+        "流量分析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "42",
+      "question_type": "single_choice",
+      "stem": "下列算法中，可用于报文认证的是（42），可以提供数字签名的是（43）。",
+      "options": {
+        "A": "RSA",
+        "B": "IDEA",
+        "C": "RC4",
+        "D": "MD5"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "报文认证",
+        "哈希算法",
+        "MD5"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "43",
+      "question_type": "single_choice",
+      "stem": "下列算法中，可用于报文认证的是（42），可以提供数字签名的是（43）。",
+      "options": {
+        "A": "RSA",
+        "B": "IDEA",
+        "C": "RC4",
+        "D": "MD5"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "数字签名",
+        "非对称加密",
+        "RSA"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "44",
+      "question_type": "single_choice",
+      "stem": "下列（44）不能提供应用层安全。",
+      "options": {
+        "A": "S-HTTP",
+        "B": "PGP",
+        "C": "MIME",
+        "D": "SET"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "应用层安全",
+        "MIME"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "45",
+      "question_type": "single_choice",
+      "stem": "防火墙不具备（45）功能。",
+      "options": {
+        "A": "包过滤",
+        "B": "查毒",
+        "C": "记录访问过程",
+        "D": "代理"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "防火墙",
+        "功能"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "46",
+      "question_type": "single_choice",
+      "stem": "如下图所示，从输出的信息中可以确定的是（46）。",
+      "options": {
+        "A": "本地主机正在使用的端口号是公共端口号",
+        "B": "192.168.0.200 正在与 128.105.129.30 建立连接",
+        "C": "本地主机与 202.100.112.12 建立了安全连接",
+        "D": "本地主机正在与 100.29.200.110 建立连接"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "网络连接",
+        "状态"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "47",
+      "question_type": "single_choice",
+      "stem": "为防止 www 服务器与浏览器之间传输的信息被窃听，可以采取（47）来防止该事件的发生。",
+      "options": {
+        "A": "禁止浏览器运行 Active X 控件",
+        "B": "索取 WWW 服务器的 CA 证书",
+        "C": "将 WWW 服务器地址放入浏览器的可信站点区域",
+        "D": "使用 SSL 对传输的信息进行加密"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "SSL",
+        "加密",
+        "HTTPS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "48",
+      "question_type": "single_choice",
+      "stem": "某用户无法访问域名为 www.cisco.com 的网站，在用户主机上执行 tracert 命令得到提示如下：根据提示信息，造成这种现象的原因可能是（48）。",
+      "options": {
+        "A": "用户主机的网关设置错误",
+        "B": "用户主机设置的 DNS 服务器工作不正常",
+        "C": "路由器上进行了相关 ACL 设置",
+        "D": "用户主机的 IP 地址设置错误"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "tracert",
+        "ACL",
+        "故障排查"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "49",
+      "question_type": "single_choice",
+      "stem": "下列网络管理软件中不需要 SNMP 支持的是（49）。",
+      "options": {
+        "A": "CiscoWorks",
+        "B": "Netview",
+        "C": "Solarwinds",
+        "D": "Wireshark"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "SNMP",
+        "网络管理软件",
+        "Wireshark"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "50",
+      "question_type": "single_choice",
+      "stem": "在 SNMPv2 错误类型中，表示管理对象不可访问的是（50）。",
+      "options": {
+        "A": "noAccess",
+        "B": "genErr",
+        "C": "wrongValue",
+        "D": "noCreation"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "SNMPv2",
+        "错误类型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "51",
+      "question_type": "single_choice",
+      "stem": "通过 CIDR 技术，把 4 个主机地址 220.78.169.5、220.78.172.10、220.78.174.15 和 220.78.168.254 组织成一个地址块，则这个超级地址块的地址是（51）。",
+      "options": {
+        "A": "220.78.177.0/21",
+        "B": "220.78.168.0/21",
+        "C": "220.78.169.0/20",
+        "D": "220.78.175.0/20"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "CIDR",
+        "超网",
+        "地址聚合"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "52",
+      "question_type": "single_choice",
+      "stem": "采用可变长子网掩码可以把大的网络分成小的子网，例如把 A 类网络 60.15.0.0/16 分为两个子网，假设第一个子网为 60.15.0.0/17，则另一个子网为（52）。",
+      "options": {
+        "A": "60.15.1.0/17",
+        "B": "60.15.2.0/17",
+        "C": "60.15.100.0/17",
+        "D": "60.15.128.0/17"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "VLSM",
+        "子网划分"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "53",
+      "question_type": "single_choice",
+      "stem": "假设用户 X 有 4000 台主机，则必须给他分配（53）个 C 类网络。",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "10",
+        "D": "16"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "IP地址规划",
+        "C类网络"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "54",
+      "question_type": "single_choice",
+      "stem": "如果为其分配的网络号为 196.25.64.0，则给该用户指定的地址掩码为（54）。",
+      "options": {
+        "A": "255.255.255.0",
+        "B": "255.255.250.0",
+        "C": "255.255.248.0",
+        "D": "255.255.240.0"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "子网掩码",
+        "地址分配"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "55",
+      "question_type": "single_choice",
+      "stem": "如果在查找路由表时发现有多个选项匹配，那么应该根据（55）原则进行选择。",
+      "options": {
+        "A": "包含匹配",
+        "B": "恰当匹配",
+        "C": "最长匹配",
+        "D": "最短匹配"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "路由查找",
+        "最长匹配"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "56",
+      "question_type": "single_choice",
+      "stem": "假设路由表有 4 个表项如下所示，那么与地址 139.17.179.92 匹配的表项是（56）。",
+      "options": {
+        "A": "139.17.145.32",
+        "B": "139.17.145.64",
+        "C": "139.17.147.64",
+        "D": "139.17.177.64"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "路由匹配",
+        "最长匹配"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "57",
+      "question_type": "single_choice",
+      "stem": "配置路由器接口的提示符是（57）。",
+      "options": {
+        "A": "router (config)#",
+        "B": "router (config-in)#",
+        "C": "router (config-intf)#",
+        "D": "router (config-if) #"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "路由器",
+        "CLI",
+        "配置模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "58",
+      "question_type": "single_choice",
+      "stem": "如果想知道配置了哪种路由协议，应使用的命令是（58）。",
+      "options": {
+        "A": "router>show router protocol",
+        "B": "Router (config)>show ip protocol",
+        "C": "router (config)>#show router protocol",
+        "D": "router >show ip protocol"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "路由器",
+        "show ip protocol",
+        "路由协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "59",
+      "question_type": "single_choice",
+      "stem": "如果在互联网中添加了一个局域网，要用手工方式将该局域网添加到路由表中，应使用的命令是（59）。",
+      "options": {
+        "A": "router（config）>ip route 2.0.0.0 255.0.0.0 via 1.0.0.2",
+        "B": "router (config) #ip route 2.0.0.0 255.0.0.0 1.0.0.2",
+        "C": "router (config) #ip route 2.0.0.0 via 1.0.0.2",
+        "D": "router (config) #ip route 2.0.0.0 1.0.0.2 mask 255.0.0.0"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "静态路由",
+        "ip route"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "60",
+      "question_type": "single_choice",
+      "stem": "IPv6 地址的格式前缀（FP）用于表示（60）。",
+      "options": {
+        "A": "地区号",
+        "B": "地址类型或子网地址",
+        "C": "网络类型",
+        "D": "播送方式或子网号"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "IPv6",
+        "格式前缀"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "61",
+      "question_type": "single_choice",
+      "stem": "为实现 IP 地址的自动配置，IPv6 主机将（61）附加在地址前缀 1111 1110 10 之后，产生一个链路本地地址，如果通过了邻居发现协议的验证，则表明自我配置的链路本地地址是有效的。",
+      "options": {
+        "A": "32 位二进制随机数",
+        "B": "主机名字",
+        "C": "网卡 MAC 地址",
+        "D": "IPv4 地址"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "IPv6",
+        "自动配置",
+        "链路本地地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "62",
+      "question_type": "single_choice",
+      "stem": "以下关于 CSMA/CD 协议的叙述中，正确的是（62）。",
+      "options": {
+        "A": "每个结点按照逻辑顺序占用一个时间片轮流发送",
+        "B": "每个结点检查介质是否空闲，如果空闲则立即发送",
+        "C": "每个结点想发就发，如果没有冲突则继续发送",
+        "D": "得到令牌的结点发送，没有得到令牌的结点等待"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "CSMA/CD",
+        "以太网",
+        "介质访问控制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "63",
+      "question_type": "single_choice",
+      "stem": "以下关于交换机获取与其端口连接设备的 MAC 地址的叙述中，正确的是（63）。",
+      "options": {
+        "A": "交换机从路由表中提取设备的 MAC 地址",
+        "B": "交换机检查端口流入分组的源地址",
+        "C": "交换机之间互相交换地址表",
+        "D": "由网络管理员手工输入设备的 MAC 地址"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "交换机",
+        "MAC地址学习"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "64",
+      "question_type": "single_choice",
+      "stem": "ITU-R 对 4G 标准的要求是能够提供基于 IP 的高速语音、数据和流式多媒体服务，支持的数据速率至少是（64）。",
+      "options": {
+        "A": "10Mb/s",
+        "B": "100Mb/s",
+        "C": "20Mb/s",
+        "D": "1Gb/s"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "移动通信",
+      "tags": [
+        "4G",
+        "数据速率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "65",
+      "question_type": "single_choice",
+      "stem": "ITU-R 对 4G 标准的要求是能够提供基于 IP 的高速语音、数据和流式多媒体服务，支持的数据速率至少是（64），选定的多路复用技术是（65）。",
+      "options": {
+        "A": "OFDM",
+        "B": "QPSK",
+        "C": "MIMO",
+        "D": "64-QAM"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "移动通信",
+      "tags": [
+        "4G",
+        "多路复用",
+        "OFDM"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "66",
+      "question_type": "single_choice",
+      "stem": "用来承载多个 VLAN 流量的协议组是（66）。",
+      "options": {
+        "A": "802.11a 和 802.1q",
+        "B": "ISL 和 802.1q",
+        "C": "ISL 和 802.3ab",
+        "D": "SSL 和 802.11b"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "VLAN",
+        "Trunk",
+        "ISL",
+        "802.1q"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "67",
+      "question_type": "single_choice",
+      "stem": "多协议标记交换（MPLS）是 IETF 提出的第三层交换标准，以下关于 MPLS 的叙述中，正确的是（67）。",
+      "options": {
+        "A": "带有 MPLS 标记的分组封装在 PPP 帧中传输",
+        "B": "传送带有 MPLS 标记的分组之前先要建立对应的网络连接",
+        "C": "路由器根据转发目标把多个 IP 流聚合在一起组成转发等价类",
+        "D": "MPLS 标记在各个子网中是特定分组的唯一标识"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "MPLS",
+        "转发等价类"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "68",
+      "question_type": "single_choice",
+      "stem": "通过 HFC 网络实现宽带接入，用户端需要的设备是（68），局端用于控制和管理用户的设备是（69）。",
+      "options": {
+        "A": "Cable Modem",
+        "B": "ADSL Modem",
+        "C": "OLT",
+        "D": "CMTS"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "接入网",
+      "tags": [
+        "HFC",
+        "Cable Modem"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "69",
+      "question_type": "single_choice",
+      "stem": "通过 HFC 网络实现宽带接入，用户端需要的设备是（68），局端用于控制和管理用户的设备是（69）。",
+      "options": {
+        "A": "Cable Modem",
+        "B": "ADSL Modem",
+        "C": "OLT",
+        "D": "CMTS"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "接入网",
+      "tags": [
+        "HFC",
+        "CMTS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "70",
+      "question_type": "single_choice",
+      "stem": "在层次化局域网模型中，以下关于核心层的叙述，正确的是（70）。",
+      "options": {
+        "A": "为了保障安全性，对分组要进行有效性检查",
+        "B": "将分组从一个区域高速地转发到另一个区域",
+        "C": "由多台二、三层交换机组成",
+        "D": "提供多条路径来缓解通信瓶颈"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设计",
+      "tags": [
+        "层次化模型",
+        "核心层"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "71",
+      "question_type": "single_choice",
+      "stem": "The Dynamic Host Configuration Protocol provides configuration parameters to Internet （71）.",
+      "options": {
+        "A": "switch",
+        "B": "terminal",
+        "C": "hosts",
+        "D": "users"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "英文"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "72",
+      "question_type": "single_choice",
+      "stem": "DHCP consists of two components: a （72） for delivering host-specific configuration parameters from a DHCP server to a host and a mechanism for allocation of network addresses to hosts.",
+      "options": {
+        "A": "router",
+        "B": "protocol",
+        "C": "host",
+        "D": "mechanism"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "英文"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "73",
+      "question_type": "single_choice",
+      "stem": "DHCP is built on a client-server model, where designated DHCP server hosts allocate network addresses and deliver （73） parameters to dynamically configured hosts.",
+      "options": {
+        "A": "control",
+        "B": "broadcast",
+        "C": "configuration",
+        "D": "transmission"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "英文"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "74",
+      "question_type": "single_choice",
+      "stem": "DHCP supports three mechanisms for IP address allocation. In \"automatic allocation\", DHCP assigns a （74） IP address to a client.",
+      "options": {
+        "A": "permanent",
+        "B": "dynamic",
+        "C": "correction",
+        "D": "session"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "英文"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "75",
+      "question_type": "single_choice",
+      "stem": "In \"manual allocation\", a client's IP address is assigned by the network （75）, and DHCP is used simply to convey the assigned address to the client.",
+      "options": {
+        "A": "controller",
+        "B": "user",
+        "C": "host",
+        "D": "administrator"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "英文"
+      ],
+      "is_verified": false
+    }
+  ]
+}

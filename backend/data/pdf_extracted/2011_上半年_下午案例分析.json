@@ -1,0 +1,497 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2011,
+    "season": "上半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2011年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "case",
+      "stem": "在该网络拓扑图中，请根据用户需求和设计要求，指出至少三个不合理之处，并简要说明理由。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "网络拓扑",
+        "冗余设计"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "MPLS技术主要是为了提高路由器转发速率而提出的，其核心思想是利用标签交换取代复杂的路由运算和路由交换；该技术实现的核心就是把（1)封装在（2)数据包。请选择（1)的选项。",
+      "options": {
+        "A": "IP数据报",
+        "B": "MPLS",
+        "C": "TCP",
+        "D": "GRE"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "MPLS",
+        "标签交换"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "MPLS技术主要是为了提高路由器转发速率而提出的，其核心思想是利用标签交换取代复杂的路由运算和路由交换；该技术实现的核心就是把（1)封装在（2)数据包。请选择（2)的选项。",
+      "options": {
+        "A": "IP数据报",
+        "B": "MPLS",
+        "C": "TCP",
+        "D": "GRE"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "MPLS",
+        "标签封装"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem": "MPLS VPN承载平台上的设备主要由各类路由器组成，其中（3)是MPLS核心网中的路由器，这些路由器只负责依据MPLS标签完成数据包的高速转发。请选择（3)的选项。",
+      "options": {
+        "A": "PE路由器",
+        "B": "CE路由器",
+        "C": "P路由器"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "MPLS VPN",
+      "tags": [
+        "P路由器",
+        "核心路由器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem": "MPLS VPN承载平台上的设备主要由各类路由器组成，其中（4)是MPLS核心网上的边缘路由器，负责待传送数据包的MPLS标签的生成和弹出，还将发起根据路由建立交换标签的动作。请选择（4)的选项。",
+      "options": {
+        "A": "PE路由器",
+        "B": "CE路由器",
+        "C": "P路由器"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "MPLS VPN",
+      "tags": [
+        "PE路由器",
+        "边缘路由器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem": "MPLS VPN承载平台上的设备主要由各类路由器组成，其中（5)是直接与电信运营商相连的用户端路由器，该设备上不存在任何带有标签的数据包。请选择（5)的选项。",
+      "options": {
+        "A": "PE路由器",
+        "B": "CE路由器",
+        "C": "P路由器"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "MPLS VPN",
+      "tags": [
+        "CE路由器",
+        "用户端路由器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "网络管理人员可以利用网络设备及系统本身提供的集成命令对网络进行故障排除，例如利用（6)命令查看系统的安装情况与网络的正常运行状况。请选择（6)的选项。",
+      "options": {
+        "A": "ping",
+        "B": "debug",
+        "C": "show",
+        "D": "tracert"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排除",
+      "tags": [
+        "命令",
+        "故障诊断"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem": "利用专用故障排除工具可以快速的定位故障点，例如利用（7)可以精确地测量光纤的长度、定位光纤的断点。请选择（7)的选项。",
+      "options": {
+        "A": "数字万用表",
+        "B": "时域反射计",
+        "C": "光时域反射计",
+        "D": "网络分析仪"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排除",
+      "tags": [
+        "光纤测试",
+        "工具"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem": "以下命令中，改变文件或所属群组的命令是（1)。",
+      "options": {
+        "A": "chmod",
+        "B": "chgrp",
+        "C": "vi",
+        "D": "which"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux系统管理",
+      "tags": [
+        "文件权限",
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem": "以下命令中，编辑文件的命令是（2)。",
+      "options": {
+        "A": "chmod",
+        "B": "chgrp",
+        "C": "vi",
+        "D": "which"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux系统管理",
+      "tags": [
+        "文本编辑",
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem": "以下命令中，查找文件的命令是（3)。",
+      "options": {
+        "A": "chmod",
+        "B": "chgrp",
+        "C": "vi",
+        "D": "which"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux系统管理",
+      "tags": [
+        "文件查找",
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem": "Linux系统中，用户和应用程序可以通过（4)文件系统得到系统的信息，并可以改变内核的某些参数，该文件系统只存在于内存中。",
+      "options": {
+        "A": "/proc",
+        "B": "ntfs",
+        "C": "/tmp",
+        "D": "/etc/profile"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux文件系统",
+      "tags": [
+        "proc",
+        "虚拟文件系统"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "fill_blank",
+      "stem": "在Linux中，分区分为主分区、扩展分区和逻辑分区，使用fdisk -l命令获得分区信息如下所示：其中属于扩展分区的是（5）。请根据上下文填写。",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux磁盘管理",
+      "tags": [
+        "分区",
+        "fdisk"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "fill_blank",
+      "stem": "使用df -T命令获得信息部分如下：其中，不属于Linux系统分区的是（6）。请根据上下文填写。",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux磁盘管理",
+      "tags": [
+        "df",
+        "分区类型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "fill_blank",
+      "stem": "在Linux系统中，对于（7)文件中列出的Linux分区，系统启动时会自动挂载。请填写文件名称。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux系统管理",
+      "tags": [
+        "挂载",
+        "fstab"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "fill_blank",
+      "stem": "超级用户可通过（8)命令将分区加载到指定目录，从而该分区才在Linux系统中可用。请填写命令名称。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux系统管理",
+      "tags": [
+        "mount",
+        "挂载命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "fill_blank",
+      "stem": "DHCP_Server服务器必须包含的IP地址范围为（1)和（2)。请填写（1)。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "IP地址范围"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "fill_blank",
+      "stem": "DHCP_Server服务器必须包含的IP地址范围为（1)和（2)。请填写（2)。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "IP地址范围"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "case",
+      "stem": "若在host1上运行ipconfig命令，获得如图3-2所示结果，host1能正常访问Internet吗？说明原因。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障分析",
+      "tags": [
+        "ipconfig",
+        "DHCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "fill_blank",
+      "stem": "若host1成功获取IP地址后，在访问http://www.abc.com网站时，总是访问到www.softexamtest.com，而同一网段内的其他客户端访问该网站正常。在host1 C:\\WINDOWS\\system32\\drivers\\etc目录下打开（3)文件，发现其中有如下两条记录：在清除第2条记录后关闭文件，重启系统后host1访问http://www.abc.com网站正常。请填写（3)的文件名。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows网络配置",
+      "tags": [
+        "hosts文件",
+        "域名解析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "fill_blank",
+      "stem": "同上题，请填写（4)空缺内容。",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows网络配置",
+      "tags": [
+        "hosts文件",
+        "记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "fill_blank",
+      "stem": "在配置FTP_server时，图3-3中“IP地址”文本框中应填入（5)。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP服务器配置",
+      "tags": [
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "case",
+      "stem": "若FTP配置虚拟目录为pen，虚拟目录配置如图3-4与图3-5所示。根据以上配置，哪些主机可访问该虚拟目录？",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP虚拟目录",
+      "tags": [
+        "访问控制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "fill_blank",
+      "stem": "访问该虚拟目录的命令是（6)。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP命令",
+      "tags": [
+        "FTP",
+        "虚拟目录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "fill_blank",
+      "stem": "下面的命令在路由器router-a中配置了相应的IPSec提议，该提议表明：IPSec采用ESP报文，加密算法采用（7)。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPSec",
+      "tags": [
+        "加密算法",
+        "ESP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "fill_blank",
+      "stem": "下面的命令在路由器router-a中配置了相应的IPSec提议，该提议表明：IPSec采用ESP报文，认证算法采用（8)。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPSec",
+      "tags": [
+        "认证算法",
+        "ESP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "fill_blank",
+      "stem": "R3 (config) # access-list 110 deny (8) 192.168.20.0 0.0.0.255 10.10.10.0 0.0.0.255 eq (9)。请填写（8)的内容。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "访问控制列表",
+      "tags": [
+        "ACL",
+        "协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "fill_blank",
+      "stem": "同上，请填写（9)的内容。",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "访问控制列表",
+      "tags": [
+        "ACL",
+        "端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "case",
+      "stem": "上述两条语句次序是否可以调整？简单说明理由。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "访问控制列表",
+      "tags": [
+        "ACL顺序"
+      ],
+      "is_verified": false
+    }
+  ]
+}

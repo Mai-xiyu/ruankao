@@ -1,0 +1,221 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2022,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2022年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1-1",
+      "question_type": "fill_blank",
+      "stem": "该企业办公网络采用172.16.1.0/24地址段，部门终端数量如表1-1所示，请将网络地址规划补充完整。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址规划",
+      "tags": [
+        "VLSM",
+        "子网划分"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2",
+      "question_type": "case",
+      "stem": "仓库到办公楼的布线系统属于什么子系统?应采用什么传输介质?该线缆与交换机连接需要用到哪些部件。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "综合布线",
+      "tags": [
+        "子系统",
+        "传输介质",
+        "连接器件"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-3",
+      "question_type": "calculation",
+      "stem": "若接入的IPC采用1080P的图像传输质量传输数据，SwitchC、SwitchA选用百兆交换机是否满足带宽要求，请说明理由。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络带宽计算",
+      "tags": [
+        "IPC",
+        "1080P",
+        "带宽"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-4",
+      "question_type": "config",
+      "stem": "在位置A增加一台交换机SwitchE做接入层到核心层的链路冗余，请以SwitchC为例简述接入层与核心层的配置变化。简要说明在RouterA与RouterB之间建立IPSecVPN隧道的配置要点。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络冗余与VPN",
+      "tags": [
+        "链路冗余",
+        "IPSec VPN",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1",
+      "question_type": "fill_blank",
+      "stem": "根据网络安全的需要，无线校园网要求全网认证接入，其中台式电脑、笔记本、手机等智能终端，从兼容性角度考虑应优先选用(1)认证方式;打印机、门禁等非智能终端应该选用(2)认证方式。图2-1中，数据业务流量通过AC与AP建立的隧道进行转发时，该转发模式为(3);不经过AC转发，由AP经接入交换机到核心交换机传输至上层网络时，该转发模式为(4)。学校的新一代无线网络采用Wifi6技术，要求兼容仍工作在2.4G的老旧终端，Wifi6 AP的部署密度较大，为减少无线AP在2.4G模式下信道之间的干扰，信道之间至少应间隔(5)个信道。无线网络实施后，校园网络在线用户数大幅增长。原楼宇汇聚为千兆上联，高峰时期上行链路负载已经100%，经常有丢包现象，在不更换设备的前提下，可以通过(6)解决。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "认证",
+        "转发模式",
+        "信道间隔",
+        "链路聚合"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2",
+      "question_type": "case",
+      "stem": "网络管理员某天在防火墙上发现了大量图2-2所示的日志，由此可判断校园网站遭受到了什么攻击请给出至少三种应对措施。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "攻击类型",
+        "应对措施"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3-1",
+      "question_type": "case",
+      "stem": "校园网采用大二层组网结构，信息中心计划对核心交换机采用堆叠技术，请简述堆叠技术的优点和缺点。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "堆叠",
+        "优点",
+        "缺点"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3-2",
+      "question_type": "config",
+      "stem": "网络试运行一段时间后，在二层网络中发现了大量的广播报文，影响网络的性能。网络管理员在接入层交换机做了如下配置问题得以解决：[SW] interface gigabitethernet 0/0/3 [SW-GigabitEthernet0/0/3]broadcast-suppression 80，请简述以上配置的功能。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "广播抑制",
+        "风暴控制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1",
+      "question_type": "case",
+      "stem": "从算法原理、适用范围、功能特性三个方面简述RIP和OSPF的区别。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "OSPF",
+        "区别"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2",
+      "question_type": "fill_blank",
+      "stem": "分公司路由器R1和R2之间运行RIP协议生成路由，路由器R1将直连路由导入RIP，通过配置直连路由引入策略，过滤外包部门网段，使外包部门网段不能访问公司总部。补全下列命令，填写空(1)～(3)处的内容，完成 R1过滤外包部门所要求的相关配置。在R2上导入R1的直连路由条目后，RIP路由条目如下所示，请简要说明10.0.0.0/8 这条路由条目是如何产生的，将解答填入答题纸的空(4)处。在 R2 执行 undo summary 命令后，请写出当前的 RIP 路由条目，将解答填入答题纸的空(5)处。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由配置",
+      "tags": [
+        "RIP",
+        "路由过滤",
+        "路由引入"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3",
+      "question_type": "fill_blank",
+      "stem": "通过配置R3的OSPF路由发布策略，仅发布生产网段和办公网段，不发布财务专网，以防止公司总部其它网段或分公司对财务专网的访问。补全下列命令，填写空(6)～(8)处的内容。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由策略",
+      "tags": [
+        "OSPF",
+        "路由过滤",
+        "前缀列表"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1",
+      "question_type": "fill_blank",
+      "stem": "STP (Spanning Tree Protocol)协议用来发现和消除网络中的环路。运行该协议的设备通过相互之间发送(1)报文，在交换网络中选举根桥，通过依次比较该报文中包含的各自的(2)、MAC 地址信息，来确定根桥，优先级值越(3)，优先级越高，MAC地址亦然，交换机默认的优先级值为(4)。RSTP (Rapid SpanningTree Protocol)在STP基础上进行了改进，实现了网络拓扑(5)。但他们均是通过阻塞某个端口来实现环路消除的，存在浪费带宽的缺点，MSTP在STP和RSTP的基础上进行了改进，既可以快速收敛，又提供了数据转发的多个冗余路径，在数据转发过程中实现VLAN 数据的(6)。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "生成树协议",
+      "tags": [
+        "STP",
+        "RSTP",
+        "MSTP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2",
+      "question_type": "fill_blank",
+      "stem": "管理员计划为交换机配置VRRP，以提高网络的可靠性。通过调整优先级使SwitchA作为 Master 设备承担流量转发，同时为了防止震荡，设置 20s 抢占延时SwitchB为默认优先级，作为 Bakup 设备，实现网关冗余备份。接口 IP 地址配置如表4-1所示。请将下面的配置代码补充完整。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VRRP配置",
+      "tags": [
+        "VRRP",
+        "冗余",
+        "配置"
+      ],
+      "is_verified": false
+    }
+  ]
+}

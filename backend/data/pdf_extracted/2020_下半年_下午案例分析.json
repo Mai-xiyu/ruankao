@@ -1,0 +1,920 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2020,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2020年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1-1",
+      "question_type": "fill_blank",
+      "stem": "[Router] vlan batch(1)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN配置",
+      "tags": [
+        "VLAN",
+        "交换机配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2",
+      "question_type": "fill_blank",
+      "stem": "[Router-Vlanifl01]ip address (2)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN配置",
+      "tags": [
+        "IP地址",
+        "接口配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-3",
+      "question_type": "fill_blank",
+      "stem": "[HUAWEI]sysname (3)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN配置",
+      "tags": [
+        "设备命名",
+        "AC配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-4",
+      "question_type": "fill_blank",
+      "stem": "[AC-GigabitEthernet0/0/1] port-isolate (4) //实现端口隔离",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN配置",
+      "tags": [
+        "端口隔离",
+        "交换机配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-5",
+      "question_type": "fill_blank",
+      "stem": "[AC-wlan-regulate-domain-default] country-code (5)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN配置",
+      "tags": [
+        "国家码",
+        "域管理"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-6",
+      "question_type": "fill_blank",
+      "stem": "[AC-wlan-ap-group-ap-group1] regulatory-domain-profile (6)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN配置",
+      "tags": [
+        "域配置",
+        "AP组"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-7",
+      "question_type": "fill_blank",
+      "stem": "[AC] capwap source interface (7)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN配置",
+      "tags": [
+        "CAPWAP源接口",
+        "AC配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-8",
+      "question_type": "fill_blank",
+      "stem": "[AC-wlan-sec-prof-wlan-net] security wpa-wpa2 psk pass-phrase (8) aes",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN配置",
+      "tags": [
+        "安全配置",
+        "WPA"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-9",
+      "question_type": "fill_blank",
+      "stem": "[AC-wlan-ssid-prof-wlan-net] ssid (9)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN配置",
+      "tags": [
+        "SSID",
+        "WLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-10",
+      "question_type": "fill_blank",
+      "stem": "[AC-wlan-vap-prof-wlan-net] service-vlan vlan-id (10)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN配置",
+      "tags": [
+        "服务VLAN",
+        "VAP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-11",
+      "question_type": "single_choice",
+      "stem": "AP的认证方式是（11）方式",
+      "options": {
+        "A": "MAC",
+        "B": "SN",
+        "C": "AP地址",
+        "D": "AP组"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN配置",
+      "tags": [
+        "AP认证",
+        "MAC认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-12",
+      "question_type": "single_choice",
+      "stem": "通过配置（12）实现统一配置",
+      "options": {
+        "A": "MAC",
+        "B": "SN",
+        "C": "AP地址",
+        "D": "AP组"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN配置",
+      "tags": [
+        "AP组",
+        "统一配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-13",
+      "question_type": "single_choice",
+      "stem": "将AP加电后，执行（13）命令可以查看到AP是否正常上线",
+      "options": {
+        "A": "display ap all",
+        "B": "display vap ssid"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN运维",
+      "tags": [
+        "AP上线",
+        "查看命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-14",
+      "question_type": "fill_blank",
+      "stem": "组播报文对无线网络空口的影响主要是（14）",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN技术",
+      "tags": [
+        "组播",
+        "空口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-15",
+      "question_type": "fill_blank",
+      "stem": "随着业务数据转发的方式不同，组播报文的抑制分别在（15）和（16）配置。第一个空",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN技术",
+      "tags": [
+        "组播抑制",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-16",
+      "question_type": "fill_blank",
+      "stem": "随着业务数据转发的方式不同，组播报文的抑制分别在（15）和（16）配置。第二个空",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN技术",
+      "tags": [
+        "组播抑制",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-17",
+      "question_type": "fill_blank",
+      "stem": "该网络AP部署在每一间宿舍的原因是(17)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN设计",
+      "tags": [
+        "AP部署",
+        "覆盖"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1",
+      "question_type": "single_choice",
+      "stem": "在终端A上ping 127.0.0.1不通，故障可能是（1）原因造成",
+      "options": {
+        "A": "链路故障",
+        "B": "DNS配置错误",
+        "C": "TCP/IP协议故障",
+        "D": "IP配置错误"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "ping",
+        "故障诊断"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2",
+      "question_type": "single_choice",
+      "stem": "在终端B上能登录互联网即时聊天软件，但无法打开网页，故障可能是（2）原因造成",
+      "options": {
+        "A": "链路故障",
+        "B": "DNS配置错误",
+        "C": "TCP/IP协议故障",
+        "D": "IP配置错误"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "DNS",
+        "网页访问"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3",
+      "question_type": "single_choice",
+      "stem": "图2-1访问日志所示为(3)攻击",
+      "options": {
+        "A": "跨站脚本",
+        "B": "SQL注入",
+        "C": "宏病毒",
+        "D": "APT",
+        "E": "DDos",
+        "F": "CC",
+        "G": "蠕虫病毒",
+        "H": "一句话木马"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "攻击类型",
+        "日志分析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-4",
+      "question_type": "single_choice",
+      "stem": "图2-2访问日志所示为(4)攻击",
+      "options": {
+        "A": "跨站脚本",
+        "B": "SQL注入",
+        "C": "宏病毒",
+        "D": "APT",
+        "E": "DDos",
+        "F": "CC",
+        "G": "蠕虫病毒",
+        "H": "一句话木马"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "攻击类型",
+        "日志分析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-5",
+      "question_type": "single_choice",
+      "stem": "上述所示的攻击手段为(5)攻击",
+      "options": {
+        "A": "跨站脚本",
+        "B": "SQL注入",
+        "C": "宏病毒",
+        "D": "APT",
+        "E": "DDos",
+        "F": "CC",
+        "G": "蠕虫病毒",
+        "H": "一句话木马"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "APT",
+        "邮件攻击"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-6",
+      "question_type": "fill_blank",
+      "stem": "应该采取(6) 等措施进行防范",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "防护措施",
+        "APT"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-7",
+      "question_type": "fill_blank",
+      "stem": "储区域网络(Storage Area Network, 简称 SAN)可分为(7)两种",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "SAN",
+        "存储网络"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-8",
+      "question_type": "fill_blank",
+      "stem": "储区域网络(Storage Area Network, 简称 SAN)可分为(8)两种",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "SAN",
+        "存储网络"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-9",
+      "question_type": "fill_blank",
+      "stem": "从部署成本和传输效率两个方面比较这两种SAN，比较结果为(9)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "SAN比较",
+        "成本效率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-10",
+      "question_type": "fill_blank",
+      "stem": "请简述RAID2.0技术的优势(至少列出2点优势)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "RAID2.0"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1",
+      "question_type": "fill_blank",
+      "stem": "IPSec的功能可以划分为认证头AH、封装安全负荷ESP以及密钥交换IKE。其中用于数据完整性认证和数据认证的是(1)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "AH",
+        "ESP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2",
+      "question_type": "fill_blank",
+      "stem": "为R4添加默认路由，实现校园网络接入Internet的默认出口为电信网络，请将下列命令补充完整： [R4]ip route-static (2)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由配置",
+      "tags": [
+        "默认路由",
+        "静态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3",
+      "question_type": "fill_blank",
+      "stem": "在路由器R1上配置RIP协议，请将下列命令补充完整： [R1](3) [R1-rip-1]",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "配置命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-4",
+      "question_type": "fill_blank",
+      "stem": "[R1-rip-1]network (4)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "network命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-5",
+      "question_type": "fill_blank",
+      "stem": "根据以上路由信息可知。下列RIP路由是由（5）路由器通告的",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "路由通告"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-6",
+      "question_type": "fill_blank",
+      "stem": "请问PC1此时是否可以访问电信网络？为什么？答:(6)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "路由可达性",
+        "分析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-7",
+      "question_type": "fill_blank",
+      "stem": "[R4-acl-basic-2000] rule 1 permit source (7)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "ACL",
+        "源地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-8",
+      "question_type": "fill_blank",
+      "stem": "[R4] time-range satime (8) working-day",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "时间范围",
+        "ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-9",
+      "question_type": "fill_blank",
+      "stem": "[R4-acl-adv-3001] rule deny source (9) destination 218.63.0.0 240.255.255.255 time-range satime",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "ACL",
+        "拒绝规则"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-10",
+      "question_type": "fill_blank",
+      "stem": "第2步：执行如下命令的作用是(10)。 [R4]traffic classifier 1 ...",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "流分类",
+        "策略"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-11",
+      "question_type": "fill_blank",
+      "stem": "[R4-bchavior-1]redirect (11) 221.137.0.1",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "重定向",
+        "流行为"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-12",
+      "question_type": "fill_blank",
+      "stem": "[R4-behavior-3] (12)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "流行为",
+        "动作"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-13",
+      "question_type": "fill_blank",
+      "stem": "[R4-trafficpolicy-1]classifier 1 (13)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "流策略",
+        "绑定"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-14",
+      "question_type": "fill_blank",
+      "stem": "[R4-trafficpolicy-1]classifier 3 (14)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "流策略",
+        "绑定"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-15",
+      "question_type": "fill_blank",
+      "stem": "[R4-GigabitEthernet0/0/0]traffic-policy 1 (15)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "应用策略",
+        "接口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1",
+      "question_type": "fill_blank",
+      "stem": "VLAN划分可基于(1)、子网、(2)、协议和策略等多种方法。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN技术",
+      "tags": [
+        "VLAN划分",
+        "方法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2",
+      "question_type": "fill_blank",
+      "stem": "VLAN划分可基于(1)、子网、(2)、协议和策略等多种方法。第二个空",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN技术",
+      "tags": [
+        "VLAN划分",
+        "方法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-3",
+      "question_type": "fill_blank",
+      "stem": "本例可采用基于(3)的方法划分VLAN子网。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN技术",
+      "tags": [
+        "VLAN划分",
+        "方法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-4",
+      "question_type": "fill_blank",
+      "stem": "<HUAWEI> (4)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "命令",
+        "system-view"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-5",
+      "question_type": "fill_blank",
+      "stem": "[SW1] (5) option template template1",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "DHCP Option模板"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-6",
+      "question_type": "fill_blank",
+      "stem": "[SW1-dhcp-option-template-template1] gateway-list (6) //配置网关地址",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "网关",
+        "DHCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-7",
+      "question_type": "fill_blank",
+      "stem": "[SW1-dhcp-option-template-template1] bootfile (7) //获取配置文件",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "启动文件",
+        "DHCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-8",
+      "question_type": "fill_blank",
+      "stem": "[SW1-dhcp-option-template-template1] next-server (8) //配置获取配置文件地址",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "文件服务器",
+        "DHCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-9",
+      "question_type": "fill_blank",
+      "stem": "[SW1-ip-pool-pool3] network (9) mask 255.255.255.0",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "地址池",
+        "网络"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-10",
+      "question_type": "fill_blank",
+      "stem": "[SW1-ip-pool-pool3] dns-list (10)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "DNS",
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-11",
+      "question_type": "fill_blank",
+      "stem": "[SW1-ip-pool-pool3] (11) 192.168.3.1",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "网关",
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-12",
+      "question_type": "fill_blank",
+      "stem": "[SW1-ip-pool-pool3] excluded-ip-address (12) 192.168.3.254",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "排除地址",
+        "DHCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-13",
+      "question_type": "fill_blank",
+      "stem": "[SW1-ip-pool-pool3] static-bind ip-address 192.168.3.2 mac-address (13) option-template template1",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "静态绑定",
+        "MAC"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-14",
+      "question_type": "fill_blank",
+      "stem": "[SW1] interface vlanif (14)",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "VLAN接口",
+        "DHCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-15",
+      "question_type": "fill_blank",
+      "stem": "[SW1-Vlanif300] (15) select global",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "DHCP使能",
+        "全局模式"
+      ],
+      "is_verified": false
+    }
+  ]
+}

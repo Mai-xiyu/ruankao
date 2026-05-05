@@ -1,0 +1,822 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2018,
+    "season": "上半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2018年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1-5",
+      "question_type": "fill_blank",
+      "stem": "根据表1-1中的ACL策略，业务部门不能访问哪个网段？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "访问控制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-6",
+      "question_type": "fill_blank",
+      "stem": "在图1-1中为了保护内部网络，实现包过滤功能，位置A应部署什么设备？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "防火墙",
+        "包过滤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-7",
+      "question_type": "fill_blank",
+      "stem": "该设备工作在什么模式？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "防火墙",
+        "工作模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-8",
+      "question_type": "single_choice",
+      "stem": "ISP 2是什么链路？",
+      "options": {
+        "A": "以太网",
+        "B": "PPPOE"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络接入",
+      "tags": [
+        "ISP",
+        "链路类型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-9",
+      "question_type": "single_choice",
+      "stem": "用户默认通过哪个ISP访问Internet？",
+      "options": {
+        "A": "ISP1",
+        "B": "ISP2"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "默认路由",
+        "ISP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-10",
+      "question_type": "fill_blank",
+      "stem": "该配置片段实现的网络功能是什么？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "链路检测",
+        "浮动静态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1",
+      "question_type": "single_choice",
+      "stem": "日志显示AP-03掉线无法管理，造成该故障可能的原因之一是什么？",
+      "options": {
+        "A": "AP与AC的连接断开",
+        "B": "AP断电",
+        "C": "AP未认证",
+        "D": "由于自动升级造成AC、AP版本不匹配",
+        "E": "AC与核心交换机连接断开",
+        "F": "该AP无线接入用户数达到上限"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "AP",
+        "AC",
+        "故障排查"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2",
+      "question_type": "single_choice",
+      "stem": "日志显示AP-03掉线无法管理，造成该故障可能的原因之一是什么？",
+      "options": {
+        "A": "AP与AC的连接断开",
+        "B": "AP断电",
+        "C": "AP未认证",
+        "D": "由于自动升级造成AC、AP版本不匹配",
+        "E": "AC与核心交换机连接断开",
+        "F": "该AP无线接入用户数达到上限"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "AP",
+        "AC",
+        "故障排查"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3",
+      "question_type": "single_choice",
+      "stem": "日志显示AP-03掉线无法管理，造成该故障可能的原因之一是什么？",
+      "options": {
+        "A": "AP与AC的连接断开",
+        "B": "AP断电",
+        "C": "AP未认证",
+        "D": "由于自动升级造成AC、AP版本不匹配",
+        "E": "AC与核心交换机连接断开",
+        "F": "该AP无线接入用户数达到上限"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "AP",
+        "AC",
+        "故障排查"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-4",
+      "question_type": "single_choice",
+      "stem": "造成数据备份速度慢的原因之一是什么？",
+      "options": {
+        "A": "物理链路中断",
+        "B": "网络适配器故障",
+        "C": "备份软件配置影响速率",
+        "D": "网线故障"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "速率协商",
+        "千兆",
+        "故障排查"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-5",
+      "question_type": "single_choice",
+      "stem": "造成数据备份速度慢的原因之一是什么？",
+      "options": {
+        "A": "物理链路中断",
+        "B": "网络适配器故障",
+        "C": "备份软件配置影响速率",
+        "D": "网线故障"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "速率协商",
+        "千兆",
+        "故障排查"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-6",
+      "question_type": "single_choice",
+      "stem": "解决数据备份速度慢的处理措施之一是什么？",
+      "options": {
+        "A": "检查传输介质",
+        "B": "检查备份软件的配置",
+        "C": "重启交换机",
+        "D": "更换网络适配器"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "故障处理",
+        "速率协商"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-7",
+      "question_type": "single_choice",
+      "stem": "解决数据备份速度慢的处理措施之一是什么？",
+      "options": {
+        "A": "检查传输介质",
+        "B": "检查备份软件的配置",
+        "C": "重启交换机",
+        "D": "更换网络适配器"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "故障处理",
+        "速率协商"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-8",
+      "question_type": "single_choice",
+      "stem": "常见的无线网络安全隐患除IP地址欺骗、数据泄露、网络通信被窃听外，还包括什么？",
+      "options": {
+        "A": "端口扫描",
+        "B": "非授权用户接入",
+        "C": "非法入侵",
+        "D": "sql注入攻击"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络安全",
+      "tags": [
+        "安全隐患",
+        "无线"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-9",
+      "question_type": "single_choice",
+      "stem": "常见的无线网络安全隐患除IP地址欺骗、数据泄露、网络通信被窃听外，还包括什么？",
+      "options": {
+        "A": "端口扫描",
+        "B": "非授权用户接入",
+        "C": "非法入侵",
+        "D": "sql注入攻击"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络安全",
+      "tags": [
+        "安全隐患",
+        "无线"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-10",
+      "question_type": "fill_blank",
+      "stem": "在设备①处部署什么实现核心业务区域边界防护？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "边界防护",
+        "防火墙"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-11",
+      "question_type": "fill_blank",
+      "stem": "在设备②处部署什么实现无线用户的上网行为管控？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "上网行为管理",
+        "AC"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-12",
+      "question_type": "fill_blank",
+      "stem": "在设备③处部署什么分析检测网络中的入侵行为？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "入侵检测",
+        "IDS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-13",
+      "question_type": "single_choice",
+      "stem": "为加强用户安全认证，配置基于什么的标准的RADIUS认证？",
+      "options": {
+        "A": "IEEE 802.11",
+        "B": "IEEE 802.1x"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络安全",
+      "tags": [
+        "RADIUS",
+        "802.1x"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-14",
+      "question_type": "fill_blank",
+      "stem": "文件共享存储的连接方式是什么？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "DAS",
+        "NAS",
+        "SAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-15",
+      "question_type": "fill_blank",
+      "stem": "备份存储的连接方式是什么？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "DAS",
+        "NAS",
+        "SAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-16",
+      "question_type": "case",
+      "stem": "请简要说明RAID2.0较传统RAID在重构方面有哪些改进。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "重构"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1",
+      "question_type": "fill_blank",
+      "stem": "在DNS服务器上为Webserver配置域名解析时，如图3-2所示的“区域名称”是什么？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "域名解析",
+        "Windows Server"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2",
+      "question_type": "fill_blank",
+      "stem": "如图3-3所示的新建主机的“名称”是什么？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "域名解析",
+        "主机记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3",
+      "question_type": "fill_blank",
+      "stem": "如图3-3所示的新建主机的“IP地址”是什么？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "域名解析",
+        "主机记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-4",
+      "question_type": "fill_blank",
+      "stem": "域名查询有正向查询和反向查询两种，其中正向查询的作用是什么？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "正向查询",
+        "域名解析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-5",
+      "question_type": "fill_blank",
+      "stem": "在配置DNS时默认情况下开启反向查询，若不希望对www.xyz.com进行反向查询，可在图3-3所示的图中做何操作？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "反向查询",
+        "PTR记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-6",
+      "question_type": "single_choice",
+      "stem": "在Intranet中，当客户端向DNS服务器发出解析请求后，没有得到解析结果，则进行解析的是什么？",
+      "options": {
+        "A": "查找本地hosts文件",
+        "B": "查找授权域名服务器",
+        "C": "查找根域名服务器",
+        "D": "使用NETBIOS名字解析"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "解析过程",
+        "hosts"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-7",
+      "question_type": "single_choice",
+      "stem": "要测试DNS服务器是否正常工作，在客户端可以采用的命令之一是什么？",
+      "options": {
+        "A": "ipconfig",
+        "B": "nslookup",
+        "C": "ping",
+        "D": "netstat"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "测试命令",
+        "nslookup"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-8",
+      "question_type": "single_choice",
+      "stem": "要测试DNS服务器是否正常工作，在客户端可以采用的命令之一是什么？",
+      "options": {
+        "A": "ipconfig",
+        "B": "nslookup",
+        "C": "ping",
+        "D": "netstat"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "测试命令",
+        "ping"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-9",
+      "question_type": "fill_blank",
+      "stem": "在Windows命令行窗口中使用什么命令可显示当前DNS缓存？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS缓存",
+        "ipconfig"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-10",
+      "question_type": "fill_blank",
+      "stem": "在Windows命令行窗口中使用什么命令刷新DNS解析器缓存？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS缓存",
+        "ipconfig"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-11",
+      "question_type": "single_choice",
+      "stem": "为改善用户访问Web服务器的体验，可采用什么措施？",
+      "options": {
+        "A": "增加网络带宽",
+        "B": "在Web服务器上添加虚拟主机",
+        "C": "在路由器上设置访问策略",
+        "D": "添加一台Web服务器"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "负载均衡",
+        "优化"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1",
+      "question_type": "calculation",
+      "stem": "公司地址规划中，使用网段中第一个可用IP地址作为网关地址，部门A的网关地址是多少？（网段10.10.1.0/25）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址规划",
+      "tags": [
+        "子网划分",
+        "网关"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2",
+      "question_type": "calculation",
+      "stem": "部门B的网关地址是多少？（网段10.10.1.128/25）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址规划",
+      "tags": [
+        "子网划分",
+        "网关"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-3",
+      "question_type": "fill_blank",
+      "stem": "在路由器上配置DHCP，进入系统视图的命令是什么？<Route>（3）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "路由器",
+        "系统视图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-4",
+      "question_type": "fill_blank",
+      "stem": "进入接口GigabitEthernet0/0/1的命令是什么？[Router]（4）GigabitEthernet 0/0/1",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "接口配置",
+        "路由器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-5",
+      "question_type": "fill_blank",
+      "stem": "配置接口工作在全局地址池模式的命令是什么？dhcp select （5）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "DHCP",
+        "全局地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-6",
+      "question_type": "fill_blank",
+      "stem": "退出接口配置的命令是什么？[Router-interface GigabitEthernet 0/0/1] （6）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "基本命令",
+      "tags": [
+        "退出",
+        "系统视图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-7",
+      "question_type": "fill_blank",
+      "stem": "配置DHCP地址池pool1的网络地址和掩码，network 10.10.1.0 mask （7）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "地址池",
+        "掩码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-8",
+      "question_type": "fill_blank",
+      "stem": "排除的IP地址是什么？excluded-ip-address （8）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "排除地址",
+        "网关"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-9",
+      "question_type": "fill_blank",
+      "stem": "设置DNS服务器地址的命令是什么？ （9）10.10.1.2",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "DNS",
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-10",
+      "question_type": "fill_blank",
+      "stem": "设置默认网关的命令是什么？ （10）10.10.1.1",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "默认网关",
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-11",
+      "question_type": "fill_blank",
+      "stem": "设置地址租用期限为30天的命令是什么？ （11）day 30 hour 0 minute 0",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "租期",
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-12",
+      "question_type": "fill_blank",
+      "stem": "设置域名abc.com的命令是什么？ （12）abc.com",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "域名",
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-13",
+      "question_type": "fill_blank",
+      "stem": "配置ACL规则，允许源地址10.10.1.0/24的流量，rule 5 （13） source 10.10.1.0 0.0.0.255",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "NAT配置",
+      "tags": [
+        "ACL",
+        "NAT"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-14",
+      "question_type": "fill_blank",
+      "stem": "在接口下配置NAT，关联ACL和地址池，命令：nat （14）2000 address-group 0 no-pat",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "NAT配置",
+      "tags": [
+        "NAT",
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-15",
+      "question_type": "fill_blank",
+      "stem": "配置默认路由，下一跳地址是什么？ip route-static 0.0.0.0 0.0.0.0 （15）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由配置",
+      "tags": [
+        "默认路由",
+        "NAT"
+      ],
+      "is_verified": false
+    }
+  ]
+}

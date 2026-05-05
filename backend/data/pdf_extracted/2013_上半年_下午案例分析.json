@@ -1,0 +1,647 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2013,
+    "season": "上半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2013年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1-1",
+      "question_type": "fill_blank",
+      "stem": "网络分析与设计过程一般采用五个阶段：需求分析、通信规范分析、逻辑网络设计、物理网络设计与网络实施。其中，确定新网络所需的通信量和通信模式属于____阶段。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "网络设计",
+        "需求分析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2",
+      "question_type": "fill_blank",
+      "stem": "网络分析与设计过程一般采用五个阶段：需求分析、通信规范分析、逻辑网络设计、物理网络设计与网络实施。其中，确定IP地址分配方案属于____阶段。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "网络设计",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-3",
+      "question_type": "fill_blank",
+      "stem": "网络分析与设计过程一般采用五个阶段：需求分析、通信规范分析、逻辑网络设计、物理网络设计与网络实施。其中，明确网络物理结构和布线方案属于____阶段。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "网络设计",
+        "物理网络"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-4",
+      "question_type": "fill_blank",
+      "stem": "网络分析与设计过程一般采用五个阶段：需求分析、通信规范分析、逻辑网络设计、物理网络设计与网络实施。其中，确定网络投资规模属于____阶段。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "网络设计",
+        "投资规模"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-9",
+      "question_type": "single_choice",
+      "stem": "根据网络需求描述、网络拓扑结构、核心交换机设备表，图1-2中的介质1应选用（9）。",
+      "options": {
+        "A": "单模光纤",
+        "B": "多模光纤",
+        "C": "6类双绞线",
+        "D": "同轴电缆"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "介质",
+        "光纤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-10",
+      "question_type": "single_choice",
+      "stem": "根据网络需求描述、网络拓扑结构、核心交换机设备表，图1-2中的介质2应选用（10）。",
+      "options": {
+        "A": "单模光纤",
+        "B": "多模光纤",
+        "C": "6类双绞线",
+        "D": "同轴电缆"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "介质",
+        "光纤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-11",
+      "question_type": "single_choice",
+      "stem": "根据网络需求描述、网络拓扑结构、核心交换机设备表，图1-2中的介质3应选用（11）。",
+      "options": {
+        "A": "单模光纤",
+        "B": "多模光纤",
+        "C": "6类双绞线",
+        "D": "同轴电缆"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "介质",
+        "光纤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-12",
+      "question_type": "fill_blank",
+      "stem": "为了网络的安全运行，该网络部署了IDS设备。在图1-2中的设备1、2、3、4上，适合部署IDS设备的是（12）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IDS",
+        "部署"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-13",
+      "question_type": "fill_blank",
+      "stem": "为了网络的安全运行，该网络部署了IDS设备。在图1-2中的设备1、2、3、4上，适合部署IDS设备的是（13）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IDS",
+        "部署"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-14",
+      "question_type": "fill_blank",
+      "stem": "无线AP分为FIT AP和FAT AP两种。为了便于集中管理，学校的无线网络采用了无线网络控制器。所以该学校的无线AP为（14）AP。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "AP",
+        "FIT",
+        "FAT"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-15",
+      "question_type": "fill_blank",
+      "stem": "天线通常分为全向天线和定向天线，为保证操场的无线覆盖范围，此时应配备（15）天线。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "天线",
+        "全向",
+        "定向"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-16",
+      "question_type": "fill_blank",
+      "stem": "为了保证科研楼的无线AP的安全性，根据需求描述，一方面需要进行用户认证，另一方面还需要对接入终端的（16）进行过滤。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线安全",
+      "tags": [
+        "认证",
+        "过滤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-17",
+      "question_type": "fill_blank",
+      "stem": "无线网络加密主要有WEP、WPA和WPA2三种方式，目前安全性最好的是（17）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线安全",
+      "tags": [
+        "加密",
+        "WEP",
+        "WPA",
+        "WPA2"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-18",
+      "question_type": "fill_blank",
+      "stem": "VPN的隧道协议主要有三种：PPTP、L2TP和IPSec，其中（18）协议工作在OSI模型的第二层，又称为二层隧道协议。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VPN",
+      "tags": [
+        "隧道协议",
+        "二层"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-19",
+      "question_type": "fill_blank",
+      "stem": "VPN的隧道协议主要有三种：PPTP、L2TP和IPSec，其中（19）协议工作在OSI模型的第二层，又称为二层隧道协议。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VPN",
+      "tags": [
+        "隧道协议",
+        "二层"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-20",
+      "question_type": "fill_blank",
+      "stem": "VPN的隧道协议主要有三种：PPTP、L2TP和IPSec，其中（20）是第三层隧道协议。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VPN",
+      "tags": [
+        "隧道协议",
+        "三层"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-10",
+      "question_type": "fill_blank",
+      "stem": "DHCP客户端PC1从获取IP地址后经过（10）分钟需要到DHCP服务器申请租用更新。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "租约",
+        "更新"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-11",
+      "question_type": "fill_blank",
+      "stem": "此时PC1发送到DHCP服务器的消息是（11）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "消息",
+        "租约更新"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-12",
+      "question_type": "fill_blank",
+      "stem": "如果DHCP服务器同意租约更新，响应的消息是（12）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "消息",
+        "租约更新"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-13",
+      "question_type": "fill_blank",
+      "stem": "如果DHCP服务器不同意租约更新，响应的消息是（13）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "消息",
+        "租约更新"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-14",
+      "question_type": "fill_blank",
+      "stem": "在DHCP客户端还可以通过Windows命令（14）来立即释放申请到的IP地址。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "Windows命令",
+        "释放"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-15",
+      "question_type": "fill_blank",
+      "stem": "在DHCP客户端通过命令（15）来立即重新申请租约。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "Windows命令",
+        "重新申请"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1",
+      "question_type": "single_choice",
+      "stem": "网卡1连接电子阅览室内网，IP地址192.168.1.1，子网掩码255.255.255.0。网关应选择（1）。",
+      "options": {
+        "A": "192.168.1.1",
+        "B": "自动获取",
+        "C": "192.168.1.2",
+        "D": "不确定，保持为空",
+        "E": "210.27.179.2",
+        "F": "210.27.179.1",
+        "G": "255.255.255.0"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "网关",
+        "Windows Server"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2",
+      "question_type": "single_choice",
+      "stem": "网卡1连接电子阅览室内网，IP地址192.168.1.1，子网掩码255.255.255.0。DNS应选择（2）。",
+      "options": {
+        "A": "192.168.1.1",
+        "B": "自动获取",
+        "C": "192.168.1.2",
+        "D": "不确定，保持为空",
+        "E": "210.27.179.2",
+        "F": "210.27.179.1",
+        "G": "255.255.255.0"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "DNS",
+        "Windows Server"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3",
+      "question_type": "single_choice",
+      "stem": "网卡2连接ADSL电信网，IP地址应选择（3）。",
+      "options": {
+        "A": "192.168.1.1",
+        "B": "自动获取",
+        "C": "192.168.1.2",
+        "D": "不确定，保持为空",
+        "E": "210.27.179.2",
+        "F": "210.27.179.1",
+        "G": "255.255.255.0"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "IP地址",
+        "ADSL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-4",
+      "question_type": "single_choice",
+      "stem": "网卡2连接ADSL电信网，DNS应选择（4）。",
+      "options": {
+        "A": "192.168.1.1",
+        "B": "自动获取",
+        "C": "192.168.1.2",
+        "D": "不确定，保持为空",
+        "E": "210.27.179.2",
+        "F": "210.27.179.1",
+        "G": "255.255.255.0"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "DNS",
+        "ADSL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-5",
+      "question_type": "single_choice",
+      "stem": "网卡3连接校园网，IP地址应选择（5）。",
+      "options": {
+        "A": "192.168.1.1",
+        "B": "自动获取",
+        "C": "192.168.1.2",
+        "D": "不确定，保持为空",
+        "E": "210.27.179.2",
+        "F": "210.27.179.1",
+        "G": "255.255.255.0"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "IP地址",
+        "校园网"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-6",
+      "question_type": "single_choice",
+      "stem": "网卡3连接校园网，子网掩码255.255.255.0，网关应选择（6）。",
+      "options": {
+        "A": "192.168.1.1",
+        "B": "自动获取",
+        "C": "192.168.1.2",
+        "D": "不确定，保持为空",
+        "E": "210.27.179.2",
+        "F": "210.27.179.1",
+        "G": "255.255.255.0"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "网关",
+        "校园网"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-7",
+      "question_type": "fill_blank",
+      "stem": "在继续配置“网络接口”时，出现如图3-4所示的对话框，应该选择“（7）”，然后输入ADSL帐号和密码完成连接建立过程。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "路由",
+        "ADSL连接"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-11",
+      "question_type": "fill_blank",
+      "stem": "在新的服务器上安装好DHCP服务后，在命令行模式下输入“（11）”命令，即可完成DHCP服务器的迁移。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "迁移",
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-13",
+      "question_type": "single_choice",
+      "stem": "若电子阅览室的客户机访问Web服务器时，出现“HTTP 错误401.1-未经授权；访问由于凭据无效被拒绝。”现象，则需要在控制面板管理工具计算机管理本地用户和组，将（13）帐号启用来解决此问题。",
+      "options": {
+        "A": "IUSR_计算机名",
+        "B": "Administrator",
+        "C": "Guest",
+        "D": "匿名"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web安全",
+      "tags": [
+        "IIS",
+        "身份验证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-14",
+      "question_type": "single_choice",
+      "stem": "若出现“HTTP 错误401.2-未经授权；访问由于配置被拒绝。”的现象，造成错误的原因是身份验证设置问题，一般应将其设置为（14）身份认证。",
+      "options": {
+        "A": "IUSR_计算机名",
+        "B": "Administrator",
+        "C": "Guest",
+        "D": "匿名"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web安全",
+      "tags": [
+        "IIS",
+        "身份验证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1",
+      "question_type": "fill_blank",
+      "stem": "访问控制列表ACL可以通过编号或（1）来引用。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "ACL",
+      "tags": [
+        "ACL",
+        "命名"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2",
+      "question_type": "fill_blank",
+      "stem": "ACL分为两种类型，其中（2）ACL只能根据源地址进行过滤。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "ACL",
+      "tags": [
+        "ACL",
+        "标准"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-3",
+      "question_type": "fill_blank",
+      "stem": "ACL分为两种类型，其中（3）ACL使用源地址、目标地址、上层协议及协议信息进行过滤。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "ACL",
+      "tags": [
+        "ACL",
+        "扩展"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-11",
+      "question_type": "fill_blank",
+      "stem": "VPN技术根据连接主体的不同，针对移动办公用户和家庭用户可以采用的连接方式为（11）连接方式。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VPN",
+      "tags": [
+        "VPN",
+        "连接方式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-12",
+      "question_type": "fill_blank",
+      "stem": "VPN技术根据连接主体的不同，针对分支机构长期性的使用可以采用（12）连接方式。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VPN",
+      "tags": [
+        "VPN",
+        "连接方式"
+      ],
+      "is_verified": false
+    }
+  ]
+}

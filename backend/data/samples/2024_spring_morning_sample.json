@@ -1,0 +1,67 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2024,
+    "season": "上半年",
+    "paper_type": "上午综合知识",
+    "source_name": "样例数据",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "用于验证导入流程的自造样例题"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "在 TCP/IP 参考模型中，负责端到端可靠传输的协议是（ ）。",
+      "options": {
+        "A": "IP",
+        "B": "TCP",
+        "C": "UDP",
+        "D": "ARP"
+      },
+      "answer": "B",
+      "analysis": "TCP 提供面向连接的可靠传输，具备确认、重传和流量控制等机制。",
+      "difficulty": 1,
+      "knowledge_area": "TCP/IP",
+      "tags": ["TCP/IP", "网络基础"],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "某网络使用 192.168.1.0/24，需要划分为每个子网最多容纳 30 台主机的子网，合适的子网掩码是（ ）。",
+      "options": {
+        "A": "255.255.255.192",
+        "B": "255.255.255.224",
+        "C": "255.255.255.240",
+        "D": "255.255.255.248"
+      },
+      "answer": "B",
+      "analysis": "/27 子网有 32 个地址，可用主机地址 30 个，对应掩码 255.255.255.224。",
+      "difficulty": 2,
+      "knowledge_area": "IP地址与子网划分",
+      "tags": ["IP地址与子网划分", "CIDR", "计算题"],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "OSPF 协议使用的最短路径算法是（ ）。",
+      "options": {
+        "A": "Bellman-Ford",
+        "B": "Dijkstra",
+        "C": "Flooding",
+        "D": "Kruskal"
+      },
+      "answer": "B",
+      "analysis": "OSPF 是链路状态路由协议，使用 Dijkstra SPF 算法计算最短路径树。",
+      "difficulty": 2,
+      "knowledge_area": "路由交换",
+      "tags": ["OSPF", "静态路由", "网络基础"],
+      "is_verified": false
+    }
+  ]
+}
+

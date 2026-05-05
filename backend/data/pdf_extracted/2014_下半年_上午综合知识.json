@@ -1,0 +1,1515 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2014,
+    "season": "下半年",
+    "paper_type": "上午综合知识",
+    "source_name": "PDF 提取 - 2014年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "属于CPU中算术逻辑单元的部件是(1)。",
+      "options": {
+        "A": "程序计数器",
+        "B": "加法器",
+        "C": "指令寄存器",
+        "D": "指令译码器"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "CPU",
+        "ALU"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "内存按字节编址从A5000H到DCFFFH的区域其存储容量为(2)。",
+      "options": {
+        "A": "123KB",
+        "B": "180KB",
+        "C": "223KB",
+        "D": "224KB"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "内存",
+        "地址计算"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "计算机采用分级存储体系的主要目的是为了解决(3)的问题。",
+      "options": {
+        "A": "主存容量不足",
+        "B": "存储器读写可靠性",
+        "C": "外设访问效率",
+        "D": "存储容量、成本和速度之间的矛盾"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "存储体系",
+        "分级存储"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem": "Flynn分类法基于信息流特征将计算机分成4类，其中(4)只有理论意义而无实例。",
+      "options": {
+        "A": "SISD",
+        "B": "MISD",
+        "C": "SIMD",
+        "D": "MIMD"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机体系结构",
+      "tags": [
+        "Flynn分类",
+        "并行计算"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem": "以下关于结构化开发方法的叙述中，不正确的是(5)。",
+      "options": {
+        "A": "总的指导思想是自顶向下，逐层分解",
+        "B": "基本原则是功能的分解与抽象",
+        "C": "与面向对象开发方法相比，更合适大规模、特别复杂的项目",
+        "D": "特别适合于数据处理领域的项目"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "软件工程",
+      "tags": [
+        "结构化开发",
+        "开发方法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem": "模块A、B和C都包含相同的5个语句，这些语句之间没有联系。为了避免重复，把这5个语句抽取出来组成一个模块D，则模块D的内聚类型为(6)内聚。",
+      "options": {
+        "A": "功能",
+        "B": "通信",
+        "C": "逻辑",
+        "D": "巧合"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "软件工程",
+      "tags": [
+        "内聚",
+        "模块设计"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "下图是一个软件项目的活动图，其中顶点表示项目里程碑，连接顶点的边表示活动，边的权重表示活动的持续时间，则里程碑(7)在关键路径上。",
+      "options": {
+        "A": "B",
+        "B": "E",
+        "C": "C",
+        "D": "K"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "项目管理",
+      "tags": [
+        "关键路径",
+        "活动图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem": "下图是一个软件项目的活动图，其中顶点表示项目里程碑，连接顶点的边表示活动，边的权重表示活动的持续时间，则活动GH的松弛时间是(8)。",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "项目管理",
+      "tags": [
+        "松弛时间",
+        "活动图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem": "将高级语言源程序翻译成机器语言程序的过程中，常引入中间代码。以下关于中间代码的叙述中，不正确的是(9)。",
+      "options": {
+        "A": "中间代码不依赖于具体的机器",
+        "B": "使用中间代码可提高编译程序的可移植性",
+        "C": "中间代码可以用树或图表示",
+        "D": "中间代码可以用栈或队列表示"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "编译原理",
+      "tags": [
+        "中间代码",
+        "编译"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem": "甲公司接受乙公司委托开发了一项应用软件，双方没有订立任何书面合同。在此情形下，(10)享有该软件的著作权。",
+      "options": {
+        "A": "甲公司",
+        "B": "甲、乙公司共同",
+        "C": "乙公司",
+        "D": "甲、乙公司均不"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "知识产权",
+      "tags": [
+        "著作权",
+        "委托开发"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem": "思科路由器的内存体系由多种存储设备组成，其中用来存放IOS引导程序的是(11)。",
+      "options": {
+        "A": "FLASH",
+        "B": "ROM",
+        "C": "NVRAM",
+        "D": "DRAM"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由器硬件",
+      "tags": [
+        "ROM",
+        "IOS引导"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem": "思科路由器的内存体系由多种存储设备组成，运行时活动配置文件存放在(12)中。",
+      "options": {
+        "A": "FLASH",
+        "B": "ROM",
+        "C": "NVRAM",
+        "D": "DRAM"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由器硬件",
+      "tags": [
+        "NVRAM",
+        "配置文件"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "single_choice",
+      "stem": "下面的广域网络中属于电路交换网络的是(13)。",
+      "options": {
+        "A": "ADSL",
+        "B": "X.25",
+        "C": "FRN",
+        "D": "ATM"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "广域网",
+      "tags": [
+        "电路交换",
+        "WAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "single_choice",
+      "stem": "PCM编码是把模拟信号数字化的过程，通常模拟话音信道的带宽是4000Hz，则在数字化时采样频率至少为(14)次/秒。",
+      "options": {
+        "A": "2000",
+        "B": "4000",
+        "C": "8000",
+        "D": "16000"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "通信基础",
+      "tags": [
+        "PCM",
+        "采样定理"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "single_choice",
+      "stem": "设信道带宽为4000Hz，信噪比为30dB，按照香农定理，信道容量为(15)。",
+      "options": {
+        "A": "4kb/s",
+        "B": "1.6kb/s",
+        "C": "40kb/s",
+        "D": "120kb/s"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "通信基础",
+      "tags": [
+        "香农定理",
+        "信道容量"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "single_choice",
+      "stem": "所谓正交幅度调制是把两个(16)的模拟信号合为一个载波信号。",
+      "options": {
+        "A": "幅度相同相位相差90°",
+        "B": "幅度相同相位相差180°",
+        "C": "频率相同相位相差90°",
+        "D": "频率相同相位相差180°"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "通信基础",
+      "tags": [
+        "QAM",
+        "调制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "single_choice",
+      "stem": "电信运营商提供的ISDN服务有两种不同的接口，其中供小型企业和家庭使用的基本速率接口(BRI)可提供的最大数据速率为(17)。",
+      "options": {
+        "A": "128kb/s",
+        "B": "144kb/s",
+        "C": "1024kb/s",
+        "D": "2048kb/s"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "广域网",
+      "tags": [
+        "ISDN",
+        "BRI"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "single_choice",
+      "stem": "电信运营商提供的ISDN服务有两种不同的接口，其中供大型企业使用的主速率接口(PRI)可提供的最大数据速率为(18)。",
+      "options": {
+        "A": "128kb/s",
+        "B": "144kb/s",
+        "C": "1024kb/s",
+        "D": "2048kb/s"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "广域网",
+      "tags": [
+        "ISDN",
+        "PRI"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "single_choice",
+      "stem": "PPP是连接广域网的一种封装协议，下面关于PPP的描述中错误的是(19)。",
+      "options": {
+        "A": "能够控制数据链路的建立",
+        "B": "能够分配和管理广域网的IP地址",
+        "C": "只能采用IP作为网络层协议",
+        "D": "能够有效地进行错误检测"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "广域网",
+      "tags": [
+        "PPP",
+        "协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "single_choice",
+      "stem": "下面关于帧中继的描述中错误的是(20)。",
+      "options": {
+        "A": "在第三层建立虚电路",
+        "B": "提供面向连接的服务",
+        "C": "是一种高效率的数据链路技术",
+        "D": "充分利用了光纤通信和数字网络技术的优势"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "广域网",
+      "tags": [
+        "帧中继",
+        "虚电路"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "single_choice",
+      "stem": "思科路由器支持的帧中继本地管理接口类型(Lmi-type)不包括(21)。",
+      "options": {
+        "A": "Cisco",
+        "B": "DCE",
+        "C": "ANSI",
+        "D": "Q933A"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "广域网",
+      "tags": [
+        "帧中继",
+        "LMI"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "single_choice",
+      "stem": "边界网关协议BGP4被称为路径矢量协议，它传送的路由信息是由一个地址前缀后跟(22)组成。",
+      "options": {
+        "A": "一串IP地址",
+        "B": "一串自治系统编号",
+        "C": "一串路由器编号",
+        "D": "一串子网地址"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "BGP",
+        "路径矢量"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "single_choice",
+      "stem": "边界网关协议BGP4被称为路径矢量协议，这种协议的优点是(23)。",
+      "options": {
+        "A": "防止域间路由循环",
+        "B": "可以及时更新路由",
+        "C": "便于发现最短通路",
+        "D": "考虑了多种路由度量因素"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "BGP",
+        "路径矢量"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "single_choice",
+      "stem": "与RIPv2相比，IGRP协议增加了一些新的特性，下面的描述中错误的是(24)。",
+      "options": {
+        "A": "路由度量不再把跳步数作为唯一因素，还包含了带宽、延迟等参数",
+        "B": "增加触发更新来加快路由收敛，不必等待更新周期结束再发送更新报文",
+        "C": "不但支持相等费用负载均衡，而且支持不等费用的负载均衡",
+        "D": "最大跳步数由15跳扩大到255跳，可以支持更大的网络"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "IGRP",
+        "RIP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "single_choice",
+      "stem": "为了解决RIP协议形成路由环路的问题可以采用多种方法，下面列出的方法中效果最好的是(25)。",
+      "options": {
+        "A": "不要把从一个邻居学习到的路由发送给那个邻居",
+        "B": "经常检查邻居路由器的状态，以便及时发现断开的链路",
+        "C": "把从邻居学习到的路由设置为无限大，然后发送给那个邻居",
+        "D": "缩短路由更新周期，以便出现链路失效时尽快达到路由无限大"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "路由环路"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "single_choice",
+      "stem": "城域以太网在各个用户以太网之间建立多点第二层连接，IEEE 802.1ah定义的运营商主干网桥协议提供的基本技术是在用户以太帧中再封装一层(26)。",
+      "options": {
+        "A": "运营商的MAC帧头",
+        "B": "运营商的VLAN标记",
+        "C": "用户VLAN标记",
+        "D": "用户帧类型标记"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "城域网",
+      "tags": [
+        "802.1ah",
+        "MAC-in-MAC"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "single_choice",
+      "stem": "城域以太网在各个用户以太网之间建立多点第二层连接，IEEE 802.1ah定义的运营商主干网桥协议提供的基本技术，这种技术被称为(27)技术。",
+      "options": {
+        "A": "Q-in-Q",
+        "B": "IP-in-IP",
+        "C": "NAT-in-NAT",
+        "D": "MAC-in-MAC"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "城域网",
+      "tags": [
+        "802.1ah",
+        "MAC-in-MAC"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "single_choice",
+      "stem": "采用抓包工具截获的结果如下图所示。图中数据包标号(No.)为“6”的条目记录显示的是(28)。",
+      "options": {
+        "A": "TCP错误连接响应报文",
+        "B": "TCP连接建立请求报文",
+        "C": "TCP连接建立响应报文",
+        "D": "Urgent紧急报文"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP",
+      "tags": [
+        "TCP",
+        "三次握手"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "single_choice",
+      "stem": "采用抓包工具截获的结果如下图所示。图中数据包标号(No.)为“6”的条目记录显示的是(28)。该报文由(29)发出。",
+      "options": {
+        "A": "Web客户端",
+        "B": "Web服务器",
+        "C": "DNS服务器",
+        "D": "DNS客户端"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP",
+      "tags": [
+        "TCP",
+        "抓包"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "single_choice",
+      "stem": "在Windows命令行窗口中键入tracert命令，得到如下图所示的窗口，则该PC的IP地址可能为(30)。",
+      "options": {
+        "A": "172.16.11.13",
+        "B": "113.108.208.1",
+        "C": "219.245.67.5",
+        "D": "58.63.236.45"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "tracert",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "single_choice",
+      "stem": "管理员为某台Linux系统中的/etc/hosts文件添加了如下记录，下列说法中正确的是(31)。\n127.0.0.1 localhost.localdomain localhost\n192.168.1.100 linumu100.com web80\n192.168.1.120 emailserver",
+      "options": {
+        "A": "linumu100.com 是主机 192.168.1.100 的主机名",
+        "B": "web80 是主机 192.168.1.100 的主机名",
+        "C": "emailserver 是主机 192.165.1.120 的别名",
+        "D": "192.168.1.120 行记录的格式是错误的"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "/etc/hosts",
+        "主机名解析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "single_choice",
+      "stem": "下列关于Linux文件组织方式的说法中，(32)是错误的。",
+      "options": {
+        "A": "Linux文件系统使用索引节点来记录文件信息",
+        "B": "文件索引节点号由管理员手工分配",
+        "C": "每个文件与唯一的索引节点号对应",
+        "D": "一个索引节点号可对应多个文件"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "inode",
+        "文件系统"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "33",
+      "question_type": "single_choice",
+      "stem": "netstat -r命令的功能是(33)。",
+      "options": {
+        "A": "显示路由记录",
+        "B": "查看连通性",
+        "C": "追踪DNS服务器",
+        "D": "捕获网络配置信息"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "netstat",
+        "路由表"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "34",
+      "question_type": "single_choice",
+      "stem": "搭建试验平台、进行网络仿真是网络生命周期中(34)阶段的任务。",
+      "options": {
+        "A": "需求规范",
+        "B": "逻辑网络设计",
+        "C": "物理网络设计",
+        "D": "实施"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设计",
+      "tags": [
+        "网络生命周期",
+        "仿真"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "35",
+      "question_type": "single_choice",
+      "stem": "在Windows系统中可通过停止(35)服务器来阻止对域名解析Cache的访问。",
+      "options": {
+        "A": "DNS Server",
+        "B": "Remote Procedure Call (RPC)",
+        "C": "Ns lookup",
+        "D": "DNS Client"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows",
+      "tags": [
+        "DNS缓存",
+        "服务"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "36",
+      "question_type": "single_choice",
+      "stem": "某公司域名为pq.com，其POP服务器的域名为pop.pq.com，SMTP服务器的域名为smtp.pq.com，配置Foxmail邮件客户端时，在发送邮件服务器栏应该填写(36)。",
+      "options": {
+        "A": "pop.pq.com",
+        "B": "smtp.pq.com",
+        "C": "pq.com",
+        "D": "pop3.pq.com"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "邮件协议",
+      "tags": [
+        "SMTP",
+        "邮件客户端"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "37",
+      "question_type": "single_choice",
+      "stem": "某公司域名为pq.com，其POP服务器的域名为pop.pq.com，SMTP服务器的域名为smtp.pq.com，配置Foxmail邮件客户端时，在接收邮件服务器栏应该填写(37)。",
+      "options": {
+        "A": "pop.pq.com",
+        "B": "smtp.pq.com",
+        "C": "pq.com",
+        "D": "pop3.pq.com"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "邮件协议",
+      "tags": [
+        "POP3",
+        "邮件客户端"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "38",
+      "question_type": "single_choice",
+      "stem": "在Linux操作系统中，采用(38)来搭建DNS服务器。",
+      "options": {
+        "A": "Samble",
+        "B": "Tomcat",
+        "C": "Bind",
+        "D": "Apache"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "DNS",
+        "BIND"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "39",
+      "question_type": "single_choice",
+      "stem": "DNS服务器的默认端口号是(39)端口。",
+      "options": {
+        "A": "50",
+        "B": "51",
+        "C": "52",
+        "D": "53"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "DNS",
+        "端口号"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "40",
+      "question_type": "single_choice",
+      "stem": "使用(40)命令可以向FTP服务器上传文件。",
+      "options": {
+        "A": "get",
+        "B": "dir",
+        "C": "put",
+        "D": "push"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP",
+      "tags": [
+        "FTP",
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "41",
+      "question_type": "single_choice",
+      "stem": "假设有证书发放机构I1、I2，用户A在I1获取证书，用户B在I2获取证书，I1和I2已安全交换了各自的公钥，如果用I1《A》表示由I1颁发给A的证书，A可通过(41)证书获取B的公开密钥。",
+      "options": {
+        "A": "I1《I2》I2《B》",
+        "B": "I2《B》I1《I2》",
+        "C": "I1《B》I2《I2》",
+        "D": "I2《I2》I2《B》"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "证书",
+        "公钥基础设施"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "42",
+      "question_type": "single_choice",
+      "stem": "PGP(Pretty Good Privacy)是一种电子邮件加密软件包，它提供数据加密和数字签名两种服务，采用(42)进行身份认证。",
+      "options": {
+        "A": "RSA公钥证书",
+        "B": "RSA私钥证书",
+        "C": "Kerboros证书",
+        "D": "DES私钥证书"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "PGP",
+        "身份认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "43",
+      "question_type": "single_choice",
+      "stem": "PGP(Pretty Good Privacy)是一种电子邮件加密软件包，它提供数据加密和数字签名两种服务，使用(43)(128位密钥)进行数据加密。",
+      "options": {
+        "A": "IDEA",
+        "B": "RSA",
+        "C": "DES",
+        "D": "Diffie-Hellman"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "PGP",
+        "加密算法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "44",
+      "question_type": "single_choice",
+      "stem": "PGP(Pretty Good Privacy)是一种电子邮件加密软件包，它提供数据加密和数字签名两种服务，使用(44)进行数据完整性验证。",
+      "options": {
+        "A": "HASH",
+        "B": "MD5",
+        "C": "三重DES",
+        "D": "SHA-1"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "PGP",
+        "完整性"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "45",
+      "question_type": "single_choice",
+      "stem": "以下关于S-HTTP的描述中，正确的是(45)。",
+      "options": {
+        "A": "S-HTTP是一种面向报文的安全通信协议，使用TCP443端口",
+        "B": "S-HTTP所使用的语法和报文格式与HTTP相同",
+        "C": "S-HTTP也可以写为HTTPS",
+        "D": "S-HTTP的安全基础并非SSL"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "S-HTTP",
+        "安全协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "46",
+      "question_type": "single_choice",
+      "stem": "把交换机由特权模式转换到全局配置模式使用的命令是(46)。",
+      "options": {
+        "A": "interface f0/1",
+        "B": "config terminal",
+        "C": "enable",
+        "D": "no shutdown"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "交换机",
+        "配置模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "47",
+      "question_type": "single_choice",
+      "stem": "在无线局域网中，AP(无线接入点)工作在OSI模型的(47)。",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "应用层"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "AP",
+        "OSI模型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "48",
+      "question_type": "single_choice",
+      "stem": "利用扩展ACL禁止用户通过telnet访问子网202.112.111.0/24的命令是(48)。",
+      "options": {
+        "A": "access-list 110 deny telnet any 202.112.111.0 0.0.0.255 eq 23",
+        "B": "access-list 110 deny udp any 202.112.111.0 eq telnet",
+        "C": "access-list 110 deny tcp any 202.1 12.111.0 0.0.0.255.eq 23",
+        "D": "access-list 10 deny tcp any 202.112.111.0 255.255.255.0 eq 23"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "telnet"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "49",
+      "question_type": "single_choice",
+      "stem": "以下关于Windows Server 2003域管理模式的描述中，正确的是(49)。",
+      "options": {
+        "A": "域间信任关系只能是单向信任",
+        "B": "单域模型中只有一个主域控制器，其他都为备份域控制器",
+        "C": "如果域控制器改变目录信息，应把变化的信息复制到其他域控制器",
+        "D": "只有一个域控制器可以改变目录信息"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows",
+      "tags": [
+        "域管理",
+        "Active Directory"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "50",
+      "question_type": "single_choice",
+      "stem": "SNMPv2的(50)操作为管理站提供了从被管设备中一次取回一大批数据的能力。",
+      "options": {
+        "A": "GetNextRequest",
+        "B": "InformRequest",
+        "C": "SetRequest",
+        "D": "GetBulkRequest"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "SNMP",
+        "操作"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "51",
+      "question_type": "single_choice",
+      "stem": "DNS服务器中的资源记录分成不同类型，其中指明区域主服务器和管理员邮件地址的是(51)。",
+      "options": {
+        "A": "SOA记录",
+        "B": "PTR记录",
+        "C": "MX记录",
+        "D": "NS记录"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "资源记录",
+        "SOA"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "52",
+      "question_type": "single_choice",
+      "stem": "DNS服务器中的资源记录分成不同类型，其中指明区域邮件服务地址是(52)。",
+      "options": {
+        "A": "SOA记录",
+        "B": "PTR记录",
+        "C": "MX记录",
+        "D": "NS记录"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "资源记录",
+        "MX"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "53",
+      "question_type": "single_choice",
+      "stem": "以下地址中属于自动专用IP地址(APIPA)的是(53)。",
+      "options": {
+        "A": "224.0.0.1",
+        "B": "127.0.0.1",
+        "C": "192.168.0.1",
+        "D": "169.254.1.15"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP",
+      "tags": [
+        "APIPA",
+        "地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "54",
+      "question_type": "single_choice",
+      "stem": "公司得到一个B类网络地址块，需要划分成若干个包含1000台主机的子网，则可以划分成(54)个子网。",
+      "options": {
+        "A": "100",
+        "B": "64",
+        "C": "128",
+        "D": "500"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP子网划分",
+      "tags": [
+        "子网划分",
+        "B类地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "55",
+      "question_type": "single_choice",
+      "stem": "IP地址202.117.17.254/22是什么地址? (55)。",
+      "options": {
+        "A": "网络地址",
+        "B": "全局广播地址",
+        "C": "主机地址",
+        "D": "定向广播地址"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP子网划分",
+      "tags": [
+        "地址类型",
+        "CIDR"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "56",
+      "question_type": "single_choice",
+      "stem": "把下列8个地址块20.15.0.0～20.15.7.0聚合成一个超级地址块，则得到的网络地址是(56)。",
+      "options": {
+        "A": "20.15.0.0/20",
+        "B": "20.15.0.0/21",
+        "C": "20.15.0.0/16",
+        "D": "20.15.0.0/24"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP子网划分",
+      "tags": [
+        "路由聚合",
+        "CIDR"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "57",
+      "question_type": "single_choice",
+      "stem": "每一个访问控制列表(ACL)最后都隐含着一条(57)语句。",
+      "options": {
+        "A": "deny any",
+        "B": "deny all",
+        "C": "permit any",
+        "D": "permit all"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "隐含规则"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "58",
+      "question_type": "single_choice",
+      "stem": "以下关于访问控制列表的论述中，错误的是(58)。",
+      "options": {
+        "A": "访问控制列表要在路由器全局模式下配置",
+        "B": "具有严格限制条件的语句应放在访问控制列表的最后",
+        "C": "每一个有效的访问控制列表至少应包含一条允许语句",
+        "D": "访问控制列表不能过滤由路由器自己产生的数据"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "59",
+      "question_type": "single_choice",
+      "stem": "IPv6的可聚合全球单播地址前缀为(59)。",
+      "options": {
+        "A": "010",
+        "B": "011",
+        "C": "001",
+        "D": "100"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPv6",
+      "tags": [
+        "地址前缀",
+        "单播"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "60",
+      "question_type": "single_choice",
+      "stem": "IPv6的任意播地址的组成是(60)。",
+      "options": {
+        "A": "子网前缀+全0",
+        "B": "子网前缀+全1",
+        "C": "链路本地地址前缀+全0",
+        "D": "链路本地地址前缀+全1"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPv6",
+      "tags": [
+        "任意播",
+        "地址结构"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "61",
+      "question_type": "single_choice",
+      "stem": "如果一个TCP连接处于ESTABLISHED状态，这是表示(61)。",
+      "options": {
+        "A": "已经发出了连接请求",
+        "B": "连接已经建立",
+        "C": "处于连接监听状态",
+        "D": "等待对方的释放连接响应"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP",
+      "tags": [
+        "TCP状态",
+        "ESTABLISHED"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "62",
+      "question_type": "single_choice",
+      "stem": "以太网采用的CSMA/CD协议，当冲突发生时要通过二进制指数后退算法计算后退时延，关于这个算法，以下论述中错误的是(62)。",
+      "options": {
+        "A": "冲突次数越多，后退的时间越短",
+        "B": "平均后退次数的多少与负载大小有关",
+        "C": "后退时延的平均值与负载大小有关",
+        "D": "重发次数达到一定极限后放弃发送"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "以太网",
+      "tags": [
+        "CSMA/CD",
+        "退避算法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "63",
+      "question_type": "single_choice",
+      "stem": "在局域网中可动态或静态划分VLAN，静态划分VLAN是根据(63)划分。",
+      "options": {
+        "A": "MAC地址",
+        "B": "IP地址",
+        "C": "端口号",
+        "D": "管理区域"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "VLAN划分",
+        "静态"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "64",
+      "question_type": "single_choice",
+      "stem": "以下通信技术中，未在IEEE802.11无线局域网中使用的是(64)。",
+      "options": {
+        "A": "FHSS",
+        "B": "DSSS",
+        "C": "CDMA",
+        "D": "IR"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "802.11",
+        "通信技术"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "65",
+      "question_type": "single_choice",
+      "stem": "ZigBee网络是IEEE802.15.4定义的低速无线个人网，其中包含全功能和简单功能两类设备。以下关于这两类设备的描述中，错误的是(65)。",
+      "options": {
+        "A": "协调器是一种全功能设备，只能作为PAN的控制器使用",
+        "B": "被动式红外传感器是一种简单功能设备，接受协调器的控制",
+        "C": "协调器也可以运行某些应用，发起和接受其他设备的通信请求",
+        "D": "简单功能设备之间不能互相通信，只能与协调器通信"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "ZigBee",
+        "设备类型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "66",
+      "question_type": "single_choice",
+      "stem": "在IPv4和IPv6混合的网络中，协议翻译技术用于(66)。",
+      "options": {
+        "A": "两个IPv6主机通过IPv4网络通信",
+        "B": "两个IPv4主机通过IPv6网络通信",
+        "C": "纯IPv4主机和纯IPv6主机之间的通信",
+        "D": "两个双协议栈主机之间的通信"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPv6",
+      "tags": [
+        "协议翻译",
+        "过渡技术"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "67",
+      "question_type": "single_choice",
+      "stem": "结构化布线系统分为六个子系统，其中水平子系统的作用是(67)。",
+      "options": {
+        "A": "连接各个建筑物中的通信系统",
+        "B": "连接干线子系统和用户工作区",
+        "C": "实现中央主配线架与各种不同设备之间的连接",
+        "D": "实现各楼层设备间子系统之间的互连"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "综合布线",
+      "tags": [
+        "水平子系统",
+        "结构化布线"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "68",
+      "question_type": "single_choice",
+      "stem": "结构化布线系统分为六个子系统，其中园区子系统的作用是(68)。",
+      "options": {
+        "A": "连接各个建筑物中的通信系统",
+        "B": "连接干线子系统和用户工作区",
+        "C": "实现中央主配线架与各种不同设备之间的连接",
+        "D": "实现各楼层设备间子系统之间的互连"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "综合布线",
+      "tags": [
+        "园区子系统",
+        "结构化布线"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "69",
+      "question_type": "single_choice",
+      "stem": "网络系统设计过程中，逻辑网络设计阶段的任务是(69)。",
+      "options": {
+        "A": "对现有网络资源进行分析，确定网络的逻辑结构",
+        "B": "根据需求说明书确定网络的安全系统架构",
+        "C": "根据需求规范和通信规范，分析各个网段的通信流量",
+        "D": "根据用户的需求，选择特定的网络技术、网络互连设备和拓扑结构"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设计",
+      "tags": [
+        "逻辑网络设计",
+        "网络设计阶段"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "70",
+      "question_type": "single_choice",
+      "stem": "下列关于网络汇聚层的描述中，正确的是(70)。",
+      "options": {
+        "A": "要负责收集用户信息，例如用户IP地址、访问日志等",
+        "B": "实现资源访问控制扣流量控制等功能",
+        "C": "将分组从一个区域高速地转发到另一个区域",
+        "D": "提供一部分管理功能，例如认证和计费管理等"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设计",
+      "tags": [
+        "汇聚层",
+        "网络层次"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "71",
+      "question_type": "single_choice",
+      "stem": "CDMA for cellular systems can be described as follows. As with FDMA, each cell is allocated a frequency (71), which is split into two part: half for reverse (mobile unit to base station) and half for (72) (base station to mobile unit). For full-duplex (73), a mobile unit uses both reverse and forward channels. Transmission is in the form of direct-sequence spread (74) which uses a chipping code to increase the data rate of the transmission, resulting in an increased signal bandwidth. Multiple access is provided by assigning (75) chipping codes to multiple users, so that the receiver can recover the transmission of an individual unit from multiple transmissions.\n(71)",
+      "options": {
+        "A": "wave",
+        "B": "signal",
+        "C": "bandwidth",
+        "D": "domain"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线通信",
+      "tags": [
+        "CDMA",
+        "英文"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "72",
+      "question_type": "single_choice",
+      "stem": "CDMA for cellular systems can be described as follows. As with FDMA, each cell is allocated a frequency (71), which is split into two part: half for reverse (mobile unit to base station) and half for (72) (base station to mobile unit). For full-duplex (73), a mobile unit uses both reverse and forward channels. Transmission is in the form of direct-sequence spread (74) which uses a chipping code to increase the data rate of the transmission, resulting in an increased signal bandwidth. Multiple access is provided by assigning (75) chipping codes to multiple users, so that the receiver can recover the transmission of an individual unit from multiple transmissions.\n(72)",
+      "options": {
+        "A": "forward",
+        "B": "reverse",
+        "C": "backward",
+        "D": "ahead"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线通信",
+      "tags": [
+        "CDMA",
+        "英文"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "73",
+      "question_type": "single_choice",
+      "stem": "CDMA for cellular systems can be described as follows. As with FDMA, each cell is allocated a frequency (71), which is split into two part: half for reverse (mobile unit to base station) and half for (72) (base station to mobile unit). For full-duplex (73), a mobile unit uses both reverse and forward channels. Transmission is in the form of direct-sequence spread (74) which uses a chipping code to increase the data rate of the transmission, resulting in an increased signal bandwidth. Multiple access is provided by assigning (75) chipping codes to multiple users, so that the receiver can recover the transmission of an individual unit from multiple transmissions.\n(73)",
+      "options": {
+        "A": "connection",
+        "B": "transmission",
+        "C": "compromise",
+        "D": "communication"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线通信",
+      "tags": [
+        "CDMA",
+        "英文"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "74",
+      "question_type": "single_choice",
+      "stem": "CDMA for cellular systems can be described as follows. As with FDMA, each cell is allocated a frequency (71), which is split into two part: half for reverse (mobile unit to base station) and half for (72) (base station to mobile unit). For full-duplex (73), a mobile unit uses both reverse and forward channels. Transmission is in the form of direct-sequence spread (74) which uses a chipping code to increase the data rate of the transmission, resulting in an increased signal bandwidth. Multiple access is provided by assigning (75) chipping codes to multiple users, so that the receiver can recover the transmission of an individual unit from multiple transmissions.\n(74)",
+      "options": {
+        "A": "structure",
+        "B": "spectrum",
+        "C": "stream",
+        "D": "strategy"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线通信",
+      "tags": [
+        "CDMA",
+        "英文"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "75",
+      "question_type": "single_choice",
+      "stem": "CDMA for cellular systems can be described as follows. As with FDMA, each cell is allocated a frequency (71), which is split into two part: half for reverse (mobile unit to base station) and half for (72) (base station to mobile unit). For full-duplex (73), a mobile unit uses both reverse and forward channels. Transmission is in the form of direct-sequence spread (74) which uses a chipping code to increase the data rate of the transmission, resulting in an increased signal bandwidth. Multiple access is provided by assigning (75) chipping codes to multiple users, so that the receiver can recover the transmission of an individual unit from multiple transmissions.\n(75)",
+      "options": {
+        "A": "concurrent",
+        "B": "orhogonal",
+        "C": "higher",
+        "D": "lower"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线通信",
+      "tags": [
+        "CDMA",
+        "英文"
+      ],
+      "is_verified": false
+    }
+  ]
+}

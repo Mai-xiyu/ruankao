@@ -1,0 +1,796 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2019,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2019年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1-1-1",
+      "question_type": "fill_blank",
+      "stem": "补充防火墙数据规划表1-3内容中的空缺项。防火墙GE1/0/2接口连接DMZ区，防火墙GE1/0/1接口连接非安全区域，防火墙GE1/0/0接口连接安全区域：srcip表示内网区域。请填写第一个空缺项。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "防火墙",
+        "区域划分"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-1-2",
+      "question_type": "fill_blank",
+      "stem": "补充防火墙数据规划表1-3内容中的空缺项。防火墙GE1/0/2接口连接DMZ区，防火墙GE1/0/1接口连接非安全区域，防火墙GE1/0/0接口连接安全区域：srcip表示内网区域。请填写第二个空缺项。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "防火墙",
+        "区域划分"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2-1",
+      "question_type": "fill_blank",
+      "stem": "补充SwichA数据规划表1-4内容中的空缺项。请填写第一个空缺项。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "交换机",
+        "VLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2-2",
+      "question_type": "fill_blank",
+      "stem": "补充SwichA数据规划表1-4内容中的空缺项。请填写第二个空缺项。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "交换机",
+        "VLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2-3",
+      "question_type": "fill_blank",
+      "stem": "补充SwichA数据规划表1-4内容中的空缺项。请填写第三个空缺项。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "交换机",
+        "VLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2-4",
+      "question_type": "fill_blank",
+      "stem": "补充SwichA数据规划表1-4内容中的空缺项。请填写第四个空缺项。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "交换机",
+        "VLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-3-1",
+      "question_type": "fill_blank",
+      "stem": "补充路由规划表1-5内容中的空缺项。请填写第一个空缺项。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "路由",
+        "静态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-3-2",
+      "question_type": "fill_blank",
+      "stem": "补充路由规划表1-5内容中的空缺项。请填写第二个空缺项。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "路由",
+        "静态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-3-3",
+      "question_type": "fill_blank",
+      "stem": "补充路由规划表1-5内容中的空缺项。请填写第三个空缺项。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "路由",
+        "静态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-3-4",
+      "question_type": "fill_blank",
+      "stem": "补充路由规划表1-5内容中的空缺项。请填写第四个空缺项。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "路由",
+        "静态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1-1",
+      "question_type": "single_choice",
+      "stem": "在①处部署（1）设备，实现各会议室的无线网络统一管理，无缝漫游。",
+      "options": {
+        "A": "面板式AP",
+        "B": "高密吸顶式AP",
+        "C": "无线遥控机",
+        "D": "无线认证系统",
+        "E": "无线路由器",
+        "F": "普遍吸顶式AP",
+        "G": "普通交换机",
+        "H": "POE交换机"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "无线控制器",
+        "AP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1-2",
+      "question_type": "single_choice",
+      "stem": "在②处部署（2）设备，实现内部用户使用用户名和密码认证登录，外来访客通过扫描二维码或者手机短信验证登录无线网络。",
+      "options": {
+        "A": "面板式AP",
+        "B": "高密吸顶式AP",
+        "C": "无线遥控机",
+        "D": "无线认证系统",
+        "E": "无线路由器",
+        "F": "普遍吸顶式AP",
+        "G": "普通交换机",
+        "H": "POE交换机"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "认证",
+        "无线认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1-3",
+      "question_type": "single_choice",
+      "stem": "在③处部署（3）设备，实现无线AP的接入和供电。",
+      "options": {
+        "A": "面板式AP",
+        "B": "高密吸顶式AP",
+        "C": "无线遥控机",
+        "D": "无线认证系统",
+        "E": "无线路由器",
+        "F": "普遍吸顶式AP",
+        "G": "普通交换机",
+        "H": "POE交换机"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "POE",
+        "供电"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1-4",
+      "question_type": "single_choice",
+      "stem": "大型会议室部署（4）设备，实现高密度人群的无线访问。",
+      "options": {
+        "A": "面板式AP",
+        "B": "高密吸顶式AP",
+        "C": "无线遥控机",
+        "D": "无线认证系统",
+        "E": "无线路由器",
+        "F": "普遍吸顶式AP",
+        "G": "普通交换机",
+        "H": "POE交换机"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "高密AP",
+        "无线覆盖"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1-5",
+      "question_type": "single_choice",
+      "stem": "在小型会议室借助86线盒部署（5）设备，实现无线访问。",
+      "options": {
+        "A": "面板式AP",
+        "B": "高密吸顶式AP",
+        "C": "无线遥控机",
+        "D": "无线认证系统",
+        "E": "无线路由器",
+        "F": "普遍吸顶式AP",
+        "G": "普通交换机",
+        "H": "POE交换机"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "面板式AP",
+        "无线覆盖"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2-1",
+      "question_type": "fill_blank",
+      "stem": "在核心交换机上配置（6），可以实现无线网络和办公区网络、服务器区网络逻辑隔离。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络隔离",
+      "tags": [
+        "VLAN",
+        "逻辑隔离"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2-2",
+      "question_type": "fill_blank",
+      "stem": "在④处部署（7）设备，可以对所有用户的互联网访问进行审计和控制，阻止并记录非法访问。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "审计",
+        "上网行为管理"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2-3",
+      "question_type": "fill_blank",
+      "stem": "在⑤处部署（8）设备，实现服务区域的边界防护，防范来自无线区域和办公区域的安全威胁。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "防火墙",
+        "边界防护"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2-4",
+      "question_type": "fill_blank",
+      "stem": "在路由器上配置基于（9）地址的策略路由，实现无线区域用户通过运营商1访问互联网，办公区域和服务区域通过运营商2访问互联网。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由策略",
+      "tags": [
+        "策略路由",
+        "PBR"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3-1",
+      "question_type": "calculation",
+      "stem": "图2-1所示的存储系统由9块4TB的磁盘组成一个RAID5级别的RAID组，并配置1块全局热备盘，则该存储系统最多可坏掉（10）块磁盘而不丢失数据。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储",
+      "tags": [
+        "RAID5",
+        "热备盘",
+        "容错"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3-2",
+      "question_type": "calculation",
+      "stem": "图2-1所示的存储系统由9块4TB的磁盘组成一个RAID5级别的RAID组，并配置1块全局热备盘，实际可用存量为（11）TB（每块磁盘的实际可用容量按照4TB计算）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储",
+      "tags": [
+        "RAID5",
+        "可用容量"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3-3",
+      "question_type": "fill_blank",
+      "stem": "该存储域网络为（12）网络。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储",
+      "tags": [
+        "存储区域网络",
+        "SAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1-1",
+      "question_type": "fill_blank",
+      "stem": "在WebServer上使用HTTP协议及默认端口配置办公网oa.xyz.com，在安装IIS服务时，“角色服务”列表框中可以勾选的服务包括“（1）”，“管理工具”以及“FTP服务器”。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "IIS",
+        "角色服务"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1-2",
+      "question_type": "fill_blank",
+      "stem": "如图3-2所示的Web服务器配置界面，“IP地址”处应填（2）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "IIS",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1-3",
+      "question_type": "fill_blank",
+      "stem": "如图3-2所示的Web服务器配置界面，“端口”处应填（3）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "IIS",
+        "端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1-4",
+      "question_type": "fill_blank",
+      "stem": "如图3-2所示的Web服务器配置界面，“主机名”处应填（4）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "IIS",
+        "主机名"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-1",
+      "question_type": "fill_blank",
+      "stem": "在DNSServer1上为ftp.xyz.com配置域名解析时，在创建区域时，图3-3所示的“区域名称”处应填（5）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "正向查找区域",
+        "区域名称"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-2",
+      "question_type": "fill_blank",
+      "stem": "在DNSServer1上为ftp.xyz.com配置域名解析时，图3-4所示的新建主机的“名称”处应填（6）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "主机记录",
+        "名称"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-3",
+      "question_type": "fill_blank",
+      "stem": "在DNSServer1上为ftp.xyz.com配置域名解析时，图3-4所示的新建主机的“IP地址”处应填（7）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "A记录",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-4",
+      "question_type": "fill_blank",
+      "stem": "在DNSServer1上为ftp.xyz.com配置域名解析时，如果选中图3-4中的“创建相关的指针（PTR）”，则增加的功能为（8）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "PTR记录",
+        "反向解析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3-1",
+      "question_type": "fill_blank",
+      "stem": "在DNSServer2上配置条件转发器，如图3-5所示，为ftp.xyz.com新建条件转发器，“DNS域”处应该填（9）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "条件转发器",
+        "DNS域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3-2",
+      "question_type": "fill_blank",
+      "stem": "在DNSServer2上配置条件转发器，如图3-5所示，为ftp.xyz.com新建条件转发器，“主服务器的IP地址”处应单击添加的IP是（10）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "条件转发器",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-4-1",
+      "question_type": "fill_blank",
+      "stem": "在DNS服务器上配置域名解析方式，如果选择（11）查询方式，则表示如果本地DNS服务器不能进行域名解析，则服务器根据它的配置向域名树中的上级服务器进行查询，在最坏的情况下可能要查询到根服务器。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "递归查询",
+        "迭代查询"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-4-2",
+      "question_type": "fill_blank",
+      "stem": "在DNS服务器上配置域名解析方式，如果选择（12）查询方式，则表示本地DNS服务器发出查询请求时得到的响应可能不是目标的IP地址，而是其他服务器的引用（名字和地址），那么本地服务器就要访问被引用的服务器做进一步的查询，每次都更加接近目标的授权服务器，直至得到目标的IP地址或错误信息。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "迭代查询",
+        "递归查询"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-1",
+      "question_type": "fill_blank",
+      "stem": "完成交换机的基本配置，<Huawei>_(1)_ 应填入什么命令？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "CLI",
+        "系统视图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-2",
+      "question_type": "fill_blank",
+      "stem": "完成交换机的基本配置，[Huawei]_(2)_Switch 应填入什么命令？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "CLI",
+        "主机名"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-3",
+      "question_type": "fill_blank",
+      "stem": "完成交换机的基本配置，[Switch]vlan_(3)_10 20 30 100 200 应填入什么？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "VLAN",
+        "批量创建"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-4",
+      "question_type": "fill_blank",
+      "stem": "完成交换机的基本配置，[Switch]_(4)_gigabitEthernet0/0/1 应填入什么命令？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "接口视图",
+        "进入接口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-5",
+      "question_type": "fill_blank",
+      "stem": "完成交换机的基本配置，[Switch-GigabitEthernet0/0/1]port link-type_(5)_ 应填入什么？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "链路类型",
+        "trunk"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-6",
+      "question_type": "fill_blank",
+      "stem": "完成交换机的基本配置，[Switch-GigabitEthernet0/0/1]port trunk allow-pass vlan_(6)_ 应填入什么？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "trunk",
+        "允许VLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-1",
+      "question_type": "fill_blank",
+      "stem": "配置ACL，[Switch]_(7)_satime 8:00 to 18:00 working-day 应填入什么命令？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "ACL配置",
+      "tags": [
+        "时间范围",
+        "time-range"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-2",
+      "question_type": "fill_blank",
+      "stem": "配置流分类，[Switch]traffic classifier c_market //_(8)_ 应填入什么注释？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "流量分类",
+      "tags": [
+        "traffic classifier",
+        "注释"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-3",
+      "question_type": "fill_blank",
+      "stem": "配置流分类，[Switch-classifier-c_market]_(9)_acl 3002 //将ACL与流分类关联 应填入什么命令？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "流量分类",
+      "tags": [
+        "if-match",
+        "ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-4",
+      "question_type": "fill_blank",
+      "stem": "创建流行为，[Switch]_(10)_b_market //创建流行为 应填入什么命令？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "流量行为",
+      "tags": [
+        "traffic behavior",
+        "创建"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-5",
+      "question_type": "fill_blank",
+      "stem": "配置流行为动作为拒绝报文通过，[Switch-behavior-b_market]_(11)_ 应填入什么命令？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "流量行为",
+      "tags": [
+        "deny",
+        "动作"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-6",
+      "question_type": "fill_blank",
+      "stem": "创建流策略，[Switch]_(12)_p_market //创建流策略 应填入什么命令？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "流量策略",
+      "tags": [
+        "traffic policy",
+        "创建"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-7",
+      "question_type": "fill_blank",
+      "stem": "应用流策略，[Switch]interface_(13)_ 应填入什么接口？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "流量策略",
+      "tags": [
+        "接口",
+        "应用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-8",
+      "question_type": "fill_blank",
+      "stem": "应用流策略入方向，[Switch-GigabitEthernet0/0/2]traffic-policy p_market_(14)_ 应填入什么方向？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "流量策略",
+      "tags": [
+        "inbound",
+        "方向"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-9",
+      "question_type": "fill_blank",
+      "stem": "应用流策略入方向，[Switch-GigabitEthernet0/0/3]traffic-policy_(15)_inbound 应填入什么策略名？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "流量策略",
+      "tags": [
+        "策略名",
+        "p_rd"
+      ],
+      "is_verified": false
+    }
+  ]
+}

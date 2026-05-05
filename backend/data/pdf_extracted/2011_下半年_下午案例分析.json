@@ -1,0 +1,686 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2011,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2011年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "图1-2中设备①应为(1)? 备选答案：A.路由器 B.核心交换机 C.流控服务器 D.防火墙",
+      "options": {
+        "A": "路由器",
+        "B": "核心交换机",
+        "C": "流控服务器",
+        "D": "防火墙"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "校园网",
+        "网络设备"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "图1-2中设备②应为(2)? 备选答案：A.路由器 B.核心交换机 C.流控服务器 D.防火墙",
+      "options": {
+        "A": "路由器",
+        "B": "核心交换机",
+        "C": "流控服务器",
+        "D": "防火墙"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "校园网",
+        "网络设备"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "图1-2中设备③应为(3)? 备选答案：A.路由器 B.核心交换机 C.流控服务器 D.防火墙",
+      "options": {
+        "A": "路由器",
+        "B": "核心交换机",
+        "C": "流控服务器",
+        "D": "防火墙"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "校园网",
+        "网络设备"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem": "图1-2中设备④应为(4)? 备选答案：A.路由器 B.核心交换机 C.流控服务器 D.防火墙",
+      "options": {
+        "A": "路由器",
+        "B": "核心交换机",
+        "C": "流控服务器",
+        "D": "防火墙"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "校园网",
+        "网络设备"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "fill_blank",
+      "stem": "设备④应该接在设备(5)上。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "校园网",
+        "拓扑结构"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem": "介质1应选用(6)? 备选答案：A.单模光纤 B.多模光纤 C.6类双绞线 D.5类双绞线",
+      "options": {
+        "A": "单模光纤",
+        "B": "多模光纤",
+        "C": "6类双绞线",
+        "D": "5类双绞线"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络介质",
+      "tags": [
+        "光纤",
+        "双绞线"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "介质2应选用(7)? 备选答案：A.单模光纤 B.多模光纤 C.6类双绞线 D.5类双绞线",
+      "options": {
+        "A": "单模光纤",
+        "B": "多模光纤",
+        "C": "6类双绞线",
+        "D": "5类双绞线"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络介质",
+      "tags": [
+        "光纤",
+        "双绞线"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem": "介质3应选用(8)? 备选答案：A.单模光纤 B.多模光纤 C.6类双绞线 D.5类双绞线",
+      "options": {
+        "A": "单模光纤",
+        "B": "多模光纤",
+        "C": "6类双绞线",
+        "D": "5类双绞线"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络介质",
+      "tags": [
+        "光纤",
+        "双绞线"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "calculation",
+      "stem": "根据网络需求分析和网络拓扑结构图，所有接入交换机都直接连接汇聚交换机，本校园网中至少需要(9)台24口的接入交换机(不包括服务器使用的交换机)。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "接入交换机",
+        "计算"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "fill_blank",
+      "stem": "交换机进行数据包转发的能力称为(10)。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机技术",
+      "tags": [
+        "交换机",
+        "性能指标"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "fill_blank",
+      "stem": "交换机端口处理器和数据总线之间单位时间内所能传输的最大数据量称为(11)。",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机技术",
+      "tags": [
+        "交换机",
+        "性能指标"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "calculation",
+      "stem": "某交换机有24个固定的千兆端口，其端口总带宽为(12) Mbps。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机技术",
+      "tags": [
+        "交换机",
+        "带宽计算"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "single_choice",
+      "stem": "POE的标准供电电压值为(13)? 备选答案：A.5V B.12V C.48V D.110V",
+      "options": {
+        "A": "5V",
+        "B": "12V",
+        "C": "48V",
+        "D": "110V"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "POE",
+        "供电"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "fill_blank",
+      "stem": "①处输入的命令是(1)。",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "Linux",
+        "网络配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "fill_blank",
+      "stem": "eth0的IP地址是(2)。",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "Linux",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "fill_blank",
+      "stem": "子网掩码是(3)。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "Linux",
+        "子网掩码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "calculation",
+      "stem": "销售部子网最多可以容纳的主机数量是(4)。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址",
+      "tags": [
+        "子网",
+        "主机数计算"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "fill_blank",
+      "stem": "执行命令[root@root] rpm -qa | grep httpd 的目的是(5)。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "Linux",
+        "RPM",
+        "HTTP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "fill_blank",
+      "stem": "用命令(6)来启动Web服务。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "Linux",
+        "Apache"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "fill_blank",
+      "stem": "Apache的主配置文件名是(7)。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "Apache",
+        "配置文件"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "fill_blank",
+      "stem": "该文件所在目录为(8)。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "Apache",
+        "目录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "fill_blank",
+      "stem": "配置文件中下列配置信息的含义是(9)。\n<Directory\"/var/www/html/secure\">\nAllowoverride AuthConfig\nOrder deny，allow\nallow from 192.168.1.2\nDeny from all\n</Directory>",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "Apache",
+        "访问控制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "fill_blank",
+      "stem": "Apache的主配置文件中有一行：Listen 192.168.1.126:80，其含义是(10)。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "Apache",
+        "监听"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "case",
+      "stem": "启动Web服务后，仅销售部的主机可以访问Web服务。在Linux服务器中应如何配置，方能使研发部的主机也可以访问Web服务。",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "Apache",
+        "访问控制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "fill_blank",
+      "stem": "为Web Server配置记录时新建区域的名称是(1)。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS",
+        "区域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "fill_blank",
+      "stem": "添加的新建主机“名称”为(2)。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS",
+        "主机记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "fill_blank",
+      "stem": "IP地址栏应填入(3)。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "fill_blank",
+      "stem": "在如图3-4所示的“IP筛选器向导”中指定IP通信的源地址，下拉框中应选择(4)。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IP筛选器",
+        "DNS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "fill_blank",
+      "stem": "在如图3-5中指定IP通信的目标地址，下拉框中应选择(5)。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IP筛选器",
+        "DNS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "fill_blank",
+      "stem": "在图3-6中源端口项的设置方式为(6)。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IP筛选器",
+        "端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "fill_blank",
+      "stem": "目的端口项的设置方式为(7)。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IP筛选器",
+        "端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "case",
+      "stem": "在图3-7中双击“新IP安全策略”即可查看“DNS输入”安全规则，要使规则生效，在图3-7中如何配置？",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IP安全策略",
+        "DNS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "33",
+      "question_type": "fill_blank",
+      "stem": "在本机Windows命令行中输入(8)命令可显示当前DNS缓存。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS",
+        "命令行"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "34",
+      "question_type": "fill_blank",
+      "stem": "“Record Type”字段中的值为4时存储的记录是MX,若“Record Type”字段中的值为2时存储的记录是(9)。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS",
+        "记录类型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "35",
+      "question_type": "fill_blank",
+      "stem": "客户端在排除DNS域名解析故障时需要刷新DNS解析器缓存，使用的命令是(10)。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS",
+        "命令行"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "36",
+      "question_type": "fill_blank",
+      "stem": "ACL按照其功能分为两类，(1)只能根据数据包的源地址进行过滤。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "访问控制列表"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "37",
+      "question_type": "fill_blank",
+      "stem": "ACL按照其功能分为两类，(2)可以根据源地址、目的地址以及端口号进行过滤。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "访问控制列表"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "38",
+      "question_type": "fill_blank",
+      "stem": "没有DNS-ALG和FTP-ALG的支持，无法实现(1)结点发起的与(2)结点之间的通信。(1)处应填什么？",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPv6过渡",
+      "tags": [
+        "NAT-PT",
+        "ALG"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "39",
+      "question_type": "fill_blank",
+      "stem": "没有DNS-ALG和FTP-ALG的支持，无法实现(1)结点发起的与(2)结点之间的通信。(2)处应填什么？",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPv6过渡",
+      "tags": [
+        "NAT-PT",
+        "ALG"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "40",
+      "question_type": "fill_blank",
+      "stem": "NAT-PT机制定义了三种不同类型的操作，其中，(11)提供一对一的IPv6地址和IPv4地址的映射。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPv6过渡",
+      "tags": [
+        "NAT-PT",
+        "地址映射"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "41",
+      "question_type": "fill_blank",
+      "stem": "NAT-PT机制定义了三种不同类型的操作，其中，(12)也提供一对一的映射，但是使用一个IPv4地址池。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPv6过渡",
+      "tags": [
+        "NAT-PT",
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "42",
+      "question_type": "fill_blank",
+      "stem": "NAT-PT机制定义了三种不同类型的操作，其中，(13)提供多个有NAT-PT前缀的IPv6地址和一个源IPv4地址间的多对一动态映射。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPv6过渡",
+      "tags": [
+        "NAT-PT",
+        "动态映射"
+      ],
+      "is_verified": false
+    }
+  ]
+}

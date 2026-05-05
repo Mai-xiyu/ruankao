@@ -1,0 +1,720 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2017,
+    "season": "上半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2017年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1-1",
+      "question_type": "single_choice",
+      "stem": "图1-1中，设备①处部署(1)。",
+      "options": {
+        "A": "入侵防御系统(IPS)",
+        "B": "交换机",
+        "C": "负载均衡"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "IPS",
+        "交换机",
+        "负载均衡"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2",
+      "question_type": "single_choice",
+      "stem": "图1-1中，设备②处部署(2)。",
+      "options": {
+        "A": "入侵防御系统(IPS)",
+        "B": "交换机",
+        "C": "负载均衡"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "IPS",
+        "交换机",
+        "负载均衡"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-3",
+      "question_type": "single_choice",
+      "stem": "图1-1中，设备③处部署(3)。",
+      "options": {
+        "A": "入侵防御系统(IPS)",
+        "B": "交换机",
+        "C": "负载均衡"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "IPS",
+        "交换机",
+        "负载均衡"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-4",
+      "question_type": "single_choice",
+      "stem": "图1-1中，介质①处应采用(4)。",
+      "options": {
+        "A": "双绞线",
+        "B": "同轴电缆",
+        "C": "光纤"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "传输介质",
+      "tags": [
+        "双绞线",
+        "同轴电缆",
+        "光纤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-5",
+      "question_type": "single_choice",
+      "stem": "图1-1中，介质②处应采用(5)。",
+      "options": {
+        "A": "双绞线",
+        "B": "同轴电缆",
+        "C": "光纤"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "传输介质",
+      "tags": [
+        "双绞线",
+        "同轴电缆",
+        "光纤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-6",
+      "question_type": "fill_blank",
+      "stem": "为提升员工的互联网访问速度，通过电信出口访问电信网络，移动出口访问移动网络，则需要配置基于(6)地址的策略路由。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "策略路由",
+        "源地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-7",
+      "question_type": "fill_blank",
+      "stem": "运行一段时间后，网络管理员发现电信出口的用户超过90%以上，网络访问速度缓慢，为实现负载均衡，网络管理员配置基于(7)地址的策略路由。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "策略路由",
+        "负载均衡"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-8",
+      "question_type": "fill_blank",
+      "stem": "图1-1中，设备④处应为(8)，该设备可对指定计算机系统进行安全脆弱性扫描和检测，发现其安全漏洞，客观评估网络风险等级。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "安全设备",
+      "tags": [
+        "漏洞扫描",
+        "安全评估"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-9",
+      "question_type": "fill_blank",
+      "stem": "图1-1中，(9)设备可对恶意网络行为进行安全检测和分析。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "安全设备",
+      "tags": [
+        "入侵检测",
+        "恶意行为"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-10",
+      "question_type": "fill_blank",
+      "stem": "图1-1中，(10)设备可实现内部网络和外部网络之间的边界防护，依据访问规则，允许或者限制数据传输。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "安全设备",
+      "tags": [
+        "防火墙",
+        "边界防护"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1",
+      "question_type": "single_choice",
+      "stem": "包过滤防火墙使用ACL实现过滤功能，常用的ACL分为两种，编号为(1)的ACL根据IP报文的(2)域进行过滤，称为(3)。请填写(1)。",
+      "options": {
+        "A": "标准访问控制列表",
+        "B": "扩展访问控制列表",
+        "C": "基于时间的访问控制列表",
+        "D": "1-99",
+        "E": "0-99",
+        "F": "100-199",
+        "G": "目的的IP地址",
+        "H": "源IP地址",
+        "I": "源端口",
+        "J": "目的端口"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "ACL",
+      "tags": [
+        "标准ACL",
+        "编号"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2",
+      "question_type": "single_choice",
+      "stem": "编号为(1)的ACL根据IP报文的(2)域进行过滤。请填写(2)。",
+      "options": {
+        "A": "标准访问控制列表",
+        "B": "扩展访问控制列表",
+        "C": "基于时间的访问控制列表",
+        "D": "1-99",
+        "E": "0-99",
+        "F": "100-199",
+        "G": "目的的IP地址",
+        "H": "源IP地址",
+        "I": "源端口",
+        "J": "目的端口"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "ACL",
+      "tags": [
+        "标准ACL",
+        "源IP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3",
+      "question_type": "single_choice",
+      "stem": "编号为(1)的ACL根据IP报文的(2)域进行过滤，称为(3)。请填写(3)。",
+      "options": {
+        "A": "标准访问控制列表",
+        "B": "扩展访问控制列表",
+        "C": "基于时间的访问控制列表",
+        "D": "1-99",
+        "E": "0-99",
+        "F": "100-199",
+        "G": "目的的IP地址",
+        "H": "源IP地址",
+        "I": "源端口",
+        "J": "目的端口"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "ACL",
+      "tags": [
+        "标准ACL",
+        "名称"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-4",
+      "question_type": "single_choice",
+      "stem": "编号为(4)的ACL根据IP报文中的更多域对数据包进行控制。请填写(4)。",
+      "options": {
+        "A": "标准访问控制列表",
+        "B": "扩展访问控制列表",
+        "C": "基于时间的访问控制列表",
+        "D": "1-99",
+        "E": "0-99",
+        "F": "100-199",
+        "G": "目的的IP地址",
+        "H": "源IP地址",
+        "I": "源端口",
+        "J": "目的端口"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "ACL",
+      "tags": [
+        "扩展ACL",
+        "编号"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-5",
+      "question_type": "single_choice",
+      "stem": "编号为(4)的ACL根据IP报文中的更多域对数据包进行控制，称为(5)。请填写(5)。",
+      "options": {
+        "A": "标准访问控制列表",
+        "B": "扩展访问控制列表",
+        "C": "基于时间的访问控制列表",
+        "D": "1-99",
+        "E": "0-99",
+        "F": "100-199",
+        "G": "目的的IP地址",
+        "H": "源IP地址",
+        "I": "源端口",
+        "J": "目的端口"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "ACL",
+      "tags": [
+        "扩展ACL",
+        "名称"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-6",
+      "question_type": "single_choice",
+      "stem": "如图2-1所示，防火墙的三个端口，端口⑥是(6)。",
+      "options": {
+        "A": "外部网络",
+        "B": "内部网络",
+        "C": "非军事区"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "防火墙接口",
+        "DMZ"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-7",
+      "question_type": "single_choice",
+      "stem": "端口⑦是(7)。",
+      "options": {
+        "A": "外部网络",
+        "B": "内部网络",
+        "C": "非军事区"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "防火墙接口",
+        "内部网络"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-8",
+      "question_type": "single_choice",
+      "stem": "端口⑧是(8)。",
+      "options": {
+        "A": "外部网络",
+        "B": "内部网络",
+        "C": "非军事区"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "防火墙接口",
+        "外部网络"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-9",
+      "question_type": "single_choice",
+      "stem": "若调换上面配置中的第3条和第4条规则的顺序，则(16)。",
+      "options": {
+        "A": "安全规则不发生变化",
+        "B": "财务服务器将受到安全威胁",
+        "C": "Web服务器将受到安全威胁",
+        "D": "内网用户将无法访问Internet"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙规则",
+      "tags": [
+        "规则顺序",
+        "安全策略"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-10",
+      "question_type": "fill_blank",
+      "stem": "在上面的配置中，是否实现了\"禁止外网用户访问财务服务器\"这条规则？",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙规则",
+      "tags": [
+        "访问控制",
+        "安全策略"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1",
+      "question_type": "fill_blank",
+      "stem": "在图3-1中，根域的名称是(1)。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "Active Directory",
+        "域名"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2",
+      "question_type": "single_choice",
+      "stem": "建立域控制器DC(Domain Controller)，需要通过命令行方式运行(2)命令。",
+      "options": {
+        "A": "dcomcnfg",
+        "B": "dcpromo"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "DC",
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3",
+      "question_type": "fill_blank",
+      "stem": "域中的DC和DNS配置在同一设备时，需要将独立服务器的首个DNS与DC的IP地址配置为(3)。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS",
+        "DC"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-4",
+      "question_type": "fill_blank",
+      "stem": "DHCP服务加入DC需要(4)，否则服务报错。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "DHCP",
+        "DC"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-5",
+      "question_type": "fill_blank",
+      "stem": "图3-2中，127.0.0.1 webtest.com的含义是(5)。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "hosts文件",
+      "tags": [
+        "hosts",
+        "域名解析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-6",
+      "question_type": "single_choice",
+      "stem": "在建立安全站点时，需要在WEB服务器上启用(6)功能，并且绑定创建好的证书。",
+      "options": {
+        "A": "SSL",
+        "B": "代理"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web安全",
+      "tags": [
+        "SSL",
+        "证书"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-7",
+      "question_type": "fill_blank",
+      "stem": "若将图3-3中https的端口号改为8000，访问站点的URL是(7)。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务器",
+      "tags": [
+        "URL",
+        "端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-8",
+      "question_type": "fill_blank",
+      "stem": "图3-4中，未安装驱动程序的设备提供(8)功能。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "设备驱动",
+      "tags": [
+        "驱动程序",
+        "设备管理器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-9",
+      "question_type": "single_choice",
+      "stem": "在\"驱动程序\"选项卡中会显示驱动程序提供商、驱动程序日期、驱动程序版本和(9)信息。",
+      "options": {
+        "A": "数字签名",
+        "B": "硬件类型"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "设备驱动",
+      "tags": [
+        "驱动程序",
+        "数字签名"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-10",
+      "question_type": "fill_blank",
+      "stem": "若更新驱动程序后无法正常运行，可以在该选项卡页面通过(10)操作将以前的驱动程序恢复。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "设备驱动",
+      "tags": [
+        "驱动程序",
+        "回滚"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1",
+      "question_type": "fill_blank",
+      "stem": "路由器的配置片段：<Huawei>system-view [Huawei] sysname ( )",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由器配置",
+      "tags": [
+        "系统名",
+        "sysname"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2",
+      "question_type": "fill_blank",
+      "stem": "[Router] interface ( )",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由器配置",
+      "tags": [
+        "接口",
+        "WAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-3",
+      "question_type": "fill_blank",
+      "stem": "[Router] ip route-static 0.0.0.0 0.0.0 ( )",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由器配置",
+      "tags": [
+        "静态路由",
+        "默认路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-4",
+      "question_type": "fill_blank",
+      "stem": "[Router-acI-basic-2000] rule 5 permit source 10.0.0 ( )",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "ACL",
+      "tags": [
+        "ACL",
+        "源地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-5",
+      "question_type": "fill_blank",
+      "stem": "[Router-GigabitEthernet1/0/0] nat outbound ( )",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "NAT",
+      "tags": [
+        "NAT",
+        "ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-6",
+      "question_type": "fill_blank",
+      "stem": "[Router-GigabitEthernet1/0/0] quit 其他配置略。请补充(6)空缺的命令（根据上下文，可能无明确空号，但按顺序本应是(6)）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由器配置",
+      "tags": [
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-7",
+      "question_type": "fill_blank",
+      "stem": "[Switch-GigabitEthernet0/0/2] port link-type ( )",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "链路类型",
+        "access"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-8",
+      "question_type": "fill_blank",
+      "stem": "[Switch-Vlanif20] ip address ( )",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "VLAN接口",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-9",
+      "question_type": "fill_blank",
+      "stem": "[Switch] dhcp ( )",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "DHCP",
+        "启用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-10",
+      "question_type": "fill_blank",
+      "stem": "[Switch-ip-pool-pooll] lease day ( )",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "租期",
+        "lease"
+      ],
+      "is_verified": false
+    }
+  ]
+}

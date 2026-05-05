@@ -1,0 +1,785 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2018,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2018年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1-1-1",
+      "question_type": "fill_blank",
+      "stem": "<HUAWEI>(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "交换机",
+        "华为",
+        "基础配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-1-2",
+      "question_type": "fill_blank",
+      "stem": "[Switch3] vlan batch(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "VLAN",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-1-3",
+      "question_type": "fill_blank",
+      "stem": "[Switch3-GigabitEthernet0/0/3] port link-type(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "端口",
+        "Link-type",
+        "Trunk"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-1-4",
+      "question_type": "fill_blank",
+      "stem": "[Switch3-GigabitEthernet0/0/1] port link-type(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "端口",
+        "Access"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2-5",
+      "question_type": "fill_blank",
+      "stem": "[Switchl] vlan batch(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "VLAN",
+        "核心交换机"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2-6",
+      "question_type": "fill_blank",
+      "stem": "[Switchl-GigabitEthernet0/0/1] port trunk allow-pass(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "Trunk",
+        "VLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2-7",
+      "question_type": "fill_blank",
+      "stem": "[Switch1-Vlanif100] ip address(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "VLAN接口",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2-8",
+      "question_type": "fill_blank",
+      "stem": "[Switchl-Vlanif300] ip address(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "VLAN接口",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-3-9",
+      "question_type": "fill_blank",
+      "stem": "[Switchl] ip route-static(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由配置",
+      "tags": [
+        "静态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-3-10",
+      "question_type": "fill_blank",
+      "stem": "[Router] ip route-static(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由配置",
+      "tags": [
+        "静态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1-1",
+      "question_type": "single_choice",
+      "stem": "常见的网络威胁包括窃听、拒绝服务、病毒、木马、(   )等。",
+      "options": {
+        "A": "数据完整性破坏",
+        "B": "物理链路破坏",
+        "C": "存储介质破坏",
+        "D": "电磁干扰"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "威胁",
+        "安全"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1-2",
+      "question_type": "single_choice",
+      "stem": "常见的网络安全防范措施包括访问控制、审计、身份认证、数字签名、(   )、包过滤和检测等。",
+      "options": {
+        "A": "数据备份",
+        "B": "电磁防护",
+        "C": "违规外联控制",
+        "D": "数据加密"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "安全措施"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2-3",
+      "question_type": "single_choice",
+      "stem": "从日志可判断网络威胁为(   )。",
+      "options": {
+        "A": "跨站脚本攻击",
+        "B": "拒绝服务",
+        "C": "木马",
+        "D": "sql注入"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "威胁",
+        "日志分析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2-4",
+      "question_type": "single_choice",
+      "stem": "网络管理员应采取(   )等合理有效的措施进行处理。(选择多个，第一个空)",
+      "options": {
+        "A": "源主机安装杀毒软件并查杀",
+        "B": "目标主机安装杀毒软件并查杀",
+        "C": "将上图所示URL加入上网行为管理设备黑名单",
+        "D": "将上图所示URL加入入侵检测设备黑名单",
+        "E": "使用漏洞扫描设备进行扫描"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "应急响应"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2-5",
+      "question_type": "single_choice",
+      "stem": "网络管理员应采取(   )等合理有效的措施进行处理。(选择多个，第二个空)",
+      "options": {
+        "A": "源主机安装杀毒软件并查杀",
+        "B": "目标主机安装杀毒软件并查杀",
+        "C": "将上图所示URL加入上网行为管理设备黑名单",
+        "D": "将上图所示URL加入入侵检测设备黑名单",
+        "E": "使用漏洞扫描设备进行扫描"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "应急响应"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3-6",
+      "question_type": "fill_blank",
+      "stem": "本地子网:(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "VPN",
+        "IPSec"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3-7",
+      "question_type": "fill_blank",
+      "stem": "本地掩码:(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "VPN",
+        "IPSec"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3-8",
+      "question_type": "fill_blank",
+      "stem": "对方子网:(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "VPN",
+        "IPSec"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3-9",
+      "question_type": "fill_blank",
+      "stem": "对方掩码:(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "VPN",
+        "IPSec"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-4",
+      "question_type": "case",
+      "stem": "请简要叙述存储管理员使用自动精简配置的优点和存在的风险。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "自动精简配置",
+        "优点",
+        "风险"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1-1",
+      "question_type": "single_choice",
+      "stem": "DHCP在分配IP地址时使用(   )的方式。",
+      "options": {
+        "A": "单播",
+        "B": "多播",
+        "C": "广播",
+        "D": "组播"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "DHCP",
+        "广播"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1-2",
+      "question_type": "single_choice",
+      "stem": "子网2中的客户端要自动获得IP地址，不能采用的方式是(   )。",
+      "options": {
+        "A": "子网2设置DHCP服务器",
+        "B": "使用三层交换机作为DHCP中继",
+        "C": "使用路由器作为DHCP中继",
+        "D": "IP代理"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "DHCP中继"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1-3",
+      "question_type": "single_choice",
+      "stem": "在使用租期过去(   )时，客户端会向服务器发送DHCP REQUEST报文延续租期。",
+      "options": {
+        "A": "25%",
+        "B": "50%",
+        "C": "75%",
+        "D": "87.5%"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "租约",
+        "续租"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-4",
+      "question_type": "fill_blank",
+      "stem": "在设置DHCP服务时，应当为DHCP添加(   )个作用域。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "作用域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-5",
+      "question_type": "fill_blank",
+      "stem": "子网1按照图3-2添加作用域，其中子网掩码为(   )。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "子网掩码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-6",
+      "question_type": "fill_blank",
+      "stem": "默认网关为(   )。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "默认网关"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-7",
+      "question_type": "fill_blank",
+      "stem": "在此作用域中必须排除某个IP地址，如图3-3所示，其中“起始IP地址”处应填写(   )。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "排除地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-8",
+      "question_type": "single_choice",
+      "stem": "通常无线子网的默认租约时间为(   )。",
+      "options": {
+        "A": "8天",
+        "B": "6天",
+        "C": "2天",
+        "D": "6或8小时"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "租约时间"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3-9",
+      "question_type": "single_choice",
+      "stem": "如果客户机无法找到DHCP服务器，它将从(   )网段中挑选一个作为自己的IP地址。",
+      "options": {
+        "A": "192.168.5.0",
+        "B": "172.25.48.0",
+        "C": "169.254.0.0",
+        "D": "0.0.0.0"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "APIPA"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3-10",
+      "question_type": "single_choice",
+      "stem": "子网掩码为(   )。",
+      "options": {
+        "A": "255.255.0.0",
+        "B": "255.255.255.0",
+        "C": "255.0.0.0",
+        "D": "0.0.0.0"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "子网掩码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-1",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-acl-adv-3001] rule permit ip source(   )0.0.0.255",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-2",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-acl-adv-3002] rule permit ip(   )192.168.2.0 0.0.0.255",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-3",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-classifier-c0](   ) acl 3000",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "分类器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-4",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB] traffic classifier c1 (   ) or",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "分类器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-5",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-classifer-c2] if-match acl(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "ACL",
+        "分类器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-6",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-classfer-c2](   ) quit",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "配置命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-7",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-behavior-b0](   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "行为"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-8",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-behavior-b1] redirect ip-nexthop(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "重定向",
+        "下一跳"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-9",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-behavior-b2] redirect ip-nexthop(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "重定向",
+        "下一跳"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-10",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-trafficpolicy-p1] classifier c0 behavior(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "策略"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-11",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-trafficpolicy-p1] classifier c1 behavior(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "策略"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-12",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB] interface (   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "接口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-13",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-GigabitEthenet0/0/3] traffic-policy pl(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "策略应用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-14",
+      "question_type": "fill_blank",
+      "stem": "配置ACL 3000的作用是:(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "ACL",
+      "tags": [
+        "作用",
+        "解释"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-3-15",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-acl-basic-2000]rule 5 (   ) source 192.168.1.0 0.0.0.255",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "NAT",
+      "tags": [
+        "ACL",
+        "NAT"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-3-16",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-GigabitEthernet0/0/3]nat outbound(   ) address group 0 no-pat",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "NAT",
+      "tags": [
+        "NAT",
+        "outbound"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-3-17",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB-GigabitEthernet0/0/3]nat outbound(   ) address group 1 no-pat",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "NAT",
+      "tags": [
+        "NAT",
+        "outbound"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-3-18",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB] ip route-static 192.168.1.0 0.0.0.255(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由配置",
+      "tags": [
+        "静态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-3-19",
+      "question_type": "fill_blank",
+      "stem": "[SwitchB] ip route-static 192.168.2.0 0.0.0.255(   )",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由配置",
+      "tags": [
+        "静态路由"
+      ],
+      "is_verified": false
+    }
+  ]
+}

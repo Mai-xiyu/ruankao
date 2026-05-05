@@ -1,0 +1,214 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2023,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "OCR 提取 - 2023年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从扫描版 PDF 通过 OCR 自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1.1",
+      "question_type": "case",
+      "stem": "从PC1发出的目的地址为ISP1的IP报文，默认将发到R2的GE2/0/1。PC1构造帧时，是否需要获得该接口的MAC地址？为什么？",
+      "options": {},
+      "answer": "不需要。PC1封装的是网关的MAC地址，MAC地址每个网段有效，跨网段会发生变化。",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "MAC地址",
+        "ARP",
+        "网关"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1.2",
+      "question_type": "case",
+      "stem": "假设R2不支持BFD，要求R1上使用静态路由与BFD联动技术，实现当R1到R2之间的链路故障时，R1能切换至R3。补全命令：\n[R1] bfd\n[R1-bfd-R1toR2] discriminator local 1\n[R1-bfd] bfd RltoR2 bind peer-ip (1) interface gig 2/0/1 one-arm-echo\n[R1-bfd-R1toR2] (2) //提交配置\n[R1] ip route-static 0.0.0.0 0.0.0.0 gig 2/0/1 (3) track (4) RltoR2\n[R1] ip route-static 0.0.0.0 0.0.0.0 gig 2/0/2 10.13.13.3 preference 100 //该条命令的作用(5)",
+      "options": {},
+      "answer": "(1) 10.12.12.2\n(2) commit\n(3) 10.12.12.2\n(4) bfd-session\n(5) 设置浮动路由，实现链路冗余备份。将该默认路由preference设置为100，优先级低于默认的60，R1-R3作为备份链路。",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由与交换",
+      "tags": [
+        "BFD",
+        "静态路由",
+        "浮动路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1.3",
+      "question_type": "case",
+      "stem": "路由器R2为接入网关，为用户提供双链路接入，通过静态IP接入运营商，要求在R2上行接口配置NAT，使内网访问Internet。\n[R2] acl number 3001\n[R2-acl-3001] rule 5 permit ip source 10.0.0.0 (6)\n[R2] quit\n[R2] int g0/0/1\n[R2-gig0/0/1] nat (7) 3001\n[R2-gig0/0/1] quit\n[R2] ip route-static 0.0.0.0 0.0.0.0 222.137.0.1\n[R2] ip route-static 0.0.0.0 0.0.0.0 210.25.0.1\n[R2] ip load-balance hash src-ip\n上述三条命令的功能是(8)。",
+      "options": {},
+      "answer": "(6) 0.255.255.255（或0.31.255.255）\n(7) outbound\n(8) 配置2条等价默认路由，并基于源IP地址进行负载均衡。",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "NAT",
+        "ACL",
+        "负载均衡"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2.1",
+      "question_type": "case",
+      "stem": "写出PC1的网关地址。",
+      "options": {},
+      "answer": "192.168.20.126/27",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "网关",
+        "子网掩码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2.2",
+      "question_type": "case",
+      "stem": "配置SW-A默认路由。",
+      "options": {},
+      "answer": "ip route-static 0.0.0.0 0 11.0.0.1\nip route-static 0.0.0.0 0 22.0.0.1",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "默认路由",
+        "冗余"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2.3",
+      "question_type": "case",
+      "stem": "配置SW-C到PCI网段的静态路由。",
+      "options": {},
+      "answer": "ip route-static 192.168.20.96 27 11.0.0.2\nip route-static 192.168.20.96 27 22.0.0.2",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "静态路由",
+        "等价负载均衡"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2.4",
+      "question_type": "case",
+      "stem": "如果车间3的交换机接口不足，需要增加一台交换机SW-D扩展接口，则新增交换机与原交换机可采用哪些连接方式？简要说明区别和优缺点。",
+      "options": {},
+      "answer": "堆叠和级连。堆叠方式可以共享使用交换机背板带宽，级连方式可以使用双绞线将交换机连接在一起。级连兼容性好，但管理复杂；堆叠不支持跨厂商部署，能有效简化管理。",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络技术",
+      "tags": [
+        "堆叠",
+        "级连"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2.5",
+      "question_type": "case",
+      "stem": "简要说明交换机A、B互联的配置要点。",
+      "options": {},
+      "answer": "(1) 创建VLAN 20\n(2) 将互联接口设置为trunk\n(3) trunk放行VLAN 20的流量\n(4) 配置VLANIF接口地址",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换配置",
+      "tags": [
+        "VLAN",
+        "Trunk"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2.6",
+      "question_type": "case",
+      "stem": "简要说明AGV可靠性受Wi-Fi信号影响，可能有哪些因素。",
+      "options": {},
+      "answer": "(1) 信道规划不合理，存在同频干扰。\n(2) AP覆盖重叠区域过大，存在干扰。\n(3) AP覆盖不足，信号差，存在盲区。\n(4) 周边存在微波炉、铁路等干扰源。\n(5) 存在遮挡，导致信号衰减过大。",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "Wi-Fi",
+        "干扰",
+        "可靠性"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3.1",
+      "question_type": "case",
+      "stem": "Core-SW与Agg-SW的配置如下图，发现Core-SW并没有获取到生产部和研发部两个部门的路由，请分析故障原因，简要说明如何调整Core-SW配置解决OSPF不能获取路由的问题。",
+      "options": {},
+      "answer": "OSPF网络类型不一样。Core-SW的网络类型为P2P，Agg-SW为Broadcast。调整Core-SW的OSPF网络类型为Broadcast即可。",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "OSPF",
+        "网络类型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4.1",
+      "question_type": "case",
+      "stem": "请将下面配置代码补充完整。\n[R1] (1)\n[R1-GigabitEthernet0/0/0.1] ip address 192.168.1.254 24\n[R1-GigabitEthernet0/0/0.1] dot1q termination vid 10 // (2)\n[R1-GigabitEthernet0/0/0.1] arp broadcast enable // (3)\nSW1已经配置了VLAN，并将主机的接口设置为access。想要保证网络通信，SW1正常还有哪些配置步骤？ (4)",
+      "options": {},
+      "answer": "(1) interface g0/0/0.1\n(2) 因为路由器不能处理带VLAN标签的数据帧，通过此命令可以使进入此接口的数据帧摘掉VLAN标签，同时从此接口发出的数据帧会打上VLAN 10标签。\n(3) 开启ARP广播。如果终结子接口未配置arp broadcast enable，不能主动发送arp广播报文，会直接将IP报文丢弃不进行转发。\n(4) 将连接主机的接口放入对应VLAN，上行口配置为trunk，并在trunk上放行VLAN 10和VLAN 20。",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN与路由",
+      "tags": [
+        "子接口",
+        "Dot1q termination",
+        "ARP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4.2",
+      "question_type": "case",
+      "stem": "请将下面的空白补充完整解释命令\n<R1> system-view\n[R1] dhcp\n(5)\n[R1] ip pool ip-pool 10\n[R1-ip-poo10] gateway-list 192.168.1.1 // (6)\n[R1-ip-poo10] network 192.168.1.0 mask 255.255.255.0 // (7)\n[R1-ip-poo10] excluded-ip-address 192.168.1.2 // (8)\n[R1-ip-poo10] lease day 30 hour 0 minute 0 // (9)\n[R1-ip-poo10] dns-list 192.168.1.2 //配置DNS服务器\n[R1-ip-poo10] domain-name aa.com // (10)\n该配置是部门(11)的配置，可以使用(12)命令输出以上配置信息。",
+      "options": {},
+      "answer": "(5) enable\n(6) 配置DHCP主机的网关地址\n(7) 配置DHCP地址池\n(8) DHCP地址池中排除192.168.1.2\n(9) 配置租约为30天\n(10) 配置域名/配置分配给DHCP Client的DNS域名后缀\n(11) 10\n(12) display ip pool name 10",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "DHCP",
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4.3",
+      "question_type": "case",
+      "stem": "公司主要的配置信息。请将下面的空白补充完整。\n[R1] interface g0/0/0.1\n[R1-GigabitEthernet0/0/0.1] dhcp (13) global // (7)",
+      "options": {},
+      "answer": "(13) select",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "DHCP select global"
+      ],
+      "is_verified": false
+    }
+  ]
+}

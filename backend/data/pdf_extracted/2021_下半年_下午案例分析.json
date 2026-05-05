@@ -1,0 +1,946 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2021,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2021年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1(1)",
+      "question_type": "fill_blank",
+      "stem": "该网络规划中，相较于以旁路方式部署，将AC直连部署存在的问题是（1）。相较于部署在核心层，将AC部署在接入层存在的问题是（2）。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "AC",
+        "旁路",
+        "直连",
+        "部署"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1(2)",
+      "question_type": "single_choice",
+      "stem": "在不增加网络设备的情况下，防止外网用户对本网络进行攻击，隐藏内部网NAT策略通常配置在（3）。",
+      "options": {
+        "A": "AC",
+        "B": "Switch",
+        "C": "Router"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "NAT",
+        "外网攻击",
+        "隐藏内部网"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1(3)",
+      "question_type": "single_choice",
+      "stem": "某用户通过手机连接该网络的WIFI信号，使用WEB页面进行认证后上网，无线网络使用的认证方式是(4)认证。",
+      "options": {
+        "A": "PPPoE",
+        "B": "Portal",
+        "C": "IEEE 802.1x"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "WIFI",
+        "认证",
+        "Portal"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2(1)",
+      "question_type": "single_choice",
+      "stem": "若停车场需要部署3个相邻的AP，在进行2.4GHz频段规划时，为避免频道相互干扰，可以采用的信道是(5)。",
+      "options": {
+        "A": "1、4、7",
+        "B": "1、6、9",
+        "C": "1、6、11"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "AP",
+        "信道规划",
+        "2.4GHz"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2(2)",
+      "question_type": "single_choice",
+      "stem": "若在大楼内相邻的办公室共用1台AP会造成信号衰减，造成信号衰减的是(6)。",
+      "options": {
+        "A": "调制方案",
+        "B": "传输距离",
+        "C": "设备老化",
+        "D": "障碍物"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "AP",
+        "信号衰减"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2(3)",
+      "question_type": "fill_blank",
+      "stem": "在网络规划中，对AP供电方式可以采取（7）供电或DC电源适配器供电。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "AP",
+        "供电"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2(4)",
+      "question_type": "fill_blank",
+      "stem": "不考虑其他因素的情况下，若室内AP区域信号场强>-60dBm，停车场AP区域的场强>-70dBm，则用户在（8）区域的上网体验好。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "信号场强",
+        "体验"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3(1)",
+      "question_type": "single_choice",
+      "stem": "在结构化布线系统中，核心交换机到楼层交换机的布线通常称为（9），拟采用50/125微米多模光纤进行互连，使用1000Base-SE以太网标准，传输的最大距离约是（10）米。",
+      "options": {
+        "A": "设备间子系统",
+        "B": "管理子系统",
+        "C": "干线子系统"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "结构化布线",
+      "tags": [
+        "布线子系统",
+        "光纤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3(2)",
+      "question_type": "single_choice",
+      "stem": "在结构化布线系统中，核心交换机到楼层交换机的布线通常称为（9），拟采用50/125微米多模光纤进行互连，使用1000Base-SE以太网标准，传输的最大距离约是（10）米。",
+      "options": {
+        "A": "100",
+        "B": "550",
+        "C": "5000"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "结构化布线",
+      "tags": [
+        "光纤",
+        "1000Base-SE",
+        "传输距离"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4(1)",
+      "question_type": "single_choice",
+      "stem": "防火墙常用工作模式有透明模式、路由模式、混合模式，图2-1中的出口防火墙工作于（1）模式。",
+      "options": {
+        "A": "透明模式",
+        "B": "路由模式",
+        "C": "混合模式"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "工作模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4(2)",
+      "question_type": "fill_blank",
+      "stem": "防火墙为办公区用户动态分配IP地址，需在防火墙完成开启（2）功能。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "DHCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4(3)",
+      "question_type": "single_choice",
+      "stem": "Server2为WEB服务器，服务端口为TCP 443，外网用户通过https://100.1.1.9:8443访问，在防火墙上需要配置（3）。",
+      "options": {
+        "A": "nat server policy_web protocol tcp global 100.1.1.9 8443 inside 10.2.1.2.443 unr-route",
+        "B": "nat server policy_web protocol tcp global 10.2.1.2.8443 inside 100.1.1.9 443 unr-route",
+        "C": "nat server policy_web protocol tcp global 100.1.1.9 443 inside 10.2.1.2.8443 unr-route",
+        "D": "nat server policy_web protocol tcp global 10.2.1.2 inside 10.2.1.2 8443 unr-route"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "NAT",
+        "端口映射"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4(4)",
+      "question_type": "fill_blank",
+      "stem": "请根据需求完善防火墙配置：将对应接口加入trust或者untrust区域。\n[FW] firewall zone trust\n[FW-zone-trust] add interface（4）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "接口",
+        "安全区域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4(5)",
+      "question_type": "fill_blank",
+      "stem": "[FW-zone-trust] quit\n[FW] firewall zone untrust\n[FW-zone-untrust] add interface（5）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "接口",
+        "安全区域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4(6)",
+      "question_type": "fill_blank",
+      "stem": "配置安全策略，允许局域网指定网段与Internet进行报文交互。\n[FW] security-policy\n[FW-policy security]rule name policyl\n[FW-policy-security-rule-policyl]souree-zone（6）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "安全策略",
+        "区域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4(7)",
+      "question_type": "fill_blank",
+      "stem": "[FW-policy-security-rule-policyl]destination-zone untrust\n[FW-policy-security-rule-policyl]source-address（7）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "安全策略",
+        "源地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4(8)",
+      "question_type": "fill_blank",
+      "stem": "[FW-policy-security-rule-policyl] action（8）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "安全策略",
+        "动作"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4(9)",
+      "question_type": "fill_blank",
+      "stem": "配置NAT地址池，配置时开启允许端口地址转换，实现公网地址复用。\n[FW] nat address-group address groupl\n[FW-address-group-addressgroupl] mode pat\n[FW-address-group-addressgroupl]section 0（9）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "NAT",
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4(10)",
+      "question_type": "fill_blank",
+      "stem": "配置源NAT策略，实现局城网指定网段访问Internet时自动进行源地址转换。\n[FW] nat poliey\n[FW-policy nat]rule name policy_nat 1\n[FW-policy-nat-rule policy_nat 1] source-zone trust\n[PW-policy-nat-rule policy_nat 1] destination zone untrust\n[FW-policy-nat-rule policy_nat 1] source-address 10.1.1.0 24\n[FW-policy-nat-rule-policy_nat 1]action source-nat address-group (10)",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "NAT",
+        "策略"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(1)",
+      "question_type": "fill_blank",
+      "stem": "通 过 静 态 路 由 配 置 使 路 由 器 R1 经 过 路 由 器 R2 作 为 主 链 路 连 接 Internet;\nR1->R3->R2->Internet 作 为 备 份 链 路 ： 路 由 器 R3 经 过 路 由 器 R2 作 为 主 链 路 连 接 上\nInternet;R3->R1->R2->Internet 作为备份链路。\nR1上的配置片段\n[R1]ip route-static 0.0.0.0 0.0.0.0 （1）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "静态路由",
+        "默认路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(2)",
+      "question_type": "fill_blank",
+      "stem": "[R1]ip route-static 0.0.0.0 0.0.0.0 （2）preference 100",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "静态路由",
+        "优先级"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(3)",
+      "question_type": "fill_blank",
+      "stem": "R2上的配置片段：\n[R2]ip route-static（3）110.125.0.1",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "静态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(4)",
+      "question_type": "fill_blank",
+      "stem": "以下两条命令的作用是（4）\n[R2]ip route-static 10.2.2.0 0.255.255.255 10.12.0.1\n[R2]ip route-static 10.2.2.0 0.255.255.255 10.23.0.3 preference 100",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "静态路由",
+        "浮动路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(5)",
+      "question_type": "fill_blank",
+      "stem": "通过在R1、R2和R3上配置双向转发检测（Bidirectional Forwarding Detelet）实现链路故障快速检测和静态路由的自动切换。\n以R3为例配置R3和R2之间的BFD会话，请补全下列命令：\n[R3]（5）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "BFD",
+        "快速检测"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(6)",
+      "question_type": "fill_blank",
+      "stem": "[R3-bfd] quit\n[R3]bfd 1 bind peer-ip（6）source-ip（7）auto",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "BFD",
+        "会话"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(7)",
+      "question_type": "fill_blank",
+      "stem": "[R3]bfd 1 bind peer-ip（6）source-ip（7）auto",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "BFD",
+        "会话"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(8)",
+      "question_type": "fill_blank",
+      "stem": "通过配置虚拟路由冗余协议（Virtual Router Redundancy Protocol，简称 VRRP）通过交\n换机S1双归属到R1和R3，从而保证链路发生故障时服务器的业务不中断，R1为主路由，\nR3为备份路由，且虚拟浮动IP地址为10.2.2.10。\n根据上述配置要求，服务器的网关地址应配置为(8)。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "冗余协议",
+      "tags": [
+        "VRRP",
+        "网关"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(9)",
+      "question_type": "fill_blank",
+      "stem": "在R1上配置与R3的VRRP虚拟组相互备份：\n[R1]int g0/0/1\n[RI-GigabitEthernet0/0/1]vrrp vrid 1 virtual-ip （9）",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "冗余协议",
+      "tags": [
+        "VRRP",
+        "虚拟IP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(10)",
+      "question_type": "fill_blank",
+      "stem": "下面这条命令的作用是 （10）\n[R1-GigabitEthernet0/0/1]vrrp vrid 1 preempt-mode timer delay2",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "冗余协议",
+      "tags": [
+        "VRRP",
+        "抢占模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(11)",
+      "question_type": "fill_blank",
+      "stem": "跟踪端口：\n[R1-GigabitEthernet0/0/1]vrrp vrid 1 track interface GE0/0/0 seduced 30\n请问R1为什么要跟踪GE0/0/0端口?\n答:(11)",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "冗余协议",
+      "tags": [
+        "VRRP",
+        "端口跟踪"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(12)",
+      "question_type": "fill_blank",
+      "stem": "通过配置ACL限制PC所在网段在2021年11月6日上午9点至下午5点之间不能访问服务器的Web服务(工作在80端口)，对园区内其它网段无访问限制。\n定义满足上述要求ACL的命令片段如下，请补全命令。\n[XXX](12) ftime 9:00 to 17:00 2021/11/6",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "访问控制",
+      "tags": [
+        "ACL",
+        "时间范围"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(13)",
+      "question_type": "fill_blank",
+      "stem": "[XXX]acl 3001\n[XXX-acl-adv-3001]rule (13) tcp destination-port eq 80 source destination 10.2.2.22 0.0.0.0 time-range(14)",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "访问控制",
+      "tags": [
+        "ACL",
+        "规则"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(14)",
+      "question_type": "fill_blank",
+      "stem": "[XXX-acl-adv-3001]rule (13) tcp destination-port eq 80 source destination 10.2.2.22 0.0.0.0 time-range(14)",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "访问控制",
+      "tags": [
+        "ACL",
+        "时间范围"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5(15)",
+      "question_type": "fill_blank",
+      "stem": "上述ACL最佳配置设备是(15)。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "访问控制",
+      "tags": [
+        "ACL",
+        "部署位置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(1)",
+      "question_type": "single_choice",
+      "stem": "在基于子网划分VLAN的网络中，如果设备收到的是Untagged帧，设备将根据报文中的（1），确定用户主机添加的VLAN ID。",
+      "options": {
+        "A": "255.255.255.255",
+        "B": "内层",
+        "C": "外层",
+        "D": "源IP地址",
+        "E": "DHCP服务器",
+        "F": "1",
+        "G": "0.0.0.0",
+        "H": "源MAC地址",
+        "I": "1023"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "子网划分VLAN",
+        "Untagged帧"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(2)",
+      "question_type": "single_choice",
+      "stem": "新加入网络的主机在申请到合法的IP地址前采用源IP地址（2）进行临时通信。",
+      "options": {
+        "A": "255.255.255.255",
+        "B": "内层",
+        "C": "外层",
+        "D": "源IP地址",
+        "E": "DHCP服务器",
+        "F": "1",
+        "G": "0.0.0.0",
+        "H": "源MAC地址",
+        "I": "1023"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "临时通信",
+        "源IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(3)",
+      "question_type": "single_choice",
+      "stem": "新加入网络的主机在申请到合法的IP地址前采用源IP地址（2）进行临时通信，此时，该主机无法加入任何VLAN，设备会为该报文打上接口的缺省VLAN ID（3）。",
+      "options": {
+        "A": "255.255.255.255",
+        "B": "内层",
+        "C": "外层",
+        "D": "源IP地址",
+        "E": "DHCP服务器",
+        "F": "1",
+        "G": "0.0.0.0",
+        "H": "源MAC地址",
+        "I": "1023"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "缺省VLAN ID"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(4)",
+      "question_type": "single_choice",
+      "stem": "DHCP策略VLAN功能可使设备修改收到的DHCP报文的（4）VLANTag，将VLAN ID设置为（5）所在VLAN ID。",
+      "options": {
+        "A": "255.255.255.255",
+        "B": "内层",
+        "C": "外层",
+        "D": "源IP地址",
+        "E": "DHCP服务器",
+        "F": "1",
+        "G": "0.0.0.0",
+        "H": "源MAC地址",
+        "I": "1023"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "DHCP策略VLAN",
+        "VLAN Tag"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(5)",
+      "question_type": "single_choice",
+      "stem": "DHCP策略VLAN功能可使设备修改收到的DHCP报文的（4）VLANTag，将VLAN ID设置为（5）所在VLAN ID。",
+      "options": {
+        "A": "255.255.255.255",
+        "B": "内层",
+        "C": "外层",
+        "D": "源IP地址",
+        "E": "DHCP服务器",
+        "F": "1",
+        "G": "0.0.0.0",
+        "H": "源MAC地址",
+        "I": "1023"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "DHCP策略VLAN",
+        "VLAN ID"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(6)",
+      "question_type": "single_choice",
+      "stem": "在SwitchA上配置VLAN30的接口地址池功能：\n<HUAWEI> system-view\n[HUAWEI] sysname SwitchA\n[SwitchA]（6）enable",
+      "options": {
+        "A": "port",
+        "B": "dhcp",
+        "C": "interface",
+        "D": "mac-address",
+        "E": "ip-subnet-vlan",
+        "F": "generic",
+        "G": "10.10.30.1",
+        "H": "hybird",
+        "I": "trunk",
+        "J": "gigabitethernet0/0/1"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "DHCP",
+        "启用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(7)",
+      "question_type": "single_choice",
+      "stem": "[SwitchA]vlan batch 10 20 30\n[SwitchA]interfacc vlanif 30\n[SwitchA-Vlanif30]ip address（7）24",
+      "options": {
+        "A": "port",
+        "B": "dhcp",
+        "C": "interface",
+        "D": "mac-address",
+        "E": "ip-subnet-vlan",
+        "F": "generic",
+        "G": "10.10.30.1",
+        "H": "hybird",
+        "I": "trunk",
+        "J": "gigabitethernet0/0/1"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "VLANIF",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(8)",
+      "question_type": "single_choice",
+      "stem": "[SwitchA-Vlanif30]dhcp select（8）//使能VLANIF接口地址池",
+      "options": {
+        "A": "port",
+        "B": "dhcp",
+        "C": "interface",
+        "D": "mac-address",
+        "E": "ip-subnet-vlan",
+        "F": "generic",
+        "G": "10.10.30.1",
+        "H": "hybird",
+        "I": "trunk",
+        "J": "gigabitethernet0/0/1"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "DHCP",
+        "接口地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(9)",
+      "question_type": "single_choice",
+      "stem": "[SwitchA]interface gigabitethernet 0/0/2 //配置接口加入相应VLAN\n[SwitchA-GigabitEthernet0/0/2]port link-type（9）",
+      "options": {
+        "A": "port",
+        "B": "dhcp",
+        "C": "interface",
+        "D": "mac-address",
+        "E": "ip-subnet-vlan",
+        "F": "generic",
+        "G": "10.10.30.1",
+        "H": "hybird",
+        "I": "trunk",
+        "J": "gigabitethernet0/0/1"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "链路类型",
+        "trunk"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(10)",
+      "question_type": "single_choice",
+      "stem": "在SwitchC上与主机HostC和HostD相连的接口GEO/0/2配置基于子网划分VLAN功能，并配置接口为Hybrid Untagged类型。\n[SwitchC]interface（10）",
+      "options": {
+        "A": "port",
+        "B": "dhcp",
+        "C": "interface",
+        "D": "mac-address",
+        "E": "ip-subnet-vlan",
+        "F": "generic",
+        "G": "10.10.30.1",
+        "H": "hybird",
+        "I": "trunk",
+        "J": "gigabitethernet0/0/1"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "接口",
+        "Hybrid"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(11)",
+      "question_type": "single_choice",
+      "stem": "[SwitchC]interface gigabitethernet 0/0/2\n[SwitchC-GigabitEthernet0/0/2]（11）enable",
+      "options": {
+        "A": "port",
+        "B": "dhcp",
+        "C": "interface",
+        "D": "mac-address",
+        "E": "ip-subnet-vlan",
+        "F": "generic",
+        "G": "10.10.30.1",
+        "H": "hybird",
+        "I": "trunk",
+        "J": "gigabitethernet0/0/1"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "子网划分VLAN",
+        "启用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(12)",
+      "question_type": "single_choice",
+      "stem": "[SwitchC-GigabitEthernet0/0/2]（11）enable\n[SwitchC-GigabitEthernet0/0/2]quit（12）untagged vlan 30",
+      "options": {
+        "A": "port",
+        "B": "dhcp",
+        "C": "interface",
+        "D": "mac-address",
+        "E": "ip-subnet-vlan",
+        "F": "generic",
+        "G": "10.10.30.1",
+        "H": "hybird",
+        "I": "trunk",
+        "J": "gigabitethernet0/0/1"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "Hybrid",
+        "Untagged"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(13)",
+      "question_type": "single_choice",
+      "stem": "在SwitchB上分别配置基于MAC地址和基于的DHCP策略VLAN功能\n[SwitchB]vlan 10\n[SwitchB vlan 10]ip-subnet-vlan ip 10.10.10.1 24\n[SwitchB vlan 10]dhcp policy-vlan(13)",
+      "options": {
+        "A": "port",
+        "B": "dhcp",
+        "C": "interface",
+        "D": "mac-address",
+        "E": "ip-subnet-vlan",
+        "F": "generic",
+        "G": "10.10.30.1",
+        "H": "hybird",
+        "I": "trunk",
+        "J": "gigabitethernet0/0/1"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "DHCP策略VLAN",
+        "MAC地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(14)",
+      "question_type": "single_choice",
+      "stem": "[SwitchB vlan 20] ip-subnet-vlan ip 10.10.20.1.24\n[SwitchB vlan 20]dhcp policy-vlan (14) gigabitethernet0/0/3",
+      "options": {
+        "A": "port",
+        "B": "dhcp",
+        "C": "interface",
+        "D": "mac-address",
+        "E": "ip-subnet-vlan",
+        "F": "generic",
+        "G": "10.10.30.1",
+        "H": "hybird",
+        "I": "trunk",
+        "J": "gigabitethernet0/0/1"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "DHCP策略VLAN",
+        "接口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6(15)",
+      "question_type": "single_choice",
+      "stem": "在SwitchC上配置普通的DHCP策略VLAN功能\n[SwitchC]vlan 30\n[SwitchB vlan 30] ip-subnet-vlan ip 10.10.30.1.24\n[SwitchB vlan 30]dhcp policy-vlan (15)",
+      "options": {
+        "A": "port",
+        "B": "dhcp",
+        "C": "interface",
+        "D": "mac-address",
+        "E": "ip-subnet-vlan",
+        "F": "generic",
+        "G": "10.10.30.1",
+        "H": "hybird",
+        "I": "trunk",
+        "J": "gigabitethernet0/0/1"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "DHCP策略VLAN",
+        "普通"
+      ],
+      "is_verified": false
+    }
+  ]
+}

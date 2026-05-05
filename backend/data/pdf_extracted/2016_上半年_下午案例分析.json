@@ -1,0 +1,969 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2016,
+    "season": "上半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2016年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "fill_blank",
+      "stem": "根据图1-1，将设备清单表1-1所示内容补充完整。（空1）",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "网络拓扑",
+        "设备选型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "fill_blank",
+      "stem": "根据图1-1，将设备清单表1-1所示内容补充完整。（空2）",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "网络拓扑",
+        "设备选型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "fill_blank",
+      "stem": "根据图1-1，将设备清单表1-1所示内容补充完整。（空3）",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "网络拓扑",
+        "设备选型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "fill_blank",
+      "stem": "根据图1-1，将设备清单表1-1所示内容补充完整。（空4）",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "网络拓扑",
+        "设备选型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "fill_blank",
+      "stem": "设备AR2220应用（ ）接口实现NAT功能。",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAT",
+        "接口配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "fill_blank",
+      "stem": "该接口地址网关是（ ）。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAT",
+        "网关"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "rule（ ）source 2.2.2.11.0.0.0.0",
+      "options": {
+        "A": "Firewall",
+        "B": "trust",
+        "C": "deny",
+        "D": "permit",
+        "E": "outbound",
+        "F": "inbound"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "防火墙"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem": "（ ） interzone trust untrust",
+      "options": {
+        "A": "Firewall",
+        "B": "trust",
+        "C": "deny",
+        "D": "permit",
+        "E": "outbound",
+        "F": "inbound"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "防火墙"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem": "packet-filter 3000 （ ）",
+      "options": {
+        "A": "Firewall",
+        "B": "trust",
+        "C": "deny",
+        "D": "permit",
+        "E": "outbound",
+        "F": "inbound"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "防火墙"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "fill_blank",
+      "stem": "interface vlanif 300\nip address（ ）255.255.255.0",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "VLAN配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "fill_blank",
+      "stem": "rip\nnetwork 192.168.4.0\nnetwork （ ）",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "VLAN配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "fill_blank",
+      "stem": "Port link-type trunk //（ ）",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "Trunk",
+        "配置解释"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "fill_blank",
+      "stem": "常用的IP访问控制列表有两种，它们是编号为（1）和1300~1999的标准访问控制列表和编为（2）和2000~2699的扩展访问控制列表。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "标准/扩展"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "fill_blank",
+      "stem": "标准访问控制列表是根据IP报的（3）来对IP报文进行过滤。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "标准"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "fill_blank",
+      "stem": "扩展访问控制列表是根据IP报文的（4）、（5）、上层协议和时间等来对IP报文进行过滤。",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "扩展"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "fill_blank",
+      "stem": "扩展访问控制列表是根据IP报文的（4）、（5）、上层协议和时间等来对IP报文进行过滤。（空4）",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "扩展"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "fill_blank",
+      "stem": "扩展访问控制列表是根据IP报文的（4）、（5）、上层协议和时间等来对IP报文进行过滤。（空5）",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "扩展"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "fill_blank",
+      "stem": "一般地，标准访问控制列表放置在靠近（6）的位置，扩展访问控制列表放置在靠近（7）的位置。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "部署原则"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "fill_blank",
+      "stem": "一般地，标准访问控制列表放置在靠近（6）的位置，扩展访问控制列表放置在靠近（7）的位置。（空7）",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "部署原则"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "fill_blank",
+      "stem": "R1(config)#access-list 1 （8）（9） 0.0.0.255",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "fill_blank",
+      "stem": "R1(config)#access-list 1 （8）（9） 0.0.0.255（空9）",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "fill_blank",
+      "stem": "R1(config)#access-Iist 1 deny （10）0.0.0.255",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "fill_blank",
+      "stem": "R1(config)#interface （11）",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "接口应用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "fill_blank",
+      "stem": "R1(config-if)#ip access-group 1 （12）",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "接口应用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch(config-time-range)# periodic daily （13）",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "时间范围"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch(config-time-range)#periodic （14） 18:00 to 24:00",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "时间范围"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch(config)#access-list 100 deny ip（15）0.0.0.255 time-range jsp",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch(config)#access-list 100 deny ip（16）0.0.0.255 time-range xsssq",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (config)#interface（17）",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "接口应用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch(config-ext-nacl)#permit ip any 172.16.20.0 0.0.0.255 reflect jsp //（18）",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "自反ACL",
+        "配置解释"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch(config-ext-nacl)# evaluate jsp //（19）",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "自反ACL",
+        "配置解释"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch(config-if)#ip access-group infilter in\nRoute-Switch(config-if)#ip access-group outfilter out //（20）",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "自反ACL",
+        "配置解释"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "33",
+      "question_type": "fill_blank",
+      "stem": "请填充图3-1中(1)处空缺内容。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "34",
+      "question_type": "fill_blank",
+      "stem": "请填充图3-1中(2)处空缺内容。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "35",
+      "question_type": "fill_blank",
+      "stem": "请填充图3-1中(3)处空缺内容。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "36",
+      "question_type": "fill_blank",
+      "stem": "请填充图3-1中(4)处空缺内容。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "37",
+      "question_type": "single_choice",
+      "stem": "XACHINA-1DC0B33 的IP地址为114.114.114.114",
+      "options": {
+        "A": "对",
+        "B": "错"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "配置判断"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "38",
+      "question_type": "single_choice",
+      "stem": "该域名服务器无法解析的域名转发到114.114.114.114或8.8.8.8。",
+      "options": {
+        "A": "对",
+        "B": "错"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "配置判断"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "39",
+      "question_type": "single_choice",
+      "stem": "域lyrh.com的资源记录包含在该DNS服务器中。",
+      "options": {
+        "A": "对",
+        "B": "错"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "配置判断"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "40",
+      "question_type": "single_choice",
+      "stem": "客户机的“首选DNS服务器”地址必须与该DNS服务器地址一致。",
+      "options": {
+        "A": "对",
+        "B": "错"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "配置判断"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "41",
+      "question_type": "single_choice",
+      "stem": "该域名服务器是lyrh.com的授权域名服务器。",
+      "options": {
+        "A": "对",
+        "B": "错"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "授权"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "42",
+      "question_type": "single_choice",
+      "stem": "该域名服务器支持192.168.101.6地址的反向域名查找。",
+      "options": {
+        "A": "对",
+        "B": "错"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "反向查找"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "43",
+      "question_type": "single_choice",
+      "stem": "如图3-5所示，通过主机头的方式建立两个网站www.ycch.com和www.lyrh.com网站配置是（ ）。",
+      "options": {
+        "A": "相同的IP地址，不同的端口号",
+        "B": "不同的IP地址，相同的目录",
+        "C": "相同的IP地址，不同的目录",
+        "D": "相同的主机头，相同的端口号"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "Web",
+        "主机头"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "44",
+      "question_type": "fill_blank",
+      "stem": "除了主机头方式，还可以采用（ ）方式在一台服务器上配置多网站。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "Web",
+        "多站点"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "45",
+      "question_type": "fill_blank",
+      "stem": "图3-6中设备打“？”的含义是（ ）。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "Windows Server",
+        "设备状态"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "46",
+      "question_type": "fill_blank",
+      "stem": "设备打“x”的含义是（ ）。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "Windows Server",
+        "设备状态"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "47",
+      "question_type": "fill_blank",
+      "stem": "图3-6中1394网络适配器能连接什么设备？",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "硬件",
+      "tags": [
+        "1394",
+        "设备接口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "48",
+      "question_type": "fill_blank",
+      "stem": "R1(config)#interface fastethernet 0/2\nR1(config-if)#ip address（ ） 255.255.252.0 //使用网段中最后一个地址",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAPT",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "49",
+      "question_type": "fill_blank",
+      "stem": "R1(config)#ip nat pool ss 202.111.1.1（ ）netmask（ ）",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAPT",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "50",
+      "question_type": "fill_blank",
+      "stem": "R1(config)#ip nat pool ss 202.111.1.1（ ）netmask（ ）（空2）",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAPT",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "51",
+      "question_type": "fill_blank",
+      "stem": "R1(config)# interface（ ）fastethernet 0/0-1",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAPT",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "52",
+      "question_type": "fill_blank",
+      "stem": "R1(config-if)#ip nat（ ）",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAPT",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "53",
+      "question_type": "fill_blank",
+      "stem": "R1(config-if)#ip nat（ ）（第二个）",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAPT",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "54",
+      "question_type": "fill_blank",
+      "stem": "R1(config)#access-Iist 1 permit 192.168.4.0（ ）",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAPT",
+        "ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "55",
+      "question_type": "fill_blank",
+      "stem": "R1(config)#ip nat inside（ ）list（ ）pool（ ）（ ）",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAPT",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "56",
+      "question_type": "fill_blank",
+      "stem": "R1(config)#ip nat inside（ ）list（ ）pool（ ）（ ）（空2）",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAPT",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "57",
+      "question_type": "fill_blank",
+      "stem": "R1(config)#ip nat inside（ ）list（ ）pool（ ）（ ）（空3）",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAPT",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "58",
+      "question_type": "fill_blank",
+      "stem": "R1(config)#ip nat inside（ ）list（ ）pool（ ）（ ）（空4）",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAPT",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "59",
+      "question_type": "single_choice",
+      "stem": "配置完成后，在R1和R2上均无法ping通R3的局域网，可能的原因是（ ）",
+      "options": {
+        "A": "在R3上未宣告局域网路由",
+        "B": "以上配置中第7行和第13行配置错误",
+        "C": "第1行配置错误",
+        "D": "R1、R2未宣告直连路由"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "OSPF",
+        "故障排除"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "60",
+      "question_type": "single_choice",
+      "stem": "在OSPF中重分布默认路由的命令是：（ ）",
+      "options": {
+        "A": "Rl#default-informaton originate",
+        "B": "R1(config-if)#default-information originate",
+        "C": "R1(config-router)#default-information originate",
+        "D": "Rl(config)#default-information originate"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "OSPF",
+        "默认路由"
+      ],
+      "is_verified": false
+    }
+  ]
+}

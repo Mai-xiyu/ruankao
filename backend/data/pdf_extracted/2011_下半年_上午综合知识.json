@@ -1,0 +1,1521 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2011,
+    "season": "下半年",
+    "paper_type": "上午综合知识",
+    "source_name": "PDF 提取 - 2011年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "若某条无条件转移汇编指令采用直接寻址，则该指令的功能是将指令中的地址码送入(1)。",
+      "options": {
+        "A": "PC (程序计数器）",
+        "B": "AR (地址寄存器）",
+        "C": "AC (累加器）",
+        "D": "ALU (算逻运算单元）"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "寻址方式",
+        "指令系统"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "若某计算机系统的 I/O 接口与主存采用统一编址，则输入输出操作是通过（2)指令来完成的。",
+      "options": {
+        "A": "控制",
+        "B": "中断",
+        "C": "输入输出",
+        "D": "访存"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "I/O接口",
+        "统一编址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "在程序的执行过程中，Cache 与主存的地址映像由(3).",
+      "options": {
+        "A": "专门的硬件自动完成",
+        "B": "程序员进行调度",
+        "C": "操作系统进行管理",
+        "D": "程序员和操作系统共同协调完成"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "Cache",
+        "地址映像"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem": "总线复用方式可以(4)。",
+      "options": {
+        "A": "提高总线的传输带宽",
+        "B": "增加总线的功能",
+        "C": "减少总线中信号线的数量",
+        "D": "提高 CPU 利用率"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "总线",
+        "复用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem": "确定软件的模块划分及模块之间的调用关系是(5)阶段的任务。",
+      "options": {
+        "A": "需求分析",
+        "B": "概要设计",
+        "C": "详细设计",
+        "D": "编码"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "软件工程",
+      "tags": [
+        "软件设计",
+        "模块划分"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem": "利用结构化分析模型进行接口设计时，应以(6)为依据。",
+      "options": {
+        "A": "数据流图",
+        "B": "实体-关系图",
+        "C": "数据字典",
+        "D": "状态-迁移图"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "软件工程",
+      "tags": [
+        "结构化分析",
+        "接口设计"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "下图是一个软件项目的活动图，其中顶点表示项目里程碑，连接顶点的边表示包含的活动，边上的值表示完成活动所需要的时间，则关键路径长度为(7)。",
+      "options": {
+        "A": "20",
+        "B": "19",
+        "C": "17",
+        "D": "16"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "项目管理",
+      "tags": [
+        "关键路径",
+        "活动图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem": "若某文件系统的目录结构如下图所示，假设用户要访问文件 f1.java,且当前工作目录为 Program，则该文件的全文件名为(8),其相对路径为(9)。",
+      "options": {
+        "A": "f1.java",
+        "B": "\\Document\\Java-prog\\f1.java",
+        "C": "D:\\Program\\Java-prog\\f1.java",
+        "D": "\\Program\\Java-prog\\f1.java"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "文件系统",
+        "路径"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem": "若某文件系统的目录结构如下图所示，假设用户要访问文件 f1.java,且当前工作目录为 Program，则该文件的全文件名为(8),其相对路径为(9)。",
+      "options": {
+        "A": "Java-prog\\",
+        "B": "\\Java-prog\\",
+        "C": "Program\\Java-prog",
+        "D": "\\Program\\Java-prog\\"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "文件系统",
+        "路径"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem": "(10)指可以不经著作权人许可，无需支付报酬，使用其作品。",
+      "options": {
+        "A": "合理使用",
+        "B": "许可使用",
+        "C": "强制许可使用",
+        "D": "法定许可使用"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "法律法规",
+      "tags": [
+        "著作权",
+        "合理使用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem": "两个自治系统(AS)之间的路由协议是(11)。",
+      "options": {
+        "A": "RIP",
+        "B": "OSPF",
+        "C": "BGP",
+        "D": "IGRP"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "路由协议",
+        "AS",
+        "BGP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem": "一个以太网交换机，读取整个数据帧，对数据帧进行差错校验后再转发出去，这种交换方式称为(12)。",
+      "options": {
+        "A": "存储转发交换",
+        "B": "直通交换",
+        "C": "无碎片交换",
+        "D": "无差错交换"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "交换机",
+        "交换方式",
+        "存储转发"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "single_choice",
+      "stem": "以下关于光纤通信的叙述中，正确的是(13)。",
+      "options": {
+        "A": "多模光纤传输距离远，而单模光纤传输距离近",
+        "B": "多模光纤的价格便宜，而单模光纤的价格较贵",
+        "C": "多模光纤的包层外径较粗，而单模光纤的包层外径较细",
+        "D": "多模光纤的纤芯较细，而单模光纤的纤芯较粗"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "光纤",
+        "多模",
+        "单模"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "single_choice",
+      "stem": "可以用数字信号对模拟载波的不同参量进行调制，下图所示的调制方式称为(14)。",
+      "options": {
+        "A": "ASK",
+        "B": "FSK",
+        "C": "PSK",
+        "D": "DPSK"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "通信基础",
+      "tags": [
+        "调制",
+        "PSK"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "single_choice",
+      "stem": "下图中画出了曼彻斯特编码和差分曼彻斯特编码的波形图，实际传送的比特串为(15)。",
+      "options": {
+        "A": "10101100",
+        "B": "01110010",
+        "C": "01010011",
+        "D": "10001101"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "曼彻斯特编码",
+        "差分曼彻斯特编码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "single_choice",
+      "stem": "E1 信道的数据速率是(16),其中毎个话音信道的数据速率是(17)。",
+      "options": {
+        "A": "1.544Mb/s",
+        "B": "2.048Mb/s",
+        "C": "6.312Mb/s",
+        "D": "44.736Mb/s"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "E1",
+        "数据速率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "single_choice",
+      "stem": "E1 信道的数据速率是(16),其中毎个话音信道的数据速率是(17)。",
+      "options": {
+        "A": "56Kb/s",
+        "B": "64Kb/s",
+        "C": "128Kb/s",
+        "D": "2048Kb/s"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "E1",
+        "话音信道"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "single_choice",
+      "stem": "在各种 xDSL 技术中，能提供上下行信道非对称传输的是(18)",
+      "options": {
+        "A": "ADSL 和 HDSL",
+        "B": "ADSL 和 VDSL",
+        "C": "SDSL 和 VDSL",
+        "D": "SDSL 和 HDSL"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "xDSL",
+        "非对称传输"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "single_choice",
+      "stem": "采用 ADSL 虚拟拨号接入方式中，用户端需要安装(19)软件。",
+      "options": {
+        "A": "PPP",
+        "B": "PPPoE",
+        "C": "PPTP",
+        "D": "L2TP"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "ADSL",
+        "PPPoE"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "single_choice",
+      "stem": "ICMP 协议属于 TCP/IP 网络中的(20)协议，ICMP 报文封装在(21)包中传送。",
+      "options": {
+        "A": "数据链路层",
+        "B": "网络层",
+        "C": "传输层",
+        "D": "会话层"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "ICMP",
+        "协议层次"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "single_choice",
+      "stem": "ICMP 协议属于 TCP/IP 网络中的(20)协议，ICMP 报文封装在(21)包中传送。",
+      "options": {
+        "A": "IP",
+        "B": "TCP",
+        "C": "UDP",
+        "D": "PPP"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "ICMP",
+        "封装"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "single_choice",
+      "stem": "ARP 表用于缓存设备的 IP 地址与 MAC 地址的对应关系，采用 ARP 表的好处是(22)。",
+      "options": {
+        "A": "便于测试网络连接数",
+        "B": "减少网络维护工作量",
+        "C": "限制网络广播数量",
+        "D": "解决网络地址冲突"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "ARP",
+        "ARP表"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "single_choice",
+      "stem": "以下有关边界网关协议 BGP4 的叙述中，不正确的是(23).",
+      "options": {
+        "A": "BGP4 网关向对等实体（Peer)发布可以到达的 AS 列表",
+        "B": "BGP4 网关采用逐跳路由（hop-by-hop)模式发布路由信息",
+        "C": "BGP4 可以通过路由汇聚功能形成超级网络（supernet)",
+        "D": "BGP4 报文直接封装在 IP 数据报中传送"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "BGP4",
+        "路由协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "single_choice",
+      "stem": "为了限制路由信息传播的范围，OSPF 协议把网络划分成 4 种区域(Area)，其中(24) 的作用是连接各个区域的传输网络，(25)不接受本地自治系统之外的路由信息。",
+      "options": {
+        "A": "不完全存根区域",
+        "B": "标准区域",
+        "C": "主干区域",
+        "D": "存根区域"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "OSPF",
+        "区域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "single_choice",
+      "stem": "为了限制路由信息传播的范围，OSPF 协议把网络划分成 4 种区域(Area)，其中(24) 的作用是连接各个区域的传输网络，(25)不接受本地自治系统之外的路由信息。",
+      "options": {
+        "A": "不完全存根区域",
+        "B": "标准区域",
+        "C": "主干区域",
+        "D": "存根区域"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "OSPF",
+        "区域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "single_choice",
+      "stem": "POP3 协议采用(26)模式，当客户机需要服务时，客户端软件(OutlookExpress 或FoxMail)与 POP3 服务器建立(27)连接。",
+      "options": {
+        "A": "Browaer/Server",
+        "B": "Client/Server",
+        "C": "Peer to Peer",
+        "D": "Peer to Server"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "POP3",
+        "协议模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "single_choice",
+      "stem": "POP3 协议采用(26)模式，当客户机需要服务时，客户端软件(OutlookExpress 或FoxMail)与 POP3 服务器建立(27)连接。",
+      "options": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "PHP",
+        "D": "IP"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "POP3",
+        "TCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "single_choice",
+      "stem": "SMTP 服务器端使用的端口号默认为(28)。",
+      "options": {
+        "A": "21",
+        "B": "25",
+        "C": "53",
+        "D": "80"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "SMTP",
+        "端口号"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "single_choice",
+      "stem": "下图为 Web 站点的默认网站属性窗口，如果要设置用户对主页文件的读取权限，需要在(29)选项卡中进行配置。",
+      "options": {
+        "A": "网站",
+        "B": "主目录",
+        "C": "文档",
+        "D": "HTTP 头"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "Web站点",
+        "权限设置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "single_choice",
+      "stem": "DHCP 客户端启动时会向网络发出一个 Dhcpdiscover 包来请求 IP 地址，其源 IP 地址为(30)。",
+      "options": {
+        "A": "192.168.0.1",
+        "B": "0.0.0.0",
+        "C": "255.255.255.0",
+        "D": "255.255.255.255"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "DHCP",
+        "Dhcpdiscover"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "single_choice",
+      "stem": "当使用时间到达租约期的(31)时，DHCP 客户端和 DHCP 服务器将更新租约。",
+      "options": {
+        "A": "50%",
+        "B": "75%",
+        "C": "87.5%",
+        "D": "100%"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "DHCP",
+        "租约更新"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "single_choice",
+      "stem": "在 Linux 中，某文件的访问权限信息为“-rwxr--r--”，以下对该文件的说明中，正确的是(32)。",
+      "options": {
+        "A": "文件所有者有读、写和执行权限，其他用户没有读、写和执行权限",
+        "B": "文件所有者有读、写和执行权限，其他用户只有读权限",
+        "C": "文件所有者和其他用户都有读、写和执行权限",
+        "D": "文件所有者和其他用户都只有读和写权限"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "Linux",
+        "文件权限"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "33",
+      "question_type": "single_choice",
+      "stem": "在 Linux 中，更改用户口令的命令是(33)。",
+      "options": {
+        "A": "pwd",
+        "B": "passwd",
+        "C": "kouling",
+        "D": "password"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "Linux",
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "34",
+      "question_type": "single_choice",
+      "stem": "在 Linux 中，目录“/proc”主要用于存放(34)。",
+      "options": {
+        "A": "设备文件",
+        "B": "命令文件",
+        "C": "配置文件",
+        "D": "进程和系统信息"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "Linux",
+        "/proc"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "35",
+      "question_type": "single_choice",
+      "stem": "网络用户只能接收但不能发送 Email，不可能的原因是(35)。",
+      "options": {
+        "A": "邮件服务器配置错误",
+        "B": "路由器端口的访问控制列表设置为 deny pop3",
+        "C": "路由器端口的访问控制列表设置为 deny smtp",
+        "D": "客户端代理设置错误"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "Email",
+        "故障排除"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "36",
+      "question_type": "single_choice",
+      "stem": "配置 FTP 服务器的属性窗口如下图所示，默认情况下“本地路径”文本框中的值为(36).",
+      "options": {
+        "A": "c:\\inetpub\\wwwroot",
+        "B": "c:\\inetpub\\ftproot",
+        "C": "c:\\wmpubi\\wwwroot",
+        "D": "c:\\wmpubi\\ftproot"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "FTP",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "37",
+      "question_type": "single_choice",
+      "stem": "在 Windows 系统中，进行域名解析时，客户端系统会首先从本机的(37)文件中寻找域名对应的 IP 地址。在该文件中，默认情况下必须存在的一条记录是(38).",
+      "options": {
+        "A": "hosts",
+        "B": "lmhosts",
+        "C": "networks",
+        "D": "dnsfile"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "Windows",
+        "域名解析",
+        "hosts"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "38",
+      "question_type": "single_choice",
+      "stem": "在 Windows 系统中，进行域名解析时，客户端系统会首先从本机的(37)文件中寻找域名对应的 IP 地址。在该文件中，默认情况下必须存在的一条记录是(38).",
+      "options": {
+        "A": "192.168.0.1 gateway",
+        "B": "224.0.0.0 multicase",
+        "C": "0.0.0.0 source",
+        "D": "127.0.0.1 localhost"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "Windows",
+        "hosts",
+        "localhost"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "39",
+      "question_type": "single_choice",
+      "stem": "则路由器 routerl e0 接口的 IP 地址为(39);www.abc.com.cn 的 IP 地址为（40）。",
+      "options": {
+        "A": "172.116.11.2",
+        "B": "119.215.67.254",
+        "C": "210.120.1.30",
+        "D": "208.30.1.101"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "tracert",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "40",
+      "question_type": "single_choice",
+      "stem": "则路由器 routerl e0 接口的 IP 地址为(39);www.abc.com.cn 的 IP 地址为（40）。",
+      "options": {
+        "A": "172.116.11.2",
+        "B": "119.215.67.254",
+        "C": "210.120.1.30",
+        "D": "208.30.1.101"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "tracert",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "41",
+      "question_type": "single_choice",
+      "stem": "某报文的长度是 1000 字节，利用 MD5 计算出来的报文摘要长度是(41)位，利用 SHA计算出来的报文摘要长度是(42)位。",
+      "options": {
+        "A": "64",
+        "B": "128",
+        "C": "256",
+        "D": "160"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "MD5",
+        "报文摘要"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "42",
+      "question_type": "single_choice",
+      "stem": "某报文的长度是 1000 字节，利用 MD5 计算出来的报文摘要长度是(41)位，利用 SHA计算出来的报文摘要长度是(42)位。",
+      "options": {
+        "A": "64",
+        "B": "128",
+        "C": "256",
+        "D": "160"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "SHA",
+        "报文摘要"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "43",
+      "question_type": "single_choice",
+      "stem": "以下安全协议中，用来实现安全电子邮件的协议是(43)。",
+      "options": {
+        "A": "IPSec",
+        "B": "L2TP",
+        "C": "PGP",
+        "D": "PPTP"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "安全电子邮件",
+        "PGP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "44",
+      "question_type": "single_choice",
+      "stem": "Kerberos 由认证服务器(AS)和票证授予服务器(TGS)两部分组成，当用户 A 通过 Kerberos 向服务器 V 请求服务时，认证过程如下图所示，图中①处为(44),②处为(45)。",
+      "options": {
+        "A": "KTGS(A,KS)",
+        "B": "KS(V,KAV)",
+        "C": "KV(A,KAV)",
+        "D": "KS(t)"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "Kerberos",
+        "认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "45",
+      "question_type": "single_choice",
+      "stem": "Kerberos 由认证服务器(AS)和票证授予服务器(TGS)两部分组成，当用户 A 通过 Kerberos 向服务器 V 请求服务时，认证过程如下图所示，图中①处为(44),②处为(45)。",
+      "options": {
+        "A": "KAV(t+1)",
+        "B": "KS(t+1)",
+        "C": "KSt",
+        "D": "KAVt"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "Kerberos",
+        "认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "46",
+      "question_type": "single_choice",
+      "stem": "公钥体系中，用户甲发送给用户乙的数据要用(46)进行加密。",
+      "options": {
+        "A": "甲的公钥",
+        "B": "甲的私钥",
+        "C": "乙的公钥",
+        "D": "乙的私钥"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "公钥加密",
+        "加密"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "47",
+      "question_type": "single_choice",
+      "stem": "RMON 和 SNMP 的主要区别是(47)。",
+      "options": {
+        "A": "RMON 只能提供单个设备的管理信息，而 SNMP 可以提供整个子网的管理信息",
+        "B": "RMON 提供了整个子网的管理信息，而 SNMP 管理信息库只包含本地设备的管理信息",
+        "C": "RMON 定义了远程网络的管理信息库，而 SNMP 只能提供本地网络的管理信息",
+        "D": "RMON 只能提供本地网络的管理信息，而 SNMP 定义了远程网络的管理信息库"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "RMON",
+        "SNMP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "48",
+      "question_type": "single_choice",
+      "stem": "SNMP 采用 UDP 提供的数据报服务传递信息，这是由于(48)。",
+      "options": {
+        "A": "UDP 比 TCP 更加可靠",
+        "B": "UDP 数据报文可以比 TCP 数据报文大",
+        "C": "UDP 是面向连接的传输方式",
+        "D": "UDP 实现网络管理的效率较高"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "SNMP",
+        "UDP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "49",
+      "question_type": "single_choice",
+      "stem": "在网络管理中要防止各种安全威胁。在 SNMP 中，无法预防的安全威胁是(49)。",
+      "options": {
+        "A": "篡改管理信息：通过改变传输中的 SNMP 报文实施未经授权的管理操作",
+        "B": "通信分析：第三者分析管理实体之间的通信规律，从而获取管理信息",
+        "C": "假冒合法用户：未经授权的用户冒充授权用户，企图实施管理操作",
+        "D": "消息泄露：SNMP 引擎之间交换的信息被第三者偷听"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "SNMP",
+        "安全威胁"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "50",
+      "question_type": "single_choice",
+      "stem": "在 Windows 的 DOS 窗口中键入命令\nC:\\> nslookup\n> set type=ptr\n>211.151.91.165\n这个命令序列的作用是(50)。",
+      "options": {
+        "A": "查询 211.151.91.165 的邮件服务器信息",
+        "B": "查询 211.151.91.165 到域名的映射",
+        "C": "查询 211.151.91.165 的资源记录类型",
+        "D": "显示 211.151.91.165 中各种可用的信息"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "nslookup",
+        "PTR记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "51",
+      "question_type": "single_choice",
+      "stem": "32 位的 IP 地址可以划分为网络号和主机号两部分。下面的地址中(51)不能作为目标地址，(52)不能作为源地址。",
+      "options": {
+        "A": "0.0.0.0",
+        "B": "127.0.0.1",
+        "C": "10.0.0.1",
+        "D": "192.168.0.255/24"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "IP地址",
+        "特殊地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "52",
+      "question_type": "single_choice",
+      "stem": "32 位的 IP 地址可以划分为网络号和主机号两部分。下面的地址中(51)不能作为目标地址，(52)不能作为源地址。",
+      "options": {
+        "A": "0.0.0.0",
+        "B": "127.0.0.1",
+        "C": "10.0.0.1",
+        "D": "192.168.0.255/24"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "IP地址",
+        "特殊地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "53",
+      "question_type": "single_choice",
+      "stem": "假设用户 Q1 有 2000 台主机，则必须给他分配(53)个 C 类网络，如果分配给用户 Q1 的超网号为 200.9.64.0,则指定给 Q1 的地址掩码为(54)：假设给另一用户 Q2 分配的 C 类网络号为 200.9.16.0〜200.9.31.0,如果路由器收到一个目标地址为 11001000 00001001 01000011 00100001 的数据报，则该数据报应送给用户(55)。",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "10",
+        "D": "16"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "C类网络",
+        "子网划分"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "54",
+      "question_type": "single_choice",
+      "stem": "假设用户 Q1 有 2000 台主机，则必须给他分配(53)个 C 类网络，如果分配给用户 Q1 的超网号为 200.9.64.0,则指定给 Q1 的地址掩码为(54)：假设给另一用户 Q2 分配的 C 类网络号为 200.9.16.0〜200.9.31.0,如果路由器收到一个目标地址为 11001000 00001001 01000011 00100001 的数据报，则该数据报应送给用户(55)。",
+      "options": {
+        "A": "255.255.255.0",
+        "B": "255.255.250.0",
+        "C": "255.255.248.0",
+        "D": "255.255.240.0"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "超网",
+        "掩码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "55",
+      "question_type": "single_choice",
+      "stem": "假设用户 Q1 有 2000 台主机，则必须给他分配(53)个 C 类网络，如果分配给用户 Q1 的超网号为 200.9.64.0,则指定给 Q1 的地址掩码为(54)：假设给另一用户 Q2 分配的 C 类网络号为 200.9.16.0〜200.9.31.0,如果路由器收到一个目标地址为 11001000 00001001 01000011 00100001 的数据报，则该数据报应送给用户(55)。",
+      "options": {
+        "A": "Q1",
+        "B": "Q2",
+        "C": "Q1 或 Q2",
+        "D": "不可到达"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "路由",
+        "地址匹配"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "56",
+      "question_type": "single_choice",
+      "stem": "建筑物综合布线系统中工作区子系统是指(56)。",
+      "options": {
+        "A": "由终端到信息插座之间的连线系统",
+        "B": "楼层接线间的配线架和线缆系统",
+        "C": "各楼层设备之间的互连系统",
+        "D": "连接各个建筑物的通信系统"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "综合布线",
+        "工作区子系统"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "57",
+      "question_type": "single_choice",
+      "stem": "设有下面 4 条路由:196.34.129.0/24、196.34.130.0/24、196.34.132.0/24 和 196.34.133.0/24,如果进行路由汇聚，能覆盖这 4 条路由的地址是(57)。",
+      "options": {
+        "A": "196.34.128.0/21",
+        "B": "196.34.128.0/22",
+        "C": "196.34.130.0/22",
+        "D": "196.34.132.0/23"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "路由汇聚",
+        "CIDR"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "58",
+      "question_type": "single_choice",
+      "stem": "IPv6 地址 33AB:0000:0000:CD30:0000:0000:0000:0000/60 可以表示成各种简写形式，以下写法中，正确的是(58).",
+      "options": {
+        "A": "33AB:0:0:CD30::/60",
+        "B": "33AB:0:0:CD3/60",
+        "C": "33AB::CD30/60",
+        "D": "33AB::CD3/60"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "IPv6",
+        "简写"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "59",
+      "question_type": "single_choice",
+      "stem": "配置路由器时，PC 的串行口与路由器的(59) 口相连，路由器与 PC 串行口通信的默认数据速率为(60)。",
+      "options": {
+        "A": "以太接口",
+        "B": "串行接口",
+        "C": "RJ-45 端口",
+        "D": "console 接口"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "路由器",
+        "Console口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "60",
+      "question_type": "single_choice",
+      "stem": "配置路由器时，PC 的串行口与路由器的(59) 口相连，路由器与 PC 串行口通信的默认数据速率为(60)。",
+      "options": {
+        "A": "2400b/s",
+        "B": "4800b/s",
+        "C": "9600b/s",
+        "D": "10Mb/s"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "Console口",
+        "数据速率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "61",
+      "question_type": "single_choice",
+      "stem": "交换机命令 SwitchA(VLAN) #vtp pruning 的作用是(61)。",
+      "options": {
+        "A": "退出 VLAN 配置模式",
+        "B": "进入配置子模式",
+        "C": "删除一个 VLAN",
+        "D": "启动 VLAN 修剪功能"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "VTP",
+        "修剪"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "62",
+      "question_type": "single_choice",
+      "stem": "以太网介质访问控制策略可以采用不同的监听算法，其中一种是：“一旦介质空闲就发送数据，假如介质忙，继续监听，直到介质空闲后立即发送数据”，这种算法称为(62)监听算法。这种算法的主要特点是(63)。",
+      "options": {
+        "A": "1-坚持型",
+        "B": "非坚持型",
+        "C": "P-坚持型",
+        "D": "0-坚持型"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "CSMA",
+        "监听算法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "63",
+      "question_type": "single_choice",
+      "stem": "以太网介质访问控制策略可以采用不同的监听算法，其中一种是：“一旦介质空闲就发送数据，假如介质忙，继续监听，直到介质空闲后立即发送数据”，这种算法称为(62)监听算法。这种算法的主要特点是(63)。",
+      "options": {
+        "A": "介质利用率低，且冲突概率低",
+        "B": "介质利用率高，但冲突概率也髙",
+        "C": "介质利用率低，且无法避免冲突",
+        "D": "介质利用率髙，且可以有效避免冲突"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "CSMA",
+        "1-坚持型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "64",
+      "question_type": "single_choice",
+      "stem": "采用 CSMA/CD 协议的基带总线，其段长为 1000m，中间没有中继器，数据速率为 10Mb/s,信号传播速度为 200m/μs,为了保证在发送期间能够检测到冲突，则该网络上的最小帧长应为(64)比特。",
+      "options": {
+        "A": "50",
+        "B": "100",
+        "C": "150",
+        "D": "200"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "CSMA/CD",
+        "最小帧长"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "65",
+      "question_type": "single_choice",
+      "stem": "以下属于万兆以太网物理层标准的是(65)。",
+      "options": {
+        "A": "IEEE 802.3u",
+        "B": "IEEE 802.3a",
+        "C": "IEEE 802.3e",
+        "D": "IEEE 802.3ae"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "万兆以太网",
+        "IEEE标准"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "66",
+      "question_type": "single_choice",
+      "stem": "IEEE802.11 采用了类似于 802.3 CSMA/CD 协议的 CSMA/CA 协议，之所以不采用 CSMA/CD 协议的原因是(66)。",
+      "options": {
+        "A": "CSMA/CA 协议的效率更高",
+        "B": "为了解决隐蔽终端问题",
+        "C": "CSMA/CD 协议的开销更大",
+        "D": "为了引进其他业务"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "802.11",
+        "CSMA/CA",
+        "隐蔽终端"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "67",
+      "question_type": "single_choice",
+      "stem": "无线局域网(WLAN)标准 IEEE802.11g 规定的最大数据速率是(67).",
+      "options": {
+        "A": "1Mb/s",
+        "B": "11Mb/s",
+        "C": "5Mb/s",
+        "D": "54Mb/s"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "802.11g",
+        "数据速率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "68",
+      "question_type": "single_choice",
+      "stem": "大型局域网通常组织成分层结构（核心层、汇聚层和接入层），以下关于网络核心层的叙述中，正确的是(68)",
+      "options": {
+        "A": "为了保障安全性，应该对分组进行尽可能多的处理",
+        "B": "将数据分组从一个区域高速地转发到另一个区域",
+        "C": "由多台二、三层交换机组成",
+        "D": "提供用户的访问控制"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "局域网分层",
+        "核心层"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "69",
+      "question_type": "single_choice",
+      "stem": "网络设计过程包括逻辑网络设计和物理网络设计两个阶段，各个阶段都要产生相应的文档，以下选项中，(69)应该属于逻辑网络设计文档，(70)属于物理网络设计文档。",
+      "options": {
+        "A": "网络 IP 地址分配方案",
+        "B": "设备列表清单",
+        "C": "集中访谈的信息资料",
+        "D": "网络内部的通信流量分布"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设计",
+      "tags": [
+        "逻辑网络设计",
+        "文档"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "70",
+      "question_type": "single_choice",
+      "stem": "网络设计过程包括逻辑网络设计和物理网络设计两个阶段，各个阶段都要产生相应的文档，以下选项中，(69)应该属于逻辑网络设计文档，(70)属于物理网络设计文档。",
+      "options": {
+        "A": "网络 IP 地址分配方案",
+        "B": "设备列表清单",
+        "C": "集中访谈的信息资料",
+        "D": "网络内部的通信流量分布"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设计",
+      "tags": [
+        "物理网络设计",
+        "文档"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "71",
+      "question_type": "single_choice",
+      "stem": "A transport layer protocol usually has several responsibilities. One is to create a process-to-process communication; UDP uses (71) numbers to accomplish this.",
+      "options": {
+        "A": "hop",
+        "B": "port",
+        "C": "route",
+        "D": "packet"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "UDP",
+        "端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "72",
+      "question_type": "single_choice",
+      "stem": "Another responsibility is to provide control mechanisms at the transport level. UDP does this task at a very minimal level. There is no flow control mechanism and there is no (72) for received packet.",
+      "options": {
+        "A": "connection",
+        "B": "window",
+        "C": "acknowledgement",
+        "D": "destination"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "UDP",
+        "确认"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "73",
+      "question_type": "single_choice",
+      "stem": "The transport layer also provides a connection mechanism for the processes. The (73) must be able to send streams of data to the transport layer.",
+      "options": {
+        "A": "jobs",
+        "B": "proces",
+        "C": "programs",
+        "D": "users"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "传输层",
+        "进程"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "74",
+      "question_type": "single_choice",
+      "stem": "It is the responsibility of the transport layer at (74) station to make the connection with the receiver, chop the stream into transportable units, number them, and send them one by one.",
+      "options": {
+        "A": "sending",
+        "B": "routing",
+        "C": "switching",
+        "D": "receiving"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "传输层",
+        "发送端"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "75",
+      "question_type": "single_choice",
+      "stem": "It is the responsibility of the transport layer at the receiving end to wait until all the different units belonging to the same process have arrived, check and pass those that are (75) free, and deliver them to the receiving process as a stream.",
+      "options": {
+        "A": "call",
+        "B": "state",
+        "C": "cost",
+        "D": "error"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "传输层",
+        "错误检测"
+      ],
+      "is_verified": false
+    }
+  ]
+}

@@ -1,0 +1,1527 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2013,
+    "season": "下半年",
+    "paper_type": "上午综合知识",
+    "source_name": "PDF 提取 - 2013年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "在程序执行过程中，Cache 与主存的地址映像由（1）。",
+      "options": {
+        "A": "硬件自动完成",
+        "B": "程序员调度",
+        "C": "操作系统管理",
+        "D": "程序员与操作系统协同完成"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成与体系结构",
+      "tags": [
+        "Cache",
+        "地址映像"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "指令寄存器的位数取决于（2）。",
+      "options": {
+        "A": "存储器的容量",
+        "B": "指令字长",
+        "C": "数据总线的宽度",
+        "D": "地址总线的宽度"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成与体系结构",
+      "tags": [
+        "指令寄存器",
+        "指令字长"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "若计算机存储数据采用的是双符号位（00 表示正号、11 表示负号），两个符号相同的数相加时，如果运算结果的两个符号位经（3）运算得 1，则可断定这两个数相加的结果产生了溢出。",
+      "options": {
+        "A": "逻辑与",
+        "B": "逻辑或",
+        "C": "逻辑同或",
+        "D": "逻辑异或"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成与体系结构",
+      "tags": [
+        "溢出",
+        "双符号位",
+        "逻辑运算"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem": "若某计算机字长为 32 位，内存容量为 2GB，按字编址，则可寻址范围为（4）。",
+      "options": {
+        "A": "1024M",
+        "B": "1GB",
+        "C": "512M",
+        "D": "2GB"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成与体系结构",
+      "tags": [
+        "字长",
+        "编址",
+        "内存容量"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem": "视频信息是连续的图像序列，(5)是构成视频信息的基本单元。",
+      "options": {
+        "A": "帧",
+        "B": "场",
+        "C": "幅",
+        "D": "像素"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "多媒体技术",
+      "tags": [
+        "视频",
+        "基本单元"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem": "下图是一个软件项目的活动图，其中顶点表示项目里程碑，连接顶点的边表示包含的活动，则里程碑（6）在关键路径上。",
+      "options": {
+        "A": "B",
+        "B": "C",
+        "C": "D",
+        "D": "I"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "项目管理",
+      "tags": [
+        "关键路径",
+        "活动图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "若在实际项目进展中，活动 AD 在活动 AC 开始 3 天后才开始，而完成活动 DG 过程中，由于有临时事件发生，实际需要 15 天才能完成，则完成该项目的最短时间比原计划多了（7）天。",
+      "options": {
+        "A": "8",
+        "B": "3",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "项目管理",
+      "tags": [
+        "关键路径",
+        "工期计算"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem": "为说明某一问题，在学术论文中需要引用某些资料。以下叙述中错误的是（8）。",
+      "options": {
+        "A": "既可引用发表的作品，也可引用未发表的作品",
+        "B": "只能限于介绍、评论作品",
+        "C": "只要不构成自己作品的主要部分，可适当引用资料",
+        "D": "不必征得原作者的同意，不需要向他支付报酬"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "知识产权与标准",
+      "tags": [
+        "引用",
+        "著作权"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem": "程序运行过程中常使用参数在函数（过程）间传递信息，引用调用传递的是实参的(9)。",
+      "options": {
+        "A": "地址",
+        "B": "类型",
+        "C": "名称",
+        "D": "值"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "程序设计语言",
+      "tags": [
+        "参数传递",
+        "引用调用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem": "算术表达式 a+(b-c)*d 的后缀式是（10) (-、+、*表示算术的减、加、乘运算，运算符的优先级和结合性遵循惯例）。",
+      "options": {
+        "A": "bc-d*a+",
+        "B": "abc-d*+",
+        "C": "ab+c-d*",
+        "D": "abcd-*+"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "程序设计语言",
+      "tags": [
+        "后缀式",
+        "表达式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem": "帧中继网络的虚电路建立在（11)，这种虚电路的特点是（12)。",
+      "options": {
+        "A": "数据链路层",
+        "B": "网络层",
+        "C": "传输层",
+        "D": "会话层"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "广域网与接入",
+      "tags": [
+        "帧中继",
+        "虚电路"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem": "帧中继网络的虚电路的特点是（12)。",
+      "options": {
+        "A": "没有流量控制功能， 也没有拥塞控制功能",
+        "B": "没有流量控制功能， 但具有拥塞控制功能",
+        "C": "具有流量控制功能， 但没有拥塞控制功能",
+        "D": "具有流量控制功能， 也具有拥塞控制功能"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "广域网与接入",
+      "tags": [
+        "帧中继",
+        "流量控制",
+        "拥塞控制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "single_choice",
+      "stem": "循环冗余校验标准 CRC-16 的生成多项式为 G(x)=x16+x15+x2+1,它产生的校验码是(13)位。",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "16",
+        "D": "32"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信基础",
+      "tags": [
+        "CRC",
+        "校验码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "single_choice",
+      "stem": "接收端发现错误后采取的措施是（14）。",
+      "options": {
+        "A": "自动纠错",
+        "B": "报告上层协议",
+        "C": "重新生成数据",
+        "D": "自动请求重发"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信基础",
+      "tags": [
+        "差错控制",
+        "CRC"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "single_choice",
+      "stem": "设信道带宽为 3000Hz，信噪比为 30dB，则信道可达到的最大数据速率约为(15) b/s。",
+      "options": {
+        "A": "10000",
+        "B": "20000",
+        "C": "30000",
+        "D": "40000"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信基础",
+      "tags": [
+        "香农定理",
+        "信噪比"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "single_choice",
+      "stem": "下面哪个字段包含在 TCP 头部和 UDP 头部？(16)",
+      "options": {
+        "A": "发送顺序号",
+        "B": "窗口",
+        "C": "源端口",
+        "D": "紧急指针"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP协议",
+      "tags": [
+        "TCP",
+        "UDP",
+        "头部"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "single_choice",
+      "stem": "下面的选项中，与服务质量管理有关的协议是（17)，这种协议的主要特点是(18)。",
+      "options": {
+        "A": "RSVP",
+        "B": "VTP",
+        "C": "ATM",
+        "D": "UDP"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络新技术",
+      "tags": [
+        "QoS",
+        "RSVP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "single_choice",
+      "stem": "上面协议的主要特点是(18)。",
+      "options": {
+        "A": "由接收方向路由器预约资源",
+        "B": "由发送方向接收方预约资源",
+        "C": "由发送方向路由器预约资源",
+        "D": "由接收方向发送方预约资源"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络新技术",
+      "tags": [
+        "RSVP",
+        "资源预约"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "single_choice",
+      "stem": "CHAP 协议是 PPP 链路中采用的一种身份认证协议，这种协议采用（19)握手方式周期性地验证通信对方的身份，当认证服务器发出一个挑战报文时，则终端就计算该报文的（20)并把结果返回服务器。",
+      "options": {
+        "A": "两次",
+        "B": "三次",
+        "C": "四次",
+        "D": "周期性"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "PPP",
+        "CHAP",
+        "认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "single_choice",
+      "stem": "当认证服务器发出一个挑战报文时，则终端就计算该报文的（20)并把结果返回服务器。",
+      "options": {
+        "A": "密码",
+        "B": "补码",
+        "C": "CHAP 值",
+        "D": "HASH 值"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "CHAP",
+        "挑战-响应",
+        "哈希"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "single_choice",
+      "stem": "IP 头和 TCP 头的最小开销合计为（21)字节，以太网最大帧长为 1518 字节，则可以传送的 TCP 数据最大为（22)字节。",
+      "options": {
+        "A": "20",
+        "B": "30",
+        "C": "40",
+        "D": "50"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP协议",
+      "tags": [
+        "IP头",
+        "TCP头",
+        "开销"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "single_choice",
+      "stem": "以太网最大帧长为 1518 字节，则可以传送的 TCP 数据最大为（22)字节。",
+      "options": {
+        "A": "1434",
+        "B": "1460",
+        "C": "1480",
+        "D": "1500"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "局域网与以太网",
+      "tags": [
+        "以太网帧",
+        "TCP数据",
+        "MTU"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "single_choice",
+      "stem": "VLAN 中继协议（VTP)的作用是（23）。",
+      "options": {
+        "A": "启动 VLAN 自动配置过程",
+        "B": "减少 VLAN 配置信息的冲突",
+        "C": "让同一管理域中的所有交换机共享 VLAN 配置信息",
+        "D": "建立动态配置 VLAN 的环境"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "局域网与以太网",
+      "tags": [
+        "VTP",
+        "VLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "single_choice",
+      "stem": "按照 VTP 协议，交换机的运行模式有(24)。",
+      "options": {
+        "A": "服务器模式，客户机模式，透明模式",
+        "B": "服务器模式，客户机模式，终端模式",
+        "C": "路由器模式，交换机模式，终端模式",
+        "D": "路由器模式，交换机模式，透明模式"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "局域网与以太网",
+      "tags": [
+        "VTP",
+        "交换机模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "single_choice",
+      "stem": "如果要启动 VTP 动态修剪，则(25)。",
+      "options": {
+        "A": "管理域中的交换机必须配置成一个服务器和多个客户机",
+        "B": "管理域中的所有交换机都不能配置成终端模式",
+        "C": "管理域中的所有交换机都不能配置成透明模式",
+        "D": "管理域中的所有交换机都必须配置成服务器"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "局域网与以太网",
+      "tags": [
+        "VTP",
+        "动态修剪"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "single_choice",
+      "stem": "在下面的标准中，定义快速生成树协议的是（26),支持端口认证的协议是（27)。",
+      "options": {
+        "A": "IEEE802.1d",
+        "B": "IEEE802.1w",
+        "C": "IEEE802.1S",
+        "D": "IEEE802.1x"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "局域网与以太网",
+      "tags": [
+        "生成树",
+        "RSTP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "single_choice",
+      "stem": "支持端口认证的协议是（27)。",
+      "options": {
+        "A": "IEEE802.1d",
+        "B": "IEEE802.1w",
+        "C": "IEEE802.1s",
+        "D": "IEEE802.1x"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "局域网与以太网",
+      "tags": [
+        "802.1x",
+        "端口认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "single_choice",
+      "stem": "在某路由器上查看路由信息，结果如下所示。其中标志“S”表明这条路由是（28）。",
+      "options": {
+        "A": "源路由",
+        "B": "静态路由",
+        "C": "发送路由",
+        "D": "快捷路由"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由与交换",
+      "tags": [
+        "路由表",
+        "静态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "single_choice",
+      "stem": "下图中第 23 条记录是某客户机收到的 TCP 报文，从结果中可以看出该客户机的 IP 地址为（29),该 TCP 报文是（30)。",
+      "options": {
+        "A": "218.30.66.266",
+        "B": "219.245.67.39",
+        "C": "219.245.67.185",
+        "D": "219.245.67.193"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP协议",
+      "tags": [
+        "TCP报文",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "single_choice",
+      "stem": "该 TCP 报文是（30)。",
+      "options": {
+        "A": "连接建立请求报文",
+        "B": "错误复位报文",
+        "C": "连接建立响应报文",
+        "D": "连接断开响应报文"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP协议",
+      "tags": [
+        "TCP",
+        "连接建立"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "single_choice",
+      "stem": "在 Linux 操作系统中把外部设备当作文件统一管理，外部设备文件通常放在（31)目录中。",
+      "options": {
+        "A": "/dev",
+        "B": "/lib",
+        "C": "/etc",
+        "D": "/bin"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "Linux",
+        "设备文件",
+        "/dev"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "single_choice",
+      "stem": "Linux 中，下列（32)命令可以更改一个文件的权限设置。",
+      "options": {
+        "A": "attrib",
+        "B": "file",
+        "C": "chmod",
+        "D": "change"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "Linux",
+        "文件权限",
+        "chmod"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "33",
+      "question_type": "single_choice",
+      "stem": "以下关于 DNS 服务器的说法中，错误的是（33）。",
+      "options": {
+        "A": "DNS 的域名空间是由树状结构组织的分层域名",
+        "B": "转发域名服务器位于域名树的顶层",
+        "C": "辅助域名服务器定期从主域名服务器获得更新数据",
+        "D": "转发域名服务器负责所有非本地域名的查询"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务与应用",
+      "tags": [
+        "DNS",
+        "域名服务器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "34",
+      "question_type": "single_choice",
+      "stem": "某单位架设了域名服务器来进行本地域名解析，在客户机上运行 nslookup 查询某服务器名称时能解析出 IP 地址，查询 IP 地址时却不能解析出服务器名称，解决这一问题的方法是（34)。",
+      "options": {
+        "A": "在 DNS 服务器区域上允许动态更新",
+        "B": "在客户机上采用 ipconfig/flushdns 刷新 DNS 缓存",
+        "C": "在 DNS 服务器上为该服务器创建 PTR 记录",
+        "D": "重启 DNS 服务"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务与应用",
+      "tags": [
+        "DNS",
+        "反向解析",
+        "PTR记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "35",
+      "question_type": "single_choice",
+      "stem": "下列关于 DHCP 配置的叙述中，错误的是（35)。",
+      "options": {
+        "A": "在 Windows 环境下，客户机可用命令 ipconfig/renew 重新申请 IP 地址",
+        "B": "若可供分配的 IP 地址较多，可适当增加地址租约期限",
+        "C": "DHCP 服务器不需要配置固定的 IP 地址",
+        "D": "DHCP 服务器可以为不在同一网段的客户机分配 IP 地址"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务与应用",
+      "tags": [
+        "DHCP",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "36",
+      "question_type": "single_choice",
+      "stem": "SMTP 协议用于（36) 电子邮件。",
+      "options": {
+        "A": "接收",
+        "B": "发送",
+        "C": "丢弃",
+        "D": "阻挡"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务与应用",
+      "tags": [
+        "SMTP",
+        "电子邮件"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "37",
+      "question_type": "single_choice",
+      "stem": "配置 POP3 服务器时，邮件服务器中默认开放 TCP 的(37)端口。",
+      "options": {
+        "A": "21",
+        "B": "25",
+        "C": "53",
+        "D": "110"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务与应用",
+      "tags": [
+        "POP3",
+        "端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "38",
+      "question_type": "single_choice",
+      "stem": "在 Windows 的 cmd 命令窗口中输入（38)命令可以用来诊断域名系统基础结构的信息和查看 DNS 服务器的 IP 地址。",
+      "options": {
+        "A": "DNSserver",
+        "B": "DNSconfig",
+        "C": "Nslookup",
+        "D": "DNSnamed"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务与应用",
+      "tags": [
+        "DNS",
+        "nslookup"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "39",
+      "question_type": "single_choice",
+      "stem": "计算机网络机房建设过程中，为了屏蔽外界的干扰、漏电及电火花等，要求所有计算机网络设备的机箱、机柜、机壳等都需接地，该接地系统称为安全地，安全地接地电阻要求小于（39)。",
+      "options": {
+        "A": "1Ω",
+        "B": "4Ω",
+        "C": "5Ω",
+        "D": "10Ω"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理与安全",
+      "tags": [
+        "机房建设",
+        "接地电阻"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "40",
+      "question_type": "single_choice",
+      "stem": "某单位局域网配置如下图所示，PC2 发送到 Internet 的报文源 IP 地址为(40)。",
+      "options": {
+        "A": "192.168.0.2",
+        "B": "192.168.0.1",
+        "C": "202.117.112.1",
+        "D": "202.117.112.2"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络互联与互联网",
+      "tags": [
+        "NAT",
+        "源IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "41",
+      "question_type": "single_choice",
+      "stem": "下面 ACL 语句中，表达“禁止外网和内网之间互相 ping”的是（41)。",
+      "options": {
+        "A": "access-list 101 permit any any",
+        "B": "access-list 101 permit icmp any any",
+        "C": "access-list 101 deny any any",
+        "D": "access-list 101 deny icmp any any"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "ICMP",
+        "Ping"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "42",
+      "question_type": "single_choice",
+      "stem": "下列网络攻击行为中，属于 DoS 攻击的是（42)。",
+      "options": {
+        "A": "特洛伊木马攻击",
+        "B": "SYNFlooding 攻击",
+        "C": "端口欺骗攻击",
+        "D": "IP 欺骗攻击"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "DoS",
+        "SYN Flooding"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "43",
+      "question_type": "single_choice",
+      "stem": "PKI 体制中，保证数字证书不被篡改的方法是（43)。",
+      "options": {
+        "A": "用 CA 的私钥对数字证书签名",
+        "B": "用 CA 的公钥对数字证书签名",
+        "C": "用证书主人的私钥对数字证书签名",
+        "D": "用证书主人的公钥对数字证书签名"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "PKI",
+        "数字证书",
+        "数字签名"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "44",
+      "question_type": "single_choice",
+      "stem": "报文摘要算法 SHA-1 输出的位数是（44)。",
+      "options": {
+        "A": "100 位",
+        "B": "128 位",
+        "C": "160 位",
+        "D": "180 位"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "SHA-1",
+        "哈希"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "45",
+      "question_type": "single_choice",
+      "stem": "下面算法中，不属于公开密钥加密算法的是（45)。",
+      "options": {
+        "A": "ECC",
+        "B": "DSA",
+        "C": "RSA",
+        "D": "DES"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "加密算法",
+        "公开密钥"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "46",
+      "question_type": "single_choice",
+      "stem": "在 DHCP 服务器配置过程中，可以把使用 DHCP 协议获取 IP 地址的主机划分为不同的类别进行管理，下面划分类别规则合理的是（46)。",
+      "options": {
+        "A": "移动用户划分到租约期较长的类别",
+        "B": "固定用户划分到租约期较短的类别",
+        "C": "服务器划分到租约期最短的类别",
+        "D": "服务器可以采用保留地址"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务与应用",
+      "tags": [
+        "DHCP",
+        "租约期"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "47",
+      "question_type": "single_choice",
+      "stem": "在某公司局域网中的一台 Windows 主机中，先运行（47)命令，再运行“arp -a”命令，系统显示的信息如下图所示。",
+      "options": {
+        "A": "arp -s 192.168.1.1 00-23-8b-be-60-37",
+        "B": "arp -s 192.168.1.201 00-5e-06-38-24",
+        "C": "arp -s 192.168.1.3 00-00-00-00-00-00",
+        "D": "arp -s 192.168.1.254 00-22-15-f2-6b-ea"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理与维护",
+      "tags": [
+        "ARP",
+        "arp -s"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "48",
+      "question_type": "single_choice",
+      "stem": "SNMPc 软件支持的 4 个内置 TCP 服务是（48)。",
+      "options": {
+        "A": "FTP、SMTP、WEB 和 TELNET",
+        "B": "DHCP、SMTP、WEB 和 TELNET",
+        "C": "DNS、SMTP、WEB 和 TELNET",
+        "D": "TFTP、SMTP、WEB 和 TELNET"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理与维护",
+      "tags": [
+        "SNMP",
+        "TCP服务"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "49",
+      "question_type": "single_choice",
+      "stem": "在 MIB-2 的系统组中，(49)对象以 7 位二进制数表示，每一位对应 OSI/RM7 层协议中的一层。",
+      "options": {
+        "A": "sysDescr",
+        "B": "sysUpTime",
+        "C": "sysName",
+        "D": "sysServices"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理与维护",
+      "tags": [
+        "MIB-2",
+        "系统组"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "50",
+      "question_type": "single_choice",
+      "stem": "SNMPv2 提供了几种访问管理信息的方法，其中属于 SNMPv2 特有的是（50)。",
+      "options": {
+        "A": "管理站与代理之间的请求/响应通信",
+        "B": "管理站与管理站之间的请求/响应通信",
+        "C": "代理到管理站的非确认通信",
+        "D": "代理向管理站发送陷入报文"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理与维护",
+      "tags": [
+        "SNMPv2",
+        "通信"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "51",
+      "question_type": "single_choice",
+      "stem": "属于网络 202.115.200.0/21 的地址是（51)。",
+      "options": {
+        "A": "202.115.198.0",
+        "B": "202.115.206.0",
+        "C": "202.115.217.0",
+        "D": "202.115.224.0"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络层协议",
+      "tags": [
+        "子网划分",
+        "CIDR"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "52",
+      "question_type": "single_choice",
+      "stem": "4 条路由 :220.117.129.0/24 、 220.117.130.0/24 、 220.117.132.0/24 和 220.117.133.0/24 经过汇聚后得到的网络地址是（52)。",
+      "options": {
+        "A": "220.117.132.0/23",
+        "B": "220.117.128.0/22",
+        "C": "220.117.130.0/22",
+        "D": "220.117.128.0/21"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络层协议",
+      "tags": [
+        "路由汇聚",
+        "CIDR"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "53",
+      "question_type": "single_choice",
+      "stem": "某网络的地址是 200.16.0.0,其中包含 480 台主机，指定给该网络的合理子网掩码是（53),下面的选项中，不属于这个网络的地址是（54)。",
+      "options": {
+        "A": "255.255.255.0",
+        "B": "255.255.252.0",
+        "C": "255.255.254.0",
+        "D": "255.255.248.0"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络层协议",
+      "tags": [
+        "子网掩码",
+        "主机数"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "54",
+      "question_type": "single_choice",
+      "stem": "下面的选项中，不属于这个网络的地址是（54)。",
+      "options": {
+        "A": "200.16.0.23",
+        "B": "200.16.3.0",
+        "C": "200.16.1.255",
+        "D": "200.16.1.0"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络层协议",
+      "tags": [
+        "子网划分",
+        "地址范围"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "55",
+      "question_type": "single_choice",
+      "stem": "两个主机的 IP 地址分别是 10.11.7.24 和 10.11.7.100,要使得这两个主机包含在同一个子网中，则指定的子网掩码长度应该为（55)比特。",
+      "options": {
+        "A": "25",
+        "B": "26",
+        "C": "27",
+        "D": "28"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络层协议",
+      "tags": [
+        "子网掩码",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "56",
+      "question_type": "single_choice",
+      "stem": "IPv6 链路本地单播地址的前缀为（56),可聚集全球单播地址的前缀为（57).",
+      "options": {
+        "A": "001",
+        "B": "1111 1110 10",
+        "C": "1111 111011",
+        "D": "1111 1111"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络层协议",
+      "tags": [
+        "IPv6",
+        "地址前缀"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "57",
+      "question_type": "single_choice",
+      "stem": "可聚集全球单播地址的前缀为（57).",
+      "options": {
+        "A": "001",
+        "B": "1111 1110 10",
+        "C": "1111 111011",
+        "D": "1111 1111"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络层协议",
+      "tags": [
+        "IPv6",
+        "全球单播地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "58",
+      "question_type": "single_choice",
+      "stem": "在 IPv4 向 IPv6 的过渡期间，如果要使得两个 IPv6 结点可以通过现有的 IPv4 网络进行通信，则应该使用（58)：如果要使得纯 IPv6 结点可以与纯 IPv4 结点进行通信，则需要使用（59)。",
+      "options": {
+        "A": "堆栈技术",
+        "B": "双协议栈技术",
+        "C": "隧道技术",
+        "D": "翻译技术"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络新技术",
+      "tags": [
+        "IPv6过渡",
+        "隧道技术"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "59",
+      "question_type": "single_choice",
+      "stem": "如果要使得纯 IPv6 结点可以与纯 IPv4 结点进行通信，则需要使用（59)。",
+      "options": {
+        "A": "堆栈技术",
+        "B": "双协议栈技术",
+        "C": "隧道技术",
+        "D": "翻译技术"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络新技术",
+      "tags": [
+        "IPv6过渡",
+        "翻译技术"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "60",
+      "question_type": "single_choice",
+      "stem": "以太网链路聚合技术是将（60)。",
+      "options": {
+        "A": "多个逻辑链路聚合成一个物理链路",
+        "B": "多个逻辑链路聚合成一个逻辑链路",
+        "C": "多个物理链路聚合成一个物理链路",
+        "D": "多个物理链路聚合成一个逻辑链路"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "局域网与以太网",
+      "tags": [
+        "链路聚合",
+        "以太网"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "61",
+      "question_type": "single_choice",
+      "stem": "POP3 协议采用（61)模式进行通信，当客户机需要服务时，客户端软件与 POP3 服务器建立（62)连接。",
+      "options": {
+        "A": "Browser/Server",
+        "B": "Client/Server",
+        "C": "Peer to Peer",
+        "D": "Peer to Server"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务与应用",
+      "tags": [
+        "POP3",
+        "通信模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "62",
+      "question_type": "single_choice",
+      "stem": "当客户机需要服务时，客户端软件与 POP3 服务器建立（62)连接。",
+      "options": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "PHP",
+        "D": "IP"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务与应用",
+      "tags": [
+        "POP3",
+        "TCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "63",
+      "question_type": "single_choice",
+      "stem": "TCP 协议使用_(63) 次握手过程建立连接，这种方法可以防止（64)。TCP 使用的流量控制协议是（65)。",
+      "options": {
+        "A": "一",
+        "B": "二",
+        "C": "三",
+        "D": "四"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP协议",
+      "tags": [
+        "TCP",
+        "三次握手"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "64",
+      "question_type": "single_choice",
+      "stem": "这种方法可以防止（64)。",
+      "options": {
+        "A": "出现半连接",
+        "B": "出现错误连接",
+        "C": "假冒的连接",
+        "D": "无法连接"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP协议",
+      "tags": [
+        "TCP",
+        "防止半连接"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "65",
+      "question_type": "single_choice",
+      "stem": "TCP 使用的流量控制协议是（65)。",
+      "options": {
+        "A": "固定大小的滑动窗口协议",
+        "B": "可变大小的滑动窗口协议",
+        "C": "后退 N 帧 ARQ 协议",
+        "D": "选择重发 ARQ 协议"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP协议",
+      "tags": [
+        "TCP",
+        "流量控制",
+        "滑动窗口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "66",
+      "question_type": "single_choice",
+      "stem": "IEEE 802.11 标准采用的工作频段是_(66),下列标准中采用双频工作模式的是(67)。",
+      "options": {
+        "A": "900MHz 和 800MHz",
+        "B": "900MHz 和 800MHz",
+        "C": "5GHz 和 800MHz",
+        "D": "2.4GHz 和 5GHz"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线与移动网络",
+      "tags": [
+        "802.11",
+        "工作频段"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "67",
+      "question_type": "single_choice",
+      "stem": "下列标准中采用双频工作模式的是(67)。",
+      "options": {
+        "A": "IEEE802.11a",
+        "B": "IEEE802.11b",
+        "C": "IEEE802.11g",
+        "D": "IEEE802.11n"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线与移动网络",
+      "tags": [
+        "802.11n",
+        "双频"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "68",
+      "question_type": "single_choice",
+      "stem": "PC 机不能接入因特网，这时采用抓包工具捕获的以太网接口发出的信息如下：可以看出该 PC 机的 IP 地址为（68),默认网关的 IP 地址为（69)。",
+      "options": {
+        "A": "213.127.115.31",
+        "B": "213.127.115.255",
+        "C": "213.127.115.254",
+        "D": "224.1.1.1"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络互联与互联网",
+      "tags": [
+        "IP地址",
+        "默认网关"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "69",
+      "question_type": "single_choice",
+      "stem": "默认网关的 IP 地址为（69)。",
+      "options": {
+        "A": "213.127.115.31",
+        "B": "213.127.115.255",
+        "C": "213.127.115.254",
+        "D": "224.1.1.1"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络互联与互联网",
+      "tags": [
+        "默认网关"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "70",
+      "question_type": "single_choice",
+      "stem": "PC 不能接入 Internet 的原因可能是（70)。",
+      "options": {
+        "A": "DNS 解析错误",
+        "B": "TCP/IP 协议安装错误",
+        "C": "不能连接到网关",
+        "D": "DHCP 服务器工作不正常"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络互联与互联网",
+      "tags": [
+        "故障排除"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "71",
+      "question_type": "single_choice",
+      "stem": "The de facto standard Application Program Interface (API) for TCP/IP applications is the ”sockets” interface. Although this API was developed for (71) in the early 1980s it has also been implemented on a wide variety of non-Unix systems.",
+      "options": {
+        "A": "Windows",
+        "B": "Linux",
+        "C": "Unix",
+        "D": "DOS"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "Sockets",
+        "API"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "72",
+      "question_type": "single_choice",
+      "stem": "TCP/IP (72) written using the sockets API have in the past enjoyed a high degree of portability and we would like the same (73) with IPv6 applications.",
+      "options": {
+        "A": "applications",
+        "B": "networks",
+        "C": "protocols",
+        "D": "systems"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "TCP/IP",
+        "可移植性"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "73",
+      "question_type": "single_choice",
+      "stem": "we would like the same (73) with IPv6 applications.",
+      "options": {
+        "A": "portability",
+        "B": "availability",
+        "C": "capability",
+        "D": "reliability"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "IPv6",
+        "可移植性"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "74",
+      "question_type": "single_choice",
+      "stem": "These include a new socket address structure to carry IPv6 (74), new address conversion functions, and some new socket options.",
+      "options": {
+        "A": "connections",
+        "B": "protocols",
+        "C": "networks",
+        "D": "addresses"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "IPv6",
+        "套接字地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "75",
+      "question_type": "single_choice",
+      "stem": "These extensions are designed to provide access to the basic IPv6 features required by TCP and UDP applications, including multicasting, while introducing a minimum of change into the system and providing complete (75) for existing IPv4 applications.",
+      "options": {
+        "A": "availability",
+        "B": "compatibility",
+        "C": "capability",
+        "D": "reliability"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "IPv6",
+        "兼容性"
+      ],
+      "is_verified": false
+    }
+  ]
+}

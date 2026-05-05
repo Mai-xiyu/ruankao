@@ -1,0 +1,840 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2019,
+    "season": "上半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2019年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "在为企业分支 Router1 配置互联网接口板卡时，应选择（1）单板？",
+      "options": {
+        "A": "xDSL",
+        "B": "以太 WAN",
+        "C": "3G/LTE",
+        "D": "E3/T3"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "接口配置",
+        "ADSL",
+        "3G/LTE"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "在为企业分支 Router1 配置互联网接口板卡时，应选择（2）单板？",
+      "options": {
+        "A": "xDSL",
+        "B": "以太 WAN",
+        "C": "3G/LTE",
+        "D": "E3/T3"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "接口配置",
+        "ADSL",
+        "3G/LTE"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "fill_blank",
+      "stem": "在 Router1 上配置 DHCP 服务的命令片段中，第（3）处应填写什么？\n[Huawei] dhcp enable\n[Huawei] interface vlanif 123\n[Huawei-Vlanif123] dhcp select global // （3）",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "fill_blank",
+      "stem": "在 Router1 上配置 DHCP 服务的命令片段中，第（4）处应填写什么？\n[Huawei] ip（4）lan",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "fill_blank",
+      "stem": "在 Router1 上配置 DHCP 服务的命令片段中，第（5）处应填写什么？\n[Huawei-ip-pool-lan] gateway-list（5）",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "fill_blank",
+      "stem": "在 Router1 配置上行接口的命令中，第（6）处应填写什么？\n[Huawei] interface virtual-template 10 // （6）",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "NAT",
+        "PPPoA",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "fill_blank",
+      "stem": "在 Router1 配置上行接口的命令中，第（7）处应填写什么？\n[Huawei-Virtual-Template 10] nat outbound （7）",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "NAT",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "fill_blank",
+      "stem": "在 Router1 配置上行接口的命令中，第（8）处应填写什么？\n[Huawei-Atm1/0/0] standby interface cellular 0/0/0 // （8）",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "ATM",
+        "3G/LTE",
+        "备份"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "fill_blank",
+      "stem": "在 Router1 配置上行接口的命令中，第（9）处应填写什么？\n[Huawei-Cellular0/0/0] mode wcdma （9）",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "3G",
+        "调制模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "fill_blank",
+      "stem": "在 Router1 配置上行接口的命令中，第（10）处应填写什么？\n[Huawei-Cellular0/0/0] apn-profile （10）",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "APN",
+        "3G"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "fill_blank",
+      "stem": "在 Router1 配置上行接口的命令中，第（11）处应填写什么？\n[Huawei-Cellular0/0/0] dialer timer idle （11）",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "DCC",
+        "拨号"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem": "在现有组网方案的基础上，为确保分支机构与总部之间的数据传输安全，配置（12）协议，实现在网络层端对端的（13）。\n（12）备选答案：A. IPSec B. PPTP C. L2TP D. SSL",
+      "options": {
+        "A": "IPSec",
+        "B": "PPTP",
+        "C": "L2TP",
+        "D": "SSL"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "VPN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "fill_blank",
+      "stem": "在现有组网方案的基础上，为确保分支机构与总部之间的数据传输安全，配置（12）协议，实现在网络层端对端的（13）。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "加密"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "fill_blank",
+      "stem": "图2-2所示的RAID方式是（1）？",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "磁盘阵列"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "fill_blank",
+      "stem": "其中磁盘0和磁盘1的RAID组成方式是（2）？",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "磁盘阵列"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "fill_blank",
+      "stem": "当磁盘1故障后，磁盘（3）故障不会造成数据丢失？",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "容错"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "fill_blank",
+      "stem": "当磁盘1故障后，磁盘（4）故障将会造成数据丢失？",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "容错"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "fill_blank",
+      "stem": "图2-3所示的RAID方式是（5）？",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "磁盘阵列"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "fill_blank",
+      "stem": "当磁盘1故障后，至少再有（6）块磁盘故障，就会造成数据丢失？",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "容错"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "fill_blank",
+      "stem": "图2-2所示的RAID方式的磁盘利用率是（7）%？",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "利用率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "fill_blank",
+      "stem": "图2-3所示的RAID方式的磁盘利用率是（8）%？",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "利用率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "fill_blank",
+      "stem": "图（9）所示RAID适合存储安全要求高、小数量读写的关系型数据库？",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "应用场景"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "fill_blank",
+      "stem": "图（10）所示RAID适合存储空间利用率要求高、大文件存储的非结构化文档？",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "应用场景"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "single_choice",
+      "stem": "该攻击为（11）？",
+      "options": {
+        "A": "跨站脚本攻击",
+        "B": "SQL注入攻击",
+        "C": "远程命令执行",
+        "D": "CC攻击"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "攻击类型",
+        "Web安全"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "single_choice",
+      "stem": "针对该攻击行为，可部署（12）设备进行防护？",
+      "options": {
+        "A": "漏洞扫描系统",
+        "B": "堡垒机",
+        "C": "Web应用防火墙",
+        "D": "入侵检测系统"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "安全设备",
+        "Web安全"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "single_choice",
+      "stem": "针对DDoS攻击，可采用（13）措施？",
+      "options": {
+        "A": "部署流量清洗设备",
+        "B": "购买流量清洗服务",
+        "C": "服务器增加内存",
+        "D": "服务器增加磁盘",
+        "E": "部署入侵检测系统",
+        "F": "安装杀毒软件"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "DDoS",
+        "防护措施"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "single_choice",
+      "stem": "针对DDoS攻击，可采用（14）措施？",
+      "options": {
+        "A": "部署流量清洗设备",
+        "B": "购买流量清洗服务",
+        "C": "服务器增加内存",
+        "D": "服务器增加磁盘",
+        "E": "部署入侵检测系统",
+        "F": "安装杀毒软件"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "DDoS",
+        "防护措施"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "single_choice",
+      "stem": "第一阶段协商（1）模式SA？",
+      "options": {
+        "A": "主",
+        "B": "快速",
+        "C": "传输",
+        "D": "信道"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "IKE"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "single_choice",
+      "stem": "第二阶段中协商（2）模式SA？",
+      "options": {
+        "A": "主",
+        "B": "快速",
+        "C": "传输",
+        "D": "信道"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "IKE"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "single_choice",
+      "stem": "使用（3）命令，可以查看协商结果？",
+      "options": {
+        "A": "display ike proposal",
+        "B": "display ipsec proposal",
+        "C": "display ike sa",
+        "D": "display ike peer"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "single_choice",
+      "stem": "配置IPSec策略的步骤中，第（4）步是？",
+      "options": {
+        "A": "配置本地安全策略",
+        "B": "创建IP安全策略",
+        "C": "创建筛选器列表",
+        "D": "设置账户密码策略",
+        "E": "配置隧道规则",
+        "F": "构建组策略对象"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "策略配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "single_choice",
+      "stem": "配置IPSec策略的步骤中，第（5）步是？",
+      "options": {
+        "A": "配置本地安全策略",
+        "B": "创建IP安全策略",
+        "C": "创建筛选器列表",
+        "D": "设置账户密码策略",
+        "E": "配置隧道规则",
+        "F": "构建组策略对象"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "策略配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "33",
+      "question_type": "fill_blank",
+      "stem": "在创建隧道1时，源地址的IP地址或子网应该填（6）？",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "隧道配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "34",
+      "question_type": "fill_blank",
+      "stem": "在创建隧道1时，目的地址的IP地址或子网应该填（7）？",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "隧道配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "35",
+      "question_type": "fill_blank",
+      "stem": "配置隧道1不筛选特定的协议或端口，图3-3中“选择协议类型”应该选择（8）？",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "筛选器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "36",
+      "question_type": "fill_blank",
+      "stem": "图3-4中所示的“IPv4隧道终结点”应该填写的IP地址为（9）？",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "隧道终结点"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "37",
+      "question_type": "fill_blank",
+      "stem": "如果设置不允许与未受到IPSec保护的计算机进行通信，则图3-5“安全方法”配置窗口所示的配置中需要做出的修改是（10）？",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "安全方法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "38",
+      "question_type": "fill_blank",
+      "stem": "在RouterA的配置中，第（1）处应填写什么？\n<Huawei> （1）",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "IPv6",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "39",
+      "question_type": "fill_blank",
+      "stem": "在RouterA的配置中，第（2）处应填写什么？\n[Huawei] sysname （2）",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "IPv6",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "40",
+      "question_type": "fill_blank",
+      "stem": "在RouterA的配置中，第（3）处应填写什么？\n[RouterA]（3） //开启IPv6报文转发功能",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "IPv6",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "41",
+      "question_type": "fill_blank",
+      "stem": "在RouterA的配置中，第（4）处应填写什么？\n[RouterA-s0] ip address 12.1.1.1（4）",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "IPv4",
+        "接口配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "42",
+      "question_type": "fill_blank",
+      "stem": "在RouterA的配置中，第（5）处应填写什么？\n[RouterA-GigabitEthernet0/0/1 ] （5）address 2002::1/64",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "IPv6",
+        "接口配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "43",
+      "question_type": "fill_blank",
+      "stem": "在RouterA的配置中，第（6）处应填写什么？\n[RouterA] interface tunnel 0/0/1 // （6）",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "隧道",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "44",
+      "question_type": "fill_blank",
+      "stem": "在RouterA的配置中，第（7）处应填写什么？\n[RouterA-Tunnel0/0/1 ] （7）ipv6-ipv4 （8）",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "隧道",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "45",
+      "question_type": "fill_blank",
+      "stem": "在RouterA的配置中，第（8）处应填写什么？\n[RouterA-Tunnel0/0/1 ] （7）ipv6-ipv4 （8）",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "隧道",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "46",
+      "question_type": "fill_blank",
+      "stem": "在RouterA的配置中，第（9）处应填写什么？\n[RouterA-Tunnel0/0/1 ] ipv6 （9）",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "隧道",
+        "IPv6"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "47",
+      "question_type": "fill_blank",
+      "stem": "在RouterA的配置中，第（10）处应填写什么？\n[RouterA-Tunnel0/0/1 ] ipv6 address ::12.1.1.1/96 // （10）",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "隧道",
+        "IPv6地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "48",
+      "question_type": "fill_blank",
+      "stem": "在RouterA的配置中，第（11）处应填写什么？\n[RouterA-Tunnel0/0/1 ] source s0 //（11）",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "隧道",
+        "源接口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "49",
+      "question_type": "single_choice",
+      "stem": "问题2中，Tunnel接口使用的地址为IPv4（12）IPv6地址？",
+      "options": {
+        "A": "兼容",
+        "B": "映射"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "IPv6",
+        "隧道地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "50",
+      "question_type": "fill_blank",
+      "stem": "192.168.1.1是否存在对应的IPv6地址？为什么？",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "IPv6",
+        "地址映射"
+      ],
+      "is_verified": false
+    }
+  ]
+}

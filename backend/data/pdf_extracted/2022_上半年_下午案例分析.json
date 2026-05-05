@@ -1,0 +1,723 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2022,
+    "season": "上半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2022年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "fill_blank",
+      "stem": "分支结构有营销部、市场部、生产部、人事部四个部门，每个部门需要访问互联网主机数量如表所示，现计划对网段10.11.230.0/24进行子网划分，为以上四个部分规划IP地址，请补充表中的空(1)。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址规划",
+      "tags": [
+        "子网划分",
+        "VLSM"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "fill_blank",
+      "stem": "分支结构有营销部、市场部、生产部、人事部四个部门，每个部门需要访问互联网主机数量如表所示，现计划对网段10.11.230.0/24进行子网划分，为以上四个部分规划IP地址，请补充表中的空(2)。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址规划",
+      "tags": [
+        "子网划分",
+        "VLSM"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "fill_blank",
+      "stem": "分支结构有营销部、市场部、生产部、人事部四个部门，每个部门需要访问互联网主机数量如表所示，现计划对网段10.11.230.0/24进行子网划分，为以上四个部分规划IP地址，请补充表中的空(3)。",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址规划",
+      "tags": [
+        "子网划分",
+        "VLSM"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "fill_blank",
+      "stem": "分支结构有营销部、市场部、生产部、人事部四个部门，每个部门需要访问互联网主机数量如表所示，现计划对网段10.11.230.0/24进行子网划分，为以上四个部分规划IP地址，请补充表中的空(4)。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址规划",
+      "tags": [
+        "子网划分",
+        "VLSM"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "fill_blank",
+      "stem": "在该网络中为避免环路，应该在交换机上配置(5)。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "环路避免",
+        "生成树"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem": "生成BGP路由有network与import两种方式，以下描述正确的是(6)。",
+      "options": {
+        "A": "Network方式逐条精确匹配路由",
+        "B": "Network方式优先级高",
+        "C": "Import方式按协议类型引入路由",
+        "D": "Import方式逐条精确匹配路由",
+        "E": "Network方式按协议类型引入路由",
+        "F": "Import方式优先级高"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "BGP",
+        "路由引入"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "生成BGP路由有network与import两种方式，以下描述正确的是(7)。",
+      "options": {
+        "A": "Network方式逐条精确匹配路由",
+        "B": "Network方式优先级高",
+        "C": "Import方式按协议类型引入路由",
+        "D": "Import方式逐条精确匹配路由",
+        "E": "Network方式按协议类型引入路由",
+        "F": "Import方式优先级高"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "BGP",
+        "路由引入"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem": "生成BGP路由有network与import两种方式，以下描述正确的是(8)。",
+      "options": {
+        "A": "Network方式逐条精确匹配路由",
+        "B": "Network方式优先级高",
+        "C": "Import方式按协议类型引入路由",
+        "D": "Import方式逐条精确匹配路由",
+        "E": "Network方式按协议类型引入路由",
+        "F": "Import方式优先级高"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "BGP",
+        "路由引入"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "case",
+      "stem": "若设备1处于活动状态(Master)，设备2的状态在哪条链路出现故障时会发生改变?请说明状态改变的原因。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "高可用性",
+      "tags": [
+        "VRRP",
+        "冗余"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "case",
+      "stem": "如果路由器与总部网络的线路中断，在保证数据安全的前提下，分支机构可以在客户端采用什么方式访问总部网络?在防火墙上采用什么方式访问总部网络?",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "VPN",
+        "防火墙"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem": "根据日志显示，初步判断该公司服务器遭到(1)攻击。",
+      "options": {
+        "A": "ARP",
+        "B": "蜜罐",
+        "C": "DDoS",
+        "D": "SQL注入",
+        "E": "IP地址欺骗",
+        "F": "ICMP flood",
+        "G": "UDP flood"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "DDoS",
+        "攻击类型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem": "该种攻击最常见的攻击方式为(2)。",
+      "options": {
+        "A": "ARP",
+        "B": "蜜罐",
+        "C": "DDoS",
+        "D": "SQL注入",
+        "E": "IP地址欺骗",
+        "F": "ICMP flood",
+        "G": "UDP flood"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "DDoS",
+        "攻击方式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "single_choice",
+      "stem": "该种攻击最常见的攻击方式为(3)。",
+      "options": {
+        "A": "ARP",
+        "B": "蜜罐",
+        "C": "DDoS",
+        "D": "SQL注入",
+        "E": "IP地址欺骗",
+        "F": "ICMP flood",
+        "G": "UDP flood"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "DDoS",
+        "攻击方式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "single_choice",
+      "stem": "于是李工在楼层的接入交换机上开启交换机(4)功能后，用户上网正常。",
+      "options": {
+        "A": "ARP detection",
+        "B": "DHCP",
+        "C": "DHCP Relay",
+        "D": "DHCP Snooping"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "DHCP Snooping",
+        "接入安全"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "single_choice",
+      "stem": "同事开启(5)功能后，可防止公司内部电脑感染病毒，伪造MAC地址攻击网关。",
+      "options": {
+        "A": "ARP detection",
+        "B": "DHCP",
+        "C": "DHCP Relay",
+        "D": "DHCP Snooping"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ARP detection",
+        "安全防护"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "fill_blank",
+      "stem": "李工对接入交换机配置限制每个端口只能学习1个终端设备的MAC地址，具体如下：interface GigabitEthernet 0/0/1 port-security (6) port-security-mac-num mac-number (7)。请补充(6)的命令关键字。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "端口安全",
+        "MAC地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "fill_blank",
+      "stem": "李工对接入交换机配置限制每个端口只能学习1个终端设备的MAC地址，具体如下：interface GigabitEthernet 0/0/1 port-security (6) port-security-mac-num mac-number (7)。请补充(7)的数字。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "端口安全",
+        "MAC地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "fill_blank",
+      "stem": "其中，数据库、ERP采用机构SSD硬盘存储。使用RAID 5冗余技术。该技术通过(8)方式来实现数据冗余保护。",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "冗余"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "fill_blank",
+      "stem": "每个RAID组至少应配备(9)块硬盘。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "RAID",
+        "冗余"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "single_choice",
+      "stem": "要求存储系统在不中断业务的基础上，快速获得一个LUN在某个时刻的完成数据拷贝进行业务分析，可以使用(10)功能实现。",
+      "options": {
+        "A": "快照",
+        "B": "镜像",
+        "C": "远程复制",
+        "D": "LUN拷贝"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储技术",
+      "tags": [
+        "快照",
+        "数据保护"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "fill_blank",
+      "stem": "配置R1上的ACL来定义流：首先定义视频业务流ACL 2000：[R1l acl 2000 [R1-acl-basic-2000] rule 1 permit destination (1) 0.0.255.255。请补充(1)的IP地址部分。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "访问控制",
+      "tags": [
+        "ACL",
+        "策略路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "fill_blank",
+      "stem": "配置R1上的ACL来定义流：定义Web业务流ACL 3000：[R1] acl 3000 [R1-acl-adv-3000] rule 1 permit tcp destination any destination-port (2) 0.0.255.255。请补充(2)的端口号部分。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "访问控制",
+      "tags": [
+        "ACL",
+        "策略路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "fill_blank",
+      "stem": "创建流行为并配置重定向： [R1l traffic behavior b1 [R1-behavior-b1] redirect ip-nexthop (3)。请补充(3)的下一跳IP地址。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "PBR",
+        "重定向"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "fill_blank",
+      "stem": "创建流行为并配置重定向： [R1] traffic behavior b2 [R1-behavior-b2] redirect ip-nexthop (4)。请补充(4)的下一跳IP地址。",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "PBR",
+        "重定向"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "fill_blank",
+      "stem": "创建流策略，并在接口上应用： [R1] traffic policy p1 [R1-trafficpolicy-pl] classifier video behavior b1 [R1-trafficpolicy-pl] classifier web behavior (5)。请补充(5)的行为名称。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "PBR",
+        "流策略"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "fill_blank",
+      "stem": "创建流策略，并在接口上应用： [R1] interface GigabitEthernet0/0/0 [R1-GigabitEthernet0/0/0] traffic-policy (6) [R1-GigabitEthernet0/0/0] quit。请补充(6)的流策略名称。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "PBR",
+        "接口应用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "fill_blank",
+      "stem": "ISP2链路探测： [R2] nqa test-instance admin isp2 [R2-nqa-admin-isp2] test-type icmp [R2-nqa-admin-isp2] destination-address ipv4 (7) //配置NQA测试目的地址。请补充(7)的IP地址。",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络监控",
+      "tags": [
+        "NQA",
+        "ICMP探测"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "fill_blank",
+      "stem": "配置静态路由： [R2] ip route-static 30.0.0.0 255.0.0.0 (8) track nqa admin isp1。请补充(8)的下一跳IP地址。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由配置",
+      "tags": [
+        "静态路由",
+        "NQA联动"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "fill_blank",
+      "stem": "配置静态路由： [R2] ip route-static 0.0.0.0 0.0.0.0 (9) preference 110 track nqa admin isp1。请补充(9)的下一跳IP地址。",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由配置",
+      "tags": [
+        "静态路由",
+        "NQA联动"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "fill_blank",
+      "stem": "配置静态路由： [R2] ip route-static 0.0.0.0 0.0.0.0 (10) preference 120。请补充(10)的下一跳IP地址。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由配置",
+      "tags": [
+        "静态路由",
+        "备份"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "fill_blank",
+      "stem": "评价系统可靠性通常采用MTBF和MTTR这两个技术指标。其中MTBF是指系统无故障运行的平均时间，通常以(1)为单位。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络可靠性",
+      "tags": [
+        "MTBF",
+        "可靠性指标"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "fill_blank",
+      "stem": "MTBF越(2)，可靠性也就越高。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络可靠性",
+      "tags": [
+        "MTBF",
+        "可靠性指标"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "33",
+      "question_type": "fill_blank",
+      "stem": "在实际的网络中，故障难以避免，保证可靠性的技术从两个方面实现，故障检测技术和链路冗余，其中常见的关键链路冗余有接口备份、(3)、和双机热备份技术。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络可靠性",
+      "tags": [
+        "链路冗余",
+        "高可用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "34",
+      "question_type": "fill_blank",
+      "stem": "请补充(4)的冗余技术名称。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络可靠性",
+      "tags": [
+        "链路冗余",
+        "高可用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "35",
+      "question_type": "single_choice",
+      "stem": "配置R1各接口的IP地址，RB的配置略。(5) [Huawei] (6) RA。请选择(5)的正确命令。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "timer delay",
+        "C": "standby",
+        "D": "30",
+        "E": "ip address",
+        "F": "system-view/sys",
+        "G": "ip route-static"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "设备配置",
+      "tags": [
+        "华为",
+        "系统视图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "36",
+      "question_type": "single_choice",
+      "stem": "配置R1各接口的IP地址，RB的配置略。(5) [Huawei] (6) RA。请选择(6)的正确命令。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "timer delay",
+        "C": "standby",
+        "D": "30",
+        "E": "ip address",
+        "F": "system-view/sys",
+        "G": "ip route-static"
+      },
+      "answer": "A,C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "设备配置",
+      "tags": [
+        "华为",
+        "系统视图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "37",
+      "question_type": "single_choice",
+      "stem": "[RA] interface GigabitEthernet 1/0/1 [RA-GigabitEthernet0/0/1] (7) 10.1.1.1 255.255.255.0。请选择(7)的正确命令。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "timer delay",
+        "C": "standby",
+        "D": "30",
+        "E": "ip address",
+        "F": "system-view/sys",
+        "G": "ip route-static"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "设备配置",
+      "tags": [
+        "华为",
+        "接口配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "38",
+      "question_type": "single_choice",
+      "stem": "[RA] (8) 192.168.100.0 24 10.1.1.2。请选择(8)的正确命令。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "timer delay",
+        "C": "standby",
+        "D": "30",
+        "E": "ip address",
+        "F": "system-view/sys",
+        "G": "ip route-static"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "设备配置",
+      "tags": [
+        "华为",
+        "静态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "39",
+      "question_type": "single_choice",
+      "stem": "[RA-GigabitEthernet1/0/1] standby interface GigabitEthernet 1/0/2 (10)。请选择(10)的正确值。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "timer delay",
+        "C": "standby",
+        "D": "30",
+        "E": "ip address",
+        "F": "system-view/sys",
+        "G": "ip route-static"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "设备配置",
+      "tags": [
+        "华为",
+        "接口备份"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "40",
+      "question_type": "single_choice",
+      "stem": "[RA-GigabitEthernet1/0/1] standby (11) 10 10。请选择(11)的正确命令。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "timer delay",
+        "C": "standby",
+        "D": "30",
+        "E": "ip address",
+        "F": "system-view/sys",
+        "G": "ip route-static"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "设备配置",
+      "tags": [
+        "华为",
+        "接口备份"
+      ],
+      "is_verified": false
+    }
+  ]
+}

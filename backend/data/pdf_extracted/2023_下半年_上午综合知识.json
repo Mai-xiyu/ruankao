@@ -1,0 +1,140 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2023,
+    "season": "下半年",
+    "paper_type": "上午综合知识",
+    "source_name": "PDF 提取 - 2023年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "21",
+      "question_type": "single_choice",
+      "stem": "在EIGRP协议中，某个路由器收到了两条路径到达目标网络，路径1的带宽为100Mbps，延迟2ms，路径2的带宽为50Mbps，延迟为4ms，如果EIGRP使用带宽和延迟的综合度量标准，那么该路由器选择的最佳路径是",
+      "options": {
+        "A": "路径1和路径2的平均值",
+        "B": "路径2",
+        "C": "路径1和路径2的和",
+        "D": "路径1"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "EIGRP",
+        "度量标准",
+        "路由选择"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "single_choice",
+      "stem": "关于SNMP下列说法错误的是",
+      "options": {
+        "A": "它采用轮询机制",
+        "B": "可自定义MIB或者SMI",
+        "C": "代理进程接收信息使用161端口",
+        "D": "基于TCP协议"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "SNMP",
+        "端口",
+        "协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "single_choice",
+      "stem": "下列认证协议中，基于MD5哈希密码的挑战-响应机制进行身份验证的是",
+      "options": {
+        "A": "NTLM NT局域网管理器",
+        "B": "MS-CHAP微软挑战-握手认证协议",
+        "C": "CHAP挑战-握手认证协议",
+        "D": "PAP密码认证协议"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "认证协议",
+        "MD5",
+        "挑战-响应"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "single_choice",
+      "stem": "当DHCP服务器接收到客户端的DHCP Discover报文后，使用什么报文对其进行回应",
+      "options": {
+        "A": "DHCP Offer",
+        "B": "DHCP Ack",
+        "C": "DHCP Nck",
+        "D": "DHCP Request"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "Discover",
+        "Offer"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "single_choice",
+      "stem": "当一封电子邮件发送失败时",
+      "options": {
+        "A": "邮件系统会删除邮件并返回无法送达原因",
+        "B": "邮件系统会一直投递直至送达",
+        "C": "邮件系统会退回邮件但无法给出不能送达的原因",
+        "D": "邮件系统会退回邮件并给出无法送达的原因"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "电子邮件",
+      "tags": [
+        "邮件投递",
+        "失败处理"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "single_choice",
+      "stem": "下列FAT AP无线组网的说法中错误的是",
+      "options": {
+        "A": "组网成本较低",
+        "B": "FAT AP可以为无线接入终端提供DHCP服务",
+        "C": "FAT AP可以为无线接入终端提供跨AP的L3漫游",
+        "D": "适合家庭或者小规模网络应用场景"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "FAT AP",
+        "组网",
+        "漫游"
+      ],
+      "is_verified": false
+    }
+  ]
+}

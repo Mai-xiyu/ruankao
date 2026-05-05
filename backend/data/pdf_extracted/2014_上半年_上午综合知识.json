@@ -1,0 +1,1520 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2014,
+    "season": "上半年",
+    "paper_type": "上午综合知识",
+    "source_name": "PDF 提取 - 2014年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "在CPU中，常用来为ALU执行算术逻辑运算提供数据并暂存运算结果的寄存器是______。",
+      "options": {
+        "A": "程序计数器",
+        "B": "状态寄存器",
+        "C": "通用寄存器",
+        "D": "累加寄存器"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "CPU",
+        "ALU",
+        "寄存器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "某机器字长为n，最高位是符号位，其定点整数的最大值为______。",
+      "options": {
+        "A": "2n-1",
+        "B": "2n-1-1",
+        "C": "2n",
+        "D": "2n-1"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "定点整数",
+        "最大值"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "通常可以将计算机系统中执行一条指令的过程分为取指令、分析和执行指令3步，若取指令时间为4Δt，分析时间为2Δt，执行时间为3Δt，按顺序方式从头到尾执行完600条指令所需时间为______Δt。",
+      "options": {
+        "A": "2400",
+        "B": "3000",
+        "C": "3600",
+        "D": "5400"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机体系结构",
+      "tags": [
+        "指令流水线",
+        "执行时间"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem": "若按照执行第i条、分析第i+1条、读取第i+2条重叠的流水线方式执行指令，则从头到尾执行完600条指令所需时间为______Δt。",
+      "options": {
+        "A": "2400",
+        "B": "2405",
+        "C": "3000",
+        "D": "3009"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机体系结构",
+      "tags": [
+        "流水线",
+        "执行时间"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem": "若用256K×8bit的存储器芯片，构成地址40000000H到400FFFFFH且按字节编址的内存区域，则需______片芯片。",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "16",
+        "D": "32"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "存储器",
+        "芯片计算"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem": "以下关于进度管理工具Gantt图的叙述中，不正确的是______。",
+      "options": {
+        "A": "能清晰地表达每个任务的开始时间、结束时间和持续时间",
+        "B": "能清晰地表达任务之间的并行关系",
+        "C": "不能清晰地确定任务之间的依赖关系",
+        "D": "能清晰地确定影响进度的关键任务"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "项目管理",
+      "tags": [
+        "Gantt图",
+        "进度管理"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "若某文件系统的目录结构如下图所示，假设用户要访问文件fault.swf，且当前工作目录为swshare，则该文件的全文件名为______。",
+      "options": {
+        "A": "fault.swf",
+        "B": "flash\\fault.swf",
+        "C": "swshare\\flash\\fault.swf",
+        "D": "\\swshare\\flash\\fault.swf"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "文件系统",
+        "路径"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem": "若某文件系统的目录结构如下图所示，假设用户要访问文件fault.swf，且当前工作目录为swshare，则该文件的相对路径和绝对路径分别为______。",
+      "options": {
+        "A": "swshare\\flash\\和\\flash\\",
+        "B": "flash\\和\\swshare\\flash\\",
+        "C": "\\swshare\\flash\\和flash\\",
+        "D": "\\flash\\和\\swshare\\flash\\"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "文件系统",
+        "相对路径",
+        "绝对路径"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem": "在引用调用方式下进行函数调用，是将______。",
+      "options": {
+        "A": "实参的值传递给形参",
+        "B": "实参的地址传递给形参",
+        "C": "形参的值传递给实参",
+        "D": "形参的地址传递给实参"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "程序设计语言",
+      "tags": [
+        "调用方式",
+        "传址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem": "王某买了一幅美术作品原件，则他享有该美术作品的______。",
+      "options": {
+        "A": "著作权",
+        "B": "所有权",
+        "C": "展览权",
+        "D": "所有权与展览权"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "知识产权",
+      "tags": [
+        "著作权",
+        "所有权"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem": "路由器连接帧中继网络的接口是______。",
+      "options": {
+        "A": "AUI接口",
+        "B": "RJ-45接口",
+        "C": "Console接口",
+        "D": "Serial接口"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络互联",
+      "tags": [
+        "路由器接口",
+        "帧中继"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem": "路由器连接双绞线以太网的接口是______。",
+      "options": {
+        "A": "AUI接口",
+        "B": "RJ-45接口",
+        "C": "Console接口",
+        "D": "Serial接口"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络互联",
+      "tags": [
+        "路由器接口",
+        "以太网"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "single_choice",
+      "stem": "在地面上相距2000公里的两地之间通过电缆传输4000比特长的数据包，数据速率为64Kb/s，从开始发送到接收完成需要的时间为______。",
+      "options": {
+        "A": "48ms",
+        "B": "640ms",
+        "C": "32.5ms",
+        "D": "72.5ms"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "传输时间",
+        "数据速率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "single_choice",
+      "stem": "海明码是一种纠错编码，一对有效码字之间的海明距离是______。",
+      "options": {
+        "A": "两个码字的比特数之和",
+        "B": "两个码字的比特数之差",
+        "C": "两个码字之间相同的比特数",
+        "D": "两个码字之间不同的比特数"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "海明码",
+        "海明距离"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "single_choice",
+      "stem": "如果信息为6位，要求纠正1位错，按照海明编码规则，需要增加的校验位是______位。",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "海明码",
+        "校验位"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "single_choice",
+      "stem": "IPv4的D类地址是组播地址，用作组播标识符，其中224.0.0.1代表______。",
+      "options": {
+        "A": "DHCP服务器",
+        "B": "RIPv2路由器",
+        "C": "本地子网中的所有主机",
+        "D": "OSPF路由器"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP",
+      "tags": [
+        "IPv4",
+        "组播地址",
+        "224.0.0.1"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "single_choice",
+      "stem": "224.0.0.5代表______。",
+      "options": {
+        "A": "DHCP服务器",
+        "B": "RIPv2路由器",
+        "C": "本地子网中的所有主机",
+        "D": "OSPF路由器"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP",
+      "tags": [
+        "IPv4",
+        "组播地址",
+        "224.0.0.5"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "single_choice",
+      "stem": "按照IETF定义的区分服务（Diffserv）技术规范，边界路由器要根据IP协议头中的______字段为每一个IP分组打上一个称为DS码点的标记，这个标记代表了改分组的QoS需求。",
+      "options": {
+        "A": "目标地址",
+        "B": "源地址",
+        "C": "服务类型",
+        "D": "段偏置值"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP",
+      "tags": [
+        "Diffserv",
+        "QoS",
+        "服务类型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "single_choice",
+      "stem": "ICMP协议属于因特网中的______协议。",
+      "options": {
+        "A": "数据链路层",
+        "B": "网络层",
+        "C": "传输层",
+        "D": "会话层"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP",
+      "tags": [
+        "ICMP",
+        "网络层"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "single_choice",
+      "stem": "ICMP协议数据单元封装在______中传送。",
+      "options": {
+        "A": "以太帧",
+        "B": "TCP段",
+        "C": "UDP数据报",
+        "D": "IP数据报"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "TCP/IP",
+      "tags": [
+        "ICMP",
+        "封装"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "single_choice",
+      "stem": "TCP/IP网络中最早使用的动态路由协议是______协议。",
+      "options": {
+        "A": "RIP",
+        "B": "OSPF",
+        "C": "PPP",
+        "D": "IS-IS"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "动态路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "single_choice",
+      "stem": "这种协议基于______算法来计算路由。",
+      "options": {
+        "A": "路由信息",
+        "B": "链路状态",
+        "C": "距离矢量",
+        "D": "最短通路"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "距离矢量"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "single_choice",
+      "stem": "动态划分VLAN的方法中不包括______。",
+      "options": {
+        "A": "网络层协议",
+        "B": "网络层地址",
+        "C": "交换机端口",
+        "D": "MAC地址"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "局域网",
+      "tags": [
+        "VLAN",
+        "划分方法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "single_choice",
+      "stem": "在局域网中划分VLAN，不同VLAN之间必须通过______连接才能互相通信。",
+      "options": {
+        "A": "中继端口",
+        "B": "动态端口",
+        "C": "接入端口",
+        "D": "静态端口"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "局域网",
+      "tags": [
+        "VLAN",
+        "中继端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "single_choice",
+      "stem": "属于各个VLAN的数据帧必须同时打上不同的______。",
+      "options": {
+        "A": "VLAN优先级",
+        "B": "VLAN标记",
+        "C": "用户标识",
+        "D": "用户密钥"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "局域网",
+      "tags": [
+        "VLAN",
+        "VLAN标记"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "single_choice",
+      "stem": "城域以太网在各个用户以太网之间建立多点第二层连接，IEEE802.1ad定义运营商网桥协议提供的基本技术是在以太网帧中插入______字段。",
+      "options": {
+        "A": "运营商VLAN标记",
+        "B": "运营商虚电路标识",
+        "C": "用户VLAN标记",
+        "D": "用户帧类型标记"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "城域网",
+      "tags": [
+        "IEEE802.1ad",
+        "Q-in-Q"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "single_choice",
+      "stem": "这种技术被称为______技术。",
+      "options": {
+        "A": "Q-in-Q",
+        "B": "IP-in-IP",
+        "C": "NAT-in-NAT",
+        "D": "MAC-in-MAC"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "城域网",
+      "tags": [
+        "Q-in-Q"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "single_choice",
+      "stem": "网络配置如下图所示，在路由器Router中配置网络1访问DNS服务器的命令是______。",
+      "options": {
+        "A": "ip route 202.168.1.2 255.255.255.0 202.168.1.2",
+        "B": "ip route 202.168.1.2 255.255.255.255 202.168.1.2",
+        "C": "ip route 0.0.0.0 0.0.0.0 202.168.1.253",
+        "D": "ip route 255.255.255.255 0.0.0.0 202.168.1.254"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "路由配置",
+        "DNS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "single_choice",
+      "stem": "网络1访问Internet的默认路由命令是______。",
+      "options": {
+        "A": "ip route 202.168.1.2 255.255.255.0 202.168.1.2",
+        "B": "ip route 202.168.1.2 255.255.255.255 202.168.1.2",
+        "C": "ip route 0.0.0.0 0.0.0.0 202.168.1.253",
+        "D": "ip route 255.255.255.255 0.0.0.0 202.168.1.254"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "默认路由",
+        "Internet"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "single_choice",
+      "stem": "与HTTP1.0相比，HTTP1.1的优点不包括______。",
+      "options": {
+        "A": "减少了RTTs数量",
+        "B": "支持持久连接",
+        "C": "减少了TCP慢启动次数",
+        "D": "提高了安全性"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "应用层协议",
+      "tags": [
+        "HTTP",
+        "HTTP1.0",
+        "HTTP1.1"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "single_choice",
+      "stem": "在运行Linux系统的服务器中，使用BIND配置域名服务器，主配置文件存放在______。",
+      "options": {
+        "A": "name.conf",
+        "B": "named.conf",
+        "C": "dns.conf",
+        "D": "dnsd.conf"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "BIND",
+        "配置文件"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "single_choice",
+      "stem": "在Linux系统中，root用户执行shutdown–rnow命令，系统将会______。",
+      "options": {
+        "A": "重新启动",
+        "B": "进入单用户模式",
+        "C": "休眠",
+        "D": "关机"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "shutdown",
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "33",
+      "question_type": "single_choice",
+      "stem": "结构化综合布线系统中的干线子系统是指______。",
+      "options": {
+        "A": "管理楼层内各种设备的子系统",
+        "B": "连接各个建筑物的子系统",
+        "C": "工作区信息插座之间的线缆子系统",
+        "D": "实现楼层设备间连接的子系统"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "综合布线",
+      "tags": [
+        "干线子系统",
+        "结构化布线"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "34",
+      "question_type": "single_choice",
+      "stem": "假设网络的生产管理系统采用B/S工作方式，经常上网的用户数为100个，每个用户每分钟平均产生11个事务，平均事务量大小为0.06MB，则这个系统需要的传输速率为______。",
+      "options": {
+        "A": "5.28Mb/s",
+        "B": "8.8Mb/s",
+        "C": "66Mb/s",
+        "D": "528Mb/s"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设计",
+      "tags": [
+        "传输速率",
+        "计算"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "35",
+      "question_type": "single_choice",
+      "stem": "在windows命令行窗口中进入nslookup交互工作方式，然后键入set type=mx,这样的设置可以______。",
+      "options": {
+        "A": "切换到指定的域名服务器",
+        "B": "查询邮件服务器的地址",
+        "C": "由地址查找对应的域名",
+        "D": "查询域名对应的各种资源"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "nslookup",
+        "MX记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "36",
+      "question_type": "single_choice",
+      "stem": "FTP提供了丰富的命令，用来更改本地计算机工作目录的命令是______。",
+      "options": {
+        "A": "get",
+        "B": "list",
+        "C": "!cd",
+        "D": "!list"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP",
+      "tags": [
+        "FTP命令",
+        "本地目录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "37",
+      "question_type": "single_choice",
+      "stem": "在进行域名解析过程中，由______获取的解析结果耗时最短。",
+      "options": {
+        "A": "主域名服务器",
+        "B": "辅域名服务器",
+        "C": "本地缓存",
+        "D": "转发域名服务器"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "域名解析",
+        "缓存"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "38",
+      "question_type": "single_choice",
+      "stem": "DNS通知是一种推进机制，其作用是使得______。",
+      "options": {
+        "A": "辅助域名服务器及时更新信息",
+        "B": "授权域名服务器向管区内发送公告",
+        "C": "本地域名服务器发送域名解析申请",
+        "D": "递归查询迅速返回结果"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS通知",
+        "区域传输"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "39",
+      "question_type": "single_choice",
+      "stem": "在DNS资源记录中，______记录类型的功能是把IP地址解析为主机名。",
+      "options": {
+        "A": "A",
+        "B": "NS",
+        "C": "CNAME",
+        "D": "PTR"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "资源记录",
+        "PTR"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "40",
+      "question_type": "single_choice",
+      "stem": "以下关于DHCP的描述中，正确的是______。",
+      "options": {
+        "A": "DHCP客户机不可能跨越网段获取IP地址",
+        "B": "DHCP客户机只能收到一个dhcpoffer",
+        "C": "DHCP服务器可以把一个IP地址同时租借给两个网络的不同主机",
+        "D": "DHCP服务器中可自行设定租约期"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "DHCP",
+        "租约"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "41",
+      "question_type": "single_choice",
+      "stem": "高级加密标准AES支持的3种密钥长度中不包括______。",
+      "options": {
+        "A": "56",
+        "B": "128",
+        "C": "192",
+        "D": "256"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "加密",
+      "tags": [
+        "AES",
+        "密钥长度"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "42",
+      "question_type": "single_choice",
+      "stem": "在报文摘要算法MD5中，首先要进行明文分组与填充，其中分组时明文报文摘要按照______位分组。",
+      "options": {
+        "A": "128",
+        "B": "256",
+        "C": "512",
+        "D": "1024"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "信息安全",
+      "tags": [
+        "MD5",
+        "分组"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "43",
+      "question_type": "single_choice",
+      "stem": "以下关于IPsec协议的描述中，正确的是______。",
+      "options": {
+        "A": "IPsec认证头(AH)不提供数据加密服务",
+        "B": "IPsec封装安全负荷（ESP）用于数据完整性认证和数据源认证",
+        "C": "IPsec的传输模式对原来的IP数据报进行了封装和加密，再加上了新的IP头",
+        "D": "IPsec通过应用层的Web服务器建立安全连接"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPsec",
+        "AH",
+        "ESP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "44",
+      "question_type": "single_choice",
+      "stem": "防火墙的工作层次是决定防火墙效率及安全的主要因素，下面叙述中正确的是______。",
+      "options": {
+        "A": "防火墙工作层次越低，工作效率越高，安全性越高",
+        "B": "防火墙工作层次越低，工作效率越低，安全性越低",
+        "C": "防火墙工作层次越高，工作效率越高，安全性越低",
+        "D": "防火墙工作层次越高，工作效率越低，安全性越高"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "防火墙",
+        "工作层次"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "45",
+      "question_type": "single_choice",
+      "stem": "在入侵检测系统中，事件分析器接收事件信息并对其进行分析，判断是否为入侵行为或异常现象，其常用的三种分析方法中不包括______。",
+      "options": {
+        "A": "匹配模式",
+        "B": "密文分析",
+        "C": "数据完整性分析",
+        "D": "统计分析"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "入侵检测",
+        "分析方法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "46",
+      "question_type": "single_choice",
+      "stem": "在Windows Server 2003环境中有本地用户和域用户两种用户，其中本地用户信息存储在______。",
+      "options": {
+        "A": "本地计算机的SAM数据库",
+        "B": "本地计算机的活动目录",
+        "C": "域控制器的活动目录",
+        "D": "域控制器的SAM数据库中"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "Windows",
+        "用户管理",
+        "SAM"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "47",
+      "question_type": "single_choice",
+      "stem": "管理站用SetRequest在RMON表中产生一个新行，如果新行的索引值与表中其他行的索引值不冲突，则代理产生一个新行，其状态对象值为______。",
+      "options": {
+        "A": "createRequest",
+        "B": "underCreate",
+        "C": "valid",
+        "D": "invalid"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "RMON",
+        "SetRequest"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "48",
+      "question_type": "single_choice",
+      "stem": "SNMPc支持各种设备访问方式，在SNMPc支持的设备访问方式中，只是用于对TCP服务轮询的方式是______。",
+      "options": {
+        "A": "无访问模式",
+        "B": "ICMP（Ping）",
+        "C": "SNMPv1和v2c",
+        "D": "SNMPv3"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "SNMPc",
+        "轮询方式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "49",
+      "question_type": "single_choice",
+      "stem": "下列数据类型中，SNMPv2支持而SNMPv1不支持的是______。",
+      "options": {
+        "A": "OCTET STRING",
+        "B": "OBJECT descriptor",
+        "C": "Unsigned32",
+        "D": "Gauge32"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "SNMP",
+        "数据类型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "50",
+      "question_type": "single_choice",
+      "stem": "某实验室使用无线路由器提供内部上网，无线路由器采用固定IP地址连接至校内网，实验室用户使用一段时间后，不定期出现不能访问互联网的现象，经测试无线路由器工作正常，同时有线接入的用户可以访问互联网，分析以上情况，导致这一故障产生的最可能的原因是______。",
+      "options": {
+        "A": "无线路由器配置错误",
+        "B": "无线路由器硬件故障",
+        "C": "内部或者外部网络攻击",
+        "D": "校园网接入故障"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障",
+      "tags": [
+        "无线网络",
+        "故障排查"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "51",
+      "question_type": "single_choice",
+      "stem": "校园网连接运营商的IP地址为202.117.113.3/30，本地网关的地址为192.168.1.254/24，如果本地计算机采用动态地址分配，在下图中应如何配置？______",
+      "options": {
+        "A": "选取“自动获得IP地址”",
+        "B": "配置本地计算机的IP地址为192.168.1.X",
+        "C": "配置本地计算机的IP地址为202.115.113.X",
+        "D": "在网络169.254.X.X中选取一个不冲突的IP地址"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "IP地址",
+        "DHCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "52",
+      "question_type": "single_choice",
+      "stem": "下面的选项中，不属于网络202.113.100.0/21的地址是______。",
+      "options": {
+        "A": "202.113.102.0",
+        "B": "202.113.99.0",
+        "C": "202.113.97.0",
+        "D": "202.113.95.0"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址",
+      "tags": [
+        "CIDR",
+        "子网划分"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "53",
+      "question_type": "single_choice",
+      "stem": "IP地址块112.56.80.192/26包含了______个主机地址。",
+      "options": {
+        "A": "15",
+        "B": "32",
+        "C": "62",
+        "D": "64"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址",
+      "tags": [
+        "子网",
+        "主机数"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "54",
+      "question_type": "single_choice",
+      "stem": "不属于这个网络的地址是______。",
+      "options": {
+        "A": "112.56.80.202",
+        "B": "112.56.80.191",
+        "C": "112.56.80.253",
+        "D": "112.56.80.195"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址",
+      "tags": [
+        "子网",
+        "地址判断"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "55",
+      "question_type": "single_choice",
+      "stem": "下面的地址中属于单播地址的是______。",
+      "options": {
+        "A": "125.221.191.255/18",
+        "B": "192.168.24.123/30",
+        "C": "200.114.207.94/27",
+        "D": "224.0.0.23/16"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址",
+      "tags": [
+        "单播",
+        "网络地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "56",
+      "question_type": "single_choice",
+      "stem": "IPv6地址的格式前缀用于表达地址类型或子网地址，例如60位地址12AB00000000CD3有多种合法的表示形式，下面的选项中，不合法的是______。",
+      "options": {
+        "A": "12AB:0000:0000:CD30:0000:0000:0000:0000/60",
+        "B": "12AB::CD30:0:0:0:0/60",
+        "C": "12AB:0:0:CD3/60",
+        "D": "12AB:0:0:CD30::/60"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPv6",
+      "tags": [
+        "IPv6地址",
+        "格式前缀"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "57",
+      "question_type": "single_choice",
+      "stem": "IPv6新增加了一种任意播地址，这种地址______。",
+      "options": {
+        "A": "可以用作源地址，也可以用作目标地址",
+        "B": "只可以作为源地址，不能作为目标地址",
+        "C": "代表一组接口的标识符",
+        "D": "可以用作路由器或主机的地址"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPv6",
+      "tags": [
+        "任意播地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "58",
+      "question_type": "single_choice",
+      "stem": "所谓移动IP是指______。",
+      "options": {
+        "A": "通过地址翻译技术改变主机的IP地址",
+        "B": "一个主机的IP地址可以转移给另一个主机",
+        "C": "移动主机通过在无线通信网中漫游来保持网络连接",
+        "D": "移动主机在离开家乡网络的远程站点可以联网工作"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "移动IP",
+      "tags": [
+        "移动IP",
+        "定义"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "59",
+      "question_type": "single_choice",
+      "stem": "实现移动IP的关键技术是______。",
+      "options": {
+        "A": "移动主机具有一个可以接入任何网络的通用IP地址",
+        "B": "移动主机具有一个家乡网络地址并获取一个外地转交地址",
+        "C": "移动主机通过控制全网的管理中心申请网络接入服务",
+        "D": "移动主机总是通过家乡网络地址来获取接入服务"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "移动IP",
+      "tags": [
+        "移动IP",
+        "关键技术"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "60",
+      "question_type": "single_choice",
+      "stem": "中国自主研发的3G通信标准是______。",
+      "options": {
+        "A": "CDMA 2000",
+        "B": "TD-SCDMA",
+        "C": "WCDMA",
+        "D": "WiMAX"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线通信",
+      "tags": [
+        "3G",
+        "TD-SCDMA"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "61",
+      "question_type": "single_choice",
+      "stem": "IEEE802.11规定了多种WLAN通信标准，其中______与其他标准采用的频段不同，因而不能兼容。",
+      "options": {
+        "A": "IEEE802.11a",
+        "B": "IEEE802.11b",
+        "C": "IEEE802.11g",
+        "D": "IEEE802.11n"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "WLAN",
+      "tags": [
+        "IEEE802.11",
+        "频段"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "62",
+      "question_type": "single_choice",
+      "stem": "IEEE802.11定义的AdHoc网络是由无线移动结点组成的对等网，这种网络的特点是______。",
+      "options": {
+        "A": "每个结点既是主机，又是交换机",
+        "B": "每个结点既是主机，又是路由器",
+        "C": "每个结点都必须通过中心结点才能互相通信",
+        "D": "每个结点都发送IP广播包来与其他结点通信"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "AdHoc",
+        "对等网"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "63",
+      "question_type": "single_choice",
+      "stem": "在这种网络中使用的DSDV（Destination-sequenced Distance Vector）路由协议是一种______。",
+      "options": {
+        "A": "洪泛式路由协议",
+        "B": "随机式路由协议",
+        "C": "链路状态路由协议",
+        "D": "距离矢量路由协议"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "DSDV",
+        "路由协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "64",
+      "question_type": "single_choice",
+      "stem": "OSPF协议将其管理的网络划分为不同类型的若干区域（Area），其中标准区域特点是______。",
+      "options": {
+        "A": "不接受本地AS之外的路由信息，也不接受其他区域的路由汇总信息",
+        "B": "不接受本地AS之外的路由信息，对本地AS之外的目标采用默认路由",
+        "C": "可以接收任何链路更新信息和路由汇总信息",
+        "D": "可以学习其他AS的路由信息，对本地AS中的其他区域采用默认路由"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "OSPF",
+      "tags": [
+        "OSPF",
+        "区域类型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "65",
+      "question_type": "single_choice",
+      "stem": "存根区域（stub）的特点是______。",
+      "options": {
+        "A": "不接受本地AS之外的路由信息，也不接受其他区域的路由汇总信息",
+        "B": "不接受本地AS之外的路由信息，对本地AS之外的目标采用默认路由",
+        "C": "可以接收任何链路更新信息和路由汇总信息",
+        "D": "可以学习其他AS的路由信息，对本地AS中的其他区域使用默认路由"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "OSPF",
+      "tags": [
+        "OSPF",
+        "stub区域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "66",
+      "question_type": "single_choice",
+      "stem": "NAT技术解决了IPv4地址短缺的问题，假设内网的地址数是m，而外网地址数n，若m>n，则这种技术叫做______。",
+      "options": {
+        "A": "动态地址翻译",
+        "B": "静态地址翻译",
+        "C": "地址伪装",
+        "D": "地址变换"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "NAT",
+      "tags": [
+        "NAT",
+        "地址转换"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "67",
+      "question_type": "single_choice",
+      "stem": "若m>n，且n=1，则这种技术这叫做______。",
+      "options": {
+        "A": "动态地址翻译",
+        "B": "静态地址翻译",
+        "C": "地址伪装",
+        "D": "地址变换"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "NAT",
+      "tags": [
+        "NAT",
+        "地址伪装"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "68",
+      "question_type": "single_choice",
+      "stem": "CIDR技术解决了路由缩放问题，例如2048个C类网络组成一个地址块，网络号从192.24.0.0~192.31.255.0这样的超网号应为______。",
+      "options": {
+        "A": "192.24.0.0",
+        "B": "192.31.255.0",
+        "C": "192.31.0.0",
+        "D": "192.24.255.0"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "CIDR",
+      "tags": [
+        "超网",
+        "地址聚合"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "69",
+      "question_type": "single_choice",
+      "stem": "其地址掩码应为______。",
+      "options": {
+        "A": "255.255.248.0",
+        "B": "255.255.255.0",
+        "C": "255.255.0.0",
+        "D": "255.248.0.0"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "CIDR",
+      "tags": [
+        "子网掩码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "70",
+      "question_type": "single_choice",
+      "stem": "网络系统设计过程中，物理网络设计阶段的任务是______。",
+      "options": {
+        "A": "依据逻辑网络设计的要求，确定设备的具体物理分布和运行环境",
+        "B": "分析现有网络和新网络的各类资源分布，掌握网络所处的状态",
+        "C": "根据需求规范和通信规范，实施资源分配和安全规划",
+        "D": "理解网络应该具有的功能和性能，最终设计出符合用户需求的网络"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设计",
+      "tags": [
+        "物理设计",
+        "任务"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "71",
+      "question_type": "single_choice",
+      "stem": "The traditional way of allocating a single channel among multiple competing users is to chop up its (71) by using one of the multiplexing schemes such as FDM (Frequency Division Multiplexing). If there are N users, the bandwidth is divided into N equal-sized portions, with each user being assigned one portion. Since each user has a private frequency (72), there is no interference among users.When there is only a small and constant number of users, each of which has a steady stream or a heavy load of (73), this division is a simple and efficient allocation mechanism. A wireless example is FM radio stations. Each station gets a portion of the FM band and uses it most of the time to broadcast its signal.However, when the number of senders is large and varying or the traffic is (74), FDM presents some problems. If the spectrum is cut up into N regions while fewer than N users are currently interested in communicating, a large piece of valuable spectrum will be wasted. If more than N users want to communicate, some of them will be denied (75) for lack of bandwidth.……",
+      "options": {
+        "A": "capability",
+        "B": "capacity",
+        "C": "ability",
+        "D": "power"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "FDM",
+        "英文题"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "72",
+      "question_type": "single_choice",
+      "stem": "The traditional way of allocating a single channel among multiple competing users is to chop up its (71) by using one of the multiplexing schemes such as FDM (Frequency Division Multiplexing). If there are N users, the bandwidth is divided into N equal-sized portions, with each user being assigned one portion. Since each user has a private frequency (72), there is no interference among users.When there is only a small and constant number of users, each of which has a steady stream or a heavy load of (73), this division is a simple and efficient allocation mechanism. A wireless example is FM radio stations. Each station gets a portion of the FM band and uses it most of the time to broadcast its signal.However, when the number of senders is large and varying or the traffic is (74), FDM presents some problems. If the spectrum is cut up into N regions while fewer than N users are currently interested in communicating, a large piece of valuable spectrum will be wasted. If more than N users want to communicate, some of them will be denied (75) for lack of bandwidth.……",
+      "options": {
+        "A": "band",
+        "B": "range",
+        "C": "domain",
+        "D": "assignment"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "FDM",
+        "frequency"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "73",
+      "question_type": "single_choice",
+      "stem": "The traditional way of allocating a single channel among multiple competing users is to chop up its (71) by using one of the multiplexing schemes such as FDM (Frequency Division Multiplexing). If there are N users, the bandwidth is divided into N equal-sized portions, with each user being assigned one portion. Since each user has a private frequency (72), there is no interference among users.When there is only a small and constant number of users, each of which has a steady stream or a heavy load of (73), this division is a simple and efficient allocation mechanism. A wireless example is FM radio stations. Each station gets a portion of the FM band and uses it most of the time to broadcast its signal.However, when the number of senders is large and varying or the traffic is (74), FDM presents some problems. If the spectrum is cut up into N regions while fewer than N users are currently interested in communicating, a large piece of valuable spectrum will be wasted. If more than N users want to communicate, some of them will be denied (75) for lack of bandwidth.……",
+      "options": {
+        "A": "traffic",
+        "B": "date",
+        "C": "bursty",
+        "D": "flow"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "FDM",
+        "traffic"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "74",
+      "question_type": "single_choice",
+      "stem": "The traditional way of allocating a single channel among multiple competing users is to chop up its (71) by using one of the multiplexing schemes such as FDM (Frequency Division Multiplexing). If there are N users, the bandwidth is divided into N equal-sized portions, with each user being assigned one portion. Since each user has a private frequency (72), there is no interference among users.When there is only a small and constant number of users, each of which has a steady stream or a heavy load of (73), this division is a simple and efficient allocation mechanism. A wireless example is FM radio stations. Each station gets a portion of the FM band and uses it most of the time to broadcast its signal.However, when the number of senders is large and varying or the traffic is (74), FDM presents some problems. If the spectrum is cut up into N regions while fewer than N users are currently interested in communicating, a large piece of valuable spectrum will be wasted. If more than N users want to communicate, some of them will be denied (75) for lack of bandwidth.……",
+      "options": {
+        "A": "continuous",
+        "B": "steady",
+        "C": "bursty",
+        "D": "flow"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "FDM",
+        "traffic"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "75",
+      "question_type": "single_choice",
+      "stem": "The traditional way of allocating a single channel among multiple competing users is to chop up its (71) by using one of the multiplexing schemes such as FDM (Frequency Division Multiplexing). If there are N users, the bandwidth is divided into N equal-sized portions, with each user being assigned one portion. Since each user has a private frequency (72), there is no interference among users.When there is only a small and constant number of users, each of which has a steady stream or a heavy load of (73), this division is a simple and efficient allocation mechanism. A wireless example is FM radio stations. Each station gets a portion of the FM band and uses it most of the time to broadcast its signal.However, when the number of senders is large and varying or the traffic is (74), FDM presents some problems. If the spectrum is cut up into N regions while fewer than N users are currently interested in communicating, a large piece of valuable spectrum will be wasted. If more than N users want to communicate, some of them will be denied (75) for lack of bandwidth.……",
+      "options": {
+        "A": "allowance",
+        "B": "connection",
+        "C": "percussion",
+        "D": "permission"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "FDM",
+        "英文"
+      ],
+      "is_verified": false
+    }
+  ]
+}

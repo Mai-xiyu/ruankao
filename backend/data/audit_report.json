@@ -1,0 +1,12650 @@
+[
+  {
+    "id": 1,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 4,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 5,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 6,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 7,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 9,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 10,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 11,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 12,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 13,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 14,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 15,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 16,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 92,
+    "status": "bad",
+    "issue": "选项只有3个，缺少D选项"
+  },
+  {
+    "id": 93,
+    "status": "bad",
+    "issue": "选项只有3个，缺少D选项"
+  },
+  {
+    "id": 94,
+    "status": "bad",
+    "issue": "选项只有3个，缺少D选项"
+  },
+  {
+    "id": 95,
+    "status": "fixable",
+    "issue": "答案为空",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 98,
+    "status": "bad",
+    "issue": "选项只有3个，缺少D选项"
+  },
+  {
+    "id": 99,
+    "status": "bad",
+    "issue": "选项只有3个，缺少D选项"
+  },
+  {
+    "id": 102,
+    "status": "bad",
+    "issue": "选项内容有格式错误（如'10.2.1.2.443'），且答案为空"
+  },
+  {
+    "id": 125,
+    "status": "bad",
+    "issue": "选项数量过多（9个），不符合单选题要求，且答案为空"
+  },
+  {
+    "id": 126,
+    "status": "bad",
+    "issue": "选项数量过多（9个），不符合单选题要求，且答案为空"
+  },
+  {
+    "id": 127,
+    "status": "bad",
+    "issue": "选项数量过多（9个），不符合单选题要求，且答案为空"
+  },
+  {
+    "id": 128,
+    "status": "bad",
+    "issue": "选项数量过多（9个），且题干含两个空，不符合单选题格式"
+  },
+  {
+    "id": 129,
+    "status": "bad",
+    "issue": "选项数量过多（9个），不符合单选题要求，且答案为空"
+  },
+  {
+    "id": 130,
+    "status": "bad",
+    "issue": "选项数量过多（10个），不符合单选题要求，且答案为空"
+  },
+  {
+    "id": 131,
+    "status": "bad",
+    "issue": "选项数量过多（10个），不符合单选题要求，且答案为空"
+  },
+  {
+    "id": 132,
+    "status": "bad",
+    "issue": "选项数量过多（10个），不符合单选题要求，且答案为空"
+  },
+  {
+    "id": 133,
+    "status": "bad",
+    "issue": "题干不完整，选项过多且混乱，答案缺失，属于错误拆分的大题",
+    "fix": {}
+  },
+  {
+    "id": 134,
+    "status": "bad",
+    "issue": "题干不完整，选项过多且混乱，答案缺失",
+    "fix": {}
+  },
+  {
+    "id": 135,
+    "status": "bad",
+    "issue": "题干不完整，选项过多且混乱，答案缺失",
+    "fix": {}
+  },
+  {
+    "id": 136,
+    "status": "bad",
+    "issue": "题干不完整，选项过多且混乱，答案缺失",
+    "fix": {}
+  },
+  {
+    "id": 137,
+    "status": "bad",
+    "issue": "题干不完整，选项过多且混乱，答案缺失",
+    "fix": {}
+  },
+  {
+    "id": 138,
+    "status": "bad",
+    "issue": "题干不完整，选项过多且混乱，答案缺失",
+    "fix": {}
+  },
+  {
+    "id": 139,
+    "status": "bad",
+    "issue": "题干不完整，选项过多且混乱，答案缺失",
+    "fix": {}
+  },
+  {
+    "id": 152,
+    "status": "fixable",
+    "issue": "答案为空，需要补充正确答案",
+    "fix": {}
+  },
+  {
+    "id": 153,
+    "status": "fixable",
+    "issue": "答案为空，需要补充正确答案",
+    "fix": {}
+  },
+  {
+    "id": 154,
+    "status": "fixable",
+    "issue": "答案为空，需要补充正确答案",
+    "fix": {}
+  },
+  {
+    "id": 155,
+    "status": "fixable",
+    "issue": "答案为空，需要补充正确答案",
+    "fix": {}
+  },
+  {
+    "id": 156,
+    "status": "fixable",
+    "issue": "答案为空，需要补充正确答案",
+    "fix": {}
+  },
+  {
+    "id": 157,
+    "status": "fixable",
+    "issue": "答案为空，需要补充正确答案",
+    "fix": {}
+  },
+  {
+    "id": 158,
+    "status": "fixable",
+    "issue": "答案为空，需要补充正确答案",
+    "fix": {}
+  },
+  {
+    "id": 159,
+    "status": "fixable",
+    "issue": "答案为空，需要补充正确答案",
+    "fix": {}
+  },
+  {
+    "id": 160,
+    "status": "bad",
+    "issue": "答案缺失，无法判断正确性",
+    "fix": null
+  },
+  {
+    "id": 161,
+    "status": "bad",
+    "issue": "答案缺失，无法判断正确性",
+    "fix": null
+  },
+  {
+    "id": 162,
+    "status": "bad",
+    "issue": "答案缺失，无法判断正确性",
+    "fix": null
+  },
+  {
+    "id": 163,
+    "status": "bad",
+    "issue": "答案缺失，无法判断正确性",
+    "fix": null
+  },
+  {
+    "id": 172,
+    "status": "bad",
+    "issue": "选项数量不合理（6个），题干有多个空但为单选，且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 173,
+    "status": "bad",
+    "issue": "选项数量不合理（6个），且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 174,
+    "status": "bad",
+    "issue": "选项数量不合理（6个），且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 175,
+    "status": "bad",
+    "issue": "选项数量不合理（6个），且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 176,
+    "status": "bad",
+    "issue": "选项过多（10个），题干不完整，且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 177,
+    "status": "bad",
+    "issue": "选项过多（10个），且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 178,
+    "status": "bad",
+    "issue": "选项过多（10个），且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 179,
+    "status": "bad",
+    "issue": "选项过多（10个），题干拼写错误，且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 180,
+    "status": "bad",
+    "issue": "选项过多（10个），且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 181,
+    "status": "bad",
+    "issue": "选项过多（10个），题干拼写错误，且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 182,
+    "status": "bad",
+    "issue": "选项过多（10个），题干拼写错误，且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 183,
+    "status": "bad",
+    "issue": "题干不完整，缺乏上下文，答案为空，选项看似是命令列表而非典型选择题选项。",
+    "fix": null
+  },
+  {
+    "id": 184,
+    "status": "bad",
+    "issue": "题干不完整，缺乏上下文，答案为空，选项看似是命令列表而非典型选择题选项。",
+    "fix": null
+  },
+  {
+    "id": 185,
+    "status": "bad",
+    "issue": "题干不完整且包含拼写错误('por'应为'port')，缺乏上下文，答案为空，选项看似是命令列表。",
+    "fix": null
+  },
+  {
+    "id": 189,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 190,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 194,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 195,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 198,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 199,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 201,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 202,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 205,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 207,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 208,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 209,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 268,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 269,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 270,
+    "status": "fixable",
+    "issue": "选项B中的'a+l'应为'a+1'",
+    "fix": {
+      "options": {
+        "B": "a+1"
+      }
+    }
+  },
+  {
+    "id": 271,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 272,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 277,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 278,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 279,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 280,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 281,
+    "status": "fixable",
+    "issue": "题干中'由于'应为'用于'",
+    "fix": {
+      "stem": "下面用于收取电子邮件的协议是"
+    }
+  },
+  {
+    "id": 282,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 290,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 296,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 297,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 298,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 299,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 300,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 301,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 306,
+    "status": "fixable",
+    "issue": "题干中'user-interface vty O'的'O'应为数字0",
+    "fix": {
+      "stem": "以下关于命令user-interface vty 0的说法中，正确的是"
+    }
+  },
+  {
+    "id": 307,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 308,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 312,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 313,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 314,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 315,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 316,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 318,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 319,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 320,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 386,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 387,
+    "status": "fixable",
+    "issue": "选项B有错别字'沾速度'，应为'的速度'",
+    "fix": {
+      "options.B": "提高从外存获取数据的速度"
+    }
+  },
+  {
+    "id": 388,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 389,
+    "status": "bad",
+    "issue": "题干提及下图但未提供，无法作答",
+    "fix": {}
+  },
+  {
+    "id": 390,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 391,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 392,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 393,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 394,
+    "status": "bad",
+    "issue": "题干提及下图但未提供，无法作答",
+    "fix": {}
+  },
+  {
+    "id": 395,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 396,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 397,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 398,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 399,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 400,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 401,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 402,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 403,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 404,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 405,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 406,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 407,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 408,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 409,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 410,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 411,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 412,
+    "status": "fixable",
+    "issue": "答案不正确：IGRP协议的度量不能简化为跳步数，通常默认考虑带宽和延迟，选项中带宽更合理。",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 413,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 414,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 415,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 416,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 417,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 418,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 419,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 420,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 421,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 422,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 423,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 424,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 425,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 426,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 427,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 428,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 429,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 430,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 431,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 432,
+    "status": "fixable",
+    "issue": "题干不完整，包含'然后'导致语义不全",
+    "fix": {
+      "stem": "在Kerberos认证系统中，从（47)获得会话密钥。"
+    }
+  },
+  {
+    "id": 433,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 434,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 435,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 436,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 437,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 438,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 439,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 440,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 441,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 442,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 443,
+    "status": "fixable",
+    "issue": "答案错误，设置交换机IP地址应在接口配置模式下，正确提示符为Switch(config-if)#",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 444,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 445,
+    "status": "bad",
+    "issue": "题干缺少必要的路由信息，无法作答",
+    "fix": null
+  },
+  {
+    "id": 446,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 447,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 448,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 449,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 450,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 451,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 452,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 453,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 454,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 455,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 456,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 457,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 458,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 459,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 460,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 462,
+    "status": "bad",
+    "issue": "题干不完整，缺少（2）的选项，且答案D（GRE）不合理，MPLS核心不是将IP数据报封装在GRE中",
+    "fix": null
+  },
+  {
+    "id": 463,
+    "status": "fixable",
+    "issue": "答案错误，应为A（IP数据报）",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 464,
+    "status": "bad",
+    "issue": "选项缺少D，但答案指向D，无法修正",
+    "fix": {}
+  },
+  {
+    "id": 465,
+    "status": "bad",
+    "issue": "选项缺少D，但答案指向D，无法修正",
+    "fix": {}
+  },
+  {
+    "id": 466,
+    "status": "bad",
+    "issue": "选项缺少D，但答案指向D，无法修正",
+    "fix": {}
+  },
+  {
+    "id": 467,
+    "status": "fixable",
+    "issue": "答案错误，应为C（show）",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 468,
+    "status": "fixable",
+    "issue": "答案错误，应为C（光时域反射计）",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 469,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 470,
+    "status": "fixable",
+    "issue": "答案错误，应为C（vi）",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 471,
+    "status": "fixable",
+    "issue": "答案错误，应为D（which）",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 472,
+    "status": "fixable",
+    "issue": "答案错误，应为A（/proc）",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 490,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 491,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 492,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 493,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 494,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 495,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 496,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 497,
+    "status": "fixable",
+    "issue": "题干包含两个空(8)和(9)，但仅针对(8)有选项，应删除(9)部分。",
+    "fix": {
+      "stem": "若某文件系统的目录结构如下图所示，假设用户要访问文件 f1.java,且当前工作目录为 Program，则该文件的全文件名为(8)。"
+    }
+  },
+  {
+    "id": 499,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 500,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 501,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 502,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 503,
+    "status": "bad",
+    "issue": "题干提到下图，但缺少图，无法判断调制方式。",
+    "fix": null
+  },
+  {
+    "id": 504,
+    "status": "bad",
+    "issue": "题干提到波形图，但缺少图，无法确定比特串。",
+    "fix": null
+  },
+  {
+    "id": 505,
+    "status": "fixable",
+    "issue": "题干包含两个空(16)和(17)，但仅针对(16)有选项，应删除后半句。",
+    "fix": {
+      "stem": "E1信道的数据速率是(16)。"
+    }
+  },
+  {
+    "id": 507,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 508,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 509,
+    "status": "fixable",
+    "issue": "题干包含两个空(20)和(21)，但仅针对(20)有选项，应删除后半句。",
+    "fix": {
+      "stem": "ICMP协议属于TCP/IP网络中的(20)协议。"
+    }
+  },
+  {
+    "id": 511,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 512,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 513,
+    "status": "fixable",
+    "issue": "题干中同时提到了(24)和(25)两个空，但只给出了(24)的选项，包含无关内容。",
+    "fix": {
+      "stem": "为了限制路由信息传播的范围，OSPF 协议把网络划分成 4 种区域(Area)，其中(24)的作用是连接各个区域的传输网络。",
+      "options": {
+        "A": "不完全存根区域",
+        "B": "标准区域",
+        "C": "主干区域",
+        "D": "存根区域"
+      },
+      "answer": "C"
+    }
+  },
+  {
+    "id": 514,
+    "status": "fixable",
+    "issue": "题干中同时提到了(26)和(27)两个空，但只给出了(26)的选项，包含无关内容。",
+    "fix": {
+      "stem": "POP3 协议采用(26)模式。",
+      "options": {
+        "A": "Browaer/Server",
+        "B": "Client/Server",
+        "C": "Peer to Peer",
+        "D": "Peer to Server"
+      },
+      "answer": "B"
+    }
+  },
+  {
+    "id": 516,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 517,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 518,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 519,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 520,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 521,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 522,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 523,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 524,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 525,
+    "status": "fixable",
+    "issue": "题干中同时提到了(37)和(38)两个空，但只给出了(37)的选项，包含无关内容。",
+    "fix": {
+      "stem": "在 Windows 系统中，进行域名解析时，客户端系统会首先从本机的(37)文件中寻找域名对应的 IP 地址。",
+      "options": {
+        "A": "hosts",
+        "B": "lmhosts",
+        "C": "networks",
+        "D": "dnsfile"
+      },
+      "answer": "A"
+    }
+  },
+  {
+    "id": 527,
+    "status": "bad",
+    "issue": "题干不完整，缺乏上下文，无法独立成题。",
+    "fix": null
+  },
+  {
+    "id": 528,
+    "status": "fixable",
+    "issue": "题干中同时提到了(41)和(42)两个空，但只给出了(41)的选项，包含无关内容。",
+    "fix": {
+      "stem": "某报文的长度是 1000 字节，利用 MD5 计算出来的报文摘要长度是(41)位。",
+      "options": {
+        "A": "64",
+        "B": "128",
+        "C": "256",
+        "D": "160"
+      },
+      "answer": "B"
+    }
+  },
+  {
+    "id": 529,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 530,
+    "status": "bad",
+    "issue": "题干包含两个空(44)和(45)，但只提供了一个选项列表，且为单选题，无法对应两个空，答案不明确。",
+    "fix": null
+  },
+  {
+    "id": 532,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 533,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 534,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 535,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 536,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 537,
+    "status": "bad",
+    "issue": "题干包含两个空(51)和(52)，但只提供了一个选项列表，且为单选题，无法对应两个空，答案不明确。",
+    "fix": null
+  },
+  {
+    "id": 538,
+    "status": "bad",
+    "issue": "题干包含三个空(53)、(54)和(55)，但只提供了一个选项列表，且为单选题，无法对应多个空，答案不明确。",
+    "fix": null
+  },
+  {
+    "id": 541,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 542,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 543,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 544,
+    "status": "bad",
+    "issue": "题干包含两个空(59)和(60)，但只提供了一个选项列表，且为单选题，无法对应两个空，答案不明确。",
+    "fix": null
+  },
+  {
+    "id": 546,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 547,
+    "status": "bad",
+    "issue": "题干包含两个空(62)和(63)，但只提供了一个选项列表，且为单选题，无法对应两个空，答案不明确。",
+    "fix": null
+  },
+  {
+    "id": 549,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 550,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 551,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 552,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 553,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 554,
+    "status": "bad",
+    "issue": "题干包含两个空但只提供一个答案，选项不匹配",
+    "fix": null
+  },
+  {
+    "id": 555,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 556,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 557,
+    "status": "fixable",
+    "issue": "选项B拼写错误，应为'process'",
+    "fix": {
+      "options.B": "process"
+    }
+  },
+  {
+    "id": 558,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 559,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 560,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 561,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 562,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 563,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 565,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 566,
+    "status": "fixable",
+    "issue": "题干包含“备选答案：”冗余文字，且缺乏上下文“介质2”不明确。",
+    "fix": {
+      "stem": "介质2应选用(7)? A.单模光纤 B.多模光纤 C.6类双绞线 D.5类双绞线"
+    }
+  },
+  {
+    "id": 567,
+    "status": "fixable",
+    "issue": "题干包含“备选答案：”冗余文字，且缺乏上下文“介质3”不明确。",
+    "fix": {
+      "stem": "介质3应选用(8)? A.单模光纤 B.多模光纤 C.6类双绞线 D.5类双绞线"
+    }
+  },
+  {
+    "id": 572,
+    "status": "fixable",
+    "issue": "答案错误，POE标准供电电压为48V，应选C。",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 602,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 603,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 604,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 605,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 606,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 607,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 608,
+    "status": "bad",
+    "issue": "题干提及“下图”，但未提供活动图，无法判断关键路径和答案正确性。",
+    "fix": null
+  },
+  {
+    "id": 609,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 610,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 611,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 612,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 613,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 614,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 615,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 616,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 617,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 618,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 619,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 620,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 621,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 622,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 623,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 624,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 625,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 626,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 627,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 628,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 629,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 630,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 631,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 632,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 633,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 634,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 635,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 636,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 637,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 638,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 639,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 640,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 641,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 642,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 643,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 644,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "支持安全Web服务的协议是。"
+    }
+  },
+  {
+    "id": 645,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "甲和乙要进行通信，甲对发送的消息附加了数字签名，乙收到该消息后利用 验证该消息的真实性。"
+    }
+  },
+  {
+    "id": 646,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "下列算法中，属于摘要算法。"
+    }
+  },
+  {
+    "id": 647,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "网络的可用性是指。"
+    }
+  },
+  {
+    "id": 648,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "网络管理的5大功能域是。"
+    }
+  },
+  {
+    "id": 649,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "SNMPv2提供了3种访问管理信息的方法，这3种方法不包括。"
+    }
+  },
+  {
+    "id": 650,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "嗅探器改变了网络接口的工作模式，使得网络接口。"
+    }
+  },
+  {
+    "id": 651,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "ICMP协议的功能包括。"
+    }
+  },
+  {
+    "id": 652,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "当网络通信出现拥塞时，路由器发出ICMP报文。"
+    }
+  },
+  {
+    "id": 653,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "IP地址分为公网地址和私网地址，以下地址中属于私网地址的是。"
+    }
+  },
+  {
+    "id": 654,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "如果子网172.6.32.0/20被划分为子网172.6.32.0/26,则下面的结论中正确的是。"
+    }
+  },
+  {
+    "id": 655,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "地址192.168.37.192/25是。"
+    }
+  },
+  {
+    "id": 656,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "地址172.17.17.255/23是。"
+    }
+  },
+  {
+    "id": 657,
+    "status": "fixable",
+    "issue": "题干包含无关内容（题号）",
+    "fix": {
+      "stem": "某公司有2000台主机，则必须给它分配个C类网络。"
+    }
+  },
+  {
+    "id": 658,
+    "status": "bad",
+    "issue": "题干包含无关内容（题号），且答案错误（应为255.255.248.0）",
+    "fix": {}
+  },
+  {
+    "id": 659,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 660,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 661,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 662,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 663,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 664,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 665,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 666,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 667,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 668,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 669,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 670,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 671,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 672,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 673,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 674,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 675,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 676,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 677,
+    "status": "bad",
+    "issue": "题干依赖图1-2，但缺少图，无法作答",
+    "fix": null
+  },
+  {
+    "id": 678,
+    "status": "bad",
+    "issue": "题干依赖图1-2，但缺少图，无法作答",
+    "fix": null
+  },
+  {
+    "id": 679,
+    "status": "bad",
+    "issue": "题干依赖图1-2，但缺少图，无法作答",
+    "fix": null
+  },
+  {
+    "id": 689,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 696,
+    "status": "fixable",
+    "issue": "答案错误，应为B",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 697,
+    "status": "bad",
+    "issue": "题干提到'另一个命令'但未指明第一个命令，导致不完整",
+    "fix": null
+  },
+  {
+    "id": 709,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 710,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 711,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 713,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 714,
+    "status": "bad",
+    "issue": "题干依赖图且缺少活动FG松弛时间的问题内容",
+    "fix": null
+  },
+  {
+    "id": 716,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 717,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 718,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 719,
+    "status": "bad",
+    "issue": "题干包含两个空位(11)和(12)，但只提供了一道选择题，缺少第二个问题的选项",
+    "fix": null
+  },
+  {
+    "id": 721,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 722,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 726,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 727,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 728,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 729,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 730,
+    "status": "fixable",
+    "issue": "题干有两个空位(22)和(23)，但只给出了一个选项列表和一个答案，可能只针对第一个空，建议修改题干去掉第二个空或补充第二空选项",
+    "fix": {
+      "stem": "在BGP4协议中，(22)报文建立两个路由器之间的邻居关系。"
+    }
+  },
+  {
+    "id": 731,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 732,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 733,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 734,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 735,
+    "status": "bad",
+    "issue": "题干提到“得到如下所示结果”，但未提供结果描述，内容不完整",
+    "fix": null
+  },
+  {
+    "id": 736,
+    "status": "bad",
+    "issue": "题干不完整，缺少上下文，无法独立作答。",
+    "fix": null
+  },
+  {
+    "id": 737,
+    "status": "bad",
+    "issue": "题干不完整，缺少上下文，无法独立作答。",
+    "fix": null
+  },
+  {
+    "id": 738,
+    "status": "bad",
+    "issue": "题干不完整，缺少上下文，无法独立作答。",
+    "fix": null
+  },
+  {
+    "id": 739,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 740,
+    "status": "bad",
+    "issue": "题干中提及“如下图所示”，但未提供图，内容缺失。",
+    "fix": null
+  },
+  {
+    "id": 741,
+    "status": "bad",
+    "issue": "题干包含两个空（34和35），但答案只对应第一个空，且选项未区分两个空。",
+    "fix": null
+  },
+  {
+    "id": 742,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 743,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 744,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 745,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 746,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 747,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 748,
+    "status": "bad",
+    "issue": "题干包含两个空（42和43），但答案只提供一个，缺少第43空的答案。",
+    "fix": null
+  },
+  {
+    "id": 749,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 750,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 751,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 752,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 753,
+    "status": "bad",
+    "issue": "题干引用“下图”但未提供图，无法判断答案",
+    "fix": null
+  },
+  {
+    "id": 754,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 755,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 756,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 757,
+    "status": "bad",
+    "issue": "题干包含两个空（52）和（53），但只提供了（52）的选项，缺少（53）的选项",
+    "fix": null
+  },
+  {
+    "id": 760,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 764,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 765,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 766,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 768,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 769,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 770,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 771,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 772,
+    "status": "bad",
+    "issue": "题干提到图，但无图，无法确定设备",
+    "fix": {}
+  },
+  {
+    "id": 774,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 775,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 781,
+    "status": "bad",
+    "issue": "题干提到图，但无图，无法判断",
+    "fix": {}
+  },
+  {
+    "id": 782,
+    "status": "bad",
+    "issue": "题干提到图，但无图，无法判断",
+    "fix": {}
+  },
+  {
+    "id": 783,
+    "status": "bad",
+    "issue": "题干提到图，但无图，无法判断",
+    "fix": {}
+  },
+  {
+    "id": 805,
+    "status": "bad",
+    "issue": "选项只有A、B、C，但答案为D，且题干无图",
+    "fix": {}
+  },
+  {
+    "id": 806,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 810,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 811,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 812,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 813,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 814,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 816,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 817,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 819,
+    "status": "fixable",
+    "issue": "题干末尾的'(10)'是多余的题号占位符",
+    "fix": {
+      "stem": "假设某分时系统采用简单时间片轮转法，当系统中的用户数为 n,时间片为 q 时，系统对每个用户的响应时间 T="
+    }
+  },
+  {
+    "id": 820,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 821,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 822,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 823,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 824,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 825,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 826,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 827,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 828,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 829,
+    "status": "bad",
+    "issue": "题干引用'参见下图'但缺少附图，无法判断答案是否正确"
+  },
+  {
+    "id": 830,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 831,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 832,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 833,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 834,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 835,
+    "status": "fixable",
+    "issue": "题干包含两个问题，但只提供了第一个问题的选项和答案，第二个问题未处理",
+    "fix": {
+      "stem": "把网络 117.15.32.0/23 划分为 117.15.32.0/27，则得到的子网是多少个？"
+    }
+  },
+  {
+    "id": 837,
+    "status": "bad",
+    "issue": "题干提及“网络配置如下图所示”，但缺少网络拓扑图，无法确定答案的正确性",
+    "fix": {}
+  },
+  {
+    "id": 838,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 839,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 840,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 841,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 842,
+    "status": "bad",
+    "issue": "题干提到“执行ping命令时有如下所示的信息”，但未提供具体信息，导致无法分析",
+    "fix": {}
+  },
+  {
+    "id": 843,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 844,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 845,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 846,
+    "status": "fixable",
+    "issue": "题干提及“如下图所示”，但缺少图示，不过根据文字描述可判断答案，建议移除“如下图所示”",
+    "fix": {
+      "stem": "主机 host1 对 host2 进行域名查询的过程，下列说法中正确的是（37）。"
+    }
+  },
+  {
+    "id": 847,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 848,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 849,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 850,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 851,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 852,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 853,
+    "status": "bad",
+    "issue": "选项内容为'（图片）'占位符，无实际内容，无法判断题目有效性和答案",
+    "fix": null
+  },
+  {
+    "id": 854,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 855,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 856,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 857,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 858,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 859,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 860,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 861,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 862,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 863,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 864,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 865,
+    "status": "ok"
+  },
+  {
+    "id": 866,
+    "status": "ok"
+  },
+  {
+    "id": 867,
+    "status": "ok"
+  },
+  {
+    "id": 868,
+    "status": "ok"
+  },
+  {
+    "id": 869,
+    "status": "ok"
+  },
+  {
+    "id": 870,
+    "status": "ok"
+  },
+  {
+    "id": 871,
+    "status": "ok"
+  },
+  {
+    "id": 872,
+    "status": "ok"
+  },
+  {
+    "id": 873,
+    "status": "ok"
+  },
+  {
+    "id": 874,
+    "status": "ok"
+  },
+  {
+    "id": 875,
+    "status": "ok"
+  },
+  {
+    "id": 876,
+    "status": "ok"
+  },
+  {
+    "id": 877,
+    "status": "bad",
+    "issue": "题干依赖未提供的路由表图，无法判断答案正确性，题目不完整。"
+  },
+  {
+    "id": 878,
+    "status": "ok"
+  },
+  {
+    "id": 879,
+    "status": "ok"
+  },
+  {
+    "id": 880,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 881,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 889,
+    "status": "bad",
+    "issue": "答案为空，无法判断正确性",
+    "fix": {}
+  },
+  {
+    "id": 890,
+    "status": "bad",
+    "issue": "答案为空，无法判断正确性",
+    "fix": {}
+  },
+  {
+    "id": 891,
+    "status": "bad",
+    "issue": "答案为空，无法判断正确性",
+    "fix": {}
+  },
+  {
+    "id": 907,
+    "status": "bad",
+    "issue": "选项数量不是4个（共7个），且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 908,
+    "status": "bad",
+    "issue": "选项数量不是4个（共7个），且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 909,
+    "status": "bad",
+    "issue": "选项数量不是4个（共7个），且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 910,
+    "status": "bad",
+    "issue": "选项数量不是4个（共7个），且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 911,
+    "status": "bad",
+    "issue": "选项数量不是4个（共7个），且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 912,
+    "status": "bad",
+    "issue": "选项数量不是4个（共7个），且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 915,
+    "status": "bad",
+    "issue": "答案为空，无法判断正确性",
+    "fix": {}
+  },
+  {
+    "id": 916,
+    "status": "bad",
+    "issue": "答案为空，无法判断正确性",
+    "fix": {}
+  },
+  {
+    "id": 922,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 923,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 924,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 925,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 926,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 927,
+    "status": "bad",
+    "issue": "题干依赖未提供的活动图，无法判断正确答案。",
+    "fix": null
+  },
+  {
+    "id": 928,
+    "status": "bad",
+    "issue": "题干依赖未提供的活动图，无法计算答案。",
+    "fix": null
+  },
+  {
+    "id": 929,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 930,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 931,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 932,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 933,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 934,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 935,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 936,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 937,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 938,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 939,
+    "status": "bad",
+    "issue": "题干引用“上面协议”，缺乏上下文，无法独立作答。",
+    "fix": null
+  },
+  {
+    "id": 940,
+    "status": "fixable",
+    "issue": "题干包含第20题的内容，应只保留第19题相关部分。",
+    "fix": {
+      "stem": "CHAP协议是PPP链路中采用的一种身份认证协议，这种协议采用（19）握手方式周期性地验证通信对方的身份。"
+    }
+  },
+  {
+    "id": 941,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 942,
+    "status": "fixable",
+    "issue": "题干包含第22题的内容，应只保留第21题相关部分。",
+    "fix": {
+      "stem": "IP头和TCP头的最小开销合计为（21）字节。"
+    }
+  },
+  {
+    "id": 943,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 944,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 945,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 946,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 947,
+    "status": "fixable",
+    "issue": "题干包含第27题的内容，应只保留第26题相关部分。",
+    "fix": {
+      "stem": "在下面的标准中，定义快速生成树协议的是（26）。"
+    }
+  },
+  {
+    "id": 948,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 949,
+    "status": "bad",
+    "issue": "题干提到“结果如下所示”，但未提供具体路由表信息，无法作答。",
+    "fix": null
+  },
+  {
+    "id": 950,
+    "status": "bad",
+    "issue": "题干提到“下图中第23条记录”，但未提供图片，无法作答。",
+    "fix": null
+  },
+  {
+    "id": 951,
+    "status": "bad",
+    "issue": "题干依赖上图，但未提供图片，无法作答。",
+    "fix": null
+  },
+  {
+    "id": 952,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 953,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 954,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 955,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 956,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 957,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 958,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 959,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 960,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 961,
+    "status": "bad",
+    "issue": "题干提及“如下图所示”，但未提供附图，无法判断答案正确性",
+    "fix": null
+  },
+  {
+    "id": 962,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 963,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 964,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 965,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 966,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 967,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 968,
+    "status": "bad",
+    "issue": "题干提及“系统显示的信息如下图所示”，但未提供附图，无法判断答案正确性",
+    "fix": null
+  },
+  {
+    "id": 969,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 970,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 971,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 972,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 973,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 974,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 975,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 976,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 977,
+    "status": "fixable",
+    "issue": "题干包含两个空，但选项只对应第(56)题，应删除关于第(57)题的部分。",
+    "fix": {
+      "stem": "IPv6 链路本地单播地址的前缀为（56)。"
+    }
+  },
+  {
+    "id": 978,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 979,
+    "status": "fixable",
+    "issue": "题干包含两个空，但选项只对应第(58)题，应删除关于第(59)题的部分。",
+    "fix": {
+      "stem": "在 IPv4 向 IPv6 的过渡期间，如果要使得两个 IPv6 结点可以通过现有的 IPv4 网络进行通信，则应该使用（58)。"
+    }
+  },
+  {
+    "id": 980,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 981,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 982,
+    "status": "fixable",
+    "issue": "题干包含两个空，但选项只对应第(61)题，应删除关于第(62)题的部分。",
+    "fix": {
+      "stem": "POP3 协议采用（61)模式进行通信。"
+    }
+  },
+  {
+    "id": 983,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 984,
+    "status": "fixable",
+    "issue": "题干包含(64)和(65)的内容，属于其他题目的无关信息",
+    "fix": {
+      "stem": "TCP 协议使用_(63) 次握手过程建立连接。"
+    }
+  },
+  {
+    "id": 985,
+    "status": "bad",
+    "issue": "题干中'这种方法'无上下文，无法独立理解",
+    "fix": null
+  },
+  {
+    "id": 986,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 987,
+    "status": "fixable",
+    "issue": "题干包含(67)的内容，属于其他题目的无关信息",
+    "fix": {
+      "stem": "IEEE 802.11 标准采用的工作频段是_(66)。"
+    }
+  },
+  {
+    "id": 988,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 989,
+    "status": "bad",
+    "issue": "题干提到抓包工具捕获的信息，但实际未提供数据，无法判断IP地址",
+    "fix": null
+  },
+  {
+    "id": 990,
+    "status": "bad",
+    "issue": "题干提到默认网关，但无抓包数据，无法判断",
+    "fix": null
+  },
+  {
+    "id": 991,
+    "status": "bad",
+    "issue": "题干依赖前面的抓包信息，但未提供",
+    "fix": null
+  },
+  {
+    "id": 992,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 993,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 994,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 995,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 996,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 997,
+    "status": "bad",
+    "issue": "缺少社区1的上下文，无法判断接入方法",
+    "fix": null
+  },
+  {
+    "id": 998,
+    "status": "bad",
+    "issue": "缺少社区2的上下文，无法判断接入方法",
+    "fix": null
+  },
+  {
+    "id": 999,
+    "status": "bad",
+    "issue": "单选题选项数量超出4个，不符合标准要求"
+  },
+  {
+    "id": 1000,
+    "status": "bad",
+    "issue": "单选题选项数量超出4个，不符合标准要求"
+  },
+  {
+    "id": 1001,
+    "status": "bad",
+    "issue": "答案错误，采用有线电视网进行宽带接入的方法是HFC，不是FTTx+PON"
+  },
+  {
+    "id": 1002,
+    "status": "bad",
+    "issue": "答案错误，利用电力网进行宽带接入的方法是PLC，不是HFC"
+  },
+  {
+    "id": 1003,
+    "status": "bad",
+    "issue": "答案错误，遵循IEEE802.16标准的是WiMax，不是HFC"
+  },
+  {
+    "id": 1018,
+    "status": "bad",
+    "issue": "答案错误，Linux中IP地址配置文件一般存放在/etc目录下，不是/var"
+  },
+  {
+    "id": 1019,
+    "status": "bad",
+    "issue": "选项只有两个，且答案C不存在于选项中"
+  },
+  {
+    "id": 1020,
+    "status": "bad",
+    "issue": "多选题答案只有一个，且选项数量与题型不匹配"
+  },
+  {
+    "id": 1027,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1028,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1029,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1030,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1031,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1032,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1033,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1034,
+    "status": "bad",
+    "issue": "题干提到'如下图所示'但未提供目录结构图，导致无法确定相对路径和绝对路径。",
+    "fix": {}
+  },
+  {
+    "id": 1035,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1036,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1037,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1038,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1039,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1040,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1041,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1042,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1043,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1044,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1045,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1046,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1047,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1048,
+    "status": "fixable",
+    "issue": "题干中'这种协议'指代不明，缺少上下文，无法确定具体协议。",
+    "fix": {
+      "stem": "RIP协议基于______算法来计算路由。"
+    }
+  },
+  {
+    "id": 1049,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1050,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1051,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1052,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1053,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1054,
+    "status": "bad",
+    "issue": "题干缺少网络配置图，无法验证答案",
+    "fix": null
+  },
+  {
+    "id": 1055,
+    "status": "bad",
+    "issue": "题干缺少网络配置图，无法验证答案",
+    "fix": null
+  },
+  {
+    "id": 1056,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1057,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1058,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1059,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1060,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1061,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1062,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1063,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1064,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1065,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1066,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1067,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1068,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1069,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1070,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1071,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1072,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1073,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1074,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1075,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1076,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1077,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1078,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1079,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1080,
+    "status": "fixable",
+    "issue": "题干缺少“这个网络”的上下文，应明确为IP地址块112.56.80.192/26",
+    "fix": {
+      "stem": "IP地址块112.56.80.192/26中，不属于这个网络的地址是______。"
+    }
+  },
+  {
+    "id": 1081,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1082,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1083,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1084,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1085,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1086,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1087,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1088,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1089,
+    "status": "fixable",
+    "issue": "题干中的“这种网络”缺少上下文，应明确为AdHoc网络",
+    "fix": {
+      "stem": "在AdHoc网络中使用的DSDV（Destination-sequenced Distance Vector）路由协议是一种______。"
+    }
+  },
+  {
+    "id": 1090,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1091,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1092,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1093,
+    "status": "fixable",
+    "issue": "题干中“则这种技术这叫做”有多余的“这”字",
+    "fix": {
+      "stem": "若m>n，且n=1，则这种技术叫做______。"
+    }
+  },
+  {
+    "id": 1094,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1095,
+    "status": "bad",
+    "issue": "题干缺乏上下文，无法独立理解，且答案需要结合前一题才能判断",
+    "fix": null
+  },
+  {
+    "id": 1096,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1097,
+    "status": "bad",
+    "issue": "题干被截断，不完整",
+    "fix": null
+  },
+  {
+    "id": 1108,
+    "status": "bad",
+    "issue": "题干缺乏上下文，无法判断问题背景",
+    "fix": null
+  },
+  {
+    "id": 1110,
+    "status": "bad",
+    "issue": "题干包含无关序号(6)，且答案错误（应为验证网站真伪）",
+    "fix": null
+  },
+  {
+    "id": 1111,
+    "status": "fixable",
+    "issue": "题干包含无关序号(7)",
+    "fix": {
+      "stem": "CA颁发给web网站的数字证书不包括。"
+    }
+  },
+  {
+    "id": 1114,
+    "status": "fixable",
+    "issue": "题干包含无关序号(10)，且答案存疑（网上交易更典型）",
+    "fix": {
+      "stem": "HTTPS广泛用于因特网上安全敏感的应用，例如应用。"
+    }
+  },
+  {
+    "id": 1119,
+    "status": "bad",
+    "issue": "题干缺乏上下文，且包含无关序号(7)",
+    "fix": null
+  },
+  {
+    "id": 1120,
+    "status": "bad",
+    "issue": "题干缺乏上下文，且包含无关序号(8)",
+    "fix": null
+  },
+  {
+    "id": 1121,
+    "status": "bad",
+    "issue": "题干缺乏上下文，且包含无关序号(9)",
+    "fix": null
+  },
+  {
+    "id": 1133,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1134,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1135,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1136,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1137,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1138,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1139,
+    "status": "bad",
+    "issue": "题干依赖未提供的图，无法判断答案",
+    "fix": null
+  },
+  {
+    "id": 1140,
+    "status": "bad",
+    "issue": "题干依赖未提供的图，无法判断答案",
+    "fix": null
+  },
+  {
+    "id": 1141,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1142,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1143,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1144,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1145,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1146,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1147,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1148,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1149,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1150,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1151,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1152,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1153,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1154,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1155,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1156,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1157,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1158,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1159,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1160,
+    "status": "bad",
+    "issue": "题干引用图片但不包含图片，无法作答",
+    "fix": null
+  },
+  {
+    "id": 1161,
+    "status": "bad",
+    "issue": "题干引用图片但不包含图片，且题干包含上一题的重复内容",
+    "fix": null
+  },
+  {
+    "id": 1162,
+    "status": "bad",
+    "issue": "题干引用图片但不包含图片，无法作答",
+    "fix": null
+  },
+  {
+    "id": 1163,
+    "status": "fixable",
+    "issue": "选项C中IP地址192.165.1.120与题干192.168.1.120不一致",
+    "fix": {
+      "options.C": "emailserver 是主机 192.168.1.120 的别名"
+    }
+  },
+  {
+    "id": 1164,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1165,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1166,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1167,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1168,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1169,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1170,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1171,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1172,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1173,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1174,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1175,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1176,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1177,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1178,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1179,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1180,
+    "status": "fixable",
+    "issue": "选项C中存在拼写错误：'202.1 12.111.0' 应改为 '202.112.111.0'，且 '0.0.0.255.eq' 应改为 '0.0.0.255 eq'。",
+    "fix": {
+      "options.C": "access-list 110 deny tcp any 202.112.111.0 0.0.0.255 eq 23"
+    }
+  },
+  {
+    "id": 1181,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1182,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1183,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1184,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1185,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1186,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1187,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1188,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1189,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1190,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1191,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1192,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1193,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1194,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1195,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1196,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1197,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1198,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1199,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1200,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1201,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1202,
+    "status": "fixable",
+    "issue": "选项B中的'扣流量控制'应为'和流量控制'",
+    "fix": {
+      "options": {
+        "B": "实现资源访问控制和流量控制等功能"
+      }
+    }
+  },
+  {
+    "id": 1203,
+    "status": "bad",
+    "issue": "题干不完整，被截断",
+    "fix": null
+  },
+  {
+    "id": 1266,
+    "status": "fixable",
+    "issue": "选项中的'2n'应为'2^n'等指数形式",
+    "fix": {
+      "options": {
+        "A": "2^n",
+        "B": "2^n-1",
+        "C": "2^{n-1}",
+        "D": "2^{n-1}+1"
+      }
+    }
+  },
+  {
+    "id": 1267,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1268,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1270,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1271,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1272,
+    "status": "bad",
+    "issue": "选项为空，应为树形图但未提供",
+    "fix": null
+  },
+  {
+    "id": 1273,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1274,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1275,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1276,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1277,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1278,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1279,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1280,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1282,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1283,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1284,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1285,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1286,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1287,
+    "status": "bad",
+    "issue": "题干缺少具体的RIP路由信息，无法选择答案",
+    "fix": null
+  },
+  {
+    "id": 1288,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1289,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1290,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1291,
+    "status": "bad",
+    "issue": "题干缺少附图，无法判断配置类型",
+    "fix": null
+  },
+  {
+    "id": 1292,
+    "status": "bad",
+    "issue": "题干缺少附图，无法判断故障",
+    "fix": null
+  },
+  {
+    "id": 1293,
+    "status": "bad",
+    "issue": "题干缺少附图，无法判断RIP声明网络",
+    "fix": null
+  },
+  {
+    "id": 1294,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1295,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1296,
+    "status": "fixable",
+    "issue": "答案错误，应选A",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 1297,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1298,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1299,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1300,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1301,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1302,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1303,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1304,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1305,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1306,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1307,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1308,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1309,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1310,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1311,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1312,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1313,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1314,
+    "status": "bad",
+    "issue": "题干中缺少tracert命令的输出信息，无法判断答案",
+    "fix": null
+  },
+  {
+    "id": 1315,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1316,
+    "status": "fixable",
+    "issue": "答案应为A（用户ID）而非C（MAC地址）",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 1317,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1318,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1319,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1320,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1321,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1322,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1323,
+    "status": "bad",
+    "issue": "题干缺少ACL配置内容，无法判断答案",
+    "fix": {}
+  },
+  {
+    "id": 1324,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1325,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1326,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1327,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1328,
+    "status": "bad",
+    "issue": "题干缺少网络连接图，且选项为空，无法作答",
+    "fix": {}
+  },
+  {
+    "id": 1329,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1330,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1331,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1332,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1333,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1334,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1335,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1336,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1337,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1338,
+    "status": "bad",
+    "issue": "答案错误，且选项中没有正确选项（应为 destination host）"
+  },
+  {
+    "id": 1339,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1340,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1341,
+    "status": "bad",
+    "issue": "题干缺少上下文（图），且答案为空"
+  },
+  {
+    "id": 1342,
+    "status": "bad",
+    "issue": "题干缺少上下文（图），且答案为空"
+  },
+  {
+    "id": 1343,
+    "status": "bad",
+    "issue": "题干缺少上下文（图），且答案为空"
+  },
+  {
+    "id": 1344,
+    "status": "bad",
+    "issue": "选项只有三个，不符合单选题要求，且答案为空"
+  },
+  {
+    "id": 1345,
+    "status": "bad",
+    "issue": "选项只有三个，不符合单选题要求，且答案为空"
+  },
+  {
+    "id": 1346,
+    "status": "bad",
+    "issue": "选项只有三个，不符合单选题要求，且答案为空"
+  },
+  {
+    "id": 1347,
+    "status": "bad",
+    "issue": "选项只有三个，不符合单选题要求，且答案为空"
+  },
+  {
+    "id": 1349,
+    "status": "bad",
+    "issue": "答案为空"
+  },
+  {
+    "id": 1350,
+    "status": "bad",
+    "issue": "答案为空"
+  },
+  {
+    "id": 1362,
+    "status": "bad",
+    "issue": "选项只有三个，不符合单选题要求，且答案为空"
+  },
+  {
+    "id": 1364,
+    "status": "bad",
+    "issue": "题干引用图2-2但缺少图片，无法作答；答案为空",
+    "fix": {}
+  },
+  {
+    "id": 1367,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 1369,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 1375,
+    "status": "bad",
+    "issue": "题干引用图3-4但缺少图片，仅三个选项，不满足四个选项要求",
+    "fix": {}
+  },
+  {
+    "id": 1376,
+    "status": "bad",
+    "issue": "题干引用图3-5但缺少图片，仅三个选项，不满足四个选项要求",
+    "fix": {}
+  },
+  {
+    "id": 1379,
+    "status": "bad",
+    "issue": "仅三个选项，不满足四个选项要求",
+    "fix": {}
+  },
+  {
+    "id": 1380,
+    "status": "bad",
+    "issue": "仅三个选项，不满足四个选项要求",
+    "fix": {}
+  },
+  {
+    "id": 1397,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1398,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1399,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1400,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1401,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1402,
+    "status": "bad",
+    "issue": "题干引用活动图但缺少图片，无法计算",
+    "fix": {}
+  },
+  {
+    "id": 1403,
+    "status": "bad",
+    "issue": "题干引用活动图但缺少图片，无法计算",
+    "fix": {}
+  },
+  {
+    "id": 1404,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1405,
+    "status": "fixable",
+    "issue": "选项B和D中路径字符串包含多余空格，应删除空格",
+    "fix": {
+      "options": {
+        "B": "document1\\document2\\test.docx",
+        "D": "E:\\document1\\document2\\test.docx"
+      }
+    }
+  },
+  {
+    "id": 1406,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1407,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1408,
+    "status": "bad",
+    "issue": "题干包含两个空（12）和（13），但只提供了（12）的选项，且（13）对应的题目缺失",
+    "fix": null
+  },
+  {
+    "id": 1410,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1411,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1412,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1413,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1414,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1415,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1416,
+    "status": "bad",
+    "issue": "题干引用的图缺失，且包含两个空（20）和（21），只提供（20）的选项，缺失（21）对应的题目",
+    "fix": null
+  },
+  {
+    "id": 1418,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1419,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1420,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1421,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1422,
+    "status": "fixable",
+    "issue": "题干包含无关内容(24)(25)，应删除",
+    "fix": {
+      "stem": "边界网关协议 BGP4 是一种动态路由发现协议，它的主要功能是（24）。BGP 路由器之间传送的是 AS 路径信息，这样就解决了（25）问题。BGP4 报文封装在（26）。"
+    }
+  },
+  {
+    "id": 1423,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1424,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1426,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1427,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1428,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1429,
+    "status": "bad",
+    "issue": "题干依赖缺失的附图，无法作答",
+    "fix": null
+  },
+  {
+    "id": 1431,
+    "status": "bad",
+    "issue": "题干依赖缺失的附图，无法作答",
+    "fix": null
+  },
+  {
+    "id": 1432,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1433,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1434,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1435,
+    "status": "bad",
+    "issue": "题干依赖缺失的附图，且包含两个空但只有一个答案",
+    "fix": null
+  },
+  {
+    "id": 1437,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1438,
+    "status": "bad",
+    "issue": "题干包含两个空(42)(43)但答案只提供一个，不完整",
+    "fix": null
+  },
+  {
+    "id": 1439,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1440,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1441,
+    "status": "bad",
+    "issue": "题干提到“如下图所示”但未提供图形，无法确定答案，题目不完整。",
+    "fix": null
+  },
+  {
+    "id": 1442,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1443,
+    "status": "bad",
+    "issue": "题干提到“执行 tracert 命令得到提示如下”但未给出提示内容，无法判断。",
+    "fix": null
+  },
+  {
+    "id": 1444,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1445,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1446,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1447,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1448,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1449,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1450,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1451,
+    "status": "bad",
+    "issue": "题干提到“假设路由表有4个表项如下所示”但未列出实际表项，无法判断。",
+    "fix": null
+  },
+  {
+    "id": 1452,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1453,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1454,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1455,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1456,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1457,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1458,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1459,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1460,
+    "status": "fixable",
+    "issue": "题干包含无关的题号引用(64)和(65)，且前半句与上一题重复",
+    "fix": {
+      "stem": "ITU-R 对 4G 标准的要求是能够提供基于 IP 的高速语音、数据和流式多媒体服务，选定的多路复用技术是（ ）。"
+    }
+  },
+  {
+    "id": 1461,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1462,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1463,
+    "status": "fixable",
+    "issue": "题干包含两个空，但只有一组选项和一个答案，应只保留第一个空",
+    "fix": {
+      "stem": "通过 HFC 网络实现宽带接入，用户端需要的设备是（ ）。"
+    }
+  },
+  {
+    "id": 1464,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1465,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1466,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1467,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1468,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1469,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1470,
+    "status": "bad",
+    "issue": "选项过多（8个），且答案D（SATA）错误，正确应为存储设备。",
+    "fix": null
+  },
+  {
+    "id": 1471,
+    "status": "bad",
+    "issue": "选项过多（8个），且答案A（iSCSI）错误，FC SAN应使用光纤通道技术。",
+    "fix": null
+  },
+  {
+    "id": 1472,
+    "status": "bad",
+    "issue": "选项过多（8个），且答案C（以太网技术）错误，IP SAN通常使用iSCSI。",
+    "fix": null
+  },
+  {
+    "id": 1473,
+    "status": "bad",
+    "issue": "选项过多（8个），且答案B（TCP/IP）不合理，前端网络负责正常的数据传输。",
+    "fix": null
+  },
+  {
+    "id": 1478,
+    "status": "bad",
+    "issue": "选项只有3个，且答案C（IP任意播）错误，应为IP组播。",
+    "fix": null
+  },
+  {
+    "id": 1479,
+    "status": "bad",
+    "issue": "选项只有3个，且答案A（BNC）错误，应为RJ45。",
+    "fix": null
+  },
+  {
+    "id": 1480,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1488,
+    "status": "bad",
+    "issue": "题干引用图3-1和图3-2，内容不完整，无法判断。",
+    "fix": null
+  },
+  {
+    "id": 1490,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1491,
+    "status": "fixable",
+    "issue": "答案B错误，应选A（正确说法）。",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 1492,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1493,
+    "status": "bad",
+    "issue": "答案C不存在，选项只有A和B。",
+    "fix": null
+  },
+  {
+    "id": 1496,
+    "status": "bad",
+    "issue": "选项只有3个，且答案A不全面，通常C更全面。",
+    "fix": null
+  },
+  {
+    "id": 1498,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1499,
+    "status": "bad",
+    "issue": "多选答案只给了一个选项A，不合理，应包含多个正确选项。",
+    "fix": null
+  },
+  {
+    "id": 1500,
+    "status": "bad",
+    "issue": "答案错误，且选项中没有正确选项（应先配置trunk封装）。",
+    "fix": null
+  },
+  {
+    "id": 1502,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1503,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1504,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1505,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1506,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1507,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1510,
+    "status": "fixable",
+    "issue": "答案错误，应为中断处理（B）。",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 1511,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1512,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1513,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1514,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1515,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1518,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1519,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1520,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1521,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1525,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1527,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1528,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1531,
+    "status": "bad",
+    "issue": "题干缺少网络拓扑图，无法确定答案",
+    "fix": null
+  },
+  {
+    "id": 1532,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1534,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1537,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1538,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1539,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1540,
+    "status": "fixable",
+    "issue": "题干包含两个空位（39和40），但只提供了第一个空的选项",
+    "fix": {
+      "stem": "当接收邮件时，客户端与POP3服务器之间通过（39）建立连接。"
+    }
+  },
+  {
+    "id": 1544,
+    "status": "bad",
+    "issue": "题干缺少上下文，无法确定M、A、B等含义",
+    "fix": null
+  },
+  {
+    "id": 1545,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1546,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1547,
+    "status": "bad",
+    "issue": "题干提及'如下图所示'，但缺少图，无法计算可用性，题目不完整。",
+    "fix": null
+  },
+  {
+    "id": 1548,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1549,
+    "status": "bad",
+    "issue": "题干提及'在下图的SNMP配置中'，但缺少图，无法判断哪个Agent响应请求。",
+    "fix": null
+  },
+  {
+    "id": 1550,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1551,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1552,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1554,
+    "status": "bad",
+    "issue": "题干未给出子网掩码或前缀，无法判断与哪个表项匹配。",
+    "fix": null
+  },
+  {
+    "id": 1557,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1558,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1559,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1561,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1562,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1563,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1564,
+    "status": "bad",
+    "issue": "题干提及'如下图所示'，但缺少图，无法判断端口角色。",
+    "fix": null
+  },
+  {
+    "id": 1565,
+    "status": "bad",
+    "issue": "题干提及'结果如下图所示'，但缺少图，无法确定默认网关地址。",
+    "fix": null
+  },
+  {
+    "id": 1568,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1569,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1571,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1572,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1573,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1575,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1579,
+    "status": "bad",
+    "issue": "答案缺失且题干不完整",
+    "fix": {}
+  },
+  {
+    "id": 1580,
+    "status": "bad",
+    "issue": "答案缺失且题干不完整",
+    "fix": {}
+  },
+  {
+    "id": 1581,
+    "status": "bad",
+    "issue": "答案缺失且题干不完整",
+    "fix": {}
+  },
+  {
+    "id": 1610,
+    "status": "bad",
+    "issue": "答案缺失且选项与题干不匹配",
+    "fix": {}
+  },
+  {
+    "id": 1621,
+    "status": "bad",
+    "issue": "答案缺失且缺乏上下文",
+    "fix": {}
+  },
+  {
+    "id": 1622,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 1623,
+    "status": "fixable",
+    "issue": "答案错误，应为A",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 1624,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1625,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1626,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1627,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1628,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1631,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1632,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1633,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1634,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1635,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1637,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1639,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1640,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1641,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1642,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1643,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1644,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1645,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1646,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1649,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1650,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1651,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1653,
+    "status": "bad",
+    "issue": "题干中未给出tracert输出内容，无法根据选项判断IP地址。",
+    "fix": null
+  },
+  {
+    "id": 1654,
+    "status": "bad",
+    "issue": "题干中未给出需要查看的输出内容，无法确定使用哪个命令。",
+    "fix": null
+  },
+  {
+    "id": 1655,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1656,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1657,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1660,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1663,
+    "status": "fixable",
+    "issue": "题干和选项中命令错误，'Is'应为'ls'。",
+    "fix": {
+      "stem": "在 Linux 中，（41）命令可将文件以修改时间顺序显示。",
+      "options": {
+        "A": "ls –a",
+        "B": "ls –b",
+        "C": "ls –c",
+        "D": "ls –d"
+      }
+    }
+  },
+  {
+    "id": 1664,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1665,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1666,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1667,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1668,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1669,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1670,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1671,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1673,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1674,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1675,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1678,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1679,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1680,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1681,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1682,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1683,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1684,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1687,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1688,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1689,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1690,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1691,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1692,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1698,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1699,
+    "status": "bad",
+    "issue": "缺少系统结构图，无法计算可靠度；选项格式不规范",
+    "fix": null
+  },
+  {
+    "id": 1700,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1701,
+    "status": "bad",
+    "issue": "缺少活动图，无法计算最少时间",
+    "fix": null
+  },
+  {
+    "id": 1702,
+    "status": "bad",
+    "issue": "缺少活动图，无法计算最早开始时间",
+    "fix": null
+  },
+  {
+    "id": 1703,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1704,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1705,
+    "status": "bad",
+    "issue": "缺少页面变换表，无法计算物理地址",
+    "fix": null
+  },
+  {
+    "id": 1706,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1707,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1708,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1709,
+    "status": "fixable",
+    "issue": "题干包含两个空白但仅提供一组选项，且单位kHZ应为kHz",
+    "fix": {
+      "stem": "电话信道的频率为 0-4kHz ，若信噪比为 30dB，则信道容量为（12）kb/s"
+    }
+  },
+  {
+    "id": 1711,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1712,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1714,
+    "status": "fixable",
+    "issue": "题干包含两个空白但仅提供一组选项",
+    "fix": {
+      "stem": "路由器与计算机串行接口连接，利用虚拟终端对路由器进行本地配置的接口是（17）"
+    }
+  },
+  {
+    "id": 1715,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1716,
+    "status": "fixable",
+    "issue": "题干包含两个空白但仅提供一组选项",
+    "fix": {
+      "stem": "IPv4 首部中首部长度字段 (IHL) 的值最小为（20）"
+    }
+  },
+  {
+    "id": 1718,
+    "status": "fixable",
+    "issue": "题干包含两个空白但仅提供一组选项",
+    "fix": {
+      "stem": "主机甲向主机乙发送一个 TCP 报文段，SYN 字段为“1”，序列号字段的值为 2000，若主机乙同意建立连接，则发送给主机甲的报文段可能为（22）"
+    }
+  },
+  {
+    "id": 1720,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1721,
+    "status": "fixable",
+    "issue": "题干包含两个空白但仅提供一组选项",
+    "fix": {
+      "stem": "RIPv2 对 RPvl 协议的改进之一为路由器有选择地将路由表中的信息发送给邻居，而不是发送整个路由表。具体地说，一条路由信息不会被发送给该信息的来源，这种方案称为 (25)"
+    }
+  },
+  {
+    "id": 1723,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1724,
+    "status": "fixable",
+    "issue": "题干包含三个空白但仅提供一组选项",
+    "fix": {
+      "stem": "某客户机请求 Web 站点服务的以太网数据帧(前 160 字节)如下图所示，则客户机默认网关的物理地址为（28）。"
+    }
+  },
+  {
+    "id": 1726,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1727,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1728,
+    "status": "fixable",
+    "issue": "选项命令格式错误，应用空格分隔选项和参数，且 mk-I 应为 mkdir。",
+    "fix": {
+      "options": {
+        "A": "rm -i",
+        "B": "mv -i",
+        "C": "mkdir",
+        "D": "cat"
+      }
+    }
+  },
+  {
+    "id": 1729,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1730,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1731,
+    "status": "fixable",
+    "issue": "选项D存在错别字，'核文件'应为'该文件'。",
+    "fix": {
+      "options": {
+        "D": "其他用户对该文件只可读"
+      }
+    }
+  },
+  {
+    "id": 1732,
+    "status": "fixable",
+    "issue": "题干包含两个填空但仅提供单个单选题答案，应删除(38)部分。",
+    "fix": {
+      "stem": "PGP 是一种用于电子邮件加密的工具，可提供数据加密和数字签名服务，使用（37）进行数据加密。"
+    }
+  },
+  {
+    "id": 1733,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1734,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1735,
+    "status": "fixable",
+    "issue": "题干包含两个填空但仅提供单个单选题答案，应删除(42)部分。",
+    "fix": {
+      "stem": "三重 DES 加密使用（41）个密钥对明文进行 3 次加密。"
+    }
+  },
+  {
+    "id": 1737,
+    "status": "fixable",
+    "issue": "题干中'胡文'应为'明文'。",
+    "fix": {
+      "stem": "以下加密算法中，适合对大量的明文消息进行加密传输的是（43）。"
+    }
+  },
+  {
+    "id": 1738,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1739,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1740,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1741,
+    "status": "fixable",
+    "issue": "选项C和D重复，应修改其中一个为其他命令。",
+    "fix": {
+      "options": {
+        "C": "display device",
+        "D": "display interface"
+      }
+    }
+  },
+  {
+    "id": 1742,
+    "status": "fixable",
+    "issue": "题干包含两个填空但仅提供单个单选题答案，应删除(49)部分。",
+    "fix": {
+      "stem": "在网络运行中，发现设备 CPU 长时间占用过高，经检查发现下图中的 \"Number of topology changes\" 值频繁变化，可初步判断该故障由（48）导致。"
+    }
+  },
+  {
+    "id": 1744,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 1745,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1746,
+    "status": "bad",
+    "issue": "题干提到表格但未提供，且选项B和C重复，无法判断答案是否合理",
+    "fix": null
+  },
+  {
+    "id": 1747,
+    "status": "bad",
+    "issue": "题干包含两个空（53和54），但只提供了53的选项和答案，缺少54的选项和答案",
+    "fix": null
+  },
+  {
+    "id": 1749,
+    "status": "fixable",
+    "issue": "答案可能错误：网络101.113.10.0/29的广播地址为101.113.10.7，该广播报文能被子网内所有6个可用主机接收，但答案B为3，疑似应为6",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 1750,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1751,
+    "status": "bad",
+    "issue": "题干提到如图所示的拓扑，但未提供图示，无法判断收敛时间",
+    "fix": null
+  },
+  {
+    "id": 1752,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1753,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1754,
+    "status": "bad",
+    "issue": "题干包含两个空（60和61），但只提供了60的选项和答案，缺少61的选项和答案",
+    "fix": null
+  },
+  {
+    "id": 1755,
+    "status": "bad",
+    "issue": "题干包含两个空（62和63），但只提供了62的选项和答案，缺少63的选项和答案",
+    "fix": null
+  },
+  {
+    "id": 1757,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1758,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1759,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1760,
+    "status": "bad",
+    "issue": "题干包含两个空（67和68），但只提供了67的选项和答案，缺少68的选项和答案",
+    "fix": null
+  },
+  {
+    "id": 1761,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1762,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1763,
+    "status": "fixable",
+    "issue": "题干不完整，最后一句被截断。",
+    "fix": {
+      "stem": "If two communicating entities are in different hosts connected by a network，there is a risk that PDUs will not arrive in the order in which they were sent，because they may traverse(71)paths through the network. If each PDUs is given a unique number，and numbers are assigned(72)，then it is a logically simple task for the receiving entity to reorder(73)PDUs on the basis of sequence number. A problem with this scheme is that，with a(74)sequence number field，sequence number will repeat. Evidently，the sequence number space must be large enough to avoid ambiguity."
+    }
+  },
+  {
+    "id": 1768,
+    "status": "bad",
+    "issue": "缺少图1-1，无法作答；选项只有三个，不符合标准。",
+    "fix": null
+  },
+  {
+    "id": 1769,
+    "status": "bad",
+    "issue": "缺少图1-1，无法作答；选项只有三个，不符合标准。",
+    "fix": null
+  },
+  {
+    "id": 1770,
+    "status": "bad",
+    "issue": "缺少图1-1，无法作答；选项只有三个，不符合标准。",
+    "fix": null
+  },
+  {
+    "id": 1771,
+    "status": "bad",
+    "issue": "缺少图1-1，无法作答；选项只有三个，不符合标准。",
+    "fix": null
+  },
+  {
+    "id": 1772,
+    "status": "bad",
+    "issue": "缺少图1-1，无法作答；选项只有三个，不符合标准。",
+    "fix": null
+  },
+  {
+    "id": 1778,
+    "status": "bad",
+    "issue": "题干有多处空位但仅要求填写一个，选项过多且答案不明确，题目设计混乱。",
+    "fix": null
+  },
+  {
+    "id": 1779,
+    "status": "bad",
+    "issue": "题干有多处空位但仅要求填写一个，选项过多且答案不明确，题目设计混乱。",
+    "fix": null
+  },
+  {
+    "id": 1780,
+    "status": "bad",
+    "issue": "题干有多处空位但仅要求填写一个，选项过多且答案不明确，题目设计混乱。",
+    "fix": null
+  },
+  {
+    "id": 1781,
+    "status": "bad",
+    "issue": "题干有多处空位但仅要求填写一个，选项过多且答案不明确，题目设计混乱。",
+    "fix": null
+  },
+  {
+    "id": 1782,
+    "status": "bad",
+    "issue": "题干有多处空位但仅要求填写一个，选项过多且答案不明确，题目设计混乱。",
+    "fix": null
+  },
+  {
+    "id": 1783,
+    "status": "bad",
+    "issue": "缺少图2-1，无法作答；选项只有三个，不符合标准。",
+    "fix": null
+  },
+  {
+    "id": 1784,
+    "status": "bad",
+    "issue": "缺少图2-1，无法作答；选项只有三个，不符合标准。",
+    "fix": null
+  },
+  {
+    "id": 1785,
+    "status": "bad",
+    "issue": "缺少图2-1，无法作答；选项只有三个，不符合标准。",
+    "fix": null
+  },
+  {
+    "id": 1786,
+    "status": "bad",
+    "issue": "题干缺少上下文'上面配置'，且答案为空",
+    "fix": null
+  },
+  {
+    "id": 1789,
+    "status": "bad",
+    "issue": "选项只有两个，缺少C和D，且答案为空",
+    "fix": null
+  },
+  {
+    "id": 1793,
+    "status": "bad",
+    "issue": "选项只有两个，缺少C和D，且答案为空",
+    "fix": null
+  },
+  {
+    "id": 1796,
+    "status": "bad",
+    "issue": "选项只有两个，缺少C和D，且答案为空",
+    "fix": null
+  },
+  {
+    "id": 1808,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1809,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1810,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1811,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1812,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1813,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1814,
+    "status": "bad",
+    "issue": "题干提及活动图但未给出图，无法判断答案正确性",
+    "fix": null
+  },
+  {
+    "id": 1815,
+    "status": "bad",
+    "issue": "题干提及活动图但未给出图，无法判断答案正确性",
+    "fix": null
+  },
+  {
+    "id": 1816,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1817,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1818,
+    "status": "bad",
+    "issue": "题干提及下图但未给出图，且同时问了两个空但只提供了第11题选项",
+    "fix": null
+  },
+  {
+    "id": 1819,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1820,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1821,
+    "status": "fixable",
+    "issue": "题干包含下一题的空位，应只保留当前空位",
+    "fix": {
+      "stem": "100BASE-T4 采用的编码技术为（14）。"
+    }
+  },
+  {
+    "id": 1822,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1823,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1824,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1825,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1826,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1827,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1828,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1829,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1830,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1831,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1832,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1833,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1834,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1835,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1836,
+    "status": "bad",
+    "issue": "依赖的拓扑图和输出信息缺失，题干不完整",
+    "fix": null
+  },
+  {
+    "id": 1837,
+    "status": "bad",
+    "issue": "依赖的输出信息缺失，题干不完整",
+    "fix": null
+  },
+  {
+    "id": 1838,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1839,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1840,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1841,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1842,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1843,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1844,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1845,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1846,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1847,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1848,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1849,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1850,
+    "status": "bad",
+    "issue": "题干提及运行ipconfig /all命令后得到如下结果，但未给出实际输出结果，缺少关键信息，无法判断答案。",
+    "fix": {}
+  },
+  {
+    "id": 1851,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1852,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1853,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1854,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1855,
+    "status": "bad",
+    "issue": "题干提及网络拓扑如下图所示及路由表内容如下，但未给出图或表，缺少关键信息。",
+    "fix": {}
+  },
+  {
+    "id": 1856,
+    "status": "bad",
+    "issue": "同第1855题，依赖未给出的拓扑图，无法判断。",
+    "fix": {}
+  },
+  {
+    "id": 1857,
+    "status": "bad",
+    "issue": "同第1855题，依赖未给出的拓扑图，无法判断。",
+    "fix": {}
+  },
+  {
+    "id": 1858,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1859,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1860,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1861,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1862,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1863,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1864,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1865,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1866,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1867,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1868,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1869,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1870,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1871,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1872,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1873,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1874,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1875,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1876,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1877,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1878,
+    "status": "bad",
+    "issue": "题干不完整（末尾有截断'ad'），且答案应为'alternate'，但给定答案为'single'，答案错误。",
+    "fix": null
+  },
+  {
+    "id": 1879,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1880,
+    "status": "fixable",
+    "issue": "选项D拼写错误，应为 transmission",
+    "fix": {
+      "options.D": "transmission"
+    }
+  },
+  {
+    "id": 1881,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1882,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1887,
+    "status": "bad",
+    "issue": "选项数量为5，不符合选择题4个选项的要求，且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 1888,
+    "status": "bad",
+    "issue": "选项数量为5，不符合选择题4个选项的要求，且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 1889,
+    "status": "bad",
+    "issue": "选项数量为5，不符合选择题4个选项的要求，且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 1891,
+    "status": "bad",
+    "issue": "题干中提及(4)设备但未提供相应选项，且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 1894,
+    "status": "fixable",
+    "issue": "答案缺失，根据常识应为C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 1897,
+    "status": "fixable",
+    "issue": "答案缺失，根据常识应为D",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 1898,
+    "status": "fixable",
+    "issue": "答案缺失，根据常识应为D",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 1899,
+    "status": "bad",
+    "issue": "答案缺失且无法从题干判断正确选项",
+    "fix": null
+  },
+  {
+    "id": 1900,
+    "status": "bad",
+    "issue": "答案缺失且无法从题干判断正确选项",
+    "fix": null
+  },
+  {
+    "id": 1901,
+    "status": "fixable",
+    "issue": "答案缺失，根据常识应为C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 1903,
+    "status": "bad",
+    "issue": "选项数量为2，不符合选择题4个选项的要求，且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 1904,
+    "status": "bad",
+    "issue": "只有三个选项，缺少D选项",
+    "fix": null
+  },
+  {
+    "id": 1905,
+    "status": "fixable",
+    "issue": "答案为空",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 1906,
+    "status": "bad",
+    "issue": "只有两个选项，缺少C和D选项",
+    "fix": null
+  },
+  {
+    "id": 1907,
+    "status": "bad",
+    "issue": "缺少上下文（子网A和B的IP地址），无法确定答案",
+    "fix": null
+  },
+  {
+    "id": 1908,
+    "status": "bad",
+    "issue": "缺少上下文，无法确定答案",
+    "fix": null
+  },
+  {
+    "id": 1909,
+    "status": "bad",
+    "issue": "缺少上下文，无法确定答案",
+    "fix": null
+  },
+  {
+    "id": 1910,
+    "status": "fixable",
+    "issue": "答案为空",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 1922,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1923,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1924,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1925,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1926,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1927,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1928,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1929,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1930,
+    "status": "bad",
+    "issue": "缺少活动图，无法计算最少时间",
+    "fix": null
+  },
+  {
+    "id": 1931,
+    "status": "bad",
+    "issue": "缺少活动图，无法计算松弛时间",
+    "fix": null
+  },
+  {
+    "id": 1932,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1933,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1934,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1935,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1936,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1937,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1938,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1939,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1940,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1941,
+    "status": "fixable",
+    "issue": "答案可能错误，URG指针的作用是表明带外数据在TCP段中的位置，应选C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 1942,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1943,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1944,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1945,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1946,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1947,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1948,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1949,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1950,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1951,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1952,
+    "status": "bad",
+    "issue": "选项中没有正确的默认Web站点目录（应为/var/www/html或/var/www），所有选项均不合理。",
+    "fix": null
+  },
+  {
+    "id": 1953,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1954,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1955,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1956,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1957,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1958,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1959,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1960,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1961,
+    "status": "bad",
+    "issue": "题干包含两个空（40和41），但只提供了一组选项，缺少第41空的选项",
+    "fix": {}
+  },
+  {
+    "id": 1962,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1963,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1964,
+    "status": "bad",
+    "issue": "题干包含两个空（44和45），但只提供了一组选项，缺少第45空的选项",
+    "fix": {}
+  },
+  {
+    "id": 1966,
+    "status": "bad",
+    "issue": "题干包含两个空（46和47），但只提供了一组选项，缺少第47空的选项",
+    "fix": {}
+  },
+  {
+    "id": 1968,
+    "status": "fixable",
+    "issue": "答案错误，应为D",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 1969,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1970,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1971,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1972,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1973,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1974,
+    "status": "bad",
+    "issue": "题干包含两个空（54和55），但只提供了一组选项，缺少第55空的选项，且第55空已单独成题",
+    "fix": {}
+  },
+  {
+    "id": 1975,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1976,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 1977,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1978,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1979,
+    "status": "fixable",
+    "issue": "答案应选项C (0.125)，而非D (0.0625)。",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 1980,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1981,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1982,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1983,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1984,
+    "status": "bad",
+    "issue": "题干缺少要查看的信息，不完整。",
+    "fix": null
+  },
+  {
+    "id": 1985,
+    "status": "bad",
+    "issue": "缺少网络拓扑图和路由信息表，无法判断。",
+    "fix": null
+  },
+  {
+    "id": 1986,
+    "status": "bad",
+    "issue": "缺少网络拓扑图和路由信息表，无法判断。",
+    "fix": null
+  },
+  {
+    "id": 1987,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1988,
+    "status": "fixable",
+    "issue": "PGP确实包含邮件压缩功能，题目答案A不正确，但其他选项均为PGP功能，题目本身可能设计有误。建议修改题干或答案。",
+    "fix": null
+  },
+  {
+    "id": 1989,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1990,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1991,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1992,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1993,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1994,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1995,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 1999,
+    "status": "bad",
+    "issue": "选项不足4个，且缺少答案",
+    "fix": null
+  },
+  {
+    "id": 2000,
+    "status": "bad",
+    "issue": "选项不足4个，且缺少答案",
+    "fix": null
+  },
+  {
+    "id": 2002,
+    "status": "bad",
+    "issue": "缺少答案",
+    "fix": null
+  },
+  {
+    "id": 2003,
+    "status": "bad",
+    "issue": "缺少答案",
+    "fix": null
+  },
+  {
+    "id": 2004,
+    "status": "bad",
+    "issue": "缺少答案",
+    "fix": null
+  },
+  {
+    "id": 2005,
+    "status": "bad",
+    "issue": "缺少答案",
+    "fix": null
+  },
+  {
+    "id": 2009,
+    "status": "bad",
+    "issue": "选项不足4个，且缺少答案",
+    "fix": null
+  },
+  {
+    "id": 2018,
+    "status": "bad",
+    "issue": "缺少答案",
+    "fix": null
+  },
+  {
+    "id": 2019,
+    "status": "bad",
+    "issue": "缺少答案",
+    "fix": null
+  },
+  {
+    "id": 2022,
+    "status": "bad",
+    "issue": "缺少答案",
+    "fix": null
+  },
+  {
+    "id": 2038,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2039,
+    "status": "bad",
+    "issue": "题干缺少冗余部件图，无法计算可靠度",
+    "fix": null
+  },
+  {
+    "id": 2040,
+    "status": "fixable",
+    "issue": "答案错误，应为D",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2041,
+    "status": "fixable",
+    "issue": "答案缺失，应为C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2042,
+    "status": "fixable",
+    "issue": "答案缺失，应为D",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2043,
+    "status": "fixable",
+    "issue": "答案错误，应为A",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2044,
+    "status": "fixable",
+    "issue": "答案错误，应为C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2045,
+    "status": "fixable",
+    "issue": "答案错误，应为D",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2046,
+    "status": "fixable",
+    "issue": "答案缺失，应为B",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2047,
+    "status": "fixable",
+    "issue": "答案缺失，应为C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2048,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2049,
+    "status": "fixable",
+    "issue": "答案错误，应为B",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2050,
+    "status": "fixable",
+    "issue": "答案缺失，应为D",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2051,
+    "status": "fixable",
+    "issue": "答案缺失，应为B",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2052,
+    "status": "fixable",
+    "issue": "答案错误，应为C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2053,
+    "status": "bad",
+    "issue": "题干缺少活动图，无法计算最少时间",
+    "fix": null
+  },
+  {
+    "id": 2054,
+    "status": "bad",
+    "issue": "题干提到活动图但没有提供图，无法计算松弛时间。",
+    "fix": null
+  },
+  {
+    "id": 2055,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2056,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2057,
+    "status": "fixable",
+    "issue": "答案错误。100BASE-FX采用光纤，正确选项应为D。",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2058,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2059,
+    "status": "fixable",
+    "issue": "答案错误。单模光纤光波在芯线中以单一模式传播，描述错误的是C。",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2060,
+    "status": "fixable",
+    "issue": "答案错误。路由器通常用RJ-45端口连接以太网交换机，正确选项应为A。",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2061,
+    "status": "fixable",
+    "issue": "答案错误。计算得总时间约221us，正确选项应为B。",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2062,
+    "status": "fixable",
+    "issue": "答案错误。VLAN间通信通过路由器实现，正确选项应为C。",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2063,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2064,
+    "status": "fixable",
+    "issue": "答案错误。URG指针指明带外数据在TCP段中的位置，正确选项应为C。",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2065,
+    "status": "fixable",
+    "issue": "答案错误。RARP协议根据MAC地址查找IP地址，正确选项应为A。",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2066,
+    "status": "fixable",
+    "issue": "答案错误。E1载波中CH0和CH16用于传送控制信令，正确选项应为D。",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2067,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2068,
+    "status": "fixable",
+    "issue": "答案缺失。查询hostB的MAC地址时，目标MAC地址为广播地址ff-ff-ff-ff-ff-ff，正确选项应为D。",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2069,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2070,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2071,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2072,
+    "status": "fixable",
+    "issue": "答案错误，应选C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2073,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2074,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2075,
+    "status": "bad",
+    "issue": "所有选项均非Apache默认Web目录，正确答案不在选项中",
+    "fix": {}
+  },
+  {
+    "id": 2076,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2077,
+    "status": "fixable",
+    "issue": "答案错误，应选B",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2078,
+    "status": "fixable",
+    "issue": "答案错误，应选C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2079,
+    "status": "bad",
+    "issue": "缺失题干中提到的图，无法判断",
+    "fix": {}
+  },
+  {
+    "id": 2080,
+    "status": "fixable",
+    "issue": "答案错误，应选C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2081,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2082,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2083,
+    "status": "fixable",
+    "issue": "答案错误，应选A",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2084,
+    "status": "bad",
+    "issue": "题干包含两个空，但题目类型为单选题且只有一个选项列表，无法匹配两个答案",
+    "fix": null
+  },
+  {
+    "id": 2085,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2086,
+    "status": "fixable",
+    "issue": "答案应为B（-t），实际给出C",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2087,
+    "status": "fixable",
+    "issue": "答案缺失，应为A（共享密钥）",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2088,
+    "status": "fixable",
+    "issue": "答案缺失，常见答案为112位（B）",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2089,
+    "status": "fixable",
+    "issue": "答案缺失，应为B（161）",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2090,
+    "status": "fixable",
+    "issue": "答案缺失，应为B（UDP面向连接,没有数据丢失）",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2091,
+    "status": "fixable",
+    "issue": "答案应为D（错误信息），实际给出B",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2092,
+    "status": "fixable",
+    "issue": "答案应为D（网络中存在访问过滤），实际给出C",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2093,
+    "status": "fixable",
+    "issue": "答案应为D（窗口），实际给出B",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2094,
+    "status": "fixable",
+    "issue": "答案应为B（选择性拒绝ARQ），实际给出A",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2095,
+    "status": "fixable",
+    "issue": "答案应为D（224.1.210.5），实际给出B",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2096,
+    "status": "bad",
+    "issue": "多个选项（A、B、C）都不能作为源地址，但题目为单选题，存在歧义",
+    "fix": null
+  },
+  {
+    "id": 2097,
+    "status": "fixable",
+    "issue": "答案缺失，应为D（255.255.255.128）",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2098,
+    "status": "fixable",
+    "issue": "答案缺失，应为B（126）",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2099,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2100,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2101,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2102,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2103,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2104,
+    "status": "fixable",
+    "issue": "答案错误，应为100BASE-TX即选项C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2105,
+    "status": "fixable",
+    "issue": "答案错误，优先级最低的是DCF竞争访问，即选项C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2106,
+    "status": "fixable",
+    "issue": "答案错误，错误说法应为选项B",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2107,
+    "status": "bad",
+    "issue": "题干不完整，缺少'下面信息'的内容",
+    "fix": {}
+  },
+  {
+    "id": 2108,
+    "status": "bad",
+    "issue": "题干依赖缺失的图和表，且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 2109,
+    "status": "bad",
+    "issue": "题干依赖缺失的图和表，且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 2110,
+    "status": "fixable",
+    "issue": "答案错误，正确描述应为选项C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2111,
+    "status": "bad",
+    "issue": "答案存疑：PGP包含压缩功能，选项A实际上是包含的，可能导致无正确选项",
+    "fix": {}
+  },
+  {
+    "id": 2112,
+    "status": "fixable",
+    "issue": "答案缺失，正确报文为DHCP Decline，即选项B",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2113,
+    "status": "bad",
+    "issue": "答案缺失，且无法确定汇聚层的正确功能",
+    "fix": {}
+  },
+  {
+    "id": 2114,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2115,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2116,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2117,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2118,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2129,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2130,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2131,
+    "status": "bad",
+    "issue": "题干缺少日志内容，无法判断威胁类型",
+    "fix": null
+  },
+  {
+    "id": 2132,
+    "status": "bad",
+    "issue": "题干缺少上下文，且题型标注为单选但要求多选，矛盾",
+    "fix": null
+  },
+  {
+    "id": 2133,
+    "status": "bad",
+    "issue": "题干缺少上下文，且题型标注为单选但要求多选，矛盾",
+    "fix": null
+  },
+  {
+    "id": 2139,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2140,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2141,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2146,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2147,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2148,
+    "status": "bad",
+    "issue": "题干不完整，缺少上下文，且无答案。",
+    "fix": null
+  },
+  {
+    "id": 2168,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2169,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2170,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2171,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2172,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2173,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2174,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2175,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2176,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2177,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2178,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2179,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2180,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2181,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2182,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2183,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2184,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2185,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2186,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2187,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2188,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2189,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2190,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2191,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2192,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2193,
+    "status": "bad",
+    "issue": "题干依赖图1和图2，但图中内容未提供，无法作答",
+    "fix": {}
+  },
+  {
+    "id": 2194,
+    "status": "bad",
+    "issue": "题干依赖图1和图2，但图中内容未提供，无法作答",
+    "fix": {}
+  },
+  {
+    "id": 2195,
+    "status": "bad",
+    "issue": "题干依赖图1和图2，但图中内容未提供，无法作答",
+    "fix": {}
+  },
+  {
+    "id": 2196,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2197,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2198,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2199,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2200,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2201,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2202,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2203,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2204,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2205,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2206,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2207,
+    "status": "fixable",
+    "issue": "选项B 'RAS' 应为 'RSA'",
+    "fix": {
+      "options.B": "RSA"
+    }
+  },
+  {
+    "id": 2208,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2209,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2210,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2211,
+    "status": "bad",
+    "issue": "题干提及'下图所示'但未提供图片，无法判断答案"
+  },
+  {
+    "id": 2212,
+    "status": "fixable",
+    "issue": "题干包含题号引用（46），应去除。",
+    "fix": {
+      "stem": "输出结果中的项，说明SNMP服务已经启动，对应端口已经开启。"
+    }
+  },
+  {
+    "id": 2213,
+    "status": "fixable",
+    "issue": "题干包含题号引用（47）及依赖图示的“文本框内”，应去除并调整描述。",
+    "fix": {
+      "stem": "使用snmptuil.exe可以查看代理的MIB对象，下列选项中oid部分是。"
+    }
+  },
+  {
+    "id": 2214,
+    "status": "fixable",
+    "issue": "题干包含题号引用（48），应去除。",
+    "fix": {
+      "stem": "在华为交换机的故障诊断命令中，查看告警信息的命令是。"
+    }
+  },
+  {
+    "id": 2215,
+    "status": "fixable",
+    "issue": "题干包含题号引用（49），应去除。",
+    "fix": {
+      "stem": "华为交换机不断重启，每次在配置恢复阶段（未输出“Recover congfiguration...”之前）就发生复位，下面哪个故障处理措施可以不考虑？"
+    }
+  },
+  {
+    "id": 2216,
+    "status": "fixable",
+    "issue": "题干包含题号引用（50），应去除。",
+    "fix": {
+      "stem": "设备上无法创建正确的MAC转发表项，造成二层数据转发失败，故障的原因包括。①MAC、接口、VLAN绑定错误 ②配置了MAC地址学习去使能 ③存在环路MAC地址学习错误 ④MAC表项限制或超规格"
+    }
+  },
+  {
+    "id": 2217,
+    "status": "fixable",
+    "issue": "题干包含题号引用（51），应去除。",
+    "fix": {
+      "stem": "假设某公司有8000台主机，采用CIDR方法进行划分，则至少给它分配个C类网络。"
+    }
+  },
+  {
+    "id": 2218,
+    "status": "fixable",
+    "issue": "题干包含题号引用（52），应去除。",
+    "fix": {
+      "stem": "如果192.168.210.181是其中一台主机地址，则其网络地址为。"
+    }
+  },
+  {
+    "id": 2219,
+    "status": "fixable",
+    "issue": "题干包含题号引用（53），应去除。",
+    "fix": {
+      "stem": "路由器收到一个数据报文，其目标地址为20.112.17.12，该地址属于子网。"
+    }
+  },
+  {
+    "id": 2220,
+    "status": "fixable",
+    "issue": "题干包含题号引用（54），应去除。",
+    "fix": {
+      "stem": "IPv6基本首部的长度为个字节。"
+    }
+  },
+  {
+    "id": 2221,
+    "status": "fixable",
+    "issue": "题干包含题号引用（55），应去除。",
+    "fix": {
+      "stem": "IPv6基本首部中与IPv4中TTL字段对应的是字段。"
+    }
+  },
+  {
+    "id": 2222,
+    "status": "fixable",
+    "issue": "题干包含题号引用（56），应去除。",
+    "fix": {
+      "stem": "某校园网的地址是202.115.192.0/19，要把该网络分成30个子网，则子网掩码应该是。"
+    }
+  },
+  {
+    "id": 2223,
+    "status": "bad",
+    "issue": "题干依赖图示“下图1”和“图2”，但未提供，无法判断答案正确性。",
+    "fix": null
+  },
+  {
+    "id": 2224,
+    "status": "bad",
+    "issue": "题干依赖图示，但未提供，无法判断答案正确性。",
+    "fix": null
+  },
+  {
+    "id": 2225,
+    "status": "fixable",
+    "issue": "题干包含题号引用（59），应去除。",
+    "fix": {
+      "stem": "以太网的最大帧长为1518字节，每个数据帧前面有8个字节的前导字段，帧间隔为9.6μs。传输240000bit的IP数据报，采用100BASE-TX网络，需要的最短时间为。"
+    }
+  },
+  {
+    "id": 2226,
+    "status": "fixable",
+    "issue": "题干包含题号引用（60），应去除。",
+    "fix": {
+      "stem": "下面列出的4种快速以太网物理层标准中，采用4B5B编码技术的是。"
+    }
+  },
+  {
+    "id": 2227,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2228,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2229,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2230,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2231,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2232,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2233,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2234,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2235,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2236,
+    "status": "bad",
+    "issue": "题干提及施工计划图，但未提供图，无法判断答案"
+  },
+  {
+    "id": 2237,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2238,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2239,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2240,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2241,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2242,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2243,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2253,
+    "status": "bad",
+    "issue": "题干包含备选答案，且答案错误（SSL不是网络层协议）",
+    "fix": null
+  },
+  {
+    "id": 2265,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2266,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2267,
+    "status": "bad",
+    "issue": "选项数量不符合单选题标准（6个），且答案错误",
+    "fix": null
+  },
+  {
+    "id": 2268,
+    "status": "bad",
+    "issue": "选项数量不符合单选题标准（6个）",
+    "fix": null
+  },
+  {
+    "id": 2269,
+    "status": "bad",
+    "issue": "答案错误，第一阶段协商模式为主模式或野蛮模式",
+    "fix": null
+  },
+  {
+    "id": 2270,
+    "status": "bad",
+    "issue": "答案错误，第二阶段协商为快速模式",
+    "fix": null
+  },
+  {
+    "id": 2271,
+    "status": "bad",
+    "issue": "答案错误，查看协商结果应使用display ike sa",
+    "fix": null
+  },
+  {
+    "id": 2272,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2273,
+    "status": "bad",
+    "issue": "答案错误，设置账户密码策略不属于IPSec策略步骤",
+    "fix": null
+  },
+  {
+    "id": 2290,
+    "status": "bad",
+    "issue": "选项仅有2个，不符合单选题标准",
+    "fix": null
+  },
+  {
+    "id": 2292,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2293,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2294,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2295,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2296,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2297,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2298,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2299,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2300,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2301,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2302,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2303,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2304,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2305,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2306,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2307,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2308,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2309,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2310,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2311,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2312,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2313,
+    "status": "fixable",
+    "issue": "选项C拼写错误，应为SYN RECEIVED",
+    "fix": {
+      "options.C": "SYN RECEIVED"
+    }
+  },
+  {
+    "id": 2314,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2315,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2316,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2317,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2318,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2319,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2320,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2321,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2322,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2323,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2324,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2325,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2326,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2327,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2328,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2329,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2330,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2331,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2332,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2333,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2334,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2335,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2336,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2337,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2338,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2339,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2340,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2341,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2342,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2343,
+    "status": "fixable",
+    "issue": "题干中IP地址'202.15.2.160'与选项中的'202.115.2.x'不一致，应为'202.115.2.160'",
+    "fix": {
+      "stem": "主机地址202.115.2.160所在的网络是（52）。"
+    }
+  },
+  {
+    "id": 2344,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2345,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2346,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2347,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2348,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2349,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2350,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2351,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2352,
+    "status": "bad",
+    "issue": "题干缺少网络拓扑图，无法判断堵塞端口",
+    "fix": null
+  },
+  {
+    "id": 2353,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2354,
+    "status": "bad",
+    "issue": "题干缺少显示的命令结果文本，无法确定答案",
+    "fix": {}
+  },
+  {
+    "id": 2355,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2356,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2357,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2358,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2359,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2360,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2361,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2362,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2363,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2364,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2365,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2366,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2377,
+    "status": "bad",
+    "issue": "题干依赖缺失的图，答案为空，选项数量过多不符合单选题要求",
+    "fix": {}
+  },
+  {
+    "id": 2378,
+    "status": "bad",
+    "issue": "题干依赖缺失的图，答案为空，选项数量过多不符合单选题要求",
+    "fix": {}
+  },
+  {
+    "id": 2379,
+    "status": "bad",
+    "issue": "题干不完整（含编号③），选项过多（8个），答案为空，无法作为单选题",
+    "fix": null
+  },
+  {
+    "id": 2380,
+    "status": "bad",
+    "issue": "题干不完整（含编号），选项过多（8个），答案为空，无法作为单选题",
+    "fix": null
+  },
+  {
+    "id": 2381,
+    "status": "bad",
+    "issue": "题干不完整（含编号），选项过多（8个），答案为空，无法作为单选题",
+    "fix": null
+  },
+  {
+    "id": 2416,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2417,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2418,
+    "status": "fixable",
+    "issue": "题干有无关字符？",
+    "fix": {
+      "stem": "虚拟存储体系由(3)两级存储器构成。"
+    }
+  },
+  {
+    "id": 2419,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2420,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2421,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2422,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2423,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2424,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2425,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2426,
+    "status": "fixable",
+    "issue": "kHz笔误为kH2",
+    "fix": {
+      "stem": "8 条模拟信道采用 TDM 复用成 1 条数字信道，TDM 帧的结构为 8 字节加 1 比特同步开销(每条模拟信道占 1 个字节)。若模拟信号频率范围为 10 - 16kHz. 样本率至少为（11）样本/秒。"
+    }
+  },
+  {
+    "id": 2427,
+    "status": "fixable",
+    "issue": "kHz笔误为kH2",
+    "fix": {
+      "stem": "8 条模拟信道采用 TDM 复用成 1 条数字信道，TDM 帧的结构为 8 字节加 1 比特同步开销(每条模拟信道占 1 个字节)。若模拟信号频率范围为 10 - 16kHz. 此时数字信道的数据速率为(12) Mbps。"
+    }
+  },
+  {
+    "id": 2428,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2429,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2430,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2431,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2432,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2433,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2434,
+    "status": "bad",
+    "issue": "题干缺失帧长信息，无法计算有效传输速率",
+    "fix": {}
+  },
+  {
+    "id": 2435,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2436,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2437,
+    "status": "bad",
+    "issue": "题干缺少网络拓扑图，无法判断选项正确性",
+    "fix": {}
+  },
+  {
+    "id": 2438,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2439,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2440,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2441,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2442,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2443,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2444,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2445,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2446,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2447,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2448,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2449,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2450,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2451,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2452,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2453,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2454,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2455,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2456,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2457,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2458,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2459,
+    "status": "fixable",
+    "issue": "选项B存在错别字，\"素钥\"应为\"密钥\"",
+    "fix": {
+      "options.B": "三个不同密钥进行三次加密"
+    }
+  },
+  {
+    "id": 2460,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2461,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2462,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2463,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2464,
+    "status": "bad",
+    "issue": "题干提到'结果如下图所示'，但缺少图片，无法判断",
+    "fix": null
+  },
+  {
+    "id": 2465,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2466,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2467,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2468,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2469,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2470,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2471,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2472,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2473,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2474,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2475,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2476,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2477,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2478,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2479,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2480,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2481,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2482,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2483,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2484,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2485,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2486,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2487,
+    "status": "fixable",
+    "issue": "题干同时包含(72)和(73)两个空位，但该题仅为一个选择，且APR笔误，建议修正。",
+    "fix": {
+      "stem": "The Address Resolution Protocol(ARP) was developed to enable communication on an Internetwork and perform a required function in IP routing. APR finds the（72）address of a host from its known IP address."
+    }
+  },
+  {
+    "id": 2489,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2490,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2501,
+    "status": "bad",
+    "issue": "答案缺失，且无法从题干推断正确选项",
+    "fix": null
+  },
+  {
+    "id": 2502,
+    "status": "bad",
+    "issue": "答案缺失，且无法从题干推断正确选项",
+    "fix": null
+  },
+  {
+    "id": 2503,
+    "status": "bad",
+    "issue": "选项数量不足（仅2个），且答案缺失",
+    "fix": null
+  },
+  {
+    "id": 2508,
+    "status": "bad",
+    "issue": "答案缺失",
+    "fix": null
+  },
+  {
+    "id": 2509,
+    "status": "bad",
+    "issue": "答案缺失",
+    "fix": null
+  },
+  {
+    "id": 2510,
+    "status": "bad",
+    "issue": "答案缺失，且题干依赖未提供的图2-1",
+    "fix": null
+  },
+  {
+    "id": 2511,
+    "status": "bad",
+    "issue": "答案缺失，且题干依赖未提供的图2-2",
+    "fix": null
+  },
+  {
+    "id": 2512,
+    "status": "bad",
+    "issue": "答案缺失，且题干依赖前两题的图",
+    "fix": null
+  },
+  {
+    "id": 2548,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2549,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2550,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2551,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2552,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2553,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2554,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2555,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2556,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2557,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2558,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2559,
+    "status": "fixable",
+    "issue": "答案错误，单模光纤中光信号以直线传播方式传播，而非突变反射。",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2560,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2561,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2562,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2563,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2564,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2565,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2566,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2567,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2568,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2569,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2570,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2571,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2572,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2573,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2574,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2575,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2576,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2577,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2578,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2579,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2580,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2581,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2582,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2583,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2584,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2585,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2586,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2587,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2588,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2589,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2590,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2591,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2592,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2593,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2594,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2595,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2596,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2597,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2598,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2599,
+    "status": "bad",
+    "issue": "题干引用了表格但未给出，无法作答",
+    "fix": {}
+  },
+  {
+    "id": 2602,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2603,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2604,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2605,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2606,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2607,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2608,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2609,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2610,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2611,
+    "status": "fixable",
+    "issue": "帧间隔应为0.96us而非96us，导致答案错误",
+    "fix": {
+      "stem": "以太网的最大帧长为 1518 字节，每个数据帧前面有 8 个字节的前导字段，帧间隔为 0.96us,在 100BASE-T 网络中发送 1 帧需要的时间为(64)。",
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2612,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2613,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2614,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2615,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2616,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2617,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2618,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2619,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2620,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2621,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2622,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2635,
+    "status": "bad",
+    "issue": "答案缺失，answer字段为空"
+  },
+  {
+    "id": 2636,
+    "status": "bad",
+    "issue": "答案缺失，answer字段为空"
+  },
+  {
+    "id": 2637,
+    "status": "bad",
+    "issue": "答案缺失，answer字段为空"
+  },
+  {
+    "id": 2638,
+    "status": "bad",
+    "issue": "答案缺失，answer字段为空"
+  },
+  {
+    "id": 2639,
+    "status": "bad",
+    "issue": "答案缺失，answer字段为空"
+  },
+  {
+    "id": 2640,
+    "status": "bad",
+    "issue": "答案缺失，answer字段为空"
+  },
+  {
+    "id": 2641,
+    "status": "bad",
+    "issue": "答案缺失，answer字段为空"
+  },
+  {
+    "id": 2642,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2643,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2644,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2645,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2646,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2655,
+    "status": "bad",
+    "issue": "题干包含两个空，但题目类型为单选，选项不匹配",
+    "fix": null
+  },
+  {
+    "id": 2656,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "E"
+    }
+  },
+  {
+    "id": 2657,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2658,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2659,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "F"
+    }
+  },
+  {
+    "id": 2660,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2661,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "E"
+    }
+  },
+  {
+    "id": 2662,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "E"
+    }
+  },
+  {
+    "id": 2663,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "G"
+    }
+  },
+  {
+    "id": 2664,
+    "status": "fixable",
+    "issue": "缺少答案",
+    "fix": {
+      "answer": "E"
+    }
+  },
+  {
+    "id": 2665,
+    "status": "bad",
+    "issue": "选项数量为10个，不符合单选题4个选项的要求；答案为空白；题干含义不完整。",
+    "fix": null
+  },
+  {
+    "id": 2666,
+    "status": "bad",
+    "issue": "选项数量为10个，不符合单选题4个选项的要求；答案为空白。",
+    "fix": null
+  },
+  {
+    "id": 2667,
+    "status": "bad",
+    "issue": "选项数量为10个，不符合单选题4个选项的要求；答案为空白。",
+    "fix": null
+  },
+  {
+    "id": 2668,
+    "status": "bad",
+    "issue": "选项数量为10个，不符合单选题4个选项的要求；答案为空白。",
+    "fix": null
+  },
+  {
+    "id": 2669,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2670,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2671,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2672,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2673,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2674,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2675,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2676,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2677,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2678,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2679,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2680,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（12）是题号，不是真正的空位，应改为空白或下划线。",
+    "fix": {
+      "stem": "在 10GBase-ER 标准中，使用单模光纤最大传输距离是________。"
+    }
+  },
+  {
+    "id": 2681,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（13）是题号，不是真正的空位，应改为空白或下划线。",
+    "fix": {
+      "stem": "在 OSI 参考模型中，传输层处理的数据单位是________。"
+    }
+  },
+  {
+    "id": 2682,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（14）是题号，不是真正的空位，应改为空白或下划线。",
+    "fix": {
+      "stem": "某信道带宽为1MHz，采用4幅度8相位调制最大可以组成________种码元。"
+    }
+  },
+  {
+    "id": 2683,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（15）是题号，不是真正的空位，应改为空白或下划线；且答案错误，应为C选项500。",
+    "fix": {
+      "stem": "若此信道信号的码元宽度为10微秒，则数据速率为________kb/s。",
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2684,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（16）是题号，不是真正的空位，应改为空白或下划线。",
+    "fix": {
+      "stem": "使用 ADSL 接入电话网采用的认证协议是________。"
+    }
+  },
+  {
+    "id": 2685,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（17）是题号，不是真正的空位，应改为空白或下划线。",
+    "fix": {
+      "stem": "在主机上禁止________协议，可以不响应来自别的主机的 Ping 包。"
+    }
+  },
+  {
+    "id": 2686,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（18）是题号，不是真正的空位，应改为空白或下划线。",
+    "fix": {
+      "stem": "HDLC 协议中，帧的编号和应答号存放在________字段中。"
+    }
+  },
+  {
+    "id": 2687,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（19）是题号，不是真正的空位，应改为空白或下划线。",
+    "fix": {
+      "stem": "在 OSPF 路由协议中，路由器在________进行链路状态广播。"
+    }
+  },
+  {
+    "id": 2688,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（20）是题号，不是真正的空位，应改为空白或下划线。",
+    "fix": {
+      "stem": "ARP 报文分为 ARP Request 和 ARP Response，其中 ARP Request 采用________进行传送。"
+    }
+  },
+  {
+    "id": 2689,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（21）是题号，不是真正的空位，应改为空白或下划线。",
+    "fix": {
+      "stem": "ARP Response 采用________进行传送。"
+    }
+  },
+  {
+    "id": 2690,
+    "status": "bad",
+    "issue": "题干中括号内的数字（22）是题号，不是真正的空位；且答案错误，Ping应使用ICMP Echo Request报文，但选项中无正确选项，建议删除或修正。",
+    "fix": {}
+  },
+  {
+    "id": 2691,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（23）是题号，应删除。",
+    "fix": {
+      "stem": "以下关于路由协议的叙述中，错误的是________。"
+    }
+  },
+  {
+    "id": 2692,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（24）是题号，应删除。",
+    "fix": {
+      "stem": "以下关于 RIPv2 对于 RIPv1 改进的说法中，错误的是________。"
+    }
+  },
+  {
+    "id": 2693,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（25）是题号，应删除。",
+    "fix": {
+      "stem": "以下关于 OSPF 路由协议的说法中，错误的是________。"
+    }
+  },
+  {
+    "id": 2694,
+    "status": "fixable",
+    "issue": "题干中括号内的数字（26）是题号，应删除。",
+    "fix": {
+      "stem": "以下关于 IS-IS 路由协议的说法中，错误的是________。"
+    }
+  },
+  {
+    "id": 2695,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2696,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2697,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2698,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2699,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2700,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2701,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2702,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2703,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2704,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2705,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2706,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2707,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2708,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2709,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2710,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2711,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2712,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2713,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2714,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2715,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2716,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2717,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2718,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2719,
+    "status": "fixable",
+    "issue": "答案错误，192.168.11.191/26是广播地址，不能作为主机地址，应选C",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2720,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2721,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2722,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2723,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2724,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2725,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2726,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2727,
+    "status": "fixable",
+    "issue": "答案错误，实际创建了10个VLAN，对应选项B",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2728,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2729,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2730,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2731,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2732,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2733,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2734,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2735,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2736,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2737,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2738,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2739,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2740,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2741,
+    "status": "fixable",
+    "issue": "选项B 'tanstation' 拼写错误",
+    "fix": {
+      "options": {
+        "B": "translation"
+      }
+    }
+  },
+  {
+    "id": 2742,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2743,
+    "status": "bad",
+    "issue": "语法错误：'A virtual private encrypts' 不通",
+    "fix": {}
+  },
+  {
+    "id": 2745,
+    "status": "bad",
+    "issue": "选项只有三个，缺少D选项，且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 2746,
+    "status": "bad",
+    "issue": "选项只有三个，缺少D选项，且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 2747,
+    "status": "bad",
+    "issue": "选项只有三个，缺少D选项，且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 2748,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2751,
+    "status": "bad",
+    "issue": "题干包含两个空但只有三个选项对应第一个空，且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 2753,
+    "status": "bad",
+    "issue": "选项只有三个，缺少D选项，且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 2755,
+    "status": "fixable",
+    "issue": "选项A中IP地址格式错误，答案缺失",
+    "fix": {
+      "options": {
+        "A": "nat server policy_web protocol tcp global 100.1.1.9 8443 inside 10.2.1.2 443 unr-route"
+      },
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2772,
+    "status": "bad",
+    "issue": "选项数过多（9个），不符合单选题标准，且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 2773,
+    "status": "bad",
+    "issue": "选项数过多（9个），不符合单选题标准，且答案为空",
+    "fix": {}
+  },
+  {
+    "id": 2774,
+    "status": "bad",
+    "issue": "选项数过多（9个），且题干含两个空，不符合单选题标准，答案为空",
+    "fix": {}
+  },
+  {
+    "id": 2775,
+    "status": "bad",
+    "issue": "选项数过多（9个），且题干含两个空，不符合单选题标准，答案为空",
+    "fix": {}
+  },
+  {
+    "id": 2776,
+    "status": "fixable",
+    "issue": "题干不完整，答案缺失",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 2777,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "G"
+    }
+  },
+  {
+    "id": 2778,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2779,
+    "status": "fixable",
+    "issue": "答案缺失，选项H拼写错误应为hybrid",
+    "fix": {
+      "answer": "H",
+      "options": {
+        "H": "hybrid"
+      }
+    }
+  },
+  {
+    "id": 2780,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "J"
+    }
+  },
+  {
+    "id": 2781,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "E"
+    }
+  },
+  {
+    "id": 2782,
+    "status": "fixable",
+    "issue": "题干混乱，答案缺失",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2783,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "D"
+    }
+  },
+  {
+    "id": 2784,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "A"
+    }
+  },
+  {
+    "id": 2785,
+    "status": "fixable",
+    "issue": "答案缺失",
+    "fix": {
+      "answer": "F"
+    }
+  },
+  {
+    "id": 2786,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2787,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2788,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2789,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2790,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2791,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2792,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2793,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2794,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2795,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2796,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2797,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2799,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2800,
+    "status": "fixable",
+    "issue": "题干中'2560QAM'疑似笔误，应为'256QAM'",
+    "fix": {
+      "stem": "5G 采用的正交振幅调制（Quadrature Amplitude Modulation,QAM）技术中，256QAM 的一个载波上可以调制（）比特信息。"
+    }
+  },
+  {
+    "id": 2801,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2802,
+    "status": "bad",
+    "issue": "题干依赖附图，但未提供图，无法判断答案",
+    "fix": {}
+  },
+  {
+    "id": 2803,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2804,
+    "status": "bad",
+    "issue": "题干依赖附图，但未提供图，无法判断答案",
+    "fix": {}
+  },
+  {
+    "id": 2805,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2806,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2807,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2808,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2809,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2811,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2812,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2813,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2814,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2815,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2816,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2817,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2818,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2819,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2820,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2821,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2822,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 2823,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2824,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2825,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2826,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2827,
+    "status": "fixable",
+    "issue": "选项中使用--sport错误，应使用--dport",
+    "fix": {
+      "options.D": "iptables -I INPUT-s 10.0.0.2-p tcp--dport 22-j ACCEPT"
+    }
+  },
+  {
+    "id": 2828,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2829,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2830,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2831,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2832,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2833,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2834,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2835,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2836,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2837,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2838,
+    "status": "bad",
+    "issue": "题干不完整，缺少上下文，无法判断网络号所指，且无任何前提条件",
+    "fix": null
+  },
+  {
+    "id": 2839,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2840,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2841,
+    "status": "bad",
+    "issue": "题干提到“以下命令片段”但未给出具体命令，无法作答",
+    "fix": null
+  },
+  {
+    "id": 2842,
+    "status": "bad",
+    "issue": "题干提到“以下命令片段”但未给出具体命令，无法作答",
+    "fix": null
+  },
+  {
+    "id": 2843,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2844,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2845,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2846,
+    "status": "bad",
+    "issue": "题干提到“下列命令片段”但未给出具体命令，无法作答",
+    "fix": null
+  },
+  {
+    "id": 2847,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2848,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2849,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2850,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2851,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2852,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2854,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2855,
+    "status": "bad",
+    "issue": "选项B/C/D为空，答案为空，无法修复",
+    "fix": {}
+  },
+  {
+    "id": 2856,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2857,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2858,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2859,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2860,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2866,
+    "status": "bad",
+    "issue": "与2867、2868题干完全相同但答案不同，逻辑矛盾",
+    "fix": {}
+  },
+  {
+    "id": 2867,
+    "status": "bad",
+    "issue": "与2866、2868题干完全相同但答案不同，逻辑矛盾",
+    "fix": {}
+  },
+  {
+    "id": 2868,
+    "status": "bad",
+    "issue": "与2866、2867题干完全相同但答案不同，逻辑矛盾",
+    "fix": {}
+  },
+  {
+    "id": 2870,
+    "status": "bad",
+    "issue": "题干不完整，缺少上下文且括号内数字含义不明",
+    "fix": {}
+  },
+  {
+    "id": 2871,
+    "status": "bad",
+    "issue": "题干不完整，与2870内容矛盾且重复",
+    "fix": {}
+  },
+  {
+    "id": 2872,
+    "status": "bad",
+    "issue": "题干不完整，与2871完全相同且重复",
+    "fix": {}
+  },
+  {
+    "id": 2873,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2874,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2879,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2894,
+    "status": "bad",
+    "issue": "题干不完整，引用了未知上下文(5)(6)，且选项数量为7个，不符合单选题要求，答案与题干不匹配。",
+    "fix": null
+  },
+  {
+    "id": 2895,
+    "status": "bad",
+    "issue": "题干不完整，选项数量为7个，且答案为多个（A,C），但题目类型为单选题，严重矛盾。",
+    "fix": null
+  },
+  {
+    "id": 2896,
+    "status": "bad",
+    "issue": "题干不完整，选项数量为7个，答案D（30）与配置IP地址的命令不匹配。",
+    "fix": null
+  },
+  {
+    "id": 2897,
+    "status": "bad",
+    "issue": "题干不完整，选项数量为7个，答案B（timer delay）与配置静态路由的命令不匹配。",
+    "fix": null
+  },
+  {
+    "id": 2898,
+    "status": "bad",
+    "issue": "题干不完整，选项数量为7个，虽然答案D可能合理，但选项列表包含命令和数值，不合理。",
+    "fix": null
+  },
+  {
+    "id": 2899,
+    "status": "bad",
+    "issue": "题干不完整，选项数量为7个，答案A（sysname/sysn）与standby命令不匹配。",
+    "fix": null
+  },
+  {
+    "id": 2900,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2901,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2902,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2903,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2904,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2905,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2906,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2907,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2908,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2909,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2911,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2912,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2914,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2915,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2916,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2917,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2918,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2919,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2920,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2921,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2922,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2923,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2924,
+    "status": "fixable",
+    "issue": "题干引用了图但未提供，导致题干不完整",
+    "fix": {
+      "stem": "RouterA和RouterB均运行RIPvl协议，在RouterA上使用（）命令即可完成路由信息的宣告。"
+    }
+  },
+  {
+    "id": 2925,
+    "status": "bad",
+    "issue": "题干缺少路由器接口配置信息，无法确定Router-ID",
+    "fix": null
+  },
+  {
+    "id": 2926,
+    "status": "bad",
+    "issue": "题干缺少路由器接口配置信息，无法确定Router-ID",
+    "fix": null
+  },
+  {
+    "id": 2940,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2941,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2942,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2943,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2944,
+    "status": "bad",
+    "issue": "题干提到'看到如下日志'但未提供日志内容，无法作答",
+    "fix": null
+  },
+  {
+    "id": 2945,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2946,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2947,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2948,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2949,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2950,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2951,
+    "status": "bad",
+    "issue": "答案错误：主机数量需求15需至少/27掩码，答案D为/29仅6台可用",
+    "fix": null
+  },
+  {
+    "id": 2952,
+    "status": "bad",
+    "issue": "基于上题错误答案，导致题目逻辑不合理",
+    "fix": null
+  },
+  {
+    "id": 2954,
+    "status": "bad",
+    "issue": "题干提到'下列命令片段'但未提供命令片段，无法作答",
+    "fix": null
+  },
+  {
+    "id": 2955,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2956,
+    "status": "bad",
+    "issue": "题干缺少路由表信息，无法作答。",
+    "fix": null
+  },
+  {
+    "id": 2957,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2958,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2959,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2960,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2961,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2962,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2963,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2964,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2965,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2966,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2967,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2968,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2969,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2970,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 2971,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2972,
+    "status": "fixable",
+    "issue": "答案错误，应为log或block",
+    "fix": {
+      "answer": "C"
+    }
+  },
+  {
+    "id": 2973,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2983,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2988,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2989,
+    "status": "fixable",
+    "issue": "题干包含多余的空位引用（38）",
+    "fix": {
+      "stem": "FTP服务可以开启匿名登录功能，其用户名是（37） 。"
+    }
+  },
+  {
+    "id": 2992,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2993,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2994,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2995,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 2996,
+    "status": "fixable",
+    "issue": "题干包含多余的空位引用（53）",
+    "fix": {
+      "stem": "IPv4地址192.168.10.201/26的子网掩码是（52） 。"
+    }
+  },
+  {
+    "id": 2999,
+    "status": "fixable",
+    "issue": "题干末尾不完整",
+    "fix": {
+      "stem": "An Intrusion (71) System (IDS) is a system that monitors network traffic for suspicious activity and alert when such activity is discovered While (72) detection and reporting are the primary functions of an IDS. Some IDSs are also capable of taking actions when (73) activity or anomalous traffic is detected, including (74) traffic sent from suspicious internet Protocol（IP） addresses."
+    }
+  },
+  {
+    "id": 3001,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3002,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3004,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3005,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3006,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3007,
+    "status": "fixable",
+    "issue": "题干缺少上下文，'该报文'指代不明",
+    "fix": {
+      "stem": "运行OSPF协议的路由器每10秒向各个接口发送一次Hello报文，该报文的作用不包括（26）"
+    }
+  },
+  {
+    "id": 3008,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3009,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3010,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3011,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3012,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3013,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3014,
+    "status": "fixable",
+    "issue": "题干语句不通顺，'网络号地是'应为'网络地址是'；选项A格式错误",
+    "fix": {
+      "stem": "其网络地址是",
+      "options": {
+        "A": "192.168.10.0",
+        "B": "192.168.10.64",
+        "C": "192.168.10.192",
+        "D": "192.168.10.128"
+      }
+    }
+  },
+  {
+    "id": 3015,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3016,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3017,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3018,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3019,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3020,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3021,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3022,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3066,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3067,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3068,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3069,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3070,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3071,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3072,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3073,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3074,
+    "status": "bad",
+    "issue": "答案错误：根据CSMA/CD协议，检测到碰撞的最长时间应为往返时延（100微秒），而非单程时延（50微秒）。正确答案应为D（100微秒），但当前答案为B。"
+  },
+  {
+    "id": 3075,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3076,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3077,
+    "status": "ok",
+    "issue": ""
+  },
+  {
+    "id": 3084,
+    "status": "bad",
+    "issue": "答案错误，EIGRP不是路径矢量协议，正确应为BGP但未在选项中",
+    "fix": null
+  },
+  {
+    "id": 3093,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3094,
+    "status": "bad",
+    "issue": "题干缺少实际图形，无法判断答案的正确性",
+    "fix": null
+  },
+  {
+    "id": 3095,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3096,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3097,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3098,
+    "status": "fixable",
+    "issue": "答案有误，DNS流量调度通常使用CNAME资源记录",
+    "fix": {
+      "answer": "B"
+    }
+  },
+  {
+    "id": 3099,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3100,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3101,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3102,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3103,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3104,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3105,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3106,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3107,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3108,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3109,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3110,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3111,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3112,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3113,
+    "status": "fixable",
+    "issue": "选项C '10.0.1.1/24' 不是合法的源地址网段，应为 '10.0.1.0/24'",
+    "fix": {
+      "options": {
+        "C": "10.0.1.0/24"
+      }
+    }
+  },
+  {
+    "id": 3114,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3115,
+    "status": "bad",
+    "issue": "缺少答案，且条件不完整无法计算",
+    "fix": null
+  },
+  {
+    "id": 3116,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3117,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3118,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3119,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3120,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3121,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3122,
+    "status": "fixable",
+    "issue": "选项C '我玉境内' 有错别字，应改为 '我国境内'",
+    "fix": {
+      "options": {
+        "C": "我国境内"
+      }
+    }
+  },
+  {
+    "id": 3123,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3124,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3125,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3126,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3127,
+    "status": "fixable",
+    "issue": "题干末尾不完整，缺少ping命令的完整输出",
+    "fix": {
+      "stem": "在某台主机上无法访问域名www.aaa.cn的网站，而局域网中的其他主机可正常访问，在该主机上执行ping命令时有如下所示的信息：\nC:\\> ping www.aaa.cn\nPing www.aaa.cn [202.114.10.56] with 32 bytes of data:\nReply from 202.114.10.56: Destination net unreachable.\nReply from 202.114.10.56: Destination net unreachable.\nReply from 202.114.10.56: Destination net unreachable.\nReply from 202.114.10.56: Destination net unreachable.\nPing statistics for 202.114.10.56:\nPackets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\nMinimum = 0ms, Maximum = 0ms, Average = 0ms"
+    }
+  },
+  {
+    "id": 3128,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3129,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3130,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3131,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3132,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3133,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3134,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3135,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3136,
+    "status": "ok",
+    "issue": "",
+    "fix": {}
+  },
+  {
+    "id": 3137,
+    "status": "fixable",
+    "issue": "题干中空位编号错误，应为(72)而不是(73)",
+    "fix": {
+      "stem": "SDN architectures decouple network control and forwarding functions, enabling the network control to become directly (72) and the underlying infrastructure to be abstracted from applications and network services."
+    }
+  },
+  {
+    "id": 3138,
+    "status": "fixable",
+    "issue": "题干中'(74)'应为空位，与题号不符",
+    "fix": {
+      "stem": "SDN was commonly associated with the ______ protocol since the protocol's emergence in 2011."
+    }
+  },
+  {
+    "id": 3139,
+    "status": "fixable",
+    "issue": "题干中'(75)'应为空位，与题号不符",
+    "fix": {
+      "stem": "When using an SDN based model for transmitting multimedia traffic, an important aspect to take account is the ______ of Experience (QoE) estimation."
+    }
+  },
+  {
+    "id": 3140,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3141,
+    "status": "bad",
+    "issue": "题干包含两个空(7)和(8)，但仅提供了一个选项集和答案，缺少第二个空的选项和答案",
+    "fix": null
+  },
+  {
+    "id": 3143,
+    "status": "bad",
+    "issue": "题干包含两个空(15)和(16)，但仅提供了一个选项集和答案，缺少第二个空的选项和答案",
+    "fix": null
+  },
+  {
+    "id": 3145,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3146,
+    "status": "bad",
+    "issue": "题干包含两个空(22)和(23)，但仅提供了一个选项集和答案，缺少第二个空的选项和答案",
+    "fix": null
+  },
+  {
+    "id": 3148,
+    "status": "bad",
+    "issue": "题干包含两个空(25)和(26)，但仅提供了一个选项集和答案，缺少第二个空的选项和答案",
+    "fix": null
+  },
+  {
+    "id": 3149,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3150,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3151,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3153,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3155,
+    "status": "bad",
+    "issue": "题干包含三个空(41)、(42)和(43)，但仅提供了一个选项集和答案，缺少第二、三个空的选项和答案",
+    "fix": null
+  },
+  {
+    "id": 3157,
+    "status": "bad",
+    "issue": "题干包含两个空(52)和(53)，但仅提供了一个选项集和答案，缺少第二个空的选项和答案",
+    "fix": null
+  },
+  {
+    "id": 3158,
+    "status": "bad",
+    "issue": "题干包含两个空(54)和(55)，但仅提供了一个选项集和答案，缺少第二个空的选项和答案",
+    "fix": null
+  },
+  {
+    "id": 3160,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3161,
+    "status": "fixable",
+    "issue": "题干包含两个空位（65）和（66），但只提供了第一个空的选项，缺少第二个空的选项。",
+    "fix": {
+      "stem": "IEEE 802.11 MAC子层定义的竞争性访问控制协议是（65）。"
+    }
+  },
+  {
+    "id": 3163,
+    "status": "fixable",
+    "issue": "题干包含两个空位（69）和（70），但只提供了一个答案，第二个空缺少选项。",
+    "fix": {
+      "stem": "网络设计过程包括逻辑网络设计和物理网络设计两个阶段，各个阶段都要产生相应的文档。下面的选项中，属于逻辑网络设计文档的是（69）。"
+    }
+  },
+  {
+    "id": 3164,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3171,
+    "status": "bad",
+    "issue": "题目为单选题但提供6个选项，且题干语法有误（IP地址格式错误），答案B不合理。",
+    "fix": null
+  },
+  {
+    "id": 3172,
+    "status": "bad",
+    "issue": "题目为单选题但提供6个选项，答案A不合理。",
+    "fix": null
+  },
+  {
+    "id": 3199,
+    "status": "bad",
+    "issue": "缺乏上下文，无法判断答案是否正确。",
+    "fix": null
+  },
+  {
+    "id": 3200,
+    "status": "bad",
+    "issue": "答案D不在选项A/B中，无效。",
+    "fix": null
+  },
+  {
+    "id": 3201,
+    "status": "bad",
+    "issue": "缺乏上下文，无法判断答案是否正确。",
+    "fix": null
+  },
+  {
+    "id": 3202,
+    "status": "bad",
+    "issue": "答案D不在选项A/B中，无效。",
+    "fix": null
+  },
+  {
+    "id": 3203,
+    "status": "bad",
+    "issue": "缺乏上下文，无法判断答案是否正确。",
+    "fix": null
+  },
+  {
+    "id": 3204,
+    "status": "bad",
+    "issue": "缺乏上下文，无法判断答案是否正确。",
+    "fix": null
+  },
+  {
+    "id": 3205,
+    "status": "bad",
+    "issue": "依赖图3-5，缺少必要信息。",
+    "fix": null
+  },
+  {
+    "id": 3220,
+    "status": "bad",
+    "issue": "缺乏配置上下文，无法判断答案是否正确。",
+    "fix": null
+  },
+  {
+    "id": 3221,
+    "status": "bad",
+    "issue": "答案B错误，正确应在路由配置模式下；选项A有拼写错误。",
+    "fix": null
+  },
+  {
+    "id": 3222,
+    "status": "bad",
+    "issue": "题干提及“如下图所示”，但未提供图，无法计算关键路径，题目不完整。",
+    "fix": null
+  },
+  {
+    "id": 3223,
+    "status": "bad",
+    "issue": "题干提及“活动图”，但未提供图，无法计算活动晚开始时间，题目不完整。",
+    "fix": null
+  },
+  {
+    "id": 3224,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3225,
+    "status": "fixable",
+    "issue": "题干包含两个空（16）和（17），但选项只对应一个空，需明确。",
+    "fix": {
+      "stem": "E1 载波的数据速率是（16）Mb/s。"
+    }
+  },
+  {
+    "id": 3226,
+    "status": "bad",
+    "issue": "题干提及“下面的 OSPF 网络”，但未提供网络拓扑图，无法判断路由器角色。",
+    "fix": null
+  },
+  {
+    "id": 3228,
+    "status": "bad",
+    "issue": "题干提及“显示的内容如下”，但未提供 tracert 输出内容，无法获取默认网关和 IP。",
+    "fix": null
+  },
+  {
+    "id": 3229,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3231,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3232,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3233,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3234,
+    "status": "ok",
+    "issue": "",
+    "fix": null
+  },
+  {
+    "id": 3236,
+    "status": "fixable",
+    "issue": "题干包含两个空（63）和（64），但选项只对应（63），需单独保留。",
+    "fix": {
+      "stem": "网桥怎样知道网络端口连接了哪些网站？（63）。"
+    }
+  },
+  {
+    "id": 3238,
+    "status": "bad",
+    "issue": "题干不完整，末尾截断，且缺少必要的上下文信息。",
+    "fix": null
+  },
+  {
+    "id": 3251,
+    "status": "bad",
+    "issue": "题干包含多个空（5）（6）（7）（8），但仅有单个选项集，且答案为空白，题目结构混乱。",
+    "fix": null
+  },
+  {
+    "id": 3252,
+    "status": "bad",
+    "issue": "题干提及“上述企业网络拓扑”，但未提供拓扑图，且答案为空，无法判断。",
+    "fix": null
+  },
+  {
+    "id": 3253,
+    "status": "fixable",
+    "issue": "题型标注为单选，但题干包含两个空位，且选项有5个，需要多选；答案缺失。",
+    "fix": {
+      "question_type": "multiple_choice",
+      "answer": [
+        "A",
+        "B"
+      ]
+    }
+  }
+]

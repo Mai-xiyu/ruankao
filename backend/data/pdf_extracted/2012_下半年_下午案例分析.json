@@ -1,0 +1,490 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2012,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2012年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "根据题意和图1-1，从经济性和实用性出发填写网络拓扑图中所用的传输介质和设备。空（1）备选答案：A.3类UTP B.5类UTP C.6类UTP D.单模光纤 E.多模光纤 F.千兆以太网交换机 G.百兆以太网交换机 H.万兆以太网交换机",
+      "options": {
+        "A": "3类UTP",
+        "B": "5类UTP",
+        "C": "6类UTP",
+        "D": "单模光纤",
+        "E": "多模光纤",
+        "F": "千兆以太网交换机",
+        "G": "百兆以太网交换机",
+        "H": "万兆以太网交换机"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "传输介质",
+        "以太网",
+        "千兆"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "根据题意和图1-1，从经济性和实用性出发填写网络拓扑图中所用的传输介质和设备。空（2）备选答案：A.3类UTP B.5类UTP C.6类UTP D.单模光纤 E.多模光纤 F.千兆以太网交换机 G.百兆以太网交换机 H.万兆以太网交换机",
+      "options": {
+        "A": "3类UTP",
+        "B": "5类UTP",
+        "C": "6类UTP",
+        "D": "单模光纤",
+        "E": "多模光纤",
+        "F": "千兆以太网交换机",
+        "G": "百兆以太网交换机",
+        "H": "万兆以太网交换机"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "传输介质",
+        "以太网",
+        "千兆"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "根据题意和图1-1，从经济性和实用性出发填写网络拓扑图中所用的传输介质和设备。空（3）备选答案：A.3类UTP B.5类UTP C.6类UTP D.单模光纤 E.多模光纤 F.千兆以太网交换机 G.百兆以太网交换机 H.万兆以太网交换机",
+      "options": {
+        "A": "3类UTP",
+        "B": "5类UTP",
+        "C": "6类UTP",
+        "D": "单模光纤",
+        "E": "多模光纤",
+        "F": "千兆以太网交换机",
+        "G": "百兆以太网交换机",
+        "H": "万兆以太网交换机"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划与设计",
+      "tags": [
+        "传输介质",
+        "以太网",
+        "千兆"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "fill_blank",
+      "stem": "如果校园网中办公室用户没有移动办公的需求，采用基于（4）的VLAN划分方法比较合理；如果有的用户需要移动办公，采用基于（5）的VLAN划分方法比较合适。",
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "VLAN划分",
+        "移动办公"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "fill_blank",
+      "stem": "如果校园网中办公室用户没有移动办公的需求，采用基于（4）的VLAN划分方法比较合理；如果有的用户需要移动办公，采用基于（5）的VLAN划分方法比较合适。",
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "VLAN划分",
+        "移动办公"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "fill_blank",
+      "stem": "图1-1中所示的交换机和路由器之间互连的端口类型全部为标准的GBIC端口，表1-1列出了互联所用的光模块的参数指标，请根据组网需求从表1-1中选择合适的光模块类型满足合理的建网成本，Router和S1之间用（6）互联。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "光模块",
+      "tags": [
+        "GBIC",
+        "光纤",
+        "千兆"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "fill_blank",
+      "stem": "S1和S2之间用（7）互联。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "光模块",
+      "tags": [
+        "GBIC",
+        "光纤",
+        "千兆"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "fill_blank",
+      "stem": "S1和S3之间用（8）互联。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "光模块",
+      "tags": [
+        "GBIC",
+        "光纤",
+        "千兆"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "fill_blank",
+      "stem": "S2和S3之间用（9）互联。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "光模块",
+      "tags": [
+        "GBIC",
+        "光纤",
+        "千兆"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "case",
+      "stem": "如果将Router和S1之间互连的模块与S1和S2之间的模块互换，Router和S1以及S1和S2之间的网络是否能否联通？并请解释原因。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "光模块兼容性",
+      "tags": [
+        "GBIC",
+        "模块互换",
+        "连通性"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "fill_blank",
+      "stem": "若VLAN3的网络用户因为业务需要只允许从ISP1出口访问Internet，在路由器上需进行基于（10）的策略路由配置。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "VLAN",
+        "ISP",
+        "策略路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "fill_blank",
+      "stem": "其他VLAN用户访问Internet资源时，若访问的是ISP1上的网络资源，则从ISP1出口；若访问的是其他网络资源，则从ISP2出口，那么在路由器上需进行基于（11）的策略路由配置。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "策略路由",
+      "tags": [
+        "VLAN",
+        "ISP",
+        "策略路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "fill_blank",
+      "stem": "Linux的文件传输服务是通过vsftpd提供的，该服务使用的应用层协议是（1）协议。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP协议",
+      "tags": [
+        "vsftpd",
+        "应用层协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "fill_blank",
+      "stem": "Linux的文件传输服务是通过vsftpd提供的，该服务使用的传输层协议是（2）协议。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "传输层协议",
+      "tags": [
+        "vsftpd",
+        "传输层协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "fill_blank",
+      "stem": "默认的传输层端口号为（3）。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "端口号",
+      "tags": [
+        "vsftpd",
+        "端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "fill_blank",
+      "stem": "vsftpd服务可以通过命令行启动或停止，启动该服务的命令是（4）。",
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux命令",
+      "tags": [
+        "vsftpd",
+        "启动"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "fill_blank",
+      "stem": "停止该服务的命令是（5）。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux命令",
+      "tags": [
+        "vsftpd",
+        "停止"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "fill_blank",
+      "stem": "vsftpd程序主配置文件的文件名是（6）。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "vsftpd配置",
+      "tags": [
+        "配置文件"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "fill_blank",
+      "stem": "为了使因特网上的用户也可以访问vsftpd提供的文件传输服务，可以通过简单的修改上述主配置文件实现，修改的方法是（11）。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "vsftpd配置",
+      "tags": [
+        "Internet访问"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "fill_blank",
+      "stem": "由于Linux服务器的配置较低，希望限制同时使用FTP服务的并发用户数为10，每个用户使用FTP服务时可以建立的连接数为5，可以通过简单的修改上述主配置文件实现，修改的方法是（12）。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "vsftpd配置",
+      "tags": [
+        "并发限制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "fill_blank",
+      "stem": "根据图3-1，该单位Router S0接口的IP地址应设置为（1）。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址配置",
+      "tags": [
+        "Router",
+        "接口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "fill_blank",
+      "stem": "在S0接口与电信ISP路由器接口构成的子网中，广播地址为（2）。",
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "子网与广播",
+      "tags": [
+        "广播地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "fill_blank",
+      "stem": "办公室代理服务器的网卡1为静态地址，在网卡1上启用Windows XP内置的“Internet连接共享”功能，实现办公室内网的共享代理服务；那么通过该共享功能自动分配给网卡2的IP地址是（3）。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Internet连接共享",
+      "tags": [
+        "代理",
+        "ICS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "fill_blank",
+      "stem": "在DHCP服务的安装过程中，租约期限一般默认为(4)天。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "租约期限"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "case",
+      "stem": "该单位路由器Router的E0口设置为192.168.1.9/24，若在DHCP服务器上配置、启动、激活DHCP服务后，查看DHCP地址池的结果如图3-2所示。为了满足图3-1的功能，在DHCP服务器地址池配置操作中还应该增加什么操作？",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP配置",
+      "tags": [
+        "地址池",
+        "排除地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "single_choice",
+      "stem": "在网站的属性窗口中，若“QQQ属性”选项卡的“IP地址”选项设置为“全部未分配”，如图3-3所示，则说明（8）。空（8）备选答案：A. 网站的IP地址为192.168.1.1，可以正常访问 B. 网站的IP地址为192.168.1.2，可以正常访问 C.网站的IP地址未分配，无法正常访问",
+      "options": {
+        "A": "网站的IP地址为192.168.1.1，可以正常访问",
+        "B": "网站的IP地址为192.168.1.2，可以正常访问",
+        "C": "网站的IP地址未分配，无法正常访问"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务器配置",
+      "tags": [
+        "IIS",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "single_choice",
+      "stem": "在图3-4的WEB服务主目录选项卡上，至少要设置对主目录的（9）权限，才能访问该WEB服务器。空（9）备选答案：A.读取 B.写入 C.目录浏览 D.记录访问",
+      "options": {
+        "A": "读取",
+        "B": "写入",
+        "C": "目录浏览",
+        "D": "记录访问"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务器权限",
+      "tags": [
+        "IIS",
+        "NTFS权限"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "fill_blank",
+      "stem": "按系统默认的方式配置了KZ和QQQ两个网站（如图3-5所示），此时两个网站均处于停止状态，若要使这两个网站能同时工作，请给出三种可行的解决办法。方法一：（10）。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务器多站点",
+      "tags": [
+        "IIS",
+        "多网站",
+        "端口",
+        "主机头",
+        "IP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "fill_blank",
+      "stem": "按系统默认的方式配置了KZ和QQQ两个网站（如图3-5所示），此时两个网站均处于停止状态，若要使这两个网站能同时工作，请给出三种可行的解决办法。方法二：（11）。",
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务器多站点",
+      "tags": [
+        "IIS",
+        "多网站",
+        "端口",
+        "主机头",
+        "IP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "fill_blank",
+      "stem": "按系统默认的方式配置了KZ和QQQ两个网站（如图3-5所示），此时两个网站均处于停止状态，若要使这两个网站能同时工作，请给出三种可行的解决办法。方法三：（12）。",
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务器多站点",
+      "tags": [
+        "IIS",
+        "多网站",
+        "端口",
+        "主机头",
+        "IP"
+      ],
+      "is_verified": false
+    }
+  ]
+}

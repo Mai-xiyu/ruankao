@@ -1,0 +1,611 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2013,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2013年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "社区1采用的小区宽带接入方法是（ ）",
+      "options": {
+        "A": "FTTx+PON",
+        "B": "HFC",
+        "C": "FTTx+LAN",
+        "D": "WLAN",
+        "E": "WiMax",
+        "F": "xDSL",
+        "G": "PLC(Power-Line Communication)",
+        "H": "GPRS"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "宽带接入技术",
+      "tags": [
+        "小区宽带",
+        "FTTx",
+        "PON",
+        "LAN",
+        "WLAN",
+        "xDSL",
+        "HFC",
+        "PLC",
+        "WiMax",
+        "GPRS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "社区2采用的小区宽带接入方法是（ ）",
+      "options": {
+        "A": "FTTx+PON",
+        "B": "HFC",
+        "C": "FTTx+LAN",
+        "D": "WLAN",
+        "E": "WiMax",
+        "F": "xDSL",
+        "G": "PLC(Power-Line Communication)",
+        "H": "GPRS"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "宽带接入技术",
+      "tags": [
+        "小区宽带",
+        "FTTx",
+        "PON",
+        "LAN",
+        "WLAN",
+        "xDSL",
+        "HFC",
+        "PLC",
+        "WiMax",
+        "GPRS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "社区3采用的小区宽带接入方法是（ ）",
+      "options": {
+        "A": "FTTx+PON",
+        "B": "HFC",
+        "C": "FTTx+LAN",
+        "D": "WLAN",
+        "E": "WiMax",
+        "F": "xDSL",
+        "G": "PLC(Power-Line Communication)",
+        "H": "GPRS"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "宽带接入技术",
+      "tags": [
+        "小区宽带",
+        "FTTx",
+        "PON",
+        "LAN",
+        "WLAN",
+        "xDSL",
+        "HFC",
+        "PLC",
+        "WiMax",
+        "GPRS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem": "社区4采用的小区宽带接入方法是（ ）",
+      "options": {
+        "A": "FTTx+PON",
+        "B": "HFC",
+        "C": "FTTx+LAN",
+        "D": "WLAN",
+        "E": "WiMax",
+        "F": "xDSL",
+        "G": "PLC(Power-Line Communication)",
+        "H": "GPRS"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "宽带接入技术",
+      "tags": [
+        "小区宽带",
+        "FTTx",
+        "PON",
+        "LAN",
+        "WLAN",
+        "xDSL",
+        "HFC",
+        "PLC",
+        "WiMax",
+        "GPRS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem": "采用有线电视网进行宽带接入的方法是（ ）",
+      "options": {
+        "A": "FTTx+PON",
+        "B": "HFC",
+        "C": "FTTx+LAN",
+        "D": "WLAN",
+        "E": "WiMax",
+        "F": "xDSL",
+        "G": "PLC(Power-Line Communication)",
+        "H": "GPRS"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "宽带接入技术",
+      "tags": [
+        "有线电视网",
+        "HFC"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem": "利用电力网进行宽带接入的方法是（ ）",
+      "options": {
+        "A": "FTTx+PON",
+        "B": "HFC",
+        "C": "FTTx+LAN",
+        "D": "WLAN",
+        "E": "WiMax",
+        "F": "xDSL",
+        "G": "PLC(Power-Line Communication)",
+        "H": "GPRS"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "宽带接入技术",
+      "tags": [
+        "电力网",
+        "PLC"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "遵循IEEE802.16标准进行宽带接入的方法是（ ）",
+      "options": {
+        "A": "FTTx+PON",
+        "B": "HFC",
+        "C": "FTTx+LAN",
+        "D": "WLAN",
+        "E": "WiMax",
+        "F": "xDSL",
+        "G": "PLC(Power-Line Communication)",
+        "H": "GPRS"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "宽带接入技术",
+      "tags": [
+        "IEEE802.16",
+        "WiMax"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "fill_blank",
+      "stem": "EPON是（ ）技术和（ ）技术的结合，它可以实现上下行（ ）的速率。\n填空(8):",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无源光网络",
+      "tags": [
+        "EPON",
+        "GPON",
+        "PON",
+        "速率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "fill_blank",
+      "stem": "EPON是（ ）技术和（ ）技术的结合，它可以实现上下行（ ）的速率。\n填空(9):",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无源光网络",
+      "tags": [
+        "EPON",
+        "GPON",
+        "PON",
+        "速率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "fill_blank",
+      "stem": "EPON是（ ）技术和（ ）技术的结合，它可以实现上下行（ ）的速率。\n填空(10):",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无源光网络",
+      "tags": [
+        "EPON",
+        "GPON",
+        "PON",
+        "速率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "fill_blank",
+      "stem": "PPP协议一般包括三个协商阶段，（ ）协议用于建立和测试数据链路；",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PPP协议",
+      "tags": [
+        "PPP",
+        "LCP",
+        "NCP",
+        "认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "fill_blank",
+      "stem": "PPP协议一般包括三个协商阶段，（ ）协议用于协商网络层参数；",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PPP协议",
+      "tags": [
+        "PPP",
+        "LCP",
+        "NCP",
+        "认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "fill_blank",
+      "stem": "PPP协议一般包括三个协商阶段，（ ）协议用于通信双方确认对方的身份。",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PPP协议",
+      "tags": [
+        "PPP",
+        "LCP",
+        "NCP",
+        "认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "fill_blank",
+      "stem": "在运营商网络中，运营商常用外层VLAN区分不同的（ ）；",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "外层VLAN",
+        "QinQ",
+        "运营商"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "fill_blank",
+      "stem": "在运营商网络中，在ONU或家庭网关处采用内层VLAN来区分不同的（ ）；",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "内层VLAN",
+        "QinQ",
+        "用户"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "fill_blank",
+      "stem": "这种处理方式要求运营商网络和用户局域网中的交换机都支持（ ）协议，同时通过802.1ad(运营商网桥协议）来实现灵活的QinQ技术。",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "QinQ",
+        "802.1ad",
+        "交换机"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "fill_blank",
+      "stem": "包过滤防火墙使用ACL实现过滤功能，编号为1-99的ACL根据IP报文的源地址域进行过滤，称为（ ）。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "ACL",
+        "包过滤",
+        "标准ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "fill_blank",
+      "stem": "编号为100-199的ACL根据IP报文中的更多域对数据包进行控制，称为（ ）。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "ACL",
+        "扩展ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "fill_blank",
+      "stem": "根据图2-1，防火墙的三个端口连接的网络分别称为（ ）。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "防火墙",
+        "区域",
+        "DMZ",
+        "内网",
+        "外网"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "fill_blank",
+      "stem": "根据图2-1，防火墙的三个端口连接的网络分别称为（ ）、（ ）和（ ）。填空(4):",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "防火墙",
+        "区域",
+        "DMZ",
+        "内网",
+        "外网"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "fill_blank",
+      "stem": "根据图2-1，防火墙的三个端口连接的网络分别称为（ ）、（ ）和（ ）。填空(5):",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "防火墙",
+        "区域",
+        "DMZ",
+        "内网",
+        "外网"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "single_choice",
+      "stem": "Linux系统中，IP地址的配置文件一般存放在（ ）目录下。",
+      "options": {
+        "A": "/etc",
+        "B": "/var",
+        "C": "/dev",
+        "D": "/home"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux网络配置",
+      "tags": [
+        "Linux",
+        "IP地址",
+        "配置文件"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "single_choice",
+      "stem": "DNS使用（ ）来处理网络中多个主机和IP地址的转换。",
+      "options": {
+        "A": "集中式数据库",
+        "B": "分布式数据库"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS",
+        "数据库",
+        "分布式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "multiple_choice",
+      "stem": "当DNS服务器配置完成后，在客户机的cmd命令窗口中，可用于测试DNS服务状态的命令有（ ）。",
+      "options": {
+        "A": "nslookup",
+        "B": "arp",
+        "C": "ping",
+        "D": "tracert",
+        "E": "ipconfig"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS",
+        "测试",
+        "命令",
+        "nslookup",
+        "ping",
+        "tracert"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "fill_blank",
+      "stem": "在DNS服务器中为Web服务器添加主机记录时，区域名称应填写（ ）来建立正向查找区域。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS配置",
+      "tags": [
+        "DNS",
+        "正向查找区域",
+        "主机记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "fill_blank",
+      "stem": "在“新建主机”对话框中名称栏应填写（ ）。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS配置",
+      "tags": [
+        "DNS",
+        "主机记录",
+        "名称"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "fill_blank",
+      "stem": "在“新建主机”对话框中IP地址栏应填写（ ）。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS配置",
+      "tags": [
+        "DNS",
+        "主机记录",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "fill_blank",
+      "stem": "在建立反向区域时，图3-5中的“网络ID”中输入（ ）。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS配置",
+      "tags": [
+        "DNS",
+        "反向查找区域",
+        "网络ID"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "fill_blank",
+      "stem": "在创建指针记录对话框中，主机的IP地址为（ ）。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS配置",
+      "tags": [
+        "DNS",
+        "指针记录",
+        "PTR"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "fill_blank",
+      "stem": "在创建指针记录对话框中，主机名为（ ）。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS配置",
+      "tags": [
+        "DNS",
+        "指针记录",
+        "主机名"
+      ],
+      "is_verified": false
+    }
+  ]
+}

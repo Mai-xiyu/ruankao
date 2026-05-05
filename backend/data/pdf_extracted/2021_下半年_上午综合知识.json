@@ -1,0 +1,1460 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2021,
+    "season": "下半年",
+    "paper_type": "上午综合知识",
+    "source_name": "PDF 提取 - 2021年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "微机系统中，（1）不属于CPU的运算器组成部件。",
+      "options": {
+        "A": "程序计数器",
+        "B": "累加寄存器",
+        "C": "多路转换器",
+        "D": "ALU单元"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成",
+      "tags": [
+        "CPU",
+        "运算器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "Python语言的特点不包括（2）。",
+      "options": {
+        "A": "跨平台、开源",
+        "B": "编译型",
+        "C": "支持面向对象程序设计",
+        "D": "动态编程"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "编程语言",
+      "tags": [
+        "Python"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "软件测试时，白盒测试不能发现（3）。",
+      "options": {
+        "A": "代码路径中的错误",
+        "B": "死循环",
+        "C": "逻辑错误",
+        "D": "功能错误"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "软件测试",
+      "tags": [
+        "白盒测试"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem": "云计算有多种部署模型，当云按照服务方式提供给大众时，称为（4）。",
+      "options": {
+        "A": "公有云",
+        "B": "私有云",
+        "C": "专属云",
+        "D": "混合云"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "云计算",
+      "tags": [
+        "部署模型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem": "某工厂使用一个软件系统变现质检过程的自动化，并逐步替代人工质检。该系统属于（5）。",
+      "options": {
+        "A": "面向作业处理的系统",
+        "B": "面向管理控制的系统",
+        "C": "面向决策计划的系统",
+        "D": "面向数据汇总的系统"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "信息系统",
+      "tags": [
+        "自动化",
+        "质检"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem": "外包是一种合同协议。外包合同中的关键核心文件是（6）。",
+      "options": {
+        "A": "技术等级协议（TLA）",
+        "B": "服务等级协议（SLA）",
+        "C": "项目执行协议（PEA）",
+        "D": "企业管理协议（EMA）"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IT服务管理",
+      "tags": [
+        "外包",
+        "合同"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "数据标准化是一种按照预定规程对共享数据实施规范化管理的过程。数据标准化的对象是数据元素和元数据。以下①～⑥中，（7）属于数据标准化主要包括的三个阶段。①数据元素标准阶段 ②元数据标准阶段 ③业务建模阶段 ④软件安装部署阶段 ⑤数据规范化阶段 ⑥文档规范化阶段",
+      "options": {
+        "A": "①②③",
+        "B": "③⑤⑥",
+        "C": "④⑤⑥",
+        "D": "①③⑤"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据管理",
+      "tags": [
+        "数据标准化"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem": "在软件开发过程中，系统测试阶段的测试目标来自于（8）阶段。",
+      "options": {
+        "A": "需求分析",
+        "B": "概要设计",
+        "C": "详细设计",
+        "D": "软件实现"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "软件工程",
+      "tags": [
+        "测试"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem": "信息系统的文档是开发人员与用户交流的工具。在系统规划和系统分析阶段，用户与系统分析人员交流所使用的文档不包括（9）。",
+      "options": {
+        "A": "可行性研究报告",
+        "B": "总体规划报告",
+        "C": "项目开发计划",
+        "D": "用户使用手册"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "信息系统",
+      "tags": [
+        "文档"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem": "（10）是构成我国保护计算机软件著作权的两个基本法律文件。",
+      "options": {
+        "A": "《计算机软件保护条例》和《软件法》",
+        "B": "《中华人民共和国著作权法》和《软件法》",
+        "C": "《中华人民共和国著作权法》和《计算机软件保护条例》",
+        "D": "《中华人民共和国版权法》和《中华人民共和国著作权法》"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "法律法规",
+      "tags": [
+        "著作权"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem": "在光纤通信中，（11）设备可以将光信号放大进行远距离传输。",
+      "options": {
+        "A": "光纤中继器",
+        "B": "光纤耦合器",
+        "C": "光发信机",
+        "D": "光检测器"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "光纤通信",
+      "tags": [
+        "光放大"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem": "在 10GBase-ER 标准中，使用单模光纤最大传输距离是（12）。",
+      "options": {
+        "A": "300 米",
+        "B": "5 公里",
+        "C": "10 公里",
+        "D": "40 公里"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "以太网标准",
+      "tags": [
+        "10GBase-ER",
+        "单模光纤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "single_choice",
+      "stem": "在 OSI 参考模型中，传输层处理的数据单位是（13）。",
+      "options": {
+        "A": "比特",
+        "B": "帧",
+        "C": "分组",
+        "D": "报文"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "OSI模型",
+      "tags": [
+        "传输层",
+        "数据单位"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "single_choice",
+      "stem": "某信道带宽为1MHz，采用4幅度8相位调制最大可以组成（14）种码元。",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "16",
+        "D": "32"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "调制",
+        "码元"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "single_choice",
+      "stem": "若此信道信号的码元宽度为10微秒，则数据速率为（15）kb/s。",
+      "options": {
+        "A": "50",
+        "B": "100",
+        "C": "500",
+        "D": "1000"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "数据速率",
+        "码元宽度"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "single_choice",
+      "stem": "使用 ADSL 接入电话网采用的认证协议是（16）。",
+      "options": {
+        "A": "802.1x",
+        "B": "802.5",
+        "C": "PPPoA",
+        "D": "PPPoE"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "接入网",
+      "tags": [
+        "ADSL",
+        "PPPoE"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "single_choice",
+      "stem": "在主机上禁止（17）协议，可以不响应来自别的主机的 Ping 包。",
+      "options": {
+        "A": "UDP",
+        "B": "ICMP",
+        "C": "TLS",
+        "D": "ARP"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "ICMP",
+        "Ping"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "single_choice",
+      "stem": "HDLC 协议中，帧的编号和应答号存放在（18）字段中。",
+      "options": {
+        "A": "标志",
+        "B": "地址",
+        "C": "控制",
+        "D": "数据"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据链路层",
+      "tags": [
+        "HDLC",
+        "帧格式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "single_choice",
+      "stem": "在 OSPF 路由协议中，路由器在（19）进行链路状态广播。",
+      "options": {
+        "A": "固定30秒后周期性地",
+        "B": "固定60秒后周期性地",
+        "C": "收到对端请求后",
+        "D": "链路状态发生改变后"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "OSPF",
+        "链路状态广播"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "single_choice",
+      "stem": "ARP 报文分为 ARP Request 和 ARP Response，其中 ARP Request 采用（20）进行传送。",
+      "options": {
+        "A": "广播",
+        "B": "组播",
+        "C": "多播",
+        "D": "单播"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "ARP",
+        "广播"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "single_choice",
+      "stem": "ARP Response 采用（21）进行传送。",
+      "options": {
+        "A": "广播",
+        "B": "组播",
+        "C": "多播",
+        "D": "单播"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "ARP",
+        "单播"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "single_choice",
+      "stem": "Ping 使用了（22）类型的 ICMP 查询报文。",
+      "options": {
+        "A": "Echo Reply",
+        "B": "Host Unreachable",
+        "C": "Redirect for Host",
+        "D": "Source Quench"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "ICMP",
+        "Ping"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "single_choice",
+      "stem": "以下关于路由协议的叙述中，错误的是（23）。",
+      "options": {
+        "A": "路由协议是通过执行一个算法来完成路由选择的一种协议",
+        "B": "动态路由协议可以分为距离向量路由协议和链路状态路由协议",
+        "C": "路由协议是一种允许数据包在主机之间传送信息的协议",
+        "D": "路由器之间可以通过路由协议学习网络的拓扑结构"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "路由协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "single_choice",
+      "stem": "以下关于 RIPv2 对于 RIPv1 改进的说法中，错误的是（24）。",
+      "options": {
+        "A": "RIPv2是基于链路状态的路由协议",
+        "B": "RIPv2可以支持VLSM",
+        "C": "RIPv2可以支持认证，有明文和MD5两种方式",
+        "D": "RIPv2采用的是组播更新"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIPv2"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "single_choice",
+      "stem": "以下关于 OSPF 路由协议的说法中，错误的是（25）。",
+      "options": {
+        "A": "OSPF是基于分布式的链路状态协议",
+        "B": "OSPF是一种内部网关路由协议",
+        "C": "OSPF可以用于自治系统之间的路由选择",
+        "D": "OSPF为减少洪泛链路状态的信息量，可以将自治系统划分为更小的区域"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "OSPF"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "single_choice",
+      "stem": "以下关于 IS-IS 路由协议的说法中，错误的是（26）。",
+      "options": {
+        "A": "IS-IS是基于距离矢量的路由协议",
+        "B": "IS-IS属于内部网关路由协议",
+        "C": "IS-IS路由协议将自治系统分为骨干区域和非骨干区域",
+        "D": "IS-IS路由协议中Level-2路由器可以和不同区域的Level-2或者Level-2路由器形成邻居关系。"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "IS-IS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "single_choice",
+      "stem": "以下关于 BGP 路由协议的说法中，错误的是（27）。",
+      "options": {
+        "A": "BGP协议是一种外部网关协议",
+        "B": "BGP协议为保证可靠性使用TCP作为承载协议，使用端口号是179",
+        "C": "BGP协议使用keep-alive报文周期性的证实邻居站的连通性",
+        "D": "BGP协议不支持路由汇聚功能"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "BGP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "single_choice",
+      "stem": "下列协议中，使用明文传输的是（28）。",
+      "options": {
+        "A": "SSH",
+        "B": "Telnet",
+        "C": "SFTP",
+        "D": "HTTPS"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "应用层协议",
+      "tags": [
+        "明文传输"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "single_choice",
+      "stem": "在浏览器地址栏输入 ftp://ftp.tsinghua.edu.cn/进行访问时，首先执行的操作是（29）。",
+      "options": {
+        "A": "域名解析",
+        "B": "建立控制命令连接",
+        "C": "建立文件传输连接",
+        "D": "发送FTP命令"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP",
+      "tags": [
+        "访问过程"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "single_choice",
+      "stem": "下列端口号中，不属于常用电子邮件协议默认使用的端口的是（30）。",
+      "options": {
+        "A": "23",
+        "B": "25",
+        "C": "110",
+        "D": "143"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "电子邮件",
+      "tags": [
+        "端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "single_choice",
+      "stem": "在 Linux 中，用于解析主机域名的文件是（31）。",
+      "options": {
+        "A": "/dev/host.conf",
+        "B": "/etc/hosts",
+        "C": "/dev/resolv.conf",
+        "D": "/etc/resolv.conf"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "域名解析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "single_choice",
+      "stem": "在 linux 中，可以使用命令（32）将文件 abc.txt 拷贝到目录/home/my/office 中，且保留原文件访问权限。",
+      "options": {
+        "A": "$cp -l abc.txt/home/my/office",
+        "B": "$cp -p abc.txt/home/my/office",
+        "C": "$cp -R abc.txt/home/my/office",
+        "D": "$cp -f abc.txt/home/my/office"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "cp命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "33",
+      "question_type": "single_choice",
+      "stem": "在 Linux 中，要使用命令“chmod -R xxx/home/abc\"修改目录/home/abc 的访问权限为可读、可写、可执行，命令中的“xxx”应该是（33）。",
+      "options": {
+        "A": "777",
+        "B": "555",
+        "C": "444",
+        "D": "222"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "chmod",
+        "权限"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "34",
+      "question_type": "single_choice",
+      "stem": "在 Windows 中，DNS 客户端手工向服务器注册时使用的命令是（34）。",
+      "options": {
+        "A": "ipconfig /release",
+        "B": "ipconfig /flushdns",
+        "C": "ipconfig /displaydns",
+        "D": "ipconfig /registerdns"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows",
+      "tags": [
+        "DNS",
+        "ipconfig"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "35",
+      "question_type": "single_choice",
+      "stem": "Windows Server 2008 R2 上内嵌的 Web 服务器是（35）服务器。",
+      "options": {
+        "A": "IIS",
+        "B": "Apache",
+        "C": "Tomcat",
+        "D": "Nginx"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows",
+      "tags": [
+        "Web服务器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "36",
+      "question_type": "single_choice",
+      "stem": "Windows 中，在命令行输入（36）命令可以得到如下的回显。Server: UnKnown Adress: 159.47.11.80 ...（具体回显略）",
+      "options": {
+        "A": "nslookup -type=A xxx.edu.cn",
+        "B": "nslookup -type=CNAME xxx.edu.cn",
+        "C": "nslookup -type=NS xxx.edu.cn",
+        "D": "nslookup type=PTR xxx.edu.cn"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows",
+      "tags": [
+        "nslookup"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "37",
+      "question_type": "single_choice",
+      "stem": "用户使用 ftp://zza.com 访问某文件服务，默认通过目标端口为(37)的请求建立连接。",
+      "options": {
+        "A": "20",
+        "B": "21",
+        "C": "22",
+        "D": "23"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP",
+      "tags": [
+        "端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "38",
+      "question_type": "single_choice",
+      "stem": "（接上题）建立(38)连接。",
+      "options": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "HTTP",
+        "D": "FTP"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP",
+      "tags": [
+        "传输层协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "39",
+      "question_type": "single_choice",
+      "stem": "以下关于电子邮件服务的说法中，正确的是(39)。",
+      "options": {
+        "A": "收到的邮件会即时自动的存储在预定目录中",
+        "B": "电子邮件需要用户手动接收",
+        "C": "不同操作系统使用不同的默认端口",
+        "D": "电子邮件地址格式允许用户自定义"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "电子邮件",
+      "tags": [
+        "邮件服务"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "40",
+      "question_type": "single_choice",
+      "stem": "用户可以使用(40)向 DHCP 服务器重新请求 IP 地址配置。",
+      "options": {
+        "A": "ipconfig /renew",
+        "B": "ipconfig /release",
+        "C": "ipconfig /reconfig",
+        "D": "ipconfig /reboot"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows",
+      "tags": [
+        "DHCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "41",
+      "question_type": "single_choice",
+      "stem": "Linux 防火墙 iptables 命令的-P 参数表示（41)。",
+      "options": {
+        "A": "协议",
+        "B": "表",
+        "C": "策略",
+        "D": "跳转"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "iptables"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "42",
+      "question_type": "single_choice",
+      "stem": "在防火墙域间安全策略中，不是 outbound 方向数据流的是（42）。",
+      "options": {
+        "A": "从Trust区域到Local区域的数据流",
+        "B": "从Trust区域到Untrust区域的数据流",
+        "C": "从Trust区域到DMZ区域的数据流",
+        "D": "从DMZ区域到Untrust区域的数据流"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙",
+      "tags": [
+        "安全策略"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "43",
+      "question_type": "single_choice",
+      "stem": "PKI 证书主要用于确保（43）的合法性。",
+      "options": {
+        "A": "主体私钥",
+        "B": "CA私钥",
+        "C": "主体公钥",
+        "D": "CA公钥"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "PKI",
+        "证书"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "44",
+      "question_type": "single_choice",
+      "stem": "AES 是一种（44）。",
+      "options": {
+        "A": "公钥加密算法",
+        "B": "流密码算法",
+        "C": "分组加密算法",
+        "D": "消息摘要算法"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "加密算法",
+      "tags": [
+        "AES"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "45",
+      "question_type": "single_choice",
+      "stem": "以下关于 HTTPS 的描述中，正确的是（45）。",
+      "options": {
+        "A": "HTTPS和SHTTP是同一个协议的不同简称",
+        "B": "HTTPS服务器端使用的缺省TCP端口是110",
+        "C": "HTTPS是传输层协议",
+        "D": "HTTPS是HTTP和SSL/TLS的组合"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "HTTPS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "46",
+      "question_type": "single_choice",
+      "stem": "与 SNMP 所采用的传输层协议相同的是（46）。",
+      "options": {
+        "A": "HTTP",
+        "B": "SMTP",
+        "C": "FTP",
+        "D": "DNS"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "SNMP",
+        "传输层"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "47",
+      "question_type": "single_choice",
+      "stem": "管理员发现交换机的二层转发表空间被占满，清空后短时间内仍然会被再次占满。造成这种现象的原因可能是(47)。",
+      "options": {
+        "A": "交换机内存故障",
+        "B": "存在环路造成广播风暴",
+        "C": "接入设备过多",
+        "D": "利用虚假的MAC进行攻击"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "MAC攻击"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "48",
+      "question_type": "single_choice",
+      "stem": "某网络结构如下图所示。PC1 的用户在浏览器地址栏中输入 www.abc.com 后无法获取响应页面，而输入 61.102.58.77 可以正常打开 Web 页面，则导致该现象的可能原因是(48)。",
+      "options": {
+        "A": "域名解析失败",
+        "B": "网关配置错误",
+        "C": "PC1网络参数配置错误",
+        "D": "路由配置错误"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障",
+      "tags": [
+        "域名解析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "49",
+      "question_type": "single_choice",
+      "stem": "某数据中心做存储系统设计，从性价比角度考量，最合适的冗余方式是(49)。",
+      "options": {
+        "A": "RAID 0",
+        "B": "RAID 1",
+        "C": "RAID 5",
+        "D": "RAID 10"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储",
+      "tags": [
+        "RAID"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "50",
+      "question_type": "single_choice",
+      "stem": "（接上题）当该RAID配备N块磁盘时，实际可用数为(50)块。",
+      "options": {
+        "A": "N",
+        "B": "N-1",
+        "C": "N/2",
+        "D": "N/4"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储",
+      "tags": [
+        "RAID",
+        "可用容量"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "51",
+      "question_type": "single_choice",
+      "stem": "下面的IP地址中，能够作为主机地址的是（51）。",
+      "options": {
+        "A": "168.254.0.243/30",
+        "B": "10.20.30.40/29",
+        "C": "172.16.18.0/22",
+        "D": "192.168.11.191/26"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址",
+      "tags": [
+        "主机地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "52",
+      "question_type": "single_choice",
+      "stem": "下面的IP地址中，不属于同一网络的是（52）。",
+      "options": {
+        "A": "172.20.34.28/21",
+        "B": "172.20.39.100/21",
+        "C": "172.20.32.176/21",
+        "D": "172.20.40.177/21"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址",
+      "tags": [
+        "子网"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "53",
+      "question_type": "single_choice",
+      "stem": "某公司中，最大的局域网可容纳200个主机，最小的局域网可容纳20,若使用可变长子网掩码划分子网，其最长的掩码（53）位。",
+      "options": {
+        "A": "24",
+        "B": "25",
+        "C": "26",
+        "D": "27"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "子网划分",
+      "tags": [
+        "VLSM"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "54",
+      "question_type": "single_choice",
+      "stem": "（接上题）最短的掩码（54）。",
+      "options": {
+        "A": "24",
+        "B": "25",
+        "C": "26",
+        "D": "27"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "子网划分",
+      "tags": [
+        "VLSM"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "55",
+      "question_type": "single_choice",
+      "stem": "PC1的IP地址为192.168.5.16，PC2的IP地址为192.168.5.100，PC1和PC2在同一网段中，其子网掩码可能是（55）。",
+      "options": {
+        "A": "255.255.255.240",
+        "B": "255.255.255.224",
+        "C": "255.255.255.192",
+        "D": "255.255.255.128"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "子网掩码",
+      "tags": [
+        "子网掩码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "56",
+      "question_type": "single_choice",
+      "stem": "下列命令片段含义是(56)\n<Huawei>system-view\n[Huawei]observe-port 1 interface gigabitethernet 0/0/1\n[Huawei]interface gigabitethernet 0/0/2\n[Huawei-gigabitethernet0/0/2] port-mirroring to observe-port 1 inbound",
+      "options": {
+        "A": "配置端口镜像",
+        "B": "配置链路聚合",
+        "C": "配置逻辑接口",
+        "D": "配置访问控制策略"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "端口镜像"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "57",
+      "question_type": "single_choice",
+      "stem": "使用(57)命令可以显示OSPF接口信息。",
+      "options": {
+        "A": "display ospf error",
+        "B": "display this",
+        "C": "display ospf brief",
+        "D": "display ospf interface"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "OSPF",
+      "tags": [
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "58",
+      "question_type": "single_choice",
+      "stem": "GVRP 是跨交换机进行 VLAN 动态注册和删除的协议，关于对 GVRP 描述不准确的是(58)。",
+      "options": {
+        "A": "GVRP是GARP的一种应用，由IEEE制定",
+        "B": "交换机之间的协议报文交互必须在VLAN Trunk链路上进行",
+        "C": "GVRP协议所支持的VLAN ID范围为1-1001",
+        "D": "GVRP配置时需要在每一台交换机上建立VLAN"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "GVRP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "59",
+      "question_type": "single_choice",
+      "stem": "使用命令 vlan batch 10 15 to 19 25 28 to 30 创建了(59)个VLAN。",
+      "options": {
+        "A": "6",
+        "B": "10",
+        "C": "5",
+        "D": "9"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "60",
+      "question_type": "single_choice",
+      "stem": "VLAN 帧的最小帧长是（60）字节。",
+      "options": {
+        "A": "60",
+        "B": "64",
+        "C": "1518",
+        "D": "1522"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "帧格式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "61",
+      "question_type": "single_choice",
+      "stem": "（接上题）其中表示帧优先级的字段是（61）。",
+      "options": {
+        "A": "Type",
+        "B": "PRI",
+        "C": "CFI",
+        "D": "VID"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "802.1Q",
+        "优先级"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "62",
+      "question_type": "single_choice",
+      "stem": "与 CSMA 相比，CSMA/CD（62）。",
+      "options": {
+        "A": "充分利用传播延迟远小于传输延迟的特性，减少了冲突后信道的浪费",
+        "B": "将冲突的产生控制在传播时间内，减少了冲突的概率",
+        "C": "在发送数据前和发送数据过程中侦听信道，不会产生冲突",
+        "D": "站点竞争信道，提高了信道的利用率"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "介质访问控制",
+      "tags": [
+        "CSMA/CD"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "63",
+      "question_type": "single_choice",
+      "stem": "采用 CSMA/CD 进行介质访问，两个站点连续冲突3次后再次冲突的概率为（63）。",
+      "options": {
+        "A": "1/2",
+        "B": "1/4",
+        "C": "1/8",
+        "D": "1/16"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "介质访问控制",
+      "tags": [
+        "CSMA/CD"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "64",
+      "question_type": "single_choice",
+      "stem": "下列通信技术标准中，使用频带相同的是（64）。",
+      "options": {
+        "A": "802.11a和802.11b",
+        "B": "802.11b和802.11g",
+        "C": "802.11a和802.11g",
+        "D": "802.11a和802.11n"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线局域网",
+      "tags": [
+        "802.11"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "65",
+      "question_type": "single_choice",
+      "stem": "以下关于 WTFI6 的说法中，错误的是（65）。",
+      "options": {
+        "A": "支持完整版的MU-MIMO",
+        "B": "理论吞吐量最高可达9.6Gbps",
+        "C": "遵从协议802.11ax",
+        "D": "工作段在5GHZ"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线局域网",
+      "tags": [
+        "Wi-Fi 6"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "66",
+      "question_type": "single_choice",
+      "stem": "以下关于无线漫游的说法中，错误的是（66）。",
+      "options": {
+        "A": "漫游是由AP发起的",
+        "B": "漫游分为二层漫游和三层漫游",
+        "C": "三层漫游必须在同一个SSID",
+        "D": "客户端在AP间漫游，AP可以处于不同的VLAN"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线漫游",
+      "tags": [
+        "漫游"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "67",
+      "question_type": "single_choice",
+      "stem": "在大型无线网络中，AP通过DHCP option(67)来获取AC的IP地址。",
+      "options": {
+        "A": "43",
+        "B": "60",
+        "C": "66",
+        "D": "138"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "DHCP option"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "68",
+      "question_type": "single_choice",
+      "stem": "网络规划中，冗余设计不能(68)。",
+      "options": {
+        "A": "提高链路可靠性",
+        "B": "增强负载能力",
+        "C": "提高数据安全性",
+        "D": "加快路由收敛"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "冗余设计"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "69",
+      "question_type": "single_choice",
+      "stem": "某公司局域网使用DHCP动态获取10.1.0.100网段的IP地址，某终端获得了192.168.1.104网段的地址，可在接入层交换机上配置(69)功能杜绝该问题再次出现。",
+      "options": {
+        "A": "dhcp relay",
+        "B": "dhcp snooping",
+        "C": "mac-address static",
+        "D": "arp static"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "DHCP snooping"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "70",
+      "question_type": "single_choice",
+      "stem": "项目范围管理过程如下所示，其正确的流程顺序是(70)\n①定义范围 ②核实范围 ③收集需求 ④控制范围 ⑤创建工作分解结构",
+      "options": {
+        "A": "②④①③⑤",
+        "B": "①②④③⑤",
+        "C": "③⑤①②④",
+        "D": "③①⑤②④"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "项目管理",
+      "tags": [
+        "范围管理"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "71",
+      "question_type": "single_choice",
+      "stem": "Network security is the protection of the underlying networking infrastructure (71) access, misuse, or theft.",
+      "options": {
+        "A": "unauthorized",
+        "B": "authorized",
+        "C": "normal",
+        "D": "frequent"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "术语"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "72",
+      "question_type": "single_choice",
+      "stem": "It involves creating a secure infrastructure for device and applications to work in a (72) manner.",
+      "options": {
+        "A": "economical",
+        "B": "secure",
+        "C": "fair",
+        "D": "efficient"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "术语"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "73",
+      "question_type": "single_choice",
+      "stem": "Each network security layer implements (73) controls.",
+      "options": {
+        "A": "computing",
+        "B": "tanstation",
+        "C": "policies",
+        "D": "simulations"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "术语"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "74",
+      "question_type": "single_choice",
+      "stem": "A (74) is a network device that monitors incoming and outgoing network traffic and decides whether to block specific traffic based on a defined set of security rules.",
+      "options": {
+        "A": "firewall",
+        "B": "router",
+        "C": "gateway",
+        "D": "switch"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "防火墙"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "75",
+      "question_type": "single_choice",
+      "stem": "A virtual (75) encrypts the connection from an endpoint to a network, often over the internet.",
+      "options": {
+        "A": "public",
+        "B": "private",
+        "C": "personal",
+        "D": "political"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "VPN"
+      ],
+      "is_verified": false
+    }
+  ]
+}

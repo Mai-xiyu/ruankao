@@ -1,0 +1,2 @@
+Alembic placeholder for future schema migrations. The MVP creates tables through SQLAlchemy metadata in scripts/init_database.py.
+

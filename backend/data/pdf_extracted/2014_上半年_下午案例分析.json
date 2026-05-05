@@ -1,0 +1,488 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2014,
+    "season": "上半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2014年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "case",
+      "stem": "两家运营商的internet接入线路应部署在哪个区？为什么？",
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "互联网接入",
+        "冗余设计"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "case",
+      "stem": "网络运营商提供的mpls vpn和千兆裸光纤两种互联方式，哪一种可靠性高？为什么？",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络互联",
+      "tags": [
+        "MPLS VPN",
+        "裸光纤",
+        "可靠性"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "case",
+      "stem": "综合考虑网络需求及运营成本，在AB区之间与AC区之间分别采用上述那种方式进行互联？",
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设计",
+      "tags": [
+        "成本",
+        "带宽",
+        "可靠性"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "fill_blank",
+      "stem": "图2-1中的‘ip地址’文本框中的内容为？",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "IIS",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "fill_blank",
+      "stem": "SSL端口文本框内容为？",
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "SSL",
+        "端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "fill_blank",
+      "stem": "本地路径文本框中的内容为？",
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "IIS",
+        "主目录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "必须至少勾选哪个复选框？",
+      "options": {
+        "A": "脚本资源访问",
+        "B": "读取",
+        "C": "写入",
+        "D": "目录浏览"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "IIS",
+        "权限"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "fill_blank",
+      "stem": "获取服务器证书的步骤顺序，②处应填什么？",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "安全证书",
+      "tags": [
+        "CA",
+        "证书请求"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem": "通过验证CA的签名来确认数字证书的有效性，从而（6）。",
+      "options": {
+        "A": "验证网站的真伪",
+        "B": "判断用户的权限",
+        "C": "加密发完服务器的数据",
+        "D": "解密所接受的客户端数据"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "安全",
+      "tags": [
+        "数字证书",
+        "CA"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem": "CA颁发给web网站的数字证书不包括（7）。",
+      "options": {
+        "A": "证书的有效期",
+        "B": "网站的公钥",
+        "C": "证书的序列号",
+        "D": "网站的私钥"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "安全",
+      "tags": [
+        "数字证书",
+        "CA"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "fill_blank",
+      "stem": "客户端浏览器只能通过https方式访问服务器，此时应勾选图2-4中的（8）框。",
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "安全",
+      "tags": [
+        "HTTPS",
+        "SSL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "fill_blank",
+      "stem": "要求客户端和服务器进行双向认证，此时应勾选图2-4的（9）框。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "安全",
+      "tags": [
+        "双向认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "single_choice",
+      "stem": "HTTPS广泛用于因特网上安全敏感的应用，例如（10）应用。",
+      "options": {
+        "A": "网络聊天",
+        "B": "网络视频",
+        "C": "网上交易",
+        "D": "网络下载"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "安全",
+      "tags": [
+        "HTTPS",
+        "应用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "fill_blank",
+      "stem": "IETF对SSL进行升级后的继任者是（11）。",
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "安全",
+      "tags": [
+        "SSL",
+        "TLS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "case",
+      "stem": "使用https能不能确保服务器自身安全？",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "安全",
+      "tags": [
+        "HTTPS",
+        "服务器安全"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "config",
+      "stem": "请完成图3-1中web服务器eth1的配置。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux网络配置",
+      "tags": [
+        "web服务器",
+        "网卡配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "config",
+      "stem": "请完成图3-1中DNS服务器网卡的配置。",
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux网络配置",
+      "tags": [
+        "DNS服务器",
+        "网卡配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "single_choice",
+      "stem": "IP地址（7）不允许使用该DNS进行递归查询。",
+      "options": {
+        "A": "192.168.1.8",
+        "B": "192.168.1.133",
+        "C": "192.168.2.10",
+        "D": "192.168.2.6"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "递归查询",
+        "访问控制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "single_choice",
+      "stem": "子网1中的客户端访问www.test.com时，该DNS解析返回的IP地址为（8）。",
+      "options": {
+        "A": "192.168.2.4",
+        "B": "192.168.2.34",
+        "C": "192.168.2.4或者192.168.2.34",
+        "D": "192.168.2.3和192.168.2.34"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS解析",
+        "视图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "single_choice",
+      "stem": "子网2中的客户端访问www.test.com时，该DNS解析返回的IP地址为（9）。",
+      "options": {
+        "A": "192.168.2.4",
+        "B": "192.168.2.34",
+        "C": "192.168.2.4或者192.168.2.34",
+        "D": "192.168.2.3和192.168.2.34"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DNS",
+      "tags": [
+        "DNS解析",
+        "视图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "fill_blank",
+      "stem": "该DHCP服务器默认租期是（10）天。",
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "租期"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "fill_blank",
+      "stem": "DHCP客户机能获得IP地址范围的起始地址是（11）。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "fill_blank",
+      "stem": "DHCP客户机能获得IP地址范围的结束地址是（12）。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "fill_blank",
+      "stem": "获得DNS服务器IP地址为（13）。",
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "DNS服务器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "config",
+      "stem": "以routerA为例，完成初始化路由器，并配置routerA的远程管理地址（192.168.1.20），同时开启routerA的telent功能并设置全局模式访问密码，请补充下列配置命令。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由器配置",
+      "tags": [
+        "远程管理",
+        "Telnet"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "config",
+      "stem": "以RouterA为例，请补充完成下列配置命令（NAT配置）。",
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "NAT",
+      "tags": [
+        "NAT",
+        "路由器配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "config",
+      "stem": "以RouterB为例配置IPSec VPN，请完成相关配置命令。",
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VPN",
+      "tags": [
+        "IPSec",
+        "VPN配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "fill_blank",
+      "stem": "IPSec协议应用在 （17）层。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPSec",
+      "tags": [
+        "OSI模型",
+        "网络层"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "fill_blank",
+      "stem": "IPSec VPN可使用的模式有两种，其中（18）模式的安全性较强。",
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPSec",
+      "tags": [
+        "隧道模式",
+        "传输模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "fill_blank",
+      "stem": "IPSec VPN可使用的模式有两种，其中（19）模式的安全性较弱。",
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IPSec",
+      "tags": [
+        "隧道模式",
+        "传输模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "fill_blank",
+      "stem": "在使用IKE协议时，需要定义IKE协商策略，该策略由（20）进行定义。",
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IKE",
+      "tags": [
+        "IKE",
+        "协商策略"
+      ],
+      "is_verified": false
+    }
+  ]
+}

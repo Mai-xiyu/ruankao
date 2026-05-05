@@ -1,0 +1,893 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2021,
+    "season": "上半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2021年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1-1",
+      "question_type": "fill_blank",
+      "stem": "为图1-1中的防火墙划分安全域，接口①应配置为(1)区域。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "防火墙",
+        "安全域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2",
+      "question_type": "fill_blank",
+      "stem": "为图1-1中的防火墙划分安全域，接口②应配置为(2)区域。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "防火墙",
+        "安全域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-3",
+      "question_type": "fill_blank",
+      "stem": "为图1-1中的防火墙划分安全域，接口③应配置为(3)区域。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "防火墙",
+        "安全域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1",
+      "question_type": "fill_blank",
+      "stem": "VRRP技术实现(4)功能。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "高可用性",
+      "tags": [
+        "VRRP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2",
+      "question_type": "fill_blank",
+      "stem": "交换机A与交换机B之间的连接线称为(5)线。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "交换机",
+        "VRRP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3",
+      "question_type": "fill_blank",
+      "stem": "交换机A与交换机B之间的连接线的作用是(6)。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "交换机",
+        "VRRP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1",
+      "question_type": "fill_blank",
+      "stem": "图1-1中PC1的网关地址是(7)。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "网关"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2",
+      "question_type": "fill_blank",
+      "stem": "在核心交换机上配置与防火墙互通的默认路由，其目标地址应是(8)。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由配置",
+      "tags": [
+        "默认路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3",
+      "question_type": "fill_blank",
+      "stem": "若禁止PC1访问财务服务器，应在核心交换机上采取(9)措施实现。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "访问控制",
+      "tags": [
+        "ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1",
+      "question_type": "fill_blank",
+      "stem": "若车间1增加一台接入交换机C，该交换机需要与车间1接入层交换机进行互连，其连接方式有(10)和(11)。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络布线",
+      "tags": [
+        "交换机互联"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2",
+      "question_type": "fill_blank",
+      "stem": "若车间1增加一台接入交换机C，该交换机需要与车间1接入层交换机进行互连，其中(12)方式可以共享使用交换机背板带宽。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "堆叠",
+        "链路聚合"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-3",
+      "question_type": "fill_blank",
+      "stem": "若车间1增加一台接入交换机C，该交换机需要与车间1接入层交换机进行互连，其中(13)方式可以使用双绞线将交换机连接在一起。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络布线",
+      "tags": [
+        "双绞线"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5-1",
+      "question_type": "single_choice",
+      "stem": "针对故障一，网络管理员使用(1)设备对光缆检查。",
+      "options": {
+        "A": "网络寻线仪",
+        "B": "可见光检测笔",
+        "C": "光时域反射计",
+        "D": "光功率计"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "光缆",
+        "测试仪器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5-2",
+      "question_type": "single_choice",
+      "stem": "针对故障一，使用(2)设备判断出光缆的故障位置。",
+      "options": {
+        "A": "网络寻线仪",
+        "B": "可见光检测笔",
+        "C": "光时域反射计",
+        "D": "光功率计"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "光缆",
+        "测试仪器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5-3",
+      "question_type": "single_choice",
+      "stem": "针对故障一，经检查故障点发现该处光缆断裂，可采用(3)措施处理较为合理。",
+      "options": {
+        "A": "使用两台光纤收发器连接",
+        "B": "使用光纤熔接机熔接断裂光纤",
+        "C": "使用黑色绝缘胶带缠绕接线",
+        "D": "使用一台五电口小交换机连接"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "光缆修复"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6-1",
+      "question_type": "single_choice",
+      "stem": "针对故障二，小王在小李的电脑上执行(4)命令显示地址解析协议缓存表内容。",
+      "options": {
+        "A": "ipconfig",
+        "B": "ping",
+        "C": "netstat",
+        "D": "arp",
+        "E": "tracert",
+        "F": "route",
+        "G": "nslookup",
+        "H": "net"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "ARP",
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6-2",
+      "question_type": "single_choice",
+      "stem": "针对故障二，通过执行(5)命令发送ICMP回声请求测试。",
+      "options": {
+        "A": "ipconfig",
+        "B": "ping",
+        "C": "netstat",
+        "D": "arp",
+        "E": "tracert",
+        "F": "route",
+        "G": "nslookup",
+        "H": "net"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "ping",
+        "ICMP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6-3",
+      "question_type": "single_choice",
+      "stem": "针对故障二，通过执行(6) 1.85.62.1 命令显示到达ISP运营商网关的路径。",
+      "options": {
+        "A": "ipconfig",
+        "B": "ping",
+        "C": "netstat",
+        "D": "arp",
+        "E": "tracert",
+        "F": "route",
+        "G": "nslookup",
+        "H": "net"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "tracert",
+        "路由追踪"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6-4",
+      "question_type": "single_choice",
+      "stem": "针对故障二，该故障产生的原因可能是(7)。",
+      "options": {
+        "A": "上网行为管理系统禁止该电脑IP访问互联网",
+        "B": "入侵检测系统禁止该电脑IP访问互联网",
+        "C": "防火墙禁止该电脑IP访问互联网",
+        "D": "DNS配置错误"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障排查",
+      "tags": [
+        "故障原因"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7-1",
+      "question_type": "single_choice",
+      "stem": "为保障数据安全，在数据中心本地和异地定时进行数据备份。本地备份磁盘陈列要求至少坏2块磁盘而不丢失数据(不计算热备盘)，应采用(8)磁盘冗余方式。",
+      "options": {
+        "A": "RAID 0",
+        "B": "RAID 1",
+        "C": "RAID 5",
+        "D": "RAID 6"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据存储",
+      "tags": [
+        "RAID"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7-2",
+      "question_type": "single_choice",
+      "stem": "异地备份使用互联网传输数据，应采用(9)措施保障数据传输安全。",
+      "options": {
+        "A": "两端备份服务器设置复杂密码",
+        "B": "两端搭建VPN隧道进行传输",
+        "C": "异地备份点出口部署防火墙设备",
+        "D": "本地出口部署入侵防御系统"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据安全",
+      "tags": [
+        "VPN",
+        "传输安全"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7-3",
+      "question_type": "single_choice",
+      "stem": "在有限互联网带宽情况下，应采用(10)措施提高异地备份速度。",
+      "options": {
+        "A": "增量备份",
+        "B": "缩短备份周期",
+        "C": "数据加密",
+        "D": "工作时间备份"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据备份",
+      "tags": [
+        "备份策略"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8-1",
+      "question_type": "single_choice",
+      "stem": "该网络中，网络管理员要为PC2和PC3设计一种接入认证方式，如果无法通过认证，接入交换机S1可以拦截PC2和PC3的业务数据流量。下列接入认证技术可以满足要求的是(1)。",
+      "options": {
+        "A": "WEB/PORTAL",
+        "B": "PPPoE",
+        "C": "IEEE 802.1x",
+        "D": "短信验证码认证"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "接入认证",
+      "tags": [
+        "802.1x",
+        "认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8-2",
+      "question_type": "single_choice",
+      "stem": "在疫情期间，利用互联网开展教学活动，通过部署VPN实现Internet访问校内受限的资源。以下适合通过浏览器访问的实现方式是(2)。",
+      "options": {
+        "A": "IPSec VPN",
+        "B": "SSL VPN",
+        "C": "L2TP VPN",
+        "D": "MPLS VPN"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VPN技术",
+      "tags": [
+        "SSL VPN",
+        "远程访问"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9-1",
+      "question_type": "fill_blank",
+      "stem": "以RI为例配置BGP的部分命令：启动BGP，指定本地AS号，指定BGP路由器的Router ID为1.1.1.1，配置RI和R2建立EBGP连接。命令[R1]bgp(3)。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "BGP配置",
+      "tags": [
+        "BGP",
+        "AS号"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9-2",
+      "question_type": "fill_blank",
+      "stem": "以R2为例配置OSPF：导入R2的直连路由，命令import-route (4)。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "OSPF配置",
+      "tags": [
+        "OSPF",
+        "路由导入"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9-3",
+      "question_type": "fill_blank",
+      "stem": "以R2为例配置OSPF：指定区域，命令area (5)。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "OSPF配置",
+      "tags": [
+        "OSPF",
+        "区域"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9-4",
+      "question_type": "fill_blank",
+      "stem": "以路由器R2为例配置BGP：命令peer 10.2.0.101 as-number 100的作用是(6)。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "BGP配置",
+      "tags": [
+        "BGP",
+        "对等体"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9-5",
+      "question_type": "fill_blank",
+      "stem": "以路由器R2为例配置BGP：命令 preference 255 100 130 执行后，IBGP路由优先级高还是OSPF路由优先级高？答：（7）。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由优先级",
+      "tags": [
+        "BGP",
+        "OSPF",
+        "优先级"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9-6",
+      "question_type": "fill_blank",
+      "stem": "以路由器R2为例配置路由策略：下面两条命令的作用是(8)。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由策略",
+      "tags": [
+        "ACL",
+        "路由策略"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9-7",
+      "question_type": "fill_blank",
+      "stem": "配置路由策略，将从对等体10.20.0.1学习到的路由发布给对等体10.2.0.101时，设置本地优先级为200，请补全配置命令：if-match ip route-source acl (9)。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由策略",
+      "tags": [
+        "route-policy",
+        "本地优先级"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9-8",
+      "question_type": "fill_blank",
+      "stem": "配置路由策略，将从对等体10.20.0.1学习到的路由发布给对等体10.2.0.101时，设置本地优先级为200，请补全配置命令：apply local-preference (10)。",
+      "options": null,
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由策略",
+      "tags": [
+        "route-policy",
+        "本地优先级"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10-1",
+      "question_type": "single_choice",
+      "stem": "PoE (Power Over Ethernet) 是在现有的以太网Cat.5布线基础架构不作任何改动的情况下，利用现有的标准五类、超五类和六类双绞线在为基于IP的终端同时(1)和(2)。",
+      "options": {
+        "A": "提供电功率",
+        "B": "4、5",
+        "C": "传输数据",
+        "D": "7、8",
+        "E": "3、6",
+        "F": "数据"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PoE",
+      "tags": [
+        "以太网供电"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10-2",
+      "question_type": "single_choice",
+      "stem": "依据IEEE 802.3af/at标准，有两种供电方式，使用空闲脚供电和使用(3)脚供电。",
+      "options": {
+        "A": "提供电功率",
+        "B": "4、5",
+        "C": "传输数据",
+        "D": "7、8",
+        "E": "3、6",
+        "F": "数据"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PoE",
+      "tags": [
+        "供电方式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10-3",
+      "question_type": "single_choice",
+      "stem": "当使用空闲脚供电时，双绞线的(4)线对为正极。",
+      "options": {
+        "A": "提供电功率",
+        "B": "4、5",
+        "C": "传输数据",
+        "D": "7、8",
+        "E": "3、6",
+        "F": "数据"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PoE",
+      "tags": [
+        "线对"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10-4",
+      "question_type": "single_choice",
+      "stem": "当使用空闲脚供电时，双绞线的(5)线对为负极。",
+      "options": {
+        "A": "提供电功率",
+        "B": "4、5",
+        "C": "传输数据",
+        "D": "7、8",
+        "E": "3、6",
+        "F": "数据"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PoE",
+      "tags": [
+        "线对"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11-1",
+      "question_type": "single_choice",
+      "stem": "补充配置代码：<HUAWEI> (6)。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "5000",
+        "C": "time-range",
+        "D": "power-off",
+        "E": "auto",
+        "F": "system-view/sys",
+        "G": "critical",
+        "H": "high",
+        "I": "15000",
+        "J": "gigabitethernet 0/0/3"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "PoE",
+        "华为交换机"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11-2",
+      "question_type": "single_choice",
+      "stem": "补充配置代码：<HUAWEI> (7) SW1。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "5000",
+        "C": "time-range",
+        "D": "power-off",
+        "E": "auto",
+        "F": "system-view/sys",
+        "G": "critical",
+        "H": "high",
+        "I": "15000",
+        "J": "gigabitethernet 0/0/3"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "主机名"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11-3",
+      "question_type": "single_choice",
+      "stem": "补充配置代码：[SW1] poe power-management (8)。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "5000",
+        "C": "time-range",
+        "D": "power-off",
+        "E": "auto",
+        "F": "system-view/sys",
+        "G": "critical",
+        "H": "high",
+        "I": "15000",
+        "J": "gigabitethernet 0/0/3"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PoE配置",
+      "tags": [
+        "电源管理"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11-4",
+      "question_type": "single_choice",
+      "stem": "补充配置代码：[SW1-GigabitEthernet0/0/1] poe power (9)。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "5000",
+        "C": "time-range",
+        "D": "power-off",
+        "E": "auto",
+        "F": "system-view/sys",
+        "G": "critical",
+        "H": "high",
+        "I": "15000",
+        "J": "gigabitethernet 0/0/3"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PoE配置",
+      "tags": [
+        "功率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11-5",
+      "question_type": "single_choice",
+      "stem": "补充配置代码：[SW1-GigabitEthernet0/0/1] poe priority (10)。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "5000",
+        "C": "time-range",
+        "D": "power-off",
+        "E": "auto",
+        "F": "system-view/sys",
+        "G": "critical",
+        "H": "high",
+        "I": "15000",
+        "J": "gigabitethernet 0/0/3"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PoE配置",
+      "tags": [
+        "优先级"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11-6",
+      "question_type": "single_choice",
+      "stem": "补充配置代码：[SW1-GigabitEthernet0/0/2] poe power (11)。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "5000",
+        "C": "time-range",
+        "D": "power-off",
+        "E": "auto",
+        "F": "system-view/sys",
+        "G": "critical",
+        "H": "high",
+        "I": "15000",
+        "J": "gigabitethernet 0/0/3"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PoE配置",
+      "tags": [
+        "功率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11-7",
+      "question_type": "single_choice",
+      "stem": "补充配置代码：[SW1-GigabitEthernet0/0/2] poe priority (12)。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "5000",
+        "C": "time-range",
+        "D": "power-off",
+        "E": "auto",
+        "F": "system-view/sys",
+        "G": "critical",
+        "H": "high",
+        "I": "15000",
+        "J": "gigabitethernet 0/0/3"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PoE配置",
+      "tags": [
+        "优先级"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11-8",
+      "question_type": "single_choice",
+      "stem": "补充配置代码：[SW1] interface (13)。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "5000",
+        "C": "time-range",
+        "D": "power-off",
+        "E": "auto",
+        "F": "system-view/sys",
+        "G": "critical",
+        "H": "high",
+        "I": "15000",
+        "J": "gigabitethernet 0/0/3"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "接口配置",
+      "tags": [
+        "接口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11-9",
+      "question_type": "single_choice",
+      "stem": "补充配置代码：[SW1] (14) tset 2:00 to 6:00 daily。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "5000",
+        "C": "time-range",
+        "D": "power-off",
+        "E": "auto",
+        "F": "system-view/sys",
+        "G": "critical",
+        "H": "high",
+        "I": "15000",
+        "J": "gigabitethernet 0/0/3"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "时间范围配置",
+      "tags": [
+        "time-range"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11-10",
+      "question_type": "single_choice",
+      "stem": "补充配置代码：[SW1-GigabitEthernet0/0/4] poe (15) time-range tset。",
+      "options": {
+        "A": "sysname/sysn",
+        "B": "5000",
+        "C": "time-range",
+        "D": "power-off",
+        "E": "auto",
+        "F": "system-view/sys",
+        "G": "critical",
+        "H": "high",
+        "I": "15000",
+        "J": "gigabitethernet 0/0/3"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "PoE配置",
+      "tags": [
+        "定时供电"
+      ],
+      "is_verified": false
+    }
+  ]
+}

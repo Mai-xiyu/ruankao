@@ -1,0 +1,521 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2012,
+    "season": "上半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2012年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "根据网络需求描述和网络拓扑结构，图1-2中介质1应选用？",
+      "options": {
+        "A": "单模光纤",
+        "B": "多模光纤",
+        "C": "6类双绞线",
+        "D": "同轴电缆"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "介质",
+        "布线"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "根据网络需求描述和网络拓扑结构，图1-2中介质2应选用？",
+      "options": {
+        "A": "单模光纤",
+        "B": "多模光纤",
+        "C": "6类双绞线",
+        "D": "同轴电缆"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "介质",
+        "布线"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "根据网络需求描述和网络拓扑结构，图1-2中介质3应选用？",
+      "options": {
+        "A": "单模光纤",
+        "B": "多模光纤",
+        "C": "6类双绞线",
+        "D": "同轴电缆"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "介质",
+        "布线"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "fill_blank",
+      "stem": "在该网络中，应至少选用单模SFP多少个？",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "SFP",
+        "光纤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "fill_blank",
+      "stem": "在该网络中，应至少选用多模SFP多少个？",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "SFP",
+        "光纤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "fill_blank",
+      "stem": "在图1-2中，设备1应选用？",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "设备选型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "fill_blank",
+      "stem": "在图1-2中，设备2应选用？",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "设备选型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "fill_blank",
+      "stem": "在图1-2中，设备3应选用？",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "设备选型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "fill_blank",
+      "stem": "在图1-2中，设备4应选用？",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "设备选型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "fill_blank",
+      "stem": "Linux服务器中DHCP服务程序/usr/sbin/dhcpd对应的配置文件名称是？",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "Linux"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "fill_blank",
+      "stem": "Linux服务器中DHCP服务程序/usr/sbin/dhcpd对应的配置文件的缺省目录是？",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "Linux"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "fill_blank",
+      "stem": "如果要确保IP地址192.168.1.102分配给图2-1中的PC，需要在DHCP配置文件中补充什么语句？",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DHCP",
+        "固定IP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "single_choice",
+      "stem": "客户端向DNS服务器发出解析请求后，没有得到解析结果，则进行解析？",
+      "options": {
+        "A": "查找本地缓存",
+        "B": "使用NetBIOS名字解析",
+        "C": "查找根域名服务器",
+        "D": "查找转发域名服务器"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "解析过程"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "fill_blank",
+      "stem": "在图3-1中，两台Web服务器采用同一域名的主要目的是什么？",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络应用",
+      "tags": [
+        "负载均衡",
+        "DNS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "fill_blank",
+      "stem": "DNS服务器为WebServer1配置域名记录时，在图3-2所示的对话框中，添加的主机“名称”为？",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "主机记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "fill_blank",
+      "stem": "DNS服务器为WebServer1配置域名记录时，在图3-2所示的对话框中，添加的主机“IP地址”是？",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "主机记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "fill_blank",
+      "stem": "在DNS系统中，反向查询（Reverse Query）的功能是？",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "反向查询"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "fill_blank",
+      "stem": "若不希望对域名www.abc.com进行反向查询，在图3-2所示的窗体中应如何操作？",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "反向查询"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "fill_blank",
+      "stem": "在图3-3中所示的DNS服务器属性窗口中应如何配置，才使得两次使用nslookup www.abc.com命令得到如图3-4所示结果？",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "nslookup"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "single_choice",
+      "stem": "要测试DNS服务器是否正常工作，在客户端可以采用的命令是？",
+      "options": {
+        "A": "ipconfig",
+        "B": "nslookup",
+        "C": "ping",
+        "D": "netstat"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "故障排查"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "single_choice",
+      "stem": "要测试DNS服务器是否正常工作，在客户端可以采用的另一个命令是？",
+      "options": {
+        "A": "ipconfig",
+        "B": "nslookup",
+        "C": "ping",
+        "D": "netstat"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "DNS",
+        "故障排查"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "fill_blank",
+      "stem": "IPSec工作在TCMP协议栈的哪一层？",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "协议栈"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "fill_blank",
+      "stem": "IPSec包括AH、ESP和ISAKMP/Oakley等协议，其中哪个协议为IP包提供信息源和报文完整性验证，但不支持加密服务？",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "AH"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "fill_blank",
+      "stem": "IPSec包括AH、ESP和ISAKMP/Oakley等协议，其中哪个协议提供加密服务？",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "ESP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "fill_blank",
+      "stem": "IPSec支持传输和隧道两种工作模式，如果要实现PC1和S1之间端到端的安全通信，则应该采用哪种模式？",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "工作模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "fill_blank",
+      "stem": "如果IPSec采用传输模式，则需要在PC1和哪个设备上配置IPSec安全策略？",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "fill_blank",
+      "stem": "在PC1的IPSec筛选器属性窗口页中，源IP地址应设为？",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "筛选器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "fill_blank",
+      "stem": "在PC1的IPSec筛选器属性窗口页中，目标IP地址应设为？",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "筛选器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "fill_blank",
+      "stem": "如果要保护部门A和部门B之间所有的通信安全，则应该采用隧道模式，此时需要在ServerA和哪个设备上配置IPSec安全策略？",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "隧道模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "fill_blank",
+      "stem": "在ServerA的IPSec筛选器属性窗口页中，源IP子网的IP地址应设为？",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "筛选器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "fill_blank",
+      "stem": "在ServerA的IPSec筛选器属性窗口页中，目标子网IP地址应设为？",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "筛选器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "fill_blank",
+      "stem": "ServerA的IPSec规则设置中，指定的隧道端点IP地址应设为？",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "IPSec",
+        "隧道端点"
+      ],
+      "is_verified": false
+    }
+  ]
+}

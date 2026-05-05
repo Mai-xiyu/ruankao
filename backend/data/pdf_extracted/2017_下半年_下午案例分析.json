@@ -1,0 +1,666 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2017,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2017年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1-2-4",
+      "question_type": "fill_blank",
+      "stem": "在点到点的环境下，配置IPSec VPN隧道需要明确（4）",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VPN",
+      "tags": [
+        "IPSec",
+        "隧道"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2-5",
+      "question_type": "fill_blank",
+      "stem": "在点到点的环境下，配置IPSec VPN隧道需要明确（5）",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VPN",
+      "tags": [
+        "IPSec",
+        "隧道"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-4-9",
+      "question_type": "fill_blank",
+      "stem": "AP控制器上部署WLAN业务，采用直接转发，AP跨三层上线。在Switch1上GE0/0/2连接AP控制器，该接口类型配置为（9）模式",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "WLAN",
+        "AP",
+        "交换机接口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-4-10",
+      "question_type": "fill_blank",
+      "stem": "AP控制器上部署WLAN业务，采用直接转发，AP跨三层上线。在Switch1上GE0/0/2连接AP控制器，所在VLAN是（10）",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "WLAN",
+        "VLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1-1",
+      "question_type": "single_choice",
+      "stem": "某天，公司有一台电脑感染“勒索”病毒，网络管理员应采取（1）措施",
+      "options": {
+        "A": "断开已感染主机的网络连接",
+        "B": "更改被感染文件的扩展名",
+        "C": "为其他电脑升级系统漏洞补丁",
+        "D": "网络层禁止135/137/139/445端口的TCP连接",
+        "E": "删除已感染病毒的文件"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "勒索病毒",
+        "应急响应"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1-2",
+      "question_type": "single_choice",
+      "stem": "某天，公司有一台电脑感染“勒索”病毒，网络管理员应采取（2）措施",
+      "options": {
+        "A": "断开已感染主机的网络连接",
+        "B": "更改被感染文件的扩展名",
+        "C": "为其他电脑升级系统漏洞补丁",
+        "D": "网络层禁止135/137/139/445端口的TCP连接",
+        "E": "删除已感染病毒的文件"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "勒索病毒",
+        "应急响应"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1-3",
+      "question_type": "single_choice",
+      "stem": "某天，公司有一台电脑感染“勒索”病毒，网络管理员应采取（3）措施",
+      "options": {
+        "A": "断开已感染主机的网络连接",
+        "B": "更改被感染文件的扩展名",
+        "C": "为其他电脑升级系统漏洞补丁",
+        "D": "网络层禁止135/137/139/445端口的TCP连接",
+        "E": "删除已感染病毒的文件"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "勒索病毒",
+        "应急响应"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2-4",
+      "question_type": "fill_blank",
+      "stem": "提高线上商城的并发能力，公司计划增加两台服务器，三台服务器同时对外提供服务，通过在图中（4）设备上执行（5）策略，可以将外部用户的访问负载平均分配到三台服务器上",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "负载均衡",
+      "tags": [
+        "服务器集群",
+        "负载均衡器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2-5",
+      "question_type": "single_choice",
+      "stem": "提高线上商城的并发能力，通过在图中（4）设备上执行（5）策略，可以将外部用户的访问负载平均分配到三台服务器上",
+      "options": {
+        "A": "散列",
+        "B": "轮询",
+        "C": "最少连接",
+        "D": "工作-备份"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "负载均衡",
+      "tags": [
+        "调度算法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2-6",
+      "question_type": "fill_blank",
+      "stem": "配置IP地址，IPADDR=192.168.20.5，NETMASK=（6）",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "子网掩码",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2-7",
+      "question_type": "fill_blank",
+      "stem": "配置完成后，执行systemctl（7）network命令重启服务",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "系统管理",
+      "tags": [
+        "systemctl",
+        "网络服务"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3-8",
+      "question_type": "single_choice",
+      "stem": "网络管理员发现线上商城系统总是受到SQL注入、跨站脚本等攻击，公司计划购置（8）设备/系统，加强防范",
+      "options": {
+        "A": "杀毒软件",
+        "B": "主机加固",
+        "C": "WAF（Web应用防护系统）",
+        "D": "漏洞扫描"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "WAF",
+        "Web安全"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3-9",
+      "question_type": "fill_blank",
+      "stem": "该设备应部署在图2-1中设备①~④的（9）处",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "部署位置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-4-10",
+      "question_type": "fill_blank",
+      "stem": "图2-1中，存储域网络采用的是（10）网络",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储网络",
+      "tags": [
+        "SAN",
+        "存储域网络"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1-1",
+      "question_type": "single_choice",
+      "stem": "在“管理您的服务器”中点击“添加或删除角色”，此时应当在服务器角色中选择（1）来完成路由和远程访问服务的安装",
+      "options": {
+        "A": "文件服务器",
+        "B": "应用程序服务器（IIS，ASP.NET）",
+        "C": "终端服务器",
+        "D": "远程访问/VPN服务"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "路由和远程访问",
+        "角色安装"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1-2",
+      "question_type": "single_choice",
+      "stem": "在下列关于路由和远程访问服务的选项中，不正确的是（2）",
+      "options": {
+        "A": "可连接局域网的不同网段或子网，实现软件路由器的功能",
+        "B": "把分支机构与企业网络通过Intranet连接起来，实现资源共享",
+        "C": "可使远程计算机接入到企业网络中访问网络资源",
+        "D": "必须通过VPN才能使远程计算机访问企业网络中的网络资源"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "路由和远程访问",
+        "功能"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-3",
+      "question_type": "single_choice",
+      "stem": "两个办事处子网的计算机安装Win7操作系统，要实现两个子网间的通信，子网A中计算机的网关为（3）",
+      "options": {
+        "A": "192.168.0.0",
+        "B": "192.168.0.1",
+        "C": "192.168.0.3",
+        "D": "无须配置网关"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "网关",
+        "子网通信"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-4",
+      "question_type": "single_choice",
+      "stem": "两个办事处子网的计算机安装Win7操作系统，要实现两个子网间的通信，子网B中计算机的网关为（4）",
+      "options": {
+        "A": "10.0.0.0",
+        "B": "10.0.0.1",
+        "C": "10.0.0.2",
+        "D": "无须配置网关"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "网关",
+        "子网通信"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-5",
+      "question_type": "single_choice",
+      "stem": "子网A中的计算机用ping命令来验证数据包能否路由到子网B中，从参数（5）可以看出数据包经过了几个路由器",
+      "options": {
+        "A": "bytes",
+        "B": "time",
+        "C": "TTL",
+        "D": "Lost"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "ping",
+        "TTL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2-6",
+      "question_type": "fill_blank",
+      "stem": "子网A中的计算机用ping命令来验证数据包能否路由到子网B中，数据包经过了（6）个路由器",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "路由",
+        "跳数"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3-7",
+      "question_type": "single_choice",
+      "stem": "在RIP接口属性页中，如果希望路由器每隔一段时间向自己的邻居广播路由表以进行路由信息的交换和更新，则需要在“操作模式”中选择（7）",
+      "options": {
+        "A": "周期性更新模式",
+        "B": "自动-静态更新模式"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "操作模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3-8",
+      "question_type": "single_choice",
+      "stem": "在RIP接口属性页中，在“传出数据包协议”中选择（8），使网络中其它运行不同版本的邻居路由器都可接受此路由器的路由表",
+      "options": {
+        "A": "RIPv1广播",
+        "B": "RIPv2多播",
+        "C": "RIPv2广播"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "版本兼容"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3-9",
+      "question_type": "single_choice",
+      "stem": "在RIP接口属性页中，在“传入数据包协议”中选择（9），使网络中其他运行不同版本的邻居路由器都可向此广播路由表",
+      "options": {
+        "A": "只是RIPv1",
+        "B": "只是RIPv2",
+        "C": "RIPv1和v2",
+        "D": "忽略传入数据包"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "版本兼容"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3-10",
+      "question_type": "single_choice",
+      "stem": "为了保护路由器之间的安全通信，可以为路由器配置身份验证。选中“激活身份验证”复选框，并在“密码”框中键入一个密码。所有路由器都要做此配置，所配置的密码（10）",
+      "options": {
+        "A": "可以不同",
+        "B": "必须相同"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "身份验证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-4-11",
+      "question_type": "single_choice",
+      "stem": "在路由接口上启动过滤功能，不允许子网B接收来自子网A的数据包，选择入站筛选器且筛选条件是“接收所有除符合下列条件以外的数据包”，由源网络IP地址和子网掩码得到的网络地址是（11）",
+      "options": {
+        "A": "192.168.0.0",
+        "B": "192.168.0.1",
+        "C": "192.168.0.3",
+        "D": "192.168.0.8"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "过滤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-4-12",
+      "question_type": "single_choice",
+      "stem": "由目标网络IP地址和子网掩码得到的网络地址是（12）",
+      "options": {
+        "A": "10.0.0.0",
+        "B": "10.0.0.1",
+        "C": "10.0.0.3",
+        "D": "10.0.0.4"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "过滤"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-4-13",
+      "question_type": "single_choice",
+      "stem": "需要选择协议（13）",
+      "options": {
+        "A": "ICMP",
+        "B": "TCP",
+        "C": "UDP",
+        "D": "任何"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-4-14",
+      "question_type": "single_choice",
+      "stem": "如果选择协议（14），则会出现子网A和子网B之间ping不通但是子网B能接受来自子网A的数据包的情况",
+      "options": {
+        "A": "ICMP",
+        "B": "TCP",
+        "C": "UDP",
+        "D": "任何"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1-5",
+      "question_type": "fill_blank",
+      "stem": "公司计划使用24接口的二层交换机作为接入层交换机，根据以上主机数量在不考虑地理位置的情况下，最少需要购置（5）台接入层交换机",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络规划",
+      "tags": [
+        "交换机",
+        "端口密度"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-6",
+      "question_type": "fill_blank",
+      "stem": "在[Huawei]提示符下输入（6）R1",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "华为设备",
+      "tags": [
+        "系统视图",
+        "命名"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-7",
+      "question_type": "fill_blank",
+      "stem": "进入console用户界面视图，命令user-interface (7)",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "华为设备",
+      "tags": [
+        "用户界面",
+        "console"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-8",
+      "question_type": "fill_blank",
+      "stem": "配置认证模式authentication-mode (8)",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "华为设备",
+      "tags": [
+        "认证",
+        "密码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-9",
+      "question_type": "fill_blank",
+      "stem": "配置完IP后，执行（9）退出接口视图",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "华为设备",
+      "tags": [
+        "接口配置",
+        "退出"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-10",
+      "question_type": "fill_blank",
+      "stem": "创建ACL，命令（10）2000",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "华为设备",
+      "tags": [
+        "ACL",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-11",
+      "question_type": "fill_blank",
+      "stem": "配置ACL规则，命令（11）5 permit source 192.168.100.0",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "华为设备",
+      "tags": [
+        "ACL",
+        "规则"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-12",
+      "question_type": "fill_blank",
+      "stem": "ACL规则中的源地址掩码（12）",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "华为设备",
+      "tags": [
+        "ACL",
+        "反掩码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-13",
+      "question_type": "fill_blank",
+      "stem": "配置NAT地址组，命令nat address-group 1 (13) 202.119.25.217",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "NAT",
+      "tags": [
+        "地址池",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-14",
+      "question_type": "fill_blank",
+      "stem": "配置接口IP地址，命令ip address (14) 255.255.255.240",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "华为设备",
+      "tags": [
+        "接口IP",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2-15",
+      "question_type": "fill_blank",
+      "stem": "配置NAT出站，命令（15）outbound 2000 address-group 1",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "NAT",
+      "tags": [
+        "出站NAT",
+        "配置"
+      ],
+      "is_verified": false
+    }
+  ]
+}

@@ -1,0 +1,885 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2015,
+    "season": "上半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2015年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1-1",
+      "question_type": "single_choice",
+      "stem": "该企业计划在①、②或③的位置部署基于网络的入侵检测系统(NIDS)，将NIDS部署在①的优势是（ ）。",
+      "options": {
+        "A": "检测外部网络攻击的数量和类型",
+        "B": "监视针对DMZ中系统的攻击",
+        "C": "监视针对关键系统、服务和资源的攻击",
+        "D": "能减轻拒绝服务攻击的影响"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "入侵检测",
+        "NIDS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-2",
+      "question_type": "single_choice",
+      "stem": "将NIDS部署在②的优势是（ ）。",
+      "options": {
+        "A": "检测外部网络攻击的数量和类型",
+        "B": "监视针对DMZ中系统的攻击",
+        "C": "监视针对关键系统、服务和资源的攻击",
+        "D": "能减轻拒绝服务攻击的影响"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "入侵检测",
+        "NIDS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-3",
+      "question_type": "single_choice",
+      "stem": "将NIDS部署在②的优势是（ ）。",
+      "options": {
+        "A": "检测外部网络攻击的数量和类型",
+        "B": "监视针对DMZ中系统的攻击",
+        "C": "监视针对关键系统、服务和资源的攻击",
+        "D": "能减轻拒绝服务攻击的影响"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "入侵检测",
+        "NIDS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-4",
+      "question_type": "single_choice",
+      "stem": "将NIDS部署在③的优势是（ ）。",
+      "options": {
+        "A": "检测外部网络攻击的数量和类型",
+        "B": "监视针对DMZ中系统的攻击",
+        "C": "监视针对关键系统、服务和资源的攻击",
+        "D": "能减轻拒绝服务攻击的影响"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "入侵检测",
+        "NIDS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-5",
+      "question_type": "single_choice",
+      "stem": "OSPF主要用于大型、异构的IP网络中，是对（ ）路由的一种实现。",
+      "options": {
+        "A": "链路状态",
+        "B": "距离矢量",
+        "C": "路径矢量"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "OSPF",
+        "链路状态"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-6",
+      "question_type": "single_choice",
+      "stem": "若网络规模较小，可以考虑配置静态路由或（ ）协议实现路由选择。",
+      "options": {
+        "A": "EGP",
+        "B": "RIP",
+        "C": "BGP"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "距离矢量"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-7",
+      "question_type": "single_choice",
+      "stem": "对汇聚层两台交换机的F0/3、F0/4端口进行端口聚合，F0/3、F0/4端口默认模式是（ ）。",
+      "options": {
+        "A": "multi",
+        "B": "trunk",
+        "C": "access"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "端口聚合",
+        "VLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-8",
+      "question_type": "single_choice",
+      "stem": "进行端口聚合时应配置为（ ）模式。",
+      "options": {
+        "A": "multi",
+        "B": "trunk",
+        "C": "access"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "端口聚合",
+        "VLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-9",
+      "question_type": "fill_blank",
+      "stem": "为了在汇聚层交换机上实现虚拟路由冗余功能，需配置（ ）协议。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "冗余协议",
+      "tags": [
+        "VRRP",
+        "HSRP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-10",
+      "question_type": "single_choice",
+      "stem": "若备份路由设备长时间没有收到主路由设备发送的组播报文，则将自己的状态转为（ ）。",
+      "options": {
+        "A": "Master",
+        "B": "Backup",
+        "C": "VTP Server",
+        "D": "MSTP"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "冗余协议",
+      "tags": [
+        "VRRP",
+        "状态转换"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-11",
+      "question_type": "single_choice",
+      "stem": "为了避免二层广播风暴，需要在接入与汇聚设备上配置（ ）。",
+      "options": {
+        "A": "Master",
+        "B": "Backup",
+        "C": "VTP Server",
+        "D": "MSTP"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "局域网",
+      "tags": [
+        "广播风暴",
+        "MSTP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-12",
+      "question_type": "fill_blank",
+      "stem": "VLAN20 standby默认优先级的值是（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "冗余协议",
+      "tags": [
+        "HSRP",
+        "优先级"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1-13",
+      "question_type": "fill_blank",
+      "stem": "VLAN20设置preempt的含义是（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "冗余协议",
+      "tags": [
+        "HSRP",
+        "抢占"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-1",
+      "question_type": "fill_blank",
+      "stem": "在Linux中，DHCP的配置文件是（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "Linux",
+        "配置文件"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-2",
+      "question_type": "fill_blank",
+      "stem": "请填写DHCP配置中Subnet后的网络地址（子网为192.168.100.192/26）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "网络地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-3",
+      "question_type": "fill_blank",
+      "stem": "请填写DHCP配置中netmask后的子网掩码。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "子网掩码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-4",
+      "question_type": "fill_blank",
+      "stem": "请填写option subnet-mask后的值。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "子网掩码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-5",
+      "question_type": "fill_blank",
+      "stem": "请填写option broadcast-address后的值。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "广播地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-6",
+      "question_type": "fill_blank",
+      "stem": "请填写range后的起始IP地址。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-7",
+      "question_type": "fill_blank",
+      "stem": "请填写range后的结束IP地址。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-8",
+      "question_type": "fill_blank",
+      "stem": "请填写Hardware ethernet后的MAC地址（对应邮件服务器）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "MAC地址",
+        "保留地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-9",
+      "question_type": "fill_blank",
+      "stem": "请填写fixed-address后的IP地址（对应文件服务器）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "保留地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-10",
+      "question_type": "single_choice",
+      "stem": "配置代码中“option time-offset -18000”的含义是（ ）。",
+      "options": {
+        "A": "将本地时间调整为格林威治时间",
+        "B": "将格林威治时间调整为本地时间",
+        "C": "设置最长租约期"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "时间偏移"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-11",
+      "question_type": "fill_blank",
+      "stem": "“default-lease-time 21600”表明，租约期为（ ）小时。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "租约期"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-12",
+      "question_type": "single_choice",
+      "stem": "在一台客户机上使用ipconfig命令输出如图2-2所示，正确的说法是（ ）。",
+      "options": {
+        "A": "本地网卡驱动未成功安装",
+        "B": "未收到DHCP服务器分配的地址",
+        "C": "DHCP服务器分配给本机的IP地址为169.254.146.48",
+        "D": "DHCP服务器的IP地址为169.254.146.48"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "自动配置",
+        "169.254"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-13",
+      "question_type": "fill_blank",
+      "stem": "释放当前IP地址的命令是（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络命令",
+      "tags": [
+        "ipconfig",
+        "release"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2-14",
+      "question_type": "fill_blank",
+      "stem": "向DHCP服务器重新申请IP地址的命令是（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络命令",
+      "tags": [
+        "ipconfig",
+        "renew"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-1",
+      "question_type": "single_choice",
+      "stem": "Internet共享打印使用的协议是（ ）。",
+      "options": {
+        "A": "PPI",
+        "B": "IPP",
+        "C": "TCP",
+        "D": "IP"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "打印",
+        "协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-2",
+      "question_type": "fill_blank",
+      "stem": "将“Active Server Pages”设置为“允许”的目的是（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "ASP",
+        "打印"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-3",
+      "question_type": "single_choice",
+      "stem": "检验Internet打印服务是否安装正确的方法是在Web浏览器的地址栏输入URL是（ ）。",
+      "options": {
+        "A": "HTTP://127.0.0.1/PRINTERS",
+        "B": "FTP://127.0.0.1/PRINTERS",
+        "C": "HTTP://PRINTERS",
+        "D": "FTP://PRINTERS"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "打印",
+        "URL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-4",
+      "question_type": "fill_blank",
+      "stem": "使用Internet共享打印流程的正确排序是（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络服务",
+      "tags": [
+        "打印",
+        "流程"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-5",
+      "question_type": "fill_blank",
+      "stem": "默认情况下，用户登录FTP服务器时，服务器端建立的TCP端口号为（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP",
+      "tags": [
+        "端口号"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-6",
+      "question_type": "fill_blank",
+      "stem": "如果只允许一台主机访问FTP服务器，参考图3-2给出具体的操作步骤（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP",
+      "tags": [
+        "访问控制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-7",
+      "question_type": "fill_blank",
+      "stem": "在一台服务器上搭建多个FTP站点的方法是（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP",
+      "tags": [
+        "虚拟站点"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-8",
+      "question_type": "fill_blank",
+      "stem": "点击图3-3中“当前会话”按钮，显示的信息是（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP",
+      "tags": [
+        "会话"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-9",
+      "question_type": "single_choice",
+      "stem": "图3-4中填入的IP地址是（ ）。",
+      "options": {
+        "A": "分配给客户端的IP地址",
+        "B": "默认网关的IP地址",
+        "C": "DHCP服务器的IP地址"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "中继代理"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3-10",
+      "question_type": "single_choice",
+      "stem": "图3-5中配置DHCP中继代理程序，可以实现（ ）。",
+      "options": {
+        "A": "使普通客户机获取IP等信息",
+        "B": "跨网段的地址分配",
+        "C": "特定用户组访问特定网络"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "DHCP",
+      "tags": [
+        "中继",
+        "跨网段"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-1",
+      "question_type": "fill_blank",
+      "stem": "采用以太信道（端口聚合）技术除了增加带宽，还起到了（ ）和（ ）的作用。注意：此空对应第一个作用。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "端口聚合",
+        "冗余",
+        "负载均衡"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-2",
+      "question_type": "fill_blank",
+      "stem": "采用以太信道技术还起到了（ ）的作用。对应第二个作用。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "端口聚合",
+        "冗余"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-3",
+      "question_type": "single_choice",
+      "stem": "有两种协商协议，其中Cisco私有的协议是（ ）。",
+      "options": {
+        "A": "端口聚合协议(PAgP)",
+        "B": "多生成树协议(MSTP)",
+        "C": "链路聚合控制协议(LACP)"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "PAgP",
+        "Cisco"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-4",
+      "question_type": "single_choice",
+      "stem": "基于IEEE 802.3ad标准的协议是（ ）。",
+      "options": {
+        "A": "端口聚合协议(PAgP)",
+        "B": "多生成树协议(MSTP)",
+        "C": "链路聚合控制协议(LACP)"
+      },
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "LACP",
+        "802.3ad"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-5",
+      "question_type": "fill_blank",
+      "stem": "解释Switch-core配置中的description wgsw-g0/1的作用（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "描述"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-6",
+      "question_type": "fill_blank",
+      "stem": "解释Switch-core配置中的no switchport的作用（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "三层接口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-7",
+      "question_type": "fill_blank",
+      "stem": "在Switch-core的接口gigabitEthernet 0/2上配置IP地址，命令为ip address（ ）；填写完整的IP地址和子网掩码。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址",
+      "tags": [
+        "接口配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-8",
+      "question_type": "fill_blank",
+      "stem": "解释Switch1配置中的no ip domain lookup的作用（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "域名解析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-9",
+      "question_type": "fill_blank",
+      "stem": "在Switch1的接口gigabitEthernet 0/1上配置IP地址，命令为ip address（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址",
+      "tags": [
+        "接口配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-10",
+      "question_type": "fill_blank",
+      "stem": "在Switch1的VLAN10接口上配置IP地址，命令为ip address（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "SVI"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-11",
+      "question_type": "fill_blank",
+      "stem": "在Switch1的接口range f0/2-20配置中，设置端口所属的VLAN的命令是switchport access（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "access端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-12",
+      "question_type": "fill_blank",
+      "stem": "解释Switch-core配置中的interface port-channel 10的作用（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "端口聚合",
+      "tags": [
+        "port-channel"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-13",
+      "question_type": "fill_blank",
+      "stem": "在Switch-core的port-channel 10上配置IP地址，命令为ip address（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "端口聚合",
+      "tags": [
+        "三层聚合"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-14",
+      "question_type": "fill_blank",
+      "stem": "解释Switch-core配置中的channel-group 10 mode on的作用（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "端口聚合",
+      "tags": [
+        "channel-group"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-15",
+      "question_type": "fill_blank",
+      "stem": "在Switch4的port-channel 10上配置IP地址，命令为ip address（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "端口聚合",
+      "tags": [
+        "三层聚合"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-16",
+      "question_type": "fill_blank",
+      "stem": "配置Switch4的默认路由，命令是（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由配置",
+      "tags": [
+        "默认路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-17",
+      "question_type": "fill_blank",
+      "stem": "开启Switch4的三层路由功能的命令是（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "三层路由",
+        "ip routing"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-18",
+      "question_type": "fill_blank",
+      "stem": "退回到特权模式的命令是（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "基本命令",
+      "tags": [
+        "exit",
+        "end"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-19",
+      "question_type": "fill_blank",
+      "stem": "解释Switch2配置中的ip dhcp snooping的作用（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "DHCP监听"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4-20",
+      "question_type": "fill_blank",
+      "stem": "解释Switch2配置中的ip dhcp snooping trust的作用（ ）。",
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "信任端口"
+      ],
+      "is_verified": false
+    }
+  ]
+}

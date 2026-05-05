@@ -1,0 +1,31 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2023,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2023年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "3",
+      "question_type": "fill_blank",
+      "stem": "［问题 3] (8分）路由器R2为接入网关， 为用户提供双链路接入， 通过静态IP接入运营商， 要求在R2上行接口配置NAT , 使内网访间Internet。补全以下配置命令。\n[R2] acl number 3001 \n[R2-acl-3001] rule 5 permit ip source 10. 0. 0. 0 (6) \n[R2] quit \n[R2] int g0/0/1 \n[R2-gig0/0/1] nat (7) 3001 \n[R2-gig0/0/l] qu江\n[R2] ip route-static 0.0. 0. 0 0.0.0. 0 2 22. 137.0. 1 \n[R2] ip route-static 0.0. 0. 0 0.0.0. 0 210. 25. 0. 1 \n[R2] ip load-balance hash src-ip \n上述三条命令的功能是(8)。",
+      "options": {},
+      "answer": "",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络配置",
+      "tags": [
+        "NAT",
+        "ACL",
+        "静态路由"
+      ],
+      "is_verified": false
+    }
+  ]
+}

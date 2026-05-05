@@ -1,0 +1,588 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2015,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2015年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "SAN是一种连接存储管理子系统和 ______ 的专用网络。",
+      "options": {
+        "A": "iSCSI",
+        "B": "TCP/IP",
+        "C": "以太网技术",
+        "D": "SATA",
+        "E": "文件服务器",
+        "F": "光纤通道技术",
+        "G": "视频管理子系统",
+        "H": "存储设备"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储网络",
+      "tags": [
+        "SAN",
+        "存储"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "FC SAN采用 ______ 互联。",
+      "options": {
+        "A": "iSCSI",
+        "B": "TCP/IP",
+        "C": "以太网技术",
+        "D": "SATA",
+        "E": "文件服务器",
+        "F": "光纤通道技术",
+        "G": "视频管理子系统",
+        "H": "存储设备"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储网络",
+      "tags": [
+        "FC SAN",
+        "光纤通道"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "IP SAN采用 ______ 互联。",
+      "options": {
+        "A": "iSCSI",
+        "B": "TCP/IP",
+        "C": "以太网技术",
+        "D": "SATA",
+        "E": "文件服务器",
+        "F": "光纤通道技术",
+        "G": "视频管理子系统",
+        "H": "存储设备"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储网络",
+      "tags": [
+        "IP SAN",
+        "iSCSI"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem": "SAN可以被看作是数据传输的后端网络，而前端网络则负责正常的 ______ 传输。",
+      "options": {
+        "A": "iSCSI",
+        "B": "TCP/IP",
+        "C": "以太网技术",
+        "D": "SATA",
+        "E": "文件服务器",
+        "F": "光纤通道技术",
+        "G": "视频管理子系统",
+        "H": "存储设备"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "存储网络",
+      "tags": [
+        "SAN",
+        "前端网络"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "case",
+      "stem": "请从组网结构复杂度、设备占用空间大小、设备投资多少、网络管理维护难易程度等几方面对两种网络进行比较。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "接入网",
+      "tags": [
+        "EPON",
+        "光纤收发器",
+        "组网比较"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "fill_blank",
+      "stem": "该系统采用 VLAN 来隔离各工厂和监控点，在 ______ 端进行 VLAN 配置，",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "接入网",
+      "tags": [
+        "EPON",
+        "VLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "fill_blank",
+      "stem": "在 ______ 端采用 trunk 进行 VLAN 汇聚，使用 Manage VLAN 统一管理 OLT 设备。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "接入网",
+      "tags": [
+        "EPON",
+        "VLAN",
+        "trunk"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "fill_blank",
+      "stem": "OLT 的 IP 地址主要用于设备的网元管理，一般采用 ______ 方式分配，IPC 摄像机的地址需要统一规划，各厂区划分为不同的地址段。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "接入网",
+      "tags": [
+        "EPON",
+        "IP地址",
+        "管理"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem": "在视频监控网络中，当多个监控中心同时查看一个点的视频时要求网络支持 ______ 。",
+      "options": {
+        "A": "IP广播",
+        "B": "IP组播",
+        "C": "IP任意播"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "组播",
+      "tags": [
+        "视频监控",
+        "组播"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem": "在组网时，ONU设备的 ______ 接口通过UTP网线和IPC摄像机连接。",
+      "options": {
+        "A": "BNC",
+        "B": "RJ45",
+        "C": "USB"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "接入网",
+      "tags": [
+        "ONU",
+        "接口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem": "该网络的网管解决方案中一般不包含 ______ 功能或组件。",
+      "options": {
+        "A": "网元管理",
+        "B": "防病毒模块",
+        "C": "EPON系统管理",
+        "D": "事件、告警管理"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "网管",
+        "EPON"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "fill_blank",
+      "stem": "访问控制列表 ACL 是控制网络访问的基本手段，它可以限制网络流量，提高网络性能。ACL 使用 ______ 技术来达到访问控制目的。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "访问控制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "fill_blank",
+      "stem": "标准访问控制列表的编号为 ______ 和 1300～1999 之间的数字。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "标准ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "fill_blank",
+      "stem": "标准访问控制列表只使用 ______ 进行过滤。",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "标准ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "fill_blank",
+      "stem": "扩展的 ACL 的编号使用 ______ 以及 2000～2699 之间的数字。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "扩展ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "fill_blank",
+      "stem": "每一个正确的访问列表都至少应该有一条 ______ 语句。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "fill_blank",
+      "stem": "在靠近 ______ 的网络接口上设置扩展 ACL。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "扩展ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "fill_blank",
+      "stem": "在靠近 ______ 的网络接口上设置标准 ACL。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ACL",
+        "标准ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "single_choice",
+      "stem": "如果要记录用户访问历史，需（1）。",
+      "options": {
+        "A": "同时勾选图 3-1 中“写入”复选框和图 3-2 中“启用日志记录”复选框",
+        "B": "同时勾选图 3-1 中“记录访问”复选框和图 3-2 中“启用日志记录”复选框",
+        "C": "同时勾选图 3-1 中“记录访问”复选框和“索引资源”复选框",
+        "D": "同时勾选图 3-1 中“记录访问”复选框和图 3-2 中“保持 HTTP 连接”复选框"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "IIS",
+        "日志",
+        "Web"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "fill_blank",
+      "stem": "在图 3-2 所示的 4 种活动日志格式中，需要提供用户名和密码的是 ______。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "IIS",
+        "日志格式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "single_choice",
+      "stem": "勾选“读取”是指禁止客户下载网页文件及其他文件。",
+      "options": {
+        "A": "对",
+        "B": "错"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "IIS",
+        "权限"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "single_choice",
+      "stem": "不勾选“写入”是指禁止客户以 HTTP 方式向服务器写入信息。",
+      "options": {
+        "A": "对",
+        "B": "错"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "IIS",
+        "权限"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "single_choice",
+      "stem": "勾选“目录浏览”是指当客户请求的文件不存在时，将显示服务器上的文件列表。",
+      "options": {
+        "A": "对",
+        "B": "错"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "IIS",
+        "目录浏览"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "single_choice",
+      "stem": "当网页文件是 CGI 文件时，“执行权限”中选择“纯脚本”。",
+      "options": {
+        "A": "对",
+        "B": "错"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Web服务",
+      "tags": [
+        "IIS",
+        "CGI",
+        "执行权限"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "fill_blank",
+      "stem": "匿名用户的权限与在“本地用户和组”的权限 ______ 。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP服务",
+      "tags": [
+        "FTP",
+        "匿名用户",
+        "权限"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "fill_blank",
+      "stem": "FTP 可以设置 ______ 虚拟目录。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP服务",
+      "tags": [
+        "FTP",
+        "虚拟目录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "single_choice",
+      "stem": "FTP 服务器可以通过 ______ 访问。",
+      "options": {
+        "A": "DOS、客户端方式",
+        "B": "客户端、浏览器方式",
+        "C": "DOS、浏览器、客户端方式"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "FTP服务",
+      "tags": [
+        "FTP",
+        "访问方式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "fill_blank",
+      "stem": "若图 3-4 所示 waws.net 域已经在 Internet 上注册，那么在 DNS 服务器中应配置邮件服务器的 ______ 记录。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "邮件服务",
+      "tags": [
+        "DNS",
+        "MX记录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "single_choice",
+      "stem": "POP3 是 ______ 邮件协议。",
+      "options": {
+        "A": "接收",
+        "B": "发送",
+        "C": "存储",
+        "D": "转发"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "邮件服务",
+      "tags": [
+        "POP3",
+        "邮件协议"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "multiple_choice",
+      "stem": "配置 POP3 服务器的步骤包含 ______ （多选）。",
+      "options": {
+        "A": "创建邮件域",
+        "B": "设置服务器最大连接数",
+        "C": "安装 POP3 组件",
+        "D": "添加邮箱"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "邮件服务",
+      "tags": [
+        "POP3",
+        "配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "single_choice",
+      "stem": "在 S1 上将 F0/1 接口配置为 trunk 模式时，出现了以下提示：Command rejected: An interface whose trunk encapsulation is \"Auto\" can not be configured to \"trunk\" mode. 应采取 ______ 方法解决该问题。",
+      "options": {
+        "A": "在该接口上使用 no shutdown 命令后再使用该命令",
+        "B": "在该接口上启用二层功后能再使用该命令",
+        "C": "重新启动交换机后再使用该命令",
+        "D": "将该接口配置为 access 模式后再使用该命令"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换机配置",
+      "tags": [
+        "trunk",
+        "封装",
+        "交换机"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "fill_blank",
+      "stem": "在 S1 上配置的三个 SVI 接口地址分别处在 192.168.1.192，192.168.1.208 和 192.168.1.224 网段，它们的子网掩码是 ______。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "子网划分",
+      "tags": [
+        "SVI",
+        "子网掩码",
+        "IP地址"
+      ],
+      "is_verified": false
+    }
+  ]
+}

@@ -1,0 +1,902 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2014,
+    "season": "下半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2014年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "fill_blank",
+      "stem": "图中的网络设备①应为______",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "网络设备",
+        "交换机",
+        "路由器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "fill_blank",
+      "stem": "图中的网络设备②应为______",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "网络设备",
+        "交换机",
+        "路由器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "fill_blank",
+      "stem": "从网络安全的角度出发，Switch9所组成的网络一般称为______区。",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "网络安全",
+        "DMZ"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "fill_blank",
+      "stem": "图中③处的网络设备的作用是检测流经内网的信息，提供对网络系统的安全保护。该设备提供主动防护，能预先对入侵活动和攻击性网络流量进行拦截，避免造成损失，而不是简单地在恶意流量传送时或传送后才发出警报。网络设备③应为______",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "入侵防御",
+        "IPS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "fill_blank",
+      "stem": "网络设备③连接的Switch1的G1/1端口称为______端口",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "端口镜像",
+        "SPAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "fill_blank",
+      "stem": "网络设备③与Switch1的这种连接方式一般称为______",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "旁路部署",
+        "直路部署"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "fill_blank",
+      "stem": "部署上网行为管理设备的位置应该在上图中的______和______之间比较合理。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "上网行为管理",
+        "网络拓扑"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "fill_blank",
+      "stem": "网卡的工作模式有直接、广播、多播和混杂四种模式，默认的工作模式为______和______",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "网卡",
+        "工作模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "fill_blank",
+      "stem": "网络管理机在抓包时，需要把网卡置于______",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "抓包",
+        "混杂模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "fill_blank",
+      "stem": "针对上图中的网络结构，各台交换机需要运行______协议，以建立一个无环路的树状网络结构。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "STP",
+        "环路"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "fill_blank",
+      "stem": "交换机的默认优先级值为______",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "STP",
+        "优先级"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "fill_blank",
+      "stem": "根交换机是根据______来选择的，值小的交换机为根交换机",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "STP",
+        "根桥"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "fill_blank",
+      "stem": "如果交换机的优先级相同，再比较______",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "STP",
+        "MAC地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "fill_blank",
+      "stem": "当上图中的Switch1～Switch3之间的某条链路出现故障时，为了使阻塞端口直接进入转发状态，从而切换到备份链路上，需要在Switch1～Switch3上使用______功能。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "STP",
+        "PortFast",
+        "UplinkFast"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "fill_blank",
+      "stem": "根据层次化网络的设计原则，从上图中可以看出该企业网络采用了由______层和______层组成的两层架构。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设计",
+      "tags": [
+        "层次化",
+        "接入层",
+        "汇聚层"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "fill_blank",
+      "stem": "MAC地址过滤和IP地址绑定等功能是由______完成的",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "接入层",
+        "端口安全"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "fill_blank",
+      "stem": "分组的高速转发是由______完成的",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "汇聚层",
+        "路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "fill_blank",
+      "stem": "Windows 2003远程桌面服务的默认端口是______",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "远程桌面",
+        "3389"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "fill_blank",
+      "stem": "Windows 2003远程桌面对外提供服务使用______协议",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "RDP",
+        "TCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "case",
+      "stem": "在下图中，若要拒绝外部设备PING服务器，在防火墙的ICMP配置界面上应该如何操作?",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "防火墙",
+        "ICMP",
+        "Ping"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "case",
+      "stem": "在下图中，Web服务扩展选项中“所有未知CGI扩展禁止”的含义是什么?",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "IIS",
+        "CGI",
+        "Web"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "case",
+      "stem": "如何配置Web服务扩展，网站才能提供对asp.net或asp程序的支持。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "IIS",
+        "ASP.NET",
+        "ASP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "fill_blank",
+      "stem": "选择IIS管理器中的“FTP站点→新建→虚拟目录”，分别设置FTP用户与______、______的对应关系。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "FTP",
+        "IIS",
+        "虚拟目录"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "fill_blank",
+      "stem": "由于IIS内置的FTP服务不支持______，因此FTP用户密码是以明文方式在网络上传输，安全性较弱。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "FTP",
+        "加密"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "fill_blank",
+      "stem": "在IIS 6.0中，每个Web站点都具有唯一的、由三部分组成的标识符，用来接收和响应请求，分别是______、______和______。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "IIS",
+        "站点标识"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "fill_blank",
+      "stem": "网络工程师通过单击网站属性→网站→高级选项，通过添加______的方式在一个IP地址上建立多个网站。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "IIS",
+        "主机头"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "fill_blank",
+      "stem": "在______文件系统下，为了预防用户无限制的使用磁盘空间可以使用磁盘配额管理。",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "磁盘配额",
+        "NTFS"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "fill_blank",
+      "stem": "启动磁盘配额时，设置的两个参数分别是______和______。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows服务器",
+      "tags": [
+        "磁盘配额",
+        "限制",
+        "警告"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "fill_blank",
+      "stem": "企业网络中使用私有地址，如果内网用户要访问互联网，一般使用______技术将私有网络地址转换为公网地址。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAT"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "fill_blank",
+      "stem": "在使用NAT技术时，往往是用______技术指定允许转换的内部主机地址范围。",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "fill_blank",
+      "stem": "企业内部服务器需要被外部用户访问，内部服务器映射的公共地址不能随意更换，需要使用______NAT技术。",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "静态NAT"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "fill_blank",
+      "stem": "对于企业内部用户来讲，使用一一映射的技术为每个员工配置一个地址很不现实，一般使用______NAT技术以提高管理效率。",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "PAT",
+        "端口复用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "33",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (config) #access-list 101 ______ ip any 61.192.93.0 0.0.0.255",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "ACL",
+        "NAT"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "34",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (config) #access-list 101 ______",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "ACL",
+        "NAT"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "35",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (config) #ip nat pool ISP-A ______ netmask 255.255.255.0",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAT",
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "36",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (config) #ip nat pool ISP-B ______ netmask 255.255.255.0",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAT",
+        "地址池"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "37",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (confg) #ip nat inside source ______",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAT",
+        "策略路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "38",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (config) #ip nat inside source static tcp ______ extendable",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "静态NAT",
+        "端口映射"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "39",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (config) #ip nat inside source static tcp ______ extendable",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "静态NAT",
+        "端口映射"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "40",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (config) #int s0\nRoute-Switch (config) # ______ //指定NAT的外部转换接口",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAT",
+        "接口配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "41",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (config) #int s1\nRoute-Switch (config) # ______ //指定NAT的外部转换接口",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAT",
+        "接口配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "42",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (config) #int f0/1\nRoute-Switch (config) # ______ //指定NAT的内部转换接口",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAT",
+        "接口配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "43",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (config) # ______ //配置到达ISP-A的流量从s0口转发",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "静态路由",
+        "策略路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "44",
+      "question_type": "fill_blank",
+      "stem": "Route-Switch (config) # ______ //配置默认路由指定从s1口转发",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "默认路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "45",
+      "question_type": "case",
+      "stem": "Route-Switch (config) #ip route 0.0.0.0 0.0.0.0 s0 120 // ______",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "静态路由",
+        "管理距离"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "46",
+      "question_type": "fill_blank",
+      "stem": "QoS(服务质量)主要用来解决网络延迟和阻塞等问题，它主要有三种工作模式，分别为______模型、Integrated Service(或集成服务)模型及______模型",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "QoS",
+      "tags": [
+        "QoS",
+        "模型"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "47",
+      "question_type": "fill_blank",
+      "stem": "QoS中使用比较普遍的方式是______模型",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "QoS",
+      "tags": [
+        "QoS",
+        "DiffServ"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "48",
+      "question_type": "fill_blank",
+      "stem": "S1 (config) #vtp mode ______",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "VTP",
+        "Server"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "49",
+      "question_type": "fill_blank",
+      "stem": "S1 (config) #interface vlan 10\nS1 (config-if) #ip address ______ ______",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "VLAN接口",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "50",
+      "question_type": "fill_blank",
+      "stem": "S1 (config) #intetrace ______ fastethernet 0/22-23",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "接口范围",
+        "VLAN"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "51",
+      "question_type": "fill_blank",
+      "stem": "S1 (config-if-range) #switchporn mode ______",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "Trunk",
+        "access"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "52",
+      "question_type": "fill_blank",
+      "stem": "S1 (config) #interface fastEthernet 0/1\nS1 (config-if) # ______ //关闭二层功能",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "no switchport"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "53",
+      "question_type": "fill_blank",
+      "stem": "S1 (config) # ______ ______ //开启路由功能",
+      "options": {},
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由",
+      "tags": [
+        "ip routing"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "54",
+      "question_type": "fill_blank",
+      "stem": "S2 (config) #vtp mode ______",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "VTP",
+        "Client"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "55",
+      "question_type": "fill_blank",
+      "stem": "S2 (config) #intererce fastethernet 0/24\nS2 (config-if) #switchport mode ______ //设定接口模式",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "交换技术",
+      "tags": [
+        "Trunk"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "56",
+      "question_type": "fill_blank",
+      "stem": "R1 (config) #ip nat inside source ______ 1 interface S0/0/0 Overload",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAT",
+        "ACL"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "57",
+      "question_type": "fill_blank",
+      "stem": "R1 (config) #ip nat inside source static ______ 202.165.200.3",
+      "options": {},
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "静态NAT",
+        "端口映射"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "58",
+      "question_type": "fill_blank",
+      "stem": "R1 (config) #interface fastethernet 0/0\nR1 (config-if) #ip nat ______",
+      "options": {},
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAT",
+        "inside"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "59",
+      "question_type": "fill_blank",
+      "stem": "R1 (config) #interface serial 0/0/0\nR1 (config-if) #ip nat ______",
+      "options": {},
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络地址转换",
+      "tags": [
+        "NAT",
+        "outside"
+      ],
+      "is_verified": false
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2023,
+    "season": "上半年",
+    "paper_type": "下午案例分析",
+    "source_name": "PDF 提取 - 2023年上半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "fill_blank",
+      "stem": "部门A终端数量8，可配置IP地址范围172.16.1.1～172.16.1.14，子网掩码长度为（1）。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址规划",
+      "tags": [
+        "子网划分",
+        "VLSM"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "fill_blank",
+      "stem": "部门B终端数量12，可配置IP地址范围（2），子网掩码长度为28。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址规划",
+      "tags": [
+        "子网划分",
+        "VLSM"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "fill_blank",
+      "stem": "部门C终端数量30，可配置IP地址范围（3），子网掩码长度为27。",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址规划",
+      "tags": [
+        "子网划分",
+        "VLSM"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "fill_blank",
+      "stem": "部门D终端数量35，可配置IP地址范围172.16.1.65～172.16.1.126，子网掩码长度为（4）。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "IP地址规划",
+      "tags": [
+        "子网划分",
+        "VLSM"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "case",
+      "stem": "简要说明图1-1中干线布线与水平布线子系统分别对应的区间。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "综合布线",
+      "tags": [
+        "干线子系统",
+        "水平子系统"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "case",
+      "stem": "在网络线路施工中应遵循哪些规范（至少回答4点）？",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "综合布线",
+      "tags": [
+        "施工规范",
+        "布线标准"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "case",
+      "stem": "若将PC-1、PC-2划分在同一个VLAN进行通信，需要在相关交换机上做哪些配置？在配置完成后应检查哪些内容？",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "VLAN",
+      "tags": [
+        "VLAN配置",
+        "Trunk",
+        "Access"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "case",
+      "stem": "简要说明该网络中核心交换机有哪几种冗余配置方式。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络冗余",
+      "tags": [
+        "VRRP",
+        "MSTP",
+        "堆叠"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "case",
+      "stem": "在该网络中增加终端接入认证设备，可以选择在接入层、核心层或者DMZ区部署。请选择最合理的部署区域并说明理由。",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络架构",
+      "tags": [
+        "认证",
+        "部署策略"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "case",
+      "stem": "为充分利用两个运营商的带宽，请提供至少4种多出口链路负载策略。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "负载均衡",
+      "tags": [
+        "多出口",
+        "策略路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "fill_blank",
+      "stem": "内网服务器Server需要对外发布提供服务，互联网用户可通过ISP1、ISP2来访问，Server的服务端口为TCP 9980，请根据以上需求配置安全策略，允许来自互联网的用户访问Server提供的服务。\n[USG] security-policy\n[USG-policy-security] rule name http\n[USG-policy-security-rule-http] source-zone ISP1\n[USG-policy-security-rule-http] source-zone ISP2\n[USG-policy-security-rule- http] destination-zone trust\n[USG-policy-security-rule-http] destination-address （1）\n[USG-policy-security-rule-http] service protocol （2） destination-port （3）\n[USG-policy-security-rule-http] action （4）\n[USG-policy-security-rule-http] quit",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "防火墙安全策略",
+      "tags": [
+        "NAT",
+        "安全策略",
+        "华为USG"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "case",
+      "stem": "经过一段时间运行，经常有互联网用户反映访问Server的服务比较慢。经过抓包分析发现部分应用请求报文和服务器的回应报文经过的不是同一个ISP接口。请分析原因并提出解决方法。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "多出口策略",
+      "tags": [
+        "源进源出",
+        "负载均衡"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "case",
+      "stem": "企业网络在运行了一段时间后，网络管理员发现了一个现象：互联网用户通过公网地址可以正常访问Server，内网用户也可以通过内网地址正常访问Server，但内网用户无法通过公网地址访问Server，经过排查，安全策略配置都正确。请分析造成该现象的原因并提供解决方案。",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "NAT",
+      "tags": [
+        "域内NAT",
+        "回流问题"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "case",
+      "stem": "按图3-1所示配置完成BGP和OSPF路由相互引入后，可能会出现路由环路，请说明产生路由环路的原因。",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "BGP",
+        "OSPF",
+        "路由环路"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "config",
+      "stem": "RA启用BGP，配置与RB的IBGP对等体关系。\n[RA] bgp 100\n[RA-bgp] router-id 10.11.0.1\n[RA-bgp] peer 10.12.0.2 as-number （1）\n[RA-bgp] ipv4-family unicast\n[RA-bgp-af-ipv4] peer （2） enable\n[RA-bgp] quit",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "BGP配置",
+      "tags": [
+        "IBGP",
+        "对等体"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "config",
+      "stem": "RB启用BGP，配置与RA、RC和RD的IBGP对等体关系。\n[RB] bgp 100\n[RB-bgp] router-id 10.22.0.2\n[RB-bgp] peer（3）as-number 100  #配置与RA的对等关系",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "BGP配置",
+      "tags": [
+        "IBGP",
+        "对等体"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "config",
+      "stem": "配置RC的OSPF功能，并启用OSPF认证。\n[RC] ospf 1 router-id 10.33.0.3\n[RC-ospf-1] area 0\n[RC-ospf-1-area-0.0.0.0] network（4）#发布财务专网给RD",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "OSPF配置",
+      "tags": [
+        "OSPF",
+        "网络发布"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "case",
+      "stem": "OSPF认证方式有哪些？上述命令中配置RC的为哪种？",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "OSPF安全",
+      "tags": [
+        "认证",
+        "区域认证"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "case",
+      "stem": "如果将命令authentication-mode simple ruankao替换为 authentication-mode simple plain ruankao，则两者之间有何差异？",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "OSPF安全",
+      "tags": [
+        "认证",
+        "明文"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "fill_blank",
+      "stem": "[RC-ospf-1] import-route bgp permit-ibgp #该命令的作用是（7）",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由引入",
+      "tags": [
+        "OSPF",
+        "IBGP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "config",
+      "stem": "配置RD的BGP引入OSPF路由，并配置路由策略禁止发布财务专网的路由给BGP。\n[RD] acl number 2000\n[RD-acl-basic-2000] rule deny source（8） 0.0.0.255\n[RD-acl-basic-2000] quit\n[RD] route-policy rp\n[RD-route-policy] if-match acl （9）\n[RD- -route- policy] quit\n[RD] bgp100\n[RD-bgp] ipv4-family unicast\n[RD-bgp-af-ipv4] import-route ospf 1 （10）\n[RD-bgp]quit",
+      "options": null,
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由策略",
+      "tags": [
+        "ACL",
+        "route-policy",
+        "BGP引入"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "config",
+      "stem": "以RA为例，启用BGP环路检测功能。\n[RA] route （11） bgp enable",
+      "options": null,
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "BGP",
+      "tags": [
+        "环路检测"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "config",
+      "stem": "将下面的配置代码补充完整。\n<HUAWEI> （1）\n[HUAWEI] sysname （2）\n[R1] interface GigabitEthernet0/0/0\n[R1-GigabitEthernet0/0/0] ip address 10.0.1.254 255.255.255.252\n[R1-GigabitEthernet0/0/0] interface GigabitEthernet0/0/1\n[R1-GigabitEthernet0/0/1] ip address （3）255.255.255.252\n[R1-GigabitEthernet0/0/2] interface GigabitEthernet0/0/2\n[R1-GigabitEthernet0/0/2] ip address 100.1.1.1 255.255.255.0\n[R1-GigabitEthernet0/0/2] quit\n[R1] rip\n[R1-rip-1] （4）\n[R1-rip-2] undo summary\n[R1-rip-2] network （5）\n[R1-rip-2] network 100.0.0.0",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "RIP配置",
+      "tags": [
+        "RIP",
+        "华为设备"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "config",
+      "stem": "公司计划在R2和R3的链路上使用RIP与BFD联动技术，采用BFD echo报文方式实现当链路出现故障时，BFD能够快速感知并通告RIP协议。\n请将下面的配置代码补充完整。\n[R2] interface gigabitethernet （6）\n[R2-GigabitEthernet0/0/1] undo （7）\n[R2-GigabitEthernet0/0/1] rip bfd （8）",
+      "options": null,
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "RIP与BFD",
+      "tags": [
+        "BFD",
+        "快速检测"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "config",
+      "stem": "公司通过R1连接internet，为公司提供互联网访问服务，在R1上配置了静态路由指向互联网接口，为了使网络均能够访问互联网，需通过RIP将该静态路由进行重分布。请将下面的配置代码补充完整。\n[R1-rip-2] default-route （9）",
+      "options": null,
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由重分布",
+      "tags": [
+        "RIP",
+        "默认路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "1",
+      "question_type": "fill_blank",
+      "stem": "<HUAWEI> （1）",
+      "options": {},
+      "answer": "system-view",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "华为",
+        "系统视图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "fill_blank",
+      "stem": "[HUAWEI] sysname （2）",
+      "options": {},
+      "answer": "R1",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "华为",
+        "设备命名"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "fill_blank",
+      "stem": "[R1-GigabitEthernet0/0/1] ip address （3）255.255.255.252",
+      "options": {},
+      "answer": "10.0.1.250",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "IP地址",
+        "接口配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "fill_blank",
+      "stem": "[R1-rip-1] （4）",
+      "options": {},
+      "answer": "version 2",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "版本配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "fill_blank",
+      "stem": "[R1-rip-2] network （5）",
+      "options": {},
+      "answer": "10.0.0.0",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "网络宣告"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "fill_blank",
+      "stem": "[R2] interface gigabitethernet （6）",
+      "options": {},
+      "answer": "0/0/1",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "接口",
+        "BFD"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "fill_blank",
+      "stem": "[R2-GigabitEthernet0/0/1] undo （7） #关闭接口 GE0/0/1 的二层转发特性",
+      "options": {},
+      "answer": "portswitch",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "华为",
+        "接口模式"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "fill_blank",
+      "stem": "[R2-GigabitEthernet0/0/1] rip bfd （8） #使能接口 GE0/0/1 的静态 BFD 特性",
+      "options": {},
+      "answer": "static",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备配置",
+      "tags": [
+        "RIP",
+        "BFD"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "fill_blank",
+      "stem": "[R1-rip-2] default-route （9）",
+      "options": {},
+      "answer": "originate",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIP",
+        "默认路由",
+        "重分布"
+      ],
+      "is_verified": false
+    }
+  ]
+}

@@ -1,0 +1,1519 @@
+{
+  "exam": {
+    "exam_name": "网络工程师",
+    "level": "中级",
+    "year": 2016,
+    "season": "下半年",
+    "paper_type": "上午综合知识",
+    "source_name": "PDF 提取 - 2016年下半年",
+    "source_url": "",
+    "is_memory_version": false,
+    "remark": "从 PDF 真题自动提取，未经人工校对"
+  },
+  "questions": [
+    {
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem": "在程序运行过程中，CPU 需要将指令从内存中取出并加以分析和执行。CPU 依据（1）来区分在内存中以二进制编码形式存放的指令和数据。",
+      "options": {
+        "A": "指令周期的不同阶段",
+        "B": "指令和数据的寻址方式",
+        "C": "指令操作码的译码结果",
+        "D": "指令和数据所在的存储单元"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "CPU",
+        "指令",
+        "数据"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem": "计算机在一个指令周期的过程中，为从内存读取指令操作码，首先要将（2）的内容送到地址总线上。",
+      "options": {
+        "A": "指令寄存器（IR）",
+        "B": "通用寄存器（GR）",
+        "C": "程序计数器（PC）",
+        "D": "状态寄存器（PSW）"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "指令周期",
+        "程序计数器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem": "设 16 位浮点数，其中阶符 1 位、阶码值 6 位、数符 1 位，尾数 8 位。若阶码用移码表示，尾数用补码表示，则该浮点数所能表示的数值范围是（3）。",
+      "options": {
+        "A": "-264~（1-2-8）264",
+        "B": "-263~（1-2-8）263",
+        "C": "-（1-2-8）264~（1-2-8）264",
+        "D": "-（1-2-8）263~（1-2-8）263"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "浮点数",
+        "移码",
+        "补码"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem": "已知数据信息为 16 位，最少应附加（4）位校验位，以实现海明码纠错。",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "海明码",
+        "纠错"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem": "将一条指令的执行过程分解为取指、分析和执行三步，按照流水方式执行，若取指时间 t 取指=4△t、分析时间 t 分析=2△t、执行时间 t 执行=3△t，则执行完 100 条指令，需要的时间为（5）△t。",
+      "options": {
+        "A": "200",
+        "B": "300",
+        "C": "400",
+        "D": "405"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "计算机组成原理",
+      "tags": [
+        "流水线",
+        "指令执行"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem": "在敏捷过程的开发方法中，（6）使用了迭代的方法，其中，把每段时间（30 天）一次的迭代称为一个“冲刺”，并按需求的优先级别来实现产品，多个自组织和自治的小组并行地递增实现产品。",
+      "options": {
+        "A": "极限编程 XP",
+        "B": "水晶法",
+        "C": "并列争球法",
+        "D": "自适应软件开发"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "软件工程",
+      "tags": [
+        "敏捷开发",
+        "Scrum"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem": "某软件项目的活动图如下图所示，其中顶点表示项目里程碑，连接顶点的边表示包含的活动，边上的数字表示相应活动的持续时间（天），则完成该项目的最少时间为（7） 天。",
+      "options": {
+        "A": "11",
+        "B": "15",
+        "C": "16",
+        "D": "18"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "项目管理",
+      "tags": [
+        "关键路径",
+        "活动图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem": "活动 BC 和 BF 最多可以晚开始（8）天而不会影响整个项目的进度。",
+      "options": {
+        "A": "0 和 7",
+        "B": "0 和 11",
+        "C": "2 和 7",
+        "D": "2 和 11"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "项目管理",
+      "tags": [
+        "关键路径",
+        "活动图"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem": "假设系统有 n 个进程共享资源 R，且资源 R 的可用数为 3，其中 n≥3 。若采用 PV 操作，则信号量 S 的取值范围应为（9）。",
+      "options": {
+        "A": "-1～n-1",
+        "B": "-3～3",
+        "C": "-（n-3）～3",
+        "D": "-（n-1）～1"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "操作系统",
+      "tags": [
+        "PV操作",
+        "信号量"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem": "甲、乙两厂生产的产品类似，且产品都拟使用“B\"商标。两厂于同一天向商标局申请商标注册，且申请注册前两厂均未使用“B\"商标。此情形下，（10）能核准注册。",
+      "options": {
+        "A": "甲厂",
+        "B": "由甲、乙厂抽签确定的厂",
+        "C": "乙厂",
+        "D": "甲、乙两厂"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "法律法规",
+      "tags": [
+        "商标法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem": "能隔离局域网中广播风暴、提高带宽利用率的设备是（11）。",
+      "options": {
+        "A": "网桥",
+        "B": "集线器",
+        "C": "路由器",
+        "D": "交换机"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "广播风暴",
+        "路由器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem": "点对点协议 PPP 中 LCP 的作用是（12）。",
+      "options": {
+        "A": "包装各种上层协议",
+        "B": "封装承载的网络层协议",
+        "C": "把分组转变成信元",
+        "D": "建立和配置数据链路"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "PPP",
+        "LCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "13",
+      "question_type": "single_choice",
+      "stem": "TCP/IP 网络中的（13）实现应答、排序和流控功能。",
+      "options": {
+        "A": "数据链路层",
+        "B": "网络层",
+        "C": "传输层",
+        "D": "应用层"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "TCP/IP",
+        "传输层"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "14",
+      "question_type": "single_choice",
+      "stem": "在异步通信中，每个字符包含 1 位起始位、7 位数据位、1 位奇偶位和 1 位终止位，每秒钟传送 100 个字符，采用 DPSK 调制，则码元速率为（14），有效数据速率为（15）。",
+      "options": {
+        "A": "200 波特",
+        "B": "500 波特",
+        "C": "1000 波特",
+        "D": "2000 波特"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "异步通信",
+        "码元速率",
+        "DPSK"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "15",
+      "question_type": "single_choice",
+      "stem": "在异步通信中，每个字符包含 1 位起始位、7 位数据位、1 位奇偶位和 1 位终止位，每秒钟传送 100 个字符，采用 DPSK 调制，则有效数据速率为（15）。",
+      "options": {
+        "A": "200b/s",
+        "B": "500b/s",
+        "C": "700b/s",
+        "D": "1000b/s"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "异步通信",
+        "数据速率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "16",
+      "question_type": "single_choice",
+      "stem": "E1 载波的数据速率是（16）Mb/s，E3 载波的数据速率是（17）Mb/s。",
+      "options": {
+        "A": "1.544",
+        "B": "2.048",
+        "C": "8.448",
+        "D": "34.368"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "E1",
+        "载波"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "17",
+      "question_type": "single_choice",
+      "stem": "E1 载波的数据速率是（16）Mb/s，E3 载波的数据速率是（17）Mb/s。",
+      "options": {
+        "A": "1.544",
+        "B": "2.048",
+        "C": "8.448",
+        "D": "34.368"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "E3",
+        "载波"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "18",
+      "question_type": "single_choice",
+      "stem": "IPv6 的链路本地地址是在地址前缀 1111 1110 10 之后附加（18）形成的。",
+      "options": {
+        "A": "IPv4 地址",
+        "B": "MAC 地址",
+        "C": "主机名",
+        "D": "随机产生的字符串"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "IPv6",
+        "链路本地地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "19",
+      "question_type": "single_choice",
+      "stem": "连接终端和数字专线的设备 CSU/DSU 被集成在路由器的（19）端口中。",
+      "options": {
+        "A": "RJ-45 端口",
+        "B": "同步串口",
+        "C": "AUI 端口",
+        "D": "异步串口"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "CSU/DSU",
+        "路由器",
+        "同步串口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "20",
+      "question_type": "single_choice",
+      "stem": "下面哪个协议可通过主机的逻辑地址查找对应的物理地址？（20）。",
+      "options": {
+        "A": "DHCP",
+        "B": "SMTP",
+        "C": "SNMP",
+        "D": "ARP"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "ARP",
+        "地址解析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "21",
+      "question_type": "single_choice",
+      "stem": "下面的应用层协议中通过 UDP 传送的是（21）。",
+      "options": {
+        "A": "SMTP",
+        "B": "TFTP",
+        "C": "POP3",
+        "D": "HTTP"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "UDP",
+        "TFTP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "22",
+      "question_type": "single_choice",
+      "stem": "代理 ARP 是指（22）。",
+      "options": {
+        "A": "由邻居交换机把 ARP 请求传送给远端目标",
+        "B": "由一个路由器代替远端目标回答 ARP 请求",
+        "C": "由 DNS 服务器代替远端目标回答 ARP 请求",
+        "D": "由 DHCP 服务器分配一个回答 ARP 请求的路由器"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "代理ARP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "23",
+      "question_type": "single_choice",
+      "stem": "如果路由器收到了多个路由协议转发的、关于某个目标的多条路由，它如何决定采用哪个路由？（23）。",
+      "options": {
+        "A": "选择与自己路由协议相同的",
+        "B": "选择路由费用最小的",
+        "C": "比较各个路由的管理距离",
+        "D": "比较各个路由协议的版本"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "路由选择",
+        "管理距离"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "24",
+      "question_type": "single_choice",
+      "stem": "下面的选项中属于链路状态路由选择协议的是（24）。",
+      "options": {
+        "A": "OSPF",
+        "B": "IGRP",
+        "C": "BGP",
+        "D": "RIPv2"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "链路状态",
+        "OSPF"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "25",
+      "question_type": "single_choice",
+      "stem": "下面的 OSPF 网络由多个区域组成。在这些路由器中，属于主干路由器的是（25），属于自治系统边界路由器（ASBR）的是（26）。",
+      "options": {
+        "A": "R1",
+        "B": "R2",
+        "C": "R3",
+        "D": "R4"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "OSPF",
+        "主干路由器"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "26",
+      "question_type": "single_choice",
+      "stem": "下面的 OSPF 网络由多个区域组成。在这些路由器中，属于主干路由器的是（25），属于自治系统边界路由器（ASBR）的是（26）。",
+      "options": {
+        "A": "R3",
+        "B": "R4",
+        "C": "R5",
+        "D": "R6"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "OSPF",
+        "ASBR"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "27",
+      "question_type": "single_choice",
+      "stem": "RIPv2 与 RIPv1 相比，它改进了什么？（27）。",
+      "options": {
+        "A": "RIPv2 的最大跳数扩大了，可以适应规模更大的网络",
+        "B": "RlPv2 变成无类别的协议，必须配置子网掩码",
+        "C": "RlPv2 用跳数和带宽作为度量值，可以有更多的选择",
+        "D": "RIPv2 可以周期性地发送路由更新，收敛速度比原来的 RIP 快"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "RIPv2",
+        "无类别"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "28",
+      "question_type": "single_choice",
+      "stem": "在采用 CRC 校验时，若生成多项式为 G（X）=X5+X2+X+1，传输数据为 1011110010101 时，生成的帧检验序列为（28）。",
+      "options": {
+        "A": "10101",
+        "B": "01101",
+        "C": "00000",
+        "D": "11100"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "数据通信",
+      "tags": [
+        "CRC",
+        "帧检验序列"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "29",
+      "question_type": "single_choice",
+      "stem": "结构化布线系统分为六个子系统，其中干线子系统的作用是（29）。",
+      "options": {
+        "A": "连接各个建筑物中的通信系统",
+        "B": "连接干线子系统和用户工作区",
+        "C": "实现中央主配线架与各种不同设备之间的连接",
+        "D": "实现各楼层设备间子系统之间的互连"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络工程",
+      "tags": [
+        "结构化布线",
+        "干线子系统"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "30",
+      "question_type": "single_choice",
+      "stem": "Windows 命令 tracert www.163.com.cn 显示的内容如下，那么本地默认网关的 IP 地址是（30），网站 www.163.com.cn 的 IP 地址是（31）。",
+      "options": {
+        "A": "128.168.20.254",
+        "B": "100.100.17.254",
+        "C": "219.137.167.157",
+        "D": "61.144.3.17"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "tracert",
+        "默认网关"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "31",
+      "question_type": "single_choice",
+      "stem": "Windows 命令 tracert www.163.com.cn 显示的内容如下，那么本地默认网关的 IP 地址是（30），网站 www.163.com.cn 的 IP 地址是（31）。",
+      "options": {
+        "A": "128.168.20.254",
+        "B": "100.100.17.254",
+        "C": "219.137.167.157",
+        "D": "61.144.3.17"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "tracert",
+        "IP地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "32",
+      "question_type": "single_choice",
+      "stem": "在 Linux 系统中，要查看如下输出，可使用命令（32）。",
+      "options": {
+        "A": "[root@localhost]#ifconfig",
+        "B": "[root@localhost]#ipconfig eth0",
+        "C": "[root@localhost]#ipconfig",
+        "D": "[root@localhost]#ifconfig eth0"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "ifconfig",
+        "网络配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "33",
+      "question_type": "single_choice",
+      "stem": "当 DHCP 服务器拒绝客户端的 IP 地址请求时发送（33）报文。",
+      "options": {
+        "A": "DhcpOffer",
+        "B": "DhcpDecline",
+        "C": "DhcpAck",
+        "D": "DhcpNack"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "DHCP",
+        "报文"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "34",
+      "question_type": "single_choice",
+      "stem": "在进行域名解析过程中，当主域名服务器查找不到 IP 地址时，由（34）负责域名解析。",
+      "options": {
+        "A": "本地缓存",
+        "B": "辅域名服务器",
+        "C": "根域名服务器",
+        "D": "转发域名服务器"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "DNS",
+        "域名解析"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "35",
+      "question_type": "single_choice",
+      "stem": "在建立 TCP 连接过程中，出现错误连接时，（35）标志字段置“1”。",
+      "options": {
+        "A": "SYN",
+        "B": "RST",
+        "C": "FIN",
+        "D": "ACK"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "TCP",
+        "RST"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "36",
+      "question_type": "single_choice",
+      "stem": "POP3 服务器默认使用（36）协议的（37）的端口。",
+      "options": {
+        "A": "UDP",
+        "B": "TCP",
+        "C": "SMTP",
+        "D": "HTTP"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "POP3",
+        "TCP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "37",
+      "question_type": "single_choice",
+      "stem": "POP3 服务器默认使用（36）协议的（37）的端口。",
+      "options": {
+        "A": "21",
+        "B": "25",
+        "C": "53",
+        "D": "110"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "POP3",
+        "端口"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "38",
+      "question_type": "single_choice",
+      "stem": "当客户端收到多个 DHCP 服务器的响应时，客户端会选择（38）地址作为自己的 IP 地址。",
+      "options": {
+        "A": "最先到达的",
+        "B": "最大的",
+        "C": "最小的",
+        "D": "租期最长的"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "DHCP",
+        "选择"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "39",
+      "question_type": "single_choice",
+      "stem": "在 Windows 的 DOS 窗口中键入命令\nC：\\> nslookup\n> set type=a\n> xyz.com.cn\n这个命令序列的作用是（39）。",
+      "options": {
+        "A": "查询 xyz.com.cn 的邮件服务器信息",
+        "B": "查询 xyz.com.cn 到 IP 地址的映射",
+        "C": "查询 xyz.com.cn 的资源记录类型",
+        "D": "显示 xyz.com.cn 中各种可用的信息资源记录"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "nslookup",
+        "DNS查询"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "40",
+      "question_type": "single_choice",
+      "stem": "下面是 DHCP 协议工作的 4 种消息，正确的顺序应该是（40）。\n①DHCP Discovery\n②DHCP Offer\n③DHCP Request\n④DHCP Ack",
+      "options": {
+        "A": "①③②④",
+        "B": "①②③④",
+        "C": "②①③④",
+        "D": "②③①④"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "DHCP",
+        "顺序"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "41",
+      "question_type": "single_choice",
+      "stem": "在 Linux 中，（41）命令可将文件以修改时间顺序显示。",
+      "options": {
+        "A": "Is –a",
+        "B": "Is –b",
+        "C": "Is –c",
+        "D": "Is –d"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Linux",
+      "tags": [
+        "ls",
+        "修改时间"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "42",
+      "question_type": "single_choice",
+      "stem": "要在一台主机上建立多个独立域名的站点，下面的方法中（42）是错误的。",
+      "options": {
+        "A": "为计算机安装多块网卡",
+        "B": "使用不同的主机头名",
+        "C": "使用虚拟目录",
+        "D": "使用不同的端口号"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络应用",
+      "tags": [
+        "虚拟主机",
+        "域名"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "43",
+      "question_type": "single_choice",
+      "stem": "下面不属于数字签名作用的是（43）。",
+      "options": {
+        "A": "接收者可验证消息来源的真实性",
+        "B": "发送者无法否认发送过该消息",
+        "C": "接收者无法伪造或篡改消息",
+        "D": "可验证接收者的合法性"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "数字签名",
+        "作用"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "44",
+      "question_type": "single_choice",
+      "stem": "下面可用于消息认证的算法是（44）。",
+      "options": {
+        "A": "DES",
+        "B": "PGP",
+        "C": "MD5",
+        "D": "KMI"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "消息认证",
+        "MD5"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "45",
+      "question_type": "single_choice",
+      "stem": "DES 加密算法的密钥长度为 56 位，三重 DES 的密钥长度为（45）位。",
+      "options": {
+        "A": "168",
+        "B": "128",
+        "C": "112",
+        "D": "56"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "DES",
+        "三重DES"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "46",
+      "question_type": "single_choice",
+      "stem": "在 Windows Server 2003 中，（46）组成员用户具有完全控制权限。",
+      "options": {
+        "A": "Users",
+        "B": "Power Users",
+        "C": "Administrators",
+        "D": "Guests"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "Windows",
+      "tags": [
+        "权限",
+        "Administrators"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "47",
+      "question_type": "single_choice",
+      "stem": "SNMP 协议中网管代理使用（47）操作向管理站发送异步事件报告。",
+      "options": {
+        "A": "trap",
+        "B": "set",
+        "C": "get",
+        "D": "get-next"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "SNMP",
+        "trap"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "48",
+      "question_type": "single_choice",
+      "stem": "当发现主机受到 ARP 攻击时需清除 ARP 缓存，使用的命令是（48）。",
+      "options": {
+        "A": "arp –a",
+        "B": "arp –s",
+        "C": "arp –d",
+        "D": "arp -g"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "ARP",
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "49",
+      "question_type": "single_choice",
+      "stem": "从 FTP 服务器下载文件的命令是（49）。",
+      "options": {
+        "A": "get",
+        "B": "dir",
+        "C": "put",
+        "D": "push"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络应用",
+      "tags": [
+        "FTP",
+        "命令"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "50",
+      "question_type": "single_choice",
+      "stem": "由于内网 P2P、视频／流媒体、网络游戏等流量占用过大，影响网络性能，可以采用（50） 来保障正常的 Web 及邮件流量需求。",
+      "options": {
+        "A": "使用网闸",
+        "B": "升级核心交换机",
+        "C": "部署流量控制设备",
+        "D": "部署网络安全审计设备"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络管理",
+      "tags": [
+        "流量控制"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "51",
+      "question_type": "single_choice",
+      "stem": "ISP 分配给某公司的地址块为 199.34.76.64/28，则该公司得到的 IP 地址数是（51）。",
+      "options": {
+        "A": "8",
+        "B": "16",
+        "C": "32",
+        "D": "64"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "子网划分",
+        "地址数"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "52",
+      "question_type": "single_choice",
+      "stem": "下面是路由表的 4 个表项，与地址 220.112.179.92 匹配的表项是（52）。",
+      "options": {
+        "A": "220.112.145.32/22",
+        "B": "220.112.145.64/22",
+        "C": "220.112.147.64/22",
+        "D": "220.112.177.64/22"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "路由协议",
+      "tags": [
+        "路由匹配",
+        "子网"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "53",
+      "question_type": "single_choice",
+      "stem": "下面 4 个主机地址中属于网络 110.17.200.0/21 的地址是（53）。",
+      "options": {
+        "A": "110.17.198.0",
+        "B": "110.17.206.0",
+        "C": "110.17.217.0",
+        "D": "110.17.224.0"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "子网划分",
+        "地址范围"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "54",
+      "question_type": "single_choice",
+      "stem": "某用户得到的网络地址范围为 110.15.0.0～110.15.7.0，这个地址块可以用（54）表示，其中可以分配（55）个可用主机地址。",
+      "options": {
+        "A": "110.15.0.0/20",
+        "B": "110.15.0.0/21",
+        "C": "110.15.0.0/16",
+        "D": "110.15.0.0/24"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "子网划分",
+        "地址块"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "55",
+      "question_type": "single_choice",
+      "stem": "某用户得到的网络地址范围为 110.15.0.0～110.15.7.0，这个地址块可以用（54）表示，其中可以分配（55）个可用主机地址。",
+      "options": {
+        "A": "2048",
+        "B": "2046",
+        "C": "2000",
+        "D": "2056"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "子网划分",
+        "主机地址"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "56",
+      "question_type": "single_choice",
+      "stem": "下面的提示符（56）表示特权模式。",
+      "options": {
+        "A": ">",
+        "B": "#",
+        "C": "（config）#",
+        "D": "！"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "路由器",
+        "提示符"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "57",
+      "question_type": "single_choice",
+      "stem": "把路由器当前配置文件存储到 NVRAM 中的命令是（57）。",
+      "options": {
+        "A": "Router（confg）#copy current to starting",
+        "B": "Router#copy starting to running",
+        "C": "Router（config）#copy running-config starting-config",
+        "D": "Router#copy run startup"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "路由器",
+        "配置保存"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "58",
+      "question_type": "single_choice",
+      "stem": "如果路由器显示“Serial 1 is down，line protocol is down”故障信息，则问题出在 OSI 参考模型的（58）。",
+      "options": {
+        "A": "物理层",
+        "B": "数据链路层",
+        "C": "网络层",
+        "D": "会话层"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络故障",
+      "tags": [
+        "故障诊断",
+        "物理层"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "59",
+      "question_type": "single_choice",
+      "stem": "下面的交换机命令中（59）为端口指定 VLAN。",
+      "options": {
+        "A": "S1（config-if）# vlan-menbership static",
+        "B": "S1（config-if）# vlan database",
+        "C": "S1（config-if）# switchport mode access",
+        "D": "S1（config-if）#switchport access vlan 1"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "交换机",
+        "VLAN配置"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "60",
+      "question_type": "single_choice",
+      "stem": "STP 协议的作用是（60）。",
+      "options": {
+        "A": "防止二层环路",
+        "B": "以太网流量控制",
+        "C": "划分逻辑网络",
+        "D": "基于端口的认证"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "STP",
+        "环路"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "61",
+      "question_type": "single_choice",
+      "stem": "VLAN 之间通信需要（61）的支持。",
+      "options": {
+        "A": "网桥",
+        "B": "路由器",
+        "C": "VLAN 服务器",
+        "D": "交换机"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "VLAN",
+        "路由"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "62",
+      "question_type": "single_choice",
+      "stem": "以太网中出现冲突后，发送方什么时候可以再次尝试发送？（62）。",
+      "options": {
+        "A": "再次收到目标站的发送请求后",
+        "B": "在 JAM 信号停止并等待一段固定时间后",
+        "C": "在 JAM 信号停止并等待一段随机时间后",
+        "D": "当 JAM 信号指示冲突已经被清除后"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络基础",
+      "tags": [
+        "以太网",
+        "冲突",
+        "CSMA/CD"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "63",
+      "question_type": "single_choice",
+      "stem": "网桥怎样知道网络端口连接了哪些网站？（63）。当网桥连接的局域网出现环路时怎么办？（64）。",
+      "options": {
+        "A": "如果从端口收到一个数据帧，则将其目标地址记入该端口的数据库",
+        "B": "如果从端口收到一个数据帧，则将其源地址记入该端口的数据库",
+        "C": "向端口连接的各个站点发送请求以便获取其 MAC 地址",
+        "D": "由网络管理员预先配置好各个端口的地址数据库"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设备",
+      "tags": [
+        "网桥",
+        "MAC地址学习"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "64",
+      "question_type": "single_choice",
+      "stem": "网桥怎样知道网络端口连接了哪些网站？（63）。当网桥连接的局域网出现环路时怎么办？（64）。",
+      "options": {
+        "A": "运行生成树协议阻塞一部分端口",
+        "B": "运行动态主机配置协议重新分配端口地址",
+        "C": "通过站点之间的协商产生一部分备用端口",
+        "D": "各个网桥通过选举产生多个没有环路的生成树"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络协议",
+      "tags": [
+        "网桥",
+        "环路",
+        "STP"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "65",
+      "question_type": "single_choice",
+      "stem": "IEEE802.11 标准采用的工作频段是（65）。",
+      "options": {
+        "A": "900MHz 和 800MHz",
+        "B": "900MHz 和 2.4GHz",
+        "C": "5GHz 和 800MHz",
+        "D": "2.4GHz 和 5GHz"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "802.11",
+        "频段"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "66",
+      "question_type": "single_choice",
+      "stem": "IEEE802.11MAC 子层定义的竞争性访问控制协议是（66）。",
+      "options": {
+        "A": "CSMA/CA",
+        "B": "CSMA/CB",
+        "C": "CSMA/CD",
+        "D": "CSMA/CG"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "802.11",
+        "MAC",
+        "CSMA/CA"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "67",
+      "question_type": "single_choice",
+      "stem": "无线局域网的新标准 IEEE802.11n 提供的最高数据速率可达到（67）Mb/s。",
+      "options": {
+        "A": "54",
+        "B": "100",
+        "C": "200",
+        "D": "300"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "无线网络",
+      "tags": [
+        "802.11n",
+        "速率"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "68",
+      "question_type": "single_choice",
+      "stem": "在网络设计和实施过程中要采取多种安全措施，下面的选项中属于系统安全需求措施的是（68）。",
+      "options": {
+        "A": "设备防雷击",
+        "B": "入侵检测",
+        "C": "漏洞发现与补丁管理",
+        "D": "流量控制"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "系统安全",
+        "补丁管理"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "69",
+      "question_type": "single_choice",
+      "stem": "在网络的分层设计模型中，对核心层工作规程的建议是（69）。",
+      "options": {
+        "A": "要进行数据压缩以提高链路利用率",
+        "B": "尽量避免使用访问控制列表以减少转发延迟",
+        "C": "可以允许最终用户直接访问",
+        "D": "尽量避免冗余连接"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设计",
+      "tags": [
+        "分层设计",
+        "核心层"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "70",
+      "question_type": "single_choice",
+      "stem": "在网络规划和设计过程中，选择网络技术时要考虑多种因素。下面的各种考虑中不正确的是（70）。",
+      "options": {
+        "A": "网络带宽要保证用户能够快速访问网络资源",
+        "B": "要选择具有前瞻性的网络新技术",
+        "C": "选择网络技术时要考虑未来网络扩充的需要",
+        "D": "通过投入产出分析确定使用何种技术"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络设计",
+      "tags": [
+        "网络规划",
+        "技术选择"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "71",
+      "question_type": "single_choice",
+      "stem": "All three types of cryptography schemes have unique function mapping to specific applications.For example, the symmetric key（71） approach is typically used for the encryption of data providing（72）, whereas asymmetric key cryptography is mainly used in key(73)and nonrepudiation, thereby providing confidentiality and authentication. The hash(74)（noncryptic）, on the other hand, does not provide confidentiality but provides message integrity, and cryptographic hash algorithms provide message（75）and identity of peers during transport over insecure channels.",
+      "options": {
+        "A": "cryptography",
+        "B": "decode",
+        "C": "privacy",
+        "D": "security"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "加密",
+        "对称密钥"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "72",
+      "question_type": "single_choice",
+      "stem": "All three types of cryptography schemes have unique function mapping to specific applications.For example, the symmetric key（71） approach is typically used for the encryption of data providing（72）, whereas asymmetric key cryptography is mainly used in key(73)and nonrepudiation, thereby providing confidentiality and authentication. The hash(74)（noncryptic）, on the other hand, does not provide confidentiality but provides message integrity, and cryptographic hash algorithms provide message（75）and identity of peers during transport over insecure channels.",
+      "options": {
+        "A": "conduction",
+        "B": "confidence",
+        "C": "confidentiality",
+        "D": "connection"
+      },
+      "answer": "C",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "加密",
+        "机密性"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "73",
+      "question_type": "single_choice",
+      "stem": "All three types of cryptography schemes have unique function mapping to specific applications.For example, the symmetric key（71） approach is typically used for the encryption of data providing（72）, whereas asymmetric key cryptography is mainly used in key(73)and nonrepudiation, thereby providing confidentiality and authentication. The hash(74)（noncryptic）, on the other hand, does not provide confidentiality but provides message integrity, and cryptographic hash algorithms provide message（75）and identity of peers during transport over insecure channels.",
+      "options": {
+        "A": "authentication",
+        "B": "structure",
+        "C": "encryption",
+        "D": "exchange"
+      },
+      "answer": "D",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "非对称密钥",
+        "密钥交换"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "74",
+      "question_type": "single_choice",
+      "stem": "All three types of cryptography schemes have unique function mapping to specific applications.For example, the symmetric key（71） approach is typically used for the encryption of data providing（72）, whereas asymmetric key cryptography is mainly used in key(73)and nonrepudiation, thereby providing confidentiality and authentication. The hash(74)（noncryptic）, on the other hand, does not provide confidentiality but provides message integrity, and cryptographic hash algorithms provide message（75）and identity of peers during transport over insecure channels.",
+      "options": {
+        "A": "algorithm",
+        "B": "secure",
+        "C": "structure",
+        "D": "encryption"
+      },
+      "answer": "A",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "哈希",
+        "算法"
+      ],
+      "is_verified": false
+    },
+    {
+      "question_no": "75",
+      "question_type": "single_choice",
+      "stem": "All three types of cryptography schemes have unique function mapping to specific applications.For example, the symmetric key（71） approach is typically used for the encryption of data providing（72）, whereas asymmetric key cryptography is mainly used in key(73)and nonrepudiation, thereby providing confidentiality and authentication. The hash(74)（noncryptic）, on the other hand, does not provide confidentiality but provides message integrity, and cryptographic hash algorithms provide message（75）and identity of peers during transport over insecure channels.",
+      "options": {
+        "A": "confidentiality",
+        "B": "integrity",
+        "C": "service",
+        "D": "robustness"
+      },
+      "answer": "B",
+      "analysis": "",
+      "difficulty": 3,
+      "knowledge_area": "网络安全",
+      "tags": [
+        "哈希",
+        "完整性"
+      ],
+      "is_verified": false
+    }
+  ]
+}
