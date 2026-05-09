@@ -3,18 +3,29 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session, joinedload
 
 from app.database import get_db
+from app.deps import get_identity
 from app.models import UserRecord
 from app.schemas.question import QuestionOut
+from app.services.auth_service import AuthIdentity
 
 router = APIRouter(prefix="/api/records", tags=["records"])
 
 
+def _owner_clause(model, identity: AuthIdentity):
+    if identity.user_id is not None:
+        return model.user_id == identity.user_id
+    return model.guest_session_id == identity.guest_session_id
+
+
 @router.get("/wrong")
-def wrong_records(db: Session = Depends(get_db)) -> list[dict]:
+def wrong_records(
+    identity: AuthIdentity = Depends(get_identity),
+    db: Session = Depends(get_db),
+) -> list[dict]:
     records = db.execute(
         select(UserRecord)
         .options(joinedload(UserRecord.question))
-        .where(UserRecord.is_correct.is_(False))
+        .where(UserRecord.is_correct.is_(False), _owner_clause(UserRecord, identity))
         .order_by(UserRecord.answered_at.desc())
     ).scalars()
     return [
@@ -31,8 +42,12 @@ def wrong_records(db: Session = Depends(get_db)) -> list[dict]:
 
 
 @router.post("/{record_id}/reviewed")
-def mark_reviewed(record_id: int, db: Session = Depends(get_db)) -> dict:
-    record = db.get(UserRecord, record_id)
+def mark_reviewed(
+    record_id: int,
+    identity: AuthIdentity = Depends(get_identity),
+    db: Session = Depends(get_db),
+) -> dict:
+    record = db.execute(select(UserRecord).where(UserRecord.id == record_id, _owner_clause(UserRecord, identity))).scalar_one_or_none()
     if not record:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="答题记录不存在")
     record.reviewed = True

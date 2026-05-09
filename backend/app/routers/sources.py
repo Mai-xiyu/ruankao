@@ -21,4 +21,3 @@ async def confirm_import(payload: SourceConfirmRequest) -> ImportPayload:
     service = DeepSeekService()
     exam = payload.exam.model_dump() if payload.exam else None
     return await service.extract_questions(preview["content_excerpt"], exam, payload.use_reasoning_model)
-

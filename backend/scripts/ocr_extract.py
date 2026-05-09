@@ -240,7 +240,7 @@ def ocr_with_paddle(pdf_path: str) -> str:
 # 5. DeepSeek AI 结构化（复用 extract_pdf_questions 的 prompt）
 # ──────────────────────────────────────────────
 
-SYSTEM_PROMPT = """你是软考中级网络工程师真题提取助手。用户会给你从考试 PDF 中通过 OCR 识别的文字，请把其中的题目结构化为 JSON。
+SYSTEM_PROMPT = """你是软考多科目真题提取助手。用户会给你从考试 PDF 中通过 OCR 识别的文字，请把其中的题目结构化为 JSON。
 
 规则：
 1. 只提取真实存在的题目，不要编造或补全题目
@@ -328,7 +328,7 @@ def clean_text(text: str) -> str:
 # 6. 主流程
 # ──────────────────────────────────────────────
 
-async def process_one(exam_info: dict, settings, do_import: bool, method: str) -> dict:
+async def process_one(exam_info: dict, settings, do_import: bool, method: str, exam_name: str, level: str) -> dict:
     pdf_path = exam_info["path"]
     label = f"{exam_info['year']}年{exam_info['season']} {exam_info['paper_type']}"
     log(f"处理: {label}")
@@ -339,7 +339,9 @@ async def process_one(exam_info: dict, settings, do_import: bool, method: str) -
         raw_text = ocr_with_paddle(pdf_path)
     else:
         # 在线 OCR 需要 API key
-        ocr_api_key = getattr(settings, "ocr_space_api_key", "") or "K85730341788957"
+        ocr_api_key = getattr(settings, "ocr_space_api_key", "")
+        if not ocr_api_key or "请在本地" in ocr_api_key:
+            raise RuntimeError("未配置 OCR_SPACE_API_KEY；请在 backend/.env 中填写，或改用 --method local")
         log(f"  使用在线 ocr.space")
         raw_text = await ocr_with_ocr_space(pdf_path, ocr_api_key)
 
@@ -382,8 +384,8 @@ async def process_one(exam_info: dict, settings, do_import: bool, method: str) -
     # 构建 payload
     payload = {
         "exam": {
-            "exam_name": "网络工程师",
-            "level": "中级",
+            "exam_name": exam_name,
+            "level": level,
             "year": exam_info["year"],
             "season": exam_info["season"],
             "paper_type": exam_info["paper_type"],
@@ -451,7 +453,7 @@ async def main_async(args: argparse.Namespace) -> int:
 
     for exam_info in pdfs:
         try:
-            result = await process_one(exam_info, settings, do_import, method)
+            result = await process_one(exam_info, settings, do_import, method, args.exam_name, args.level)
             total_questions += result["questions"]
             if result["imported"]:
                 total_imported += 1
@@ -469,6 +471,8 @@ async def main_async(args: argparse.Namespace) -> int:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="扫描版 PDF OCR 提取")
+    parser.add_argument("--exam-name", required=True, help="入库科目名称")
+    parser.add_argument("--level", required=True, choices=["高级", "中级", "初级"], help="入库科目级别")
     parser.add_argument("--year", type=int, default=None, help="只处理指定年份")
     parser.add_argument("--dry-run", action="store_true", help="只输出 JSON（默认）")
     parser.add_argument("--import", dest="import_db", action="store_true", help="导入数据库")

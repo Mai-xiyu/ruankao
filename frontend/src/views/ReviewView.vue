@@ -16,7 +16,7 @@ async function load() {
     const [wrong, favoriteList] = await Promise.all([fetchWrongRecords(), fetchFavorites()]);
     wrongRecords.value = wrong;
     favorites.value = favoriteList;
-  } catch (error) {
+  } catch {
     ElMessage.error("读取复盘数据失败");
   } finally {
     loading.value = false;
@@ -28,7 +28,7 @@ async function reviewed(recordId: number) {
     await markReviewed(recordId);
     ElMessage.success("已标记复习");
     await load();
-  } catch (error) {
+  } catch {
     ElMessage.error("操作失败");
   }
 }
@@ -38,7 +38,7 @@ async function unfavorite(questionId: number) {
     await removeFavorite(questionId);
     ElMessage.success("已取消收藏");
     await load();
-  } catch (error) {
+  } catch {
     ElMessage.error("操作失败");
   }
 }
@@ -112,4 +112,3 @@ onMounted(load);
     </div>
   </section>
 </template>
-

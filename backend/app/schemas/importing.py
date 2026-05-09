@@ -3,6 +3,12 @@ from pydantic import BaseModel, Field, field_validator
 from app.schemas.exam import ExamCreate
 
 
+class ImportQuestionImageIn(BaseModel):
+    image_path: str = Field(max_length=500)
+    image_type: str = Field(default="other", max_length=50)
+    caption: str | None = Field(default=None, max_length=500)
+
+
 class ImportQuestionIn(BaseModel):
     question_no: str = Field(max_length=50)
     question_type: str = Field(max_length=50)
@@ -13,7 +19,13 @@ class ImportQuestionIn(BaseModel):
     difficulty: int = Field(default=3, ge=1, le=5)
     knowledge_area: str | None = Field(default=None, max_length=100)
     tags: list[str] = Field(default_factory=list)
+    source_provider: str | None = Field(default=None, max_length=100)
+    source_question_id: str | None = Field(default=None, max_length=200)
+    source_url: str | None = Field(default=None, max_length=500)
+    quality_status: str = Field(default="ok", max_length=50)
+    requires_image: bool = False
     is_verified: bool = False
+    images: list[ImportQuestionImageIn] = Field(default_factory=list)
 
     @field_validator("tags")
     @classmethod
@@ -34,4 +46,3 @@ class ImportResult(BaseModel):
     skipped_count: int
     updated_count: int
     errors: list[str] = Field(default_factory=list)
-

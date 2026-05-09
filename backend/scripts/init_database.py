@@ -14,6 +14,7 @@ from app.database import Base, SessionLocal, engine  # noqa: E402
 from app.models import Tag  # noqa: E402,F401
 from app.models import *  # noqa: E402,F403
 from app.services.import_service import import_payload, load_import_payload  # noqa: E402
+from scripts.migrate_schema import migrate_data, migrate_tables  # noqa: E402
 
 
 PRESET_TAGS = [
@@ -69,12 +70,8 @@ def validate_business_password(password: str) -> None:
         raise ValueError("DB_PASSWORD 为空或仍是占位符，请在 .env 中填写业务用户强密码")
     if len(password) < 12:
         raise ValueError("DB_PASSWORD 长度必须 >= 12")
-    if "'" in password:
-        raise ValueError("DB_PASSWORD 不允许包含单引号")
-    if "\\" in password:
-        raise ValueError("DB_PASSWORD 不允许包含反斜杠")
-    if "\n" in password or "\r" in password:
-        raise ValueError("DB_PASSWORD 不允许包含换行")
+    if "'" in password or "\\" in password or "\n" in password or "\r" in password:
+        raise ValueError("DB_PASSWORD 不允许包含单引号、反斜杠或换行符")
 
 
 def validate_admin_password(password: str) -> None:
@@ -99,7 +96,7 @@ def create_database_and_user() -> None:
     validate_identifier(settings.db_name, "DB_NAME")
     validate_identifier(settings.db_user, "DB_USER")
 
-    log("连接 MySQL 管理员账户")
+    log("连接 MySQL 管理员账号")
     try:
         conn = pymysql.connect(
             host=settings.mysql_admin_host,
@@ -137,7 +134,7 @@ def create_database_and_user() -> None:
                 cursor.execute("FLUSH PRIVILEGES")
             except MySQLError as exc:
                 if getattr(exc, "args", [None])[0] == 1227:
-                    log("当前管理员缺少 RELOAD 权限，跳过 FLUSH PRIVILEGES；GRANT 已由 MySQL 即时生效")
+                    log("当前管理员缺少 RELOAD 权限，跳过 FLUSH PRIVILEGES；GRANT 已即时生效")
                 else:
                     raise
     except MySQLError as exc:
@@ -165,8 +162,10 @@ def test_business_connection() -> None:
 
 
 def create_tables() -> None:
-    log("创建业务表")
+    log("创建缺失业务表")
     Base.metadata.create_all(bind=engine)
+    migrate_tables()
+    migrate_data()
 
 
 def seed_tags() -> None:

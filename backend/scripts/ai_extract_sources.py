@@ -18,8 +18,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("source_jsonl", help="crawl_sources.py 输出的 JSONL")
     parser.add_argument("--base-url", default="http://127.0.0.1:8000", help="后端地址")
     parser.add_argument("--output", help="输出草稿 JSON，默认写入 data/ai_drafts/")
-    parser.add_argument("--exam-name", default="网络工程师")
-    parser.add_argument("--level", default="中级")
+    parser.add_argument("--exam-name", required=True, help="科目名称，例如 网络工程师、软件设计师")
+    parser.add_argument("--level", required=True, choices=["高级", "中级", "初级"], help="科目级别")
     parser.add_argument("--year", type=int, required=True)
     parser.add_argument("--season", default="上半年")
     parser.add_argument("--paper-type", default="上午综合知识")
@@ -30,6 +30,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--import-to-db", action="store_true", help="草稿生成后直接调用 /api/import/ai-json 入库")
     parser.add_argument("--update-existing", action="store_true", help="入库时更新重复题")
     parser.add_argument("--confirm-legal", action="store_true", help="确认来源合法")
+    parser.add_argument("--session-cookie", help="管理员登录后的 rk_session cookie 值；仅在 --import-to-db 时需要")
     return parser.parse_args()
 
 
@@ -92,8 +93,9 @@ def main() -> int:
     }
 
     base_url = args.base_url.rstrip("/")
+    headers = {"Cookie": f"rk_session={args.session_cookie}"} if args.session_cookie else None
     try:
-        with httpx.Client(timeout=120) as client:
+        with httpx.Client(timeout=120, headers=headers) as client:
             response = client.post(f"{base_url}/api/ai/extract-questions", json=payload)
             if response.status_code >= 400:
                 print(f"[ai-extract] AI 结构化失败：HTTP {response.status_code} {response.text}")
@@ -123,4 +125,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

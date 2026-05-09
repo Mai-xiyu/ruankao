@@ -3,6 +3,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.database import get_db
+from app.deps import require_admin
 from app.models import Tag
 from app.schemas.tag import TagCreate, TagOut
 
@@ -15,7 +16,11 @@ def list_tags(db: Session = Depends(get_db)) -> list[Tag]:
 
 
 @router.post("", response_model=TagOut, status_code=status.HTTP_201_CREATED)
-def create_tag(payload: TagCreate, db: Session = Depends(get_db)) -> Tag:
+def create_tag(
+    payload: TagCreate,
+    _admin: object = Depends(require_admin),
+    db: Session = Depends(get_db),
+) -> Tag:
     existing = db.execute(select(Tag).where(Tag.name == payload.name)).scalar_one_or_none()
     if existing:
         raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="标签已存在")
@@ -24,4 +29,3 @@ def create_tag(payload: TagCreate, db: Session = Depends(get_db)) -> Tag:
     db.commit()
     db.refresh(tag)
     return tag
-

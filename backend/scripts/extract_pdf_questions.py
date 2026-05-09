@@ -1,7 +1,7 @@
 """
 PDF 真题批量提取脚本
 
-从 Gitee 仓库的 PDF 文件中提取软考网络工程师真题，通过 DeepSeek AI 结构化后导入题库。
+从 PDF 文件中提取软考真题，通过 DeepSeek AI 结构化后导入多科目题库。
 
 用法:
     python scripts/extract_pdf_questions.py --dry-run              # 只输出 JSON，不入库
@@ -160,7 +160,7 @@ def chunk_text(text: str, max_chars: int = CHUNK_SIZE) -> list[str]:
 # 3. DeepSeek AI 结构化
 # ──────────────────────────────────────────────
 
-SYSTEM_PROMPT = """你是软考中级网络工程师真题提取助手。用户会给你从考试 PDF 中提取的文本，请把其中的题目结构化为 JSON。
+SYSTEM_PROMPT = """你是软考多科目真题提取助手。用户会给你从考试 PDF 中提取的文本，请把其中的题目结构化为 JSON。
 
 规则：
 1. 只提取真实存在的题目，不要编造或补全题目
@@ -352,12 +352,12 @@ def apply_answers(questions: list[dict], answers: dict[str, str]) -> int:
     return matched
 
 
-def build_import_payload(questions: list[dict], exam_info: dict) -> dict:
+def build_import_payload(questions: list[dict], exam_info: dict, exam_name: str, level: str) -> dict:
     """构建 ImportPayload 格式的 JSON。"""
     return {
         "exam": {
-            "exam_name": "网络工程师",
-            "level": "中级",
+            "exam_name": exam_name,
+            "level": level,
             "year": exam_info["year"],
             "season": exam_info["season"],
             "paper_type": exam_info["paper_type"],
@@ -384,7 +384,14 @@ def save_json(payload: dict, exam_info: dict) -> Path:
 # 6. 主流程
 # ──────────────────────────────────────────────
 
-async def process_one(exam_info: dict, settings, do_import: bool, use_reasoning: bool) -> dict:
+async def process_one(
+    exam_info: dict,
+    settings,
+    do_import: bool,
+    use_reasoning: bool,
+    exam_name: str,
+    level: str,
+) -> dict:
     """处理单个试卷 PDF。"""
     pdf_path = exam_info["path"]
     label = f"{exam_info['year']}年{exam_info['season']} {exam_info['paper_type']}"
@@ -411,7 +418,7 @@ async def process_one(exam_info: dict, settings, do_import: bool, use_reasoning:
         q["is_verified"] = False
 
     # 构建 import payload
-    payload = build_import_payload(questions, exam_info)
+    payload = build_import_payload(questions, exam_info, exam_name, level)
 
     # 保存 JSON
     out_path = save_json(payload, exam_info)
@@ -466,7 +473,7 @@ async def main_async(args: argparse.Namespace) -> int:
 
     for exam_info in pdfs:
         try:
-            result = await process_one(exam_info, settings, do_import, use_reasoning)
+            result = await process_one(exam_info, settings, do_import, use_reasoning, args.exam_name, args.level)
             total_questions += result["questions"]
             if result["imported"]:
                 total_imported += 1
@@ -485,6 +492,8 @@ async def main_async(args: argparse.Namespace) -> int:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="从 PDF 真题中提取题目并导入题库")
+    parser.add_argument("--exam-name", required=True, help="入库科目名称")
+    parser.add_argument("--level", required=True, choices=["高级", "中级", "初级"], help="入库科目级别")
     parser.add_argument("--year", type=int, default=None, help="只处理指定年份（如 2023）")
     parser.add_argument("--dry-run", action="store_true", help="只输出 JSON，不导入数据库（默认）")
     parser.add_argument("--import", dest="import_db", action="store_true", help="提取后直接导入数据库")

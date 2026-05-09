@@ -1,15 +1,27 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from "vue";
+import { computed, onMounted, ref, watch } from "vue";
 import { ElMessage } from "element-plus";
 import { CheckCircle2, Clock3, Play, RotateCcw, Send } from "lucide-vue-next";
 
-import { fetchQuestionsByTag, fetchRandomQuestions, fetchTags, fetchWrongPractice, submitAnswer } from "../api";
-import type { PracticeResult, Question, TagItem } from "../types";
+import {
+  fetchGroupedSubjects,
+  fetchQuestionsByTag,
+  fetchRandomQuestions,
+  fetchTags,
+  fetchWrongPractice,
+  submitAnswer
+} from "../api";
+import type { GroupedSubjects, LevelName, PracticeResult, Question, Subject, TagItem } from "../types";
+
+const LEVELS: LevelName[] = ["高级", "中级", "初级"];
 
 const loading = ref(false);
 const mode = ref<"random" | "tag" | "wrong">("random");
 const tag = ref("");
 const tags = ref<TagItem[]>([]);
+const subjects = ref<GroupedSubjects>({ 高级: [], 中级: [], 初级: [] });
+const currentLevel = ref<LevelName | "">("");
+const subjectId = ref<number | undefined>(undefined);
 const questions = ref<Question[]>([]);
 const index = ref(0);
 const answer = ref("");
@@ -21,9 +33,20 @@ const progressText = computed(() => {
   if (!questions.value.length) return "0 / 0";
   return `${index.value + 1} / ${questions.value.length}`;
 });
+const subjectOptions = computed<Subject[]>(() => {
+  if (!currentLevel.value) return [...subjects.value.高级, ...subjects.value.中级, ...subjects.value.初级];
+  return subjects.value[currentLevel.value] ?? [];
+});
 
-async function loadTags() {
-  tags.value = await fetchTags();
+watch(currentLevel, () => {
+  subjectId.value = undefined;
+  void loadPractice();
+});
+
+async function loadBaseData() {
+  const [tagList, grouped] = await Promise.all([fetchTags(), fetchGroupedSubjects()]);
+  tags.value = tagList;
+  subjects.value = grouped;
 }
 
 async function loadPractice() {
@@ -33,18 +56,18 @@ async function loadPractice() {
   try {
     if (mode.value === "tag") {
       if (!tag.value) {
-        ElMessage.warning("请选择标签");
+        questions.value = [];
         return;
       }
       questions.value = await fetchQuestionsByTag(tag.value, 20);
     } else if (mode.value === "wrong") {
       questions.value = await fetchWrongPractice(20);
     } else {
-      questions.value = await fetchRandomQuestions(10);
+      questions.value = await fetchRandomQuestions(10, subjectId.value, currentLevel.value || undefined);
     }
     index.value = 0;
     startedAt.value = Date.now();
-  } catch (error) {
+  } catch {
     ElMessage.error("加载题目失败");
   } finally {
     loading.value = false;
@@ -53,6 +76,18 @@ async function loadPractice() {
 
 function chooseOption(key: string) {
   answer.value = key;
+}
+
+function imagesByType(question: Question | null, type: string) {
+  return question?.images?.filter((image) => image.image_type === type) ?? [];
+}
+
+function stemImages(question: Question | null) {
+  return imagesByType(question, "stem");
+}
+
+function optionImages(question: Question | null, key: string | number) {
+  return imagesByType(question, `option_${String(key)}`);
 }
 
 async function submit() {
@@ -64,7 +99,7 @@ async function submit() {
   try {
     const duration = Math.max(0, Math.round((Date.now() - startedAt.value) / 1000));
     result.value = await submitAnswer(current.value.id, answer.value, duration);
-  } catch (error) {
+  } catch {
     ElMessage.error("提交失败");
   }
 }
@@ -81,7 +116,7 @@ function nextQuestion() {
 }
 
 onMounted(async () => {
-  await loadTags();
+  await loadBaseData();
   await loadPractice();
 });
 </script>
@@ -98,7 +133,13 @@ onMounted(async () => {
       </div>
 
       <div class="panel-body">
-        <div class="tag-row" style="margin-bottom: 16px">
+        <div class="level-bar">
+          <el-select v-model="currentLevel" clearable placeholder="级别" style="width: 110px">
+            <el-option v-for="level in LEVELS" :key="level" :label="level" :value="level" />
+          </el-select>
+          <el-select v-model="subjectId" clearable filterable placeholder="科目" style="width: 220px" @change="loadPractice">
+            <el-option v-for="subject in subjectOptions" :key="subject.id" :label="subject.name" :value="subject.id" />
+          </el-select>
           <el-radio-group v-model="mode" @change="loadPractice">
             <el-radio-button value="random">随机</el-radio-button>
             <el-radio-button value="tag">按标签</el-radio-button>
@@ -110,7 +151,7 @@ onMounted(async () => {
         </div>
 
         <el-skeleton v-if="loading" :rows="6" animated />
-        <el-empty v-else-if="!current" description="暂无题目" />
+        <el-empty v-else-if="!current" description="暂无可练习题" />
         <template v-else>
           <div class="tag-row" style="margin-bottom: 12px">
             <el-tag effect="plain">{{ current.question_type }}</el-tag>
@@ -118,6 +159,9 @@ onMounted(async () => {
             <el-tag type="warning" effect="plain">{{ current.difficulty }} 星</el-tag>
           </div>
           <p class="question-stem">{{ current.question_no }}. {{ current.stem }}</p>
+          <div v-if="stemImages(current).length" class="question-media">
+            <img v-for="image in stemImages(current)" :key="image.id" :src="image.image_path" :alt="image.caption || '题干图片'" />
+          </div>
 
           <div v-if="current.options_json" class="option-list">
             <el-button
@@ -128,7 +172,15 @@ onMounted(async () => {
               plain
               @click="chooseOption(String(key))"
             >
-              {{ key }}. {{ value }}
+              <span>{{ key }}. {{ value }}</span>
+              <span v-if="optionImages(current, key).length" class="option-media">
+                <img
+                  v-for="image in optionImages(current, key)"
+                  :key="image.id"
+                  :src="image.image_path"
+                  :alt="image.caption || `选项 ${key} 图片`"
+                />
+              </span>
             </el-button>
           </div>
           <el-input v-else v-model="answer" type="textarea" :rows="4" placeholder="填写答案" />
@@ -152,8 +204,8 @@ onMounted(async () => {
         <el-empty v-if="!result" description="尚未提交" />
         <div v-else class="answer-result">
           <div class="tag-row">
-            <CheckCircle2 v-if="result.is_correct" :size="20" color="#2d6f64" />
-            <Clock3 v-else :size="20" color="#aa4c48" />
+            <CheckCircle2 v-if="result.is_correct" :size="20" color="#2f6f63" />
+            <Clock3 v-else :size="20" color="#a84848" />
             <strong>{{ result.is_correct ? "回答正确" : "需要复盘" }}</strong>
           </div>
           <el-divider />

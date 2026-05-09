@@ -1,0 +1,35 @@
+[
+  {
+    "subject": "网络工程师",
+    "type": "单项选择题",
+    "typeExplain": "上午卷-综合知识",
+    "questionContent": "下列存储介质中，读写速度最快的是（）",
+    "question": "",
+    "questionA": " 光盘 ",
+    "questionB": " 硬盘 ",
+    "questionC": " 内存 ",
+    "questionD": " Cache "
+  },
+  {
+    "subject": "网络工程师",
+    "type": "单项选择题",
+    "typeExplain": "上午卷-综合知识",
+    "questionContent": "使用DMA不可以实现数据（）<br>",
+    "question": "",
+    "questionA": " 从内存到外存的传输 ",
+    "questionB": " 从硬盘到光盘的传输 ",
+    "questionC": " 从内存到I/O接口的传输 ",
+    "questionD": " 从I/O接口到内存的传输 "
+  },
+  {
+    "subject": "网络工程师",
+    "type": "单项选择题",
+    "typeExplain": "上午卷-综合知识",
+    "questionContent": "下列I/O接口类型中，采用并行总线的是（）<br>",
+    "question": "",
+    "questionA": " USB ",
+    "questionB": " UART ",
+    "questionC": " PCI ",
+    "questionD": " I2Ｃ "
+  }
+]

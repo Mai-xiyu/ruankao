@@ -14,9 +14,11 @@ const draft = ref<ImportPayload | null>(null);
 const result = ref<ImportResult | null>(null);
 
 const form = reactive({
+  subject_name: "",
+  level: "中级",
   year: new Date().getFullYear(),
-  season: "上半年",
-  paper_type: "上午综合知识",
+  season: "模拟",
+  paper_type: "模拟练习",
   question_count: 5,
   question_types: ["single_choice"],
   difficulty: 3,
@@ -27,8 +29,8 @@ const form = reactive({
 });
 
 const exam = computed<ImportPayload["exam"]>(() => ({
-  exam_name: "网络工程师",
-  level: "中级",
+  exam_name: form.subject_name || "自定义科目",
+  level: form.level,
   year: form.year,
   season: form.season,
   paper_type: form.paper_type,
@@ -64,7 +66,7 @@ async function runGenerate() {
       use_reasoning_model: useReasoning.value
     });
     ElMessage.success("已生成草稿");
-  } catch (error) {
+  } catch {
     ElMessage.error("AI 出题失败");
   } finally {
     loading.value = false;
@@ -77,7 +79,7 @@ async function importDraft() {
   try {
     result.value = await importAiGenerated(draft.value, updateExisting.value);
     ElMessage.success("已导入题库");
-  } catch (error) {
+  } catch {
     ElMessage.error("导入失败");
   } finally {
     importing.value = false;
@@ -91,37 +93,40 @@ async function importDraft() {
       <div class="panel-header">
         <div>
           <h2>AI 出题</h2>
-          <p>模拟题草稿生成</p>
+          <p>生成模拟练习草稿，入库后默认未校对</p>
         </div>
         <el-switch v-model="useReasoning" active-text="推理模型" />
       </div>
       <div class="panel-body">
         <el-form label-position="top">
-          <div class="toolbar ai-toolbar">
+          <div class="toolbar">
+            <el-input v-model="form.subject_name" placeholder="科目名称" />
+            <el-select v-model="form.level">
+              <el-option label="高级" value="高级" />
+              <el-option label="中级" value="中级" />
+              <el-option label="初级" value="初级" />
+            </el-select>
             <el-input-number v-model="form.year" :min="1990" :max="2100" controls-position="right" />
             <el-select v-model="form.season">
               <el-option label="上半年" value="上半年" />
               <el-option label="下半年" value="下半年" />
+              <el-option label="模拟" value="模拟" />
             </el-select>
-            <el-select v-model="form.paper_type">
-              <el-option label="上午综合知识" value="上午综合知识" />
-              <el-option label="下午案例分析" value="下午案例分析" />
-            </el-select>
+            <el-input v-model="form.paper_type" placeholder="试卷类型" />
             <el-input-number v-model="form.question_count" :min="1" :max="30" controls-position="right" />
             <el-select v-model="form.difficulty">
               <el-option v-for="level in 5" :key="level" :label="`${level} 星`" :value="level" />
             </el-select>
-            <el-select v-model="form.question_types" multiple collapse-tags collapse-tags-tooltip>
+            <el-select v-model="form.question_types" multiple collapse-tags collapse-tags-tooltip class="wide">
               <el-option label="单选" value="single_choice" />
               <el-option label="多选" value="multiple_choice" />
               <el-option label="填空" value="fill_blank" />
-              <el-option label="案例" value="case" />
-              <el-option label="配置" value="config" />
+              <el-option label="案例" value="case_study" />
               <el-option label="计算" value="calculation" />
             </el-select>
           </div>
 
-          <div class="grid two ai-form-grid">
+          <div class="grid two" style="margin-top: 14px">
             <el-form-item label="知识点">
               <el-input v-model="form.knowledge_areas" type="textarea" :rows="5" />
             </el-form-item>
@@ -134,7 +139,7 @@ async function importDraft() {
             <el-input v-model="form.source_text" type="textarea" :rows="8" />
           </el-form-item>
 
-          <el-form-item label="要求">
+          <el-form-item label="额外要求">
             <el-input v-model="form.extra_requirements" type="textarea" :rows="4" />
           </el-form-item>
 
@@ -159,7 +164,7 @@ async function importDraft() {
           <el-empty v-if="!draft" description="暂无草稿" />
           <div v-else class="grid">
             <div v-for="item in draft.questions" :key="item.question_no" class="answer-result">
-              <div class="draft-title">
+              <div class="tag-row" style="justify-content: space-between">
                 <el-tag effect="plain">{{ item.question_type }}</el-tag>
                 <el-rate :model-value="item.difficulty" disabled />
               </div>

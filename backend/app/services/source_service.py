@@ -39,7 +39,7 @@ async def preview_source(text: str | None = None, url: str | None = None, limit:
         if not url.startswith(("http://", "https://")):
             raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="仅支持 http 或 https URL")
         async with httpx.AsyncClient(timeout=20, follow_redirects=True) as client:
-            response = await client.get(url, headers={"User-Agent": "rk-network-engineer-bank/1.0"})
+            response = await client.get(url, headers={"User-Agent": "rk-multi-subject-bank/1.0"})
         if response.status_code >= 400:
             raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"URL 读取失败，HTTP {response.status_code}")
         content_type = response.headers.get("content-type", "")
@@ -56,4 +56,3 @@ async def preview_source(text: str | None = None, url: str | None = None, limit:
         "needs_confirmation": True,
         "compliance_notice": "仅可导入自己整理、公开授权或合法取得的数据；预览不会自动入库。",
     }
-

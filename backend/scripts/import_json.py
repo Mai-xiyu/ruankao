@@ -10,7 +10,7 @@ from app.services.import_service import import_payload, load_import_payload  # n
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="导入软考网络工程师题目 JSON")
+    parser = argparse.ArgumentParser(description="导入软考多科目题库 JSON")
     parser.add_argument("json_file", help="JSON 文件路径")
     parser.add_argument("--update-existing", action="store_true", help="更新重复题的答案、解析、标签和难度")
     return parser.parse_args()
@@ -49,4 +49,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

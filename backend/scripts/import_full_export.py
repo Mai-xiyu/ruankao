@@ -74,17 +74,8 @@ def main():
                     skipped += 1
                     continue
 
-            opts = qd.get("options")
-            if opts and isinstance(opts, dict):
-                opts_json = json.dumps(opts, ensure_ascii=False)
-            else:
-                opts_json = None
-
-            tags = qd.get("tags", [])
-            if isinstance(tags, list):
-                tags_json = json.dumps(tags, ensure_ascii=False)
-            else:
-                tags_json = "[]"
+            opts_json = qd.get("options") if isinstance(qd.get("options"), dict) else None
+            tags_json = qd.get("tags") if isinstance(qd.get("tags"), list) else []
 
             q = Question(
                 exam_id=exam_id,
@@ -97,7 +88,7 @@ def main():
                 difficulty=qd.get("difficulty", 3),
                 knowledge_area=qd.get("knowledge_area", ""),
                 tags_json=tags_json,
-                source_hash=qd.get("source_hash"),
+                source_hash=qd.get("source_hash") or question_hash(qd["stem"], opts_json),
                 is_verified=qd.get("is_verified", False),
             )
             db.add(q)

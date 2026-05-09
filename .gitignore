@@ -34,6 +34,10 @@ desktop.ini
 
 # Data - large source files (clone gitee repo locally)
 backend/data/sources/
+backend/data/exports/
+backend/data/try_learning/drafts/
+backend/data/try_learning/browser_capture/
+backend/data/try_learning/images/
 
 # Playwright
 .playwright-cli/
@@ -44,3 +48,4 @@ output/
 # Temp
 *.log
 *.tmp
+logs/

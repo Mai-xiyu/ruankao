@@ -129,12 +129,13 @@ class DeepSeekService:
 
     async def extract_questions(self, text: str, exam: dict | None, use_reasoning_model: bool = False) -> ImportPayload:
         system = (
-            "你是软考中级网络工程师题库整理助手。"
+            "你是软考多科目题库整理助手。"
             "只把用户提供且声明合法来源的内容结构化为 JSON，不补造不存在的题目。"
-            "输出必须是合法 json 对象。"
-            "输出必须符合 {exam:{...}, questions:[...]}，questions 字段使用 "
-            "question_no, question_type, stem, options, answer, analysis, difficulty, knowledge_area, tags, is_verified。"
-            "question_no 必须是字符串；options 必须是对象，例如 {\"A\":\"...\",\"B\":\"...\"}；difficulty 必须是 1 到 5 的整数。"
+            "如果提供了 exam_hint，必须按其中的 level、exam_name、year、season、paper_type 组织输出。"
+            "输出必须是合法 JSON 对象，格式为 {\"exam\":{...},\"questions\":[...]}。"
+            "questions 字段使用 question_no, question_type, stem, options, answer, analysis, "
+            "difficulty, knowledge_area, tags, is_verified。"
+            "question_no 必须是字符串；options 必须是对象或 null；difficulty 必须是 1 到 5 的整数。"
             "所有 is_verified 必须为 false。"
         )
         user = {
@@ -175,17 +176,17 @@ class DeepSeekService:
         exam_hint["source_name"] = exam_hint.get("source_name") or "DeepSeek AI 生成"
         exam_hint["source_url"] = exam_hint.get("source_url") or None
         remark = (exam_hint.get("remark") or "").strip()
-        ai_remark = "AI 生成模拟练习题，非历年真题，需人工校对"
+        ai_remark = "AI 生成模拟练习题，非历年真题，需要人工校对"
         exam_hint["remark"] = f"{remark}；{ai_remark}" if remark else ai_remark
 
         system = (
-            "你是软考中级网络工程师模拟题命题助手。"
-            "只生成原创练习题或模拟题，不得声称是历年真题，不得大段复制用户提供的来源文本。"
-            "如果提供教材、大纲或知识点文本，只能用它提炼考点后重新命题。"
-            "题目应贴合软考网络工程师，答案唯一或按题型清晰可判定，解析要说明关键依据。"
-            "输出必须是合法 json 对象。"
-            "输出必须符合 {exam:{...}, questions:[...]}，questions 字段使用 "
-            "question_no, question_type, stem, options, answer, analysis, difficulty, knowledge_area, tags, is_verified。"
+            "你是软考多科目模拟题命题助手。"
+            "只能生成原创练习题或模拟题，不得声称是历年真题或官方答案，不得大段复制用户提供的来源文本。"
+            "如果提供教材、大纲或知识点文本，只能提炼考点后重新命题。"
+            "题目必须贴合 exam.level 和 exam.exam_name，答案唯一或按题型清晰可判定，解析说明关键依据。"
+            "输出必须是合法 JSON 对象，格式为 {\"exam\":{...},\"questions\":[...]}。"
+            "questions 字段使用 question_no, question_type, stem, options, answer, analysis, "
+            "difficulty, knowledge_area, tags, is_verified。"
             "question_no 必须是字符串；options 必须是对象或 null；difficulty 必须是 1 到 5 的整数。"
             "所有 is_verified 必须为 false。"
         )
@@ -228,9 +229,9 @@ class DeepSeekService:
         use_reasoning_model: bool = False,
     ) -> dict[str, Any]:
         system = (
-            "你是软考网络工程师题库标签助手。"
-            "输出必须是合法 json 对象。"
-            "输出 JSON：knowledge_area 字符串，difficulty 1-5 整数，tags 字符串数组。"
+            "你是软考多科目题库标签助手。"
+            "基于题干、答案和解析判断知识点、标签和难度；不要声称结果来自官方。"
+            "输出必须是合法 JSON 对象：knowledge_area 字符串，difficulty 1-5 整数，tags 字符串数组。"
         )
         user = {"stem": stem, "answer": answer, "analysis": analysis}
         result = await self._chat_json(
@@ -253,10 +254,9 @@ class DeepSeekService:
         use_reasoning_model: bool = False,
     ) -> dict[str, Any]:
         system = (
-            "你是软考网络工程师解析维护助手。"
-            "基于题干和答案润色解析，不改变题意，不编造无法判断的事实。"
-            "输出必须是合法 json 对象。"
-            "输出 JSON：analysis 字符串。"
+            "你是软考多科目解析维护助手。"
+            "基于题干和答案润色解析，不改变题意，不编造无法判断的事实，不把推断答案描述为官方答案。"
+            "输出必须是合法 JSON 对象：analysis 字符串。"
         )
         user = {"stem": stem, "answer": answer, "analysis": analysis}
         result = await self._chat_json(
@@ -283,11 +283,13 @@ class DeepSeekService:
         system = (
             "你是题库来源合规与质量初筛助手。"
             "你不能替代法律判断，只能基于页面文本做保守风险初筛。"
-            "只有页面正文明确出现开放授权、公开许可、官方样题、可转载或用户自有来源等信号时，can_auto_import 才能为 true。"
-            "未知版权、培训机构题库、下载站、论坛转载、需要登录/付费/验证码的来源必须标为 medium 或 high，can_auto_import=false。"
-            "如果内容和软考中级网络工程师指定年份/季节不相关，relevant=false。"
-            "输出必须是合法 json 对象。"
-            "输出 JSON，字段为 relevant, can_structure, risk_level, license_signal, can_auto_import, reason, suggested_action, extracted_year, extracted_season。"
+            "只有页面正文明确出现开放授权、公开许可、官方样题、可转载或用户自有来源等信号时，"
+            "can_auto_import 才能为 true。"
+            "未知版权、培训机构题库、下载站、论坛转载、需要登录/付费/验证码的来源必须标为 "
+            "medium 或 high，can_auto_import=false。"
+            "如果内容和 exam_hint 或指定年份/季节/卷型不相关，relevant=false。"
+            "输出必须是合法 JSON 对象，字段为 relevant, can_structure, risk_level, license_signal, "
+            "can_auto_import, reason, suggested_action, extracted_year, extracted_season。"
         )
         user = {
             "url": url,

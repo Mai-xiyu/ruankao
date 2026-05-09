@@ -37,12 +37,12 @@ def is_placeholder(value: str | None) -> bool:
     return not stripped or "请在本地" in stripped or stripped.lower() in {"password", "changeme", "change-me"}
 
 
-def default_queries(year: int, season: str, paper_type: str) -> list[str]:
+def default_queries(year: int, season: str, paper_type: str, exam_name: str) -> list[str]:
     paper_words = "上午 综合知识" if "上午" in paper_type else "下午 案例分析"
     return [
-        f"软考 网络工程师 {year} {season} 真题 {paper_words}",
-        f"{year}年{season} 网络工程师 真题 {paper_words}",
-        f"网络工程师 {year} {season} 答案 解析 {paper_words}",
+        f"软考 {exam_name} {year} {season} 真题 {paper_words}",
+        f"{year}年{season} {exam_name} 真题 {paper_words}",
+        f"{exam_name} {year} {season} 答案 解析 {paper_words}",
     ]
 
 
@@ -145,6 +145,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--year", type=int, required=True, help="考试年份")
     parser.add_argument("--season", choices=["上半年", "下半年"], required=True, help="考试季节")
     parser.add_argument("--paper-type", default="上午综合知识", choices=["上午综合知识", "下午案例分析"], help="试卷类型")
+    parser.add_argument("--exam-name", required=True, help="科目名称，例如 网络工程师、软件设计师")
+    parser.add_argument("--level", required=True, choices=["高级", "中级", "初级"], help="科目级别")
     parser.add_argument("--query", action="append", help="自定义搜索词，可重复；不传则自动生成")
     parser.add_argument("--provider", choices=["searxng", "bing"], default=os.getenv("SEARCH_PROVIDER", "searxng"))
     parser.add_argument("--base-url", default="http://127.0.0.1:8000", help="后端地址")
@@ -158,6 +160,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--update-existing", action="store_true", help="入库时更新重复题")
     parser.add_argument("--output", help="运行日志 JSONL，默认写入 data/web_pipeline/")
     parser.add_argument("--confirm-legal", action="store_true", help="确认仅处理合法来源候选")
+    parser.add_argument("--session-cookie", help="管理员登录后的 rk_session cookie 值；仅在需要 HTTP 入库时使用")
     return parser.parse_args()
 
 
@@ -168,13 +171,13 @@ def main() -> int:
         print("[pipeline] 确认后追加参数：--confirm-legal")
         return 2
 
-    queries = args.query or default_queries(args.year, args.season, args.paper_type)
+    queries = args.query or default_queries(args.year, args.season, args.paper_type, args.exam_name)
     output = Path(args.output) if args.output else BACKEND_DIR / "data" / "web_pipeline" / f"run_{datetime.now():%Y%m%d_%H%M%S}.jsonl"
     output.parent.mkdir(parents=True, exist_ok=True)
     allow_domains = {domain.lower().strip() for domain in args.allow_domain if domain.strip()}
     exam = {
-        "exam_name": "网络工程师",
-        "level": "中级",
+        "exam_name": args.exam_name,
+        "level": args.level,
         "year": args.year,
         "season": args.season,
         "paper_type": args.paper_type,
@@ -206,8 +209,9 @@ def main() -> int:
     drafted = 0
     skipped = 0
     base_url = args.base_url.rstrip("/")
+    headers = {"Cookie": f"rk_session={args.session_cookie}"} if args.session_cookie else None
 
-    with httpx.Client(timeout=120, follow_redirects=True) as client, output.open("w", encoding="utf-8") as fp:
+    with httpx.Client(timeout=120, follow_redirects=True, headers=headers) as client, output.open("w", encoding="utf-8") as fp:
         for index, result in enumerate(results[: args.max_pages], start=1):
             print(f"[pipeline] {index}/{min(len(results), args.max_pages)} 抓取：{result.url}")
             record, _links = crawler.fetch(client, result.url)
@@ -321,4 +325,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

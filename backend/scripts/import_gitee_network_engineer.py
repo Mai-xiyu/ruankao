@@ -42,6 +42,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--years", default="2022-2024", help="年份列表或范围，例如 2011-2024 或 2022,2023")
     parser.add_argument("--seasons", default="上半年,下半年")
     parser.add_argument("--paper-types", default="上午综合知识,下午案例分析")
+    parser.add_argument("--exam-name", required=True, help="入库科目名称")
+    parser.add_argument("--level", required=True, choices=["高级", "中级", "初级"], help="入库科目级别")
     parser.add_argument("--max-chars", type=int, default=60000)
     parser.add_argument("--delay", type=float, default=3.0)
     parser.add_argument("--dry-run", action="store_true")
@@ -52,6 +54,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--use-reasoning-model", action="store_true")
     parser.add_argument("--output-dir", default=str(BACKEND_DIR / "data" / "gitee_imports"))
     parser.add_argument("--confirm-license", action="store_true", help="确认该仓库 LICENSE 允许处理这些材料")
+    parser.add_argument("--session-cookie", help="管理员登录后的 rk_session cookie 值；仅在非 dry-run 入库时使用")
     return parser.parse_args()
 
 
@@ -247,11 +250,12 @@ def main() -> int:
     output_dir.mkdir(parents=True, exist_ok=True)
     run_log = output_dir / f"gitee_import_{datetime.now():%Y%m%d_%H%M%S}.jsonl"
     base_url = args.base_url.rstrip("/")
+    headers = {"Cookie": f"rk_session={args.session_cookie}"} if args.session_cookie else None
     imported = 0
     drafted = 0
     skipped = 0
 
-    with httpx.Client(timeout=600) as client, run_log.open("w", encoding="utf-8") as fp:
+    with httpx.Client(timeout=600, headers=headers) as client, run_log.open("w", encoding="utf-8") as fp:
         for index, task in enumerate(tasks, start=1):
             print(f"[gitee-import] {index}/{len(tasks)} {task.year} {task.season} {task.paper_type}")
             if args.skip_existing_exams and has_existing_questions(client, base_url, task):
@@ -294,8 +298,8 @@ def main() -> int:
                 continue
 
             exam = {
-                "exam_name": "网络工程师",
-                "level": "中级",
+                "exam_name": args.exam_name,
+                "level": args.level,
                 "year": task.year,
                 "season": task.season,
                 "paper_type": task.paper_type,

@@ -1,12 +1,18 @@
 import axios from "axios";
 
 import type {
+  AuthState,
+  CleanupReport,
   FavoriteItem,
+  GroupedSubjects,
+  ImportBatch,
   ImportPayload,
   ImportResult,
+  LevelStat,
   OverviewStats,
   PracticeResult,
   Question,
+  Subject,
   TagItem,
   WrongRecord,
   WrongTagStat,
@@ -15,13 +21,17 @@ import type {
 
 export const api = axios.create({
   baseURL: "/api",
-  timeout: 120000
+  timeout: 120000,
+  withCredentials: true
 });
 
 export interface QuestionFilters {
+  subject_id?: number;
   year?: number;
   season?: string;
   paper_type?: string;
+  level?: string;
+  exam_name?: string;
   knowledge_area?: string;
   tag?: string;
   difficulty?: number;
@@ -29,6 +39,8 @@ export interface QuestionFilters {
   question_type?: string;
   is_verified?: boolean;
   has_answer?: boolean;
+  quality_status?: string;
+  source_provider?: string;
   limit?: number;
   offset?: number;
 }
@@ -51,6 +63,18 @@ export async function fetchWrongByTag() {
   return (await api.get<WrongTagStat[]>("/stats/wrong-by-tag")).data;
 }
 
+export async function fetchStatsByLevel() {
+  return (await api.get<LevelStat[]>("/stats/by-level")).data;
+}
+
+export async function fetchSubjects(level?: string) {
+  return (await api.get<Subject[]>("/subjects", { params: compactParams({ level }) })).data;
+}
+
+export async function fetchGroupedSubjects() {
+  return (await api.get<GroupedSubjects>("/subjects/grouped")).data;
+}
+
 export async function fetchTags() {
   return (await api.get<TagItem[]>("/tags")).data;
 }
@@ -59,8 +83,8 @@ export async function fetchQuestions(filters: QuestionFilters = {}) {
   return (await api.get<Question[]>("/questions", { params: compactParams(filters) })).data;
 }
 
-export async function fetchRandomQuestions(limit = 10) {
-  return (await api.get<Question[]>("/practice/random", { params: { limit } })).data;
+export async function fetchRandomQuestions(limit = 10, subject_id?: number, level?: string) {
+  return (await api.get<Question[]>("/practice/random", { params: compactParams({ limit, subject_id, level }) })).data;
 }
 
 export async function fetchQuestionsByTag(tag: string, limit = 20) {
@@ -73,6 +97,26 @@ export async function fetchWrongPractice(limit = 20) {
 
 export async function submitAnswer(question_id: number, user_answer: string, duration_seconds: number) {
   return (await api.post<PracticeResult>("/practice/submit", { question_id, user_answer, duration_seconds })).data;
+}
+
+export async function authMe() {
+  return (await api.get<AuthState>("/auth/me")).data;
+}
+
+export async function register(payload: { username: string; password: string; email?: string; display_name?: string }) {
+  return (await api.post<AuthState>("/auth/register", payload)).data;
+}
+
+export async function login(payload: { username: string; password: string }) {
+  return (await api.post<AuthState>("/auth/login", payload)).data;
+}
+
+export async function logout() {
+  return (await api.post<{ ok: boolean }>("/auth/logout")).data;
+}
+
+export async function guestSession() {
+  return (await api.post<AuthState>("/auth/guest-session")).data;
 }
 
 export async function importJson(payload: ImportPayload, updateExisting: boolean) {
@@ -153,6 +197,18 @@ export async function suggestTags(payload: {
   return (
     await api.post<{ knowledge_area?: string; difficulty: number; tags: string[] }>("/ai/suggest-tags", payload)
   ).data;
+}
+
+export async function cleanupPreview() {
+  return (await api.post<CleanupReport>("/admin/cleanup/preview")).data;
+}
+
+export async function cleanupApply(mode: "isolate" | "delete") {
+  return (await api.post<CleanupReport>("/admin/cleanup/apply", { confirm: true, mode, backup: true })).data;
+}
+
+export async function fetchImportBatches() {
+  return (await api.get<ImportBatch[]>("/admin/import-batches")).data;
 }
 
 export async function addFavorite(questionId: number) {

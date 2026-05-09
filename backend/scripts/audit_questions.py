@@ -30,7 +30,7 @@ def log(msg: str):
     print(f"[audit] {msg}", flush=True)
 
 
-AUDIT_PROMPT = """你是软考网络工程师题库质量审查员。请审查以下题目，判断每道题是否有问题。
+AUDIT_PROMPT = """你是软考多科目题库质量审查员。请审查以下题目，判断每道题是否有问题。
 
 审查标准：
 1. stem 题干是否完整、通顺、有意义

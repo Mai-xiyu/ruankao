@@ -21,4 +21,3 @@ class PracticeSubmitResult(BaseModel):
 
 class PracticeQuestion(QuestionOut):
     pass
-

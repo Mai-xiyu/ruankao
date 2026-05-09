@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 
-from sqlalchemy import Boolean, DateTime, Integer, String, Text, UniqueConstraint
+from sqlalchemy import Boolean, DateTime, ForeignKey, Integer, String, Text, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.database import Base
@@ -24,6 +24,7 @@ class Exam(Base):
     )
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+    subject_id: Mapped[int | None] = mapped_column(ForeignKey("subjects.id", ondelete="SET NULL"), nullable=True, index=True)
     exam_name: Mapped[str] = mapped_column(String(100), nullable=False, index=True)
     level: Mapped[str] = mapped_column(String(50), nullable=False, default="中级")
     year: Mapped[int] = mapped_column(Integer, nullable=False, index=True)
@@ -41,5 +42,5 @@ class Exam(Base):
         onupdate=utc_now,
     )
 
+    subject = relationship("Subject", back_populates="exams")
     questions = relationship("Question", back_populates="exam", cascade="all, delete-orphan")
-

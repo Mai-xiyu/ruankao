@@ -32,7 +32,7 @@ PUNCTUATION_MAP = str.maketrans(
 )
 
 
-def normalize_text(text: str) -> str:
+def normalize_text(text: str | None) -> str:
     if text is None:
         return ""
     normalized = unicodedata.normalize("NFKC", str(text))
@@ -53,4 +53,3 @@ def question_hash(stem: str, options: dict | None = None) -> str:
         )
     payload = f"{normalize_text(stem)}|{normalized_options}"
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()
-
